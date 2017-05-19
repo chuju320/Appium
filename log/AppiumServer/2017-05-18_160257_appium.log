@@ -1,0 +1,526 @@
+2017-05-18 16:03:02:138 - [Appium] Welcome to Appium v1.6.3
+2017-05-18 16:03:02:140 - [Appium] Non-default server args:
+2017-05-18 16:03:02:141 - [Appium]   address: '127.0.0.1'
+2017-05-18 16:03:02:142 - [Appium]   sessionOverride: true
+2017-05-18 16:03:02:142 - [Appium]   logTimestamp: true
+2017-05-18 16:03:02:143 - [Appium]   localTimezone: true
+2017-05-18 16:03:02:181 - [Appium] Appium REST http interface listener started on 127.0.0.1:4723
+2017-05-18 16:03:17:658 - [HTTP] --> POST /wd/hub/session {"capabilities":{"alwaysMatch":{"deviceName":"vbox86p","sessionOverride":true,"unicodeKeyboard":true,"udid":"127.0.0.1:62001","app":"D:\\Test_dir\\AppHall_GuangXi.apk","newCommandTimeout":180,"noSign":true,"automationName":"Uiautomator2","resetKeyboard":true,"platformVersion":"4.4.2","appPackage":"com.boco.apphall","platformName":"Android","appActivity":"com.boco.apphall.login.WelcomActivity"},"firstMatch":[]},"desiredCapabilities":{"deviceName":"vbox86p","sessionOverride":true,"unicodeKeyboard":true,"udid":"127.0.0.1:62001","app":"D:\\Test_dir\\AppHall_GuangXi.apk","resetKeyboard":true,"appActivity":"com.boco.apphall.login.WelcomActivity","platformVersion":"4.4.2","newCommandTimeout":180,"noSign":true,"appPackage":"com.boco.apphall","platformName":"Android","automationName":"Uiautomator2"}}
+2017-05-18 16:03:17:661 - [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"deviceName":"vbox86p","sessionOverride":true,"unicodeKeyboard":true,"udid":"127.0.0.1:62001","app":"D:\\Test_dir\\AppHall_GuangXi.apk","resetKeyboard":true,"appActivity":"com.boco.apphall.login.WelcomActivity","platformVersion":"4.4.2","newCommandTimeout":180,"noSign":true,"appPackage":"com.boco.apphall","platformName":"Android","automationName":"Uiautomator2"},null,{"alwaysMatch":{"deviceName":"vbox86p","sessionOverride":true,"unicodeKeyboard":true,"udid":"127.0.0.1:62001","app":"D:\\Test_dir\\AppHall_GuangXi.apk","newCommandTimeout":180,"noSign":true,"automationName":"Uiautomator2","resetKeyboard":true,"platformVersion":"4.4.2","appPackage":"com.boco.apphall","platformName":"Android","appActivity":"com.boco.apphall.login.WelcomActivity"},"firstMatch":[]},null,null]
+2017-05-18 16:03:17:665 - [Appium] Creating new AndroidUiautomator2Driver session
+2017-05-18 16:03:17:665 - [Appium] Capabilities:
+2017-05-18 16:03:17:667 - [Appium]   deviceName: 'vbox86p'
+2017-05-18 16:03:17:667 - [Appium]   sessionOverride: true
+2017-05-18 16:03:17:667 - [Appium]   unicodeKeyboard: true
+2017-05-18 16:03:17:668 - [Appium]   udid: '127.0.0.1:62001'
+2017-05-18 16:03:17:668 - [Appium]   app: 'D:\\Test_dir\\AppHall_GuangXi.apk'
+2017-05-18 16:03:17:668 - [Appium]   resetKeyboard: true
+2017-05-18 16:03:17:674 - [Appium]   appActivity: 'com.boco.apphall.login.WelcomActivity'
+2017-05-18 16:03:17:674 - [Appium]   platformVersion: '4.4.2'
+2017-05-18 16:03:17:674 - [Appium]   newCommandTimeout: 180
+2017-05-18 16:03:17:674 - [Appium]   noSign: true
+2017-05-18 16:03:17:675 - [Appium]   appPackage: 'com.boco.apphall'
+2017-05-18 16:03:17:675 - [Appium]   platformName: 'Android'
+2017-05-18 16:03:17:675 - [Appium]   automationName: 'Uiautomator2'
+2017-05-18 16:03:17:681 - [BaseDriver] The following capabilities were provided, but are not recognized by appium: sessionOverride.
+2017-05-18 16:03:17:700 - [BaseDriver] Session created with session id: bd9172b1-f482-4c72-affe-6ca45cc6dfe6
+2017-05-18 16:03:17:702 - [BaseDriver] Using local app 'D:\Test_dir\AppHall_GuangXi.apk'
+2017-05-18 16:03:17:703 - [debug] [UiAutomator2] Checking whether app is actually present
+2017-05-18 16:03:18:109 - [UiAutomator2] UIAutomator2 Driver version:0.2.3
+2017-05-18 16:03:18:111 - [debug] [AndroidDriver] Getting Java version
+2017-05-18 16:03:18:330 - [AndroidDriver] Java version is: 1.8.0_131
+2017-05-18 16:03:18:332 - [ADB] Checking whether adb is present
+2017-05-18 16:03:18:335 - [ADB] Using adb.exe from D:\AndroidSdk\platform-tools\adb.exe
+2017-05-18 16:03:18:336 - [AndroidDriver] Retrieving device list
+2017-05-18 16:03:18:337 - [debug] [ADB] Trying to find a connected android device
+2017-05-18 16:03:18:337 - [debug] [ADB] Getting connected devices...
+2017-05-18 16:03:18:388 - [debug] [ADB] 1 device(s) connected
+2017-05-18 16:03:18:389 - [AndroidDriver] Using device: 127.0.0.1:62001
+2017-05-18 16:03:18:391 - [ADB] Checking whether adb is present
+2017-05-18 16:03:18:393 - [ADB] Using adb.exe from D:\AndroidSdk\platform-tools\adb.exe
+2017-05-18 16:03:18:394 - [debug] [ADB] Setting device id to 127.0.0.1:62001
+2017-05-18 16:03:18:395 - [ADB] Getting device platform version
+2017-05-18 16:03:18:396 - [debug] [ADB] Getting connected devices...
+2017-05-18 16:03:18:435 - [debug] [ADB] 1 device(s) connected
+2017-05-18 16:03:18:436 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","getprop","ro.build.version.release"]
+2017-05-18 16:03:18:511 - [debug] [ADB] Attempting to kill all io.appium.uiautomator2.server processes
+2017-05-18 16:03:18:512 - [debug] [ADB] Getting all processes with io.appium.uiautomator2.server
+2017-05-18 16:03:18:512 - [debug] [ADB] Getting connected devices...
+2017-05-18 16:03:18:551 - [debug] [ADB] 1 device(s) connected
+2017-05-18 16:03:18:551 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","ps"]
+2017-05-18 16:03:18:664 - [ADB] No io.appium.uiautomator2.server process found to kill, continuing...
+2017-05-18 16:03:18:665 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","wait-for-device"]
+2017-05-18 16:03:18:703 - [debug] [ADB] Getting connected devices...
+2017-05-18 16:03:18:741 - [debug] [ADB] 1 device(s) connected
+2017-05-18 16:03:18:742 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","echo","ping"]
+2017-05-18 16:03:18:807 - [debug] [Logcat] Starting logcat capture
+2017-05-18 16:03:18:864 - [debug] [ADB] Getting install status for io.appium.android.ime
+2017-05-18 16:03:18:864 - [debug] [ADB] Getting connected devices...
+2017-05-18 16:03:18:915 - [debug] [ADB] 1 device(s) connected
+2017-05-18 16:03:18:916 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","getprop","ro.build.version.sdk"]
+2017-05-18 16:03:19:070 - [debug] [ADB] Device API level: 19
+2017-05-18 16:03:19:071 - [debug] [ADB] Getting connected devices...
+2017-05-18 16:03:19:123 - [debug] [ADB] 1 device(s) connected
+2017-05-18 16:03:19:124 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","pm","list","packages","-3","io.appium.android.ime"]
+2017-05-18 16:03:21:738 - [debug] [ADB] App is  installed
+2017-05-18 16:03:21:739 - [debug] [AndroidDriver] io.appium.android.ime is already installed,don't install
+2017-05-18 16:03:21:739 - [debug] [ADB] Getting connected devices...
+2017-05-18 16:03:21:787 - [debug] [ADB] 1 device(s) connected
+2017-05-18 16:03:21:788 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","settings","get","secure","default_input_method"]
+2017-05-18 16:03:23:801 - [debug] [AndroidDriver] Unsetting previous IME io.appium.android.ime/.UnicodeIME
+2017-05-18 16:03:23:801 - [debug] [AndroidDriver] Setting IME to 'io.appium.android.ime/.UnicodeIME'
+2017-05-18 16:03:23:802 - [debug] [ADB] Getting connected devices...
+2017-05-18 16:03:23:850 - [debug] [ADB] 1 device(s) connected
+2017-05-18 16:03:23:850 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","ime","enable","io.appium.android.ime/.UnicodeIME"]
+2017-05-18 16:03:24:835 - [debug] [ADB] Getting connected devices...
+2017-05-18 16:03:24:872 - [debug] [ADB] 1 device(s) connected
+2017-05-18 16:03:24:873 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","ime","set","io.appium.android.ime/.UnicodeIME"]
+2017-05-18 16:03:25:852 - [debug] [ADB] Getting install status for io.appium.settings
+2017-05-18 16:03:25:852 - [debug] [ADB] Device API level: 19
+2017-05-18 16:03:25:853 - [debug] [ADB] Getting connected devices...
+2017-05-18 16:03:25:889 - [debug] [ADB] 1 device(s) connected
+2017-05-18 16:03:25:889 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","pm","list","packages","-3","io.appium.settings"]
+2017-05-18 16:03:26:882 - [debug] [ADB] App is  installed
+2017-05-18 16:03:26:882 - [debug] [AndroidDriver] io.appium.settings is already installed,don't install
+2017-05-18 16:03:26:882 - [debug] [ADB] Getting install status for io.appium.unlock
+2017-05-18 16:03:26:883 - [debug] [ADB] Device API level: 19
+2017-05-18 16:03:26:883 - [debug] [ADB] Getting connected devices...
+2017-05-18 16:03:26:927 - [debug] [ADB] 1 device(s) connected
+2017-05-18 16:03:26:928 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","pm","list","packages","-3","io.appium.unlock"]
+2017-05-18 16:03:27:942 - [debug] [ADB] App is  installed
+2017-05-18 16:03:27:942 - [debug] [AndroidDriver] io.appium.unlock is already installed,don't install
+2017-05-18 16:03:27:942 - [debug] [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8200
+2017-05-18 16:03:27:942 - [debug] [ADB] Forwarding system: 8200 to device: 6790
+2017-05-18 16:03:27:942 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","forward","tcp:8200","tcp:6790"]
+2017-05-18 16:03:27:979 - [debug] [ADB] Getting connected devices...
+2017-05-18 16:03:28:025 - [debug] [ADB] 1 device(s) connected
+2017-05-18 16:03:28:025 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","dumpsys","window"]
+2017-05-18 16:03:28:152 - [AndroidDriver] Screen already unlocked, doing nothing
+2017-05-18 16:03:28:153 - [debug] [AndroidDriver] Extracting strings from apk D:\Test_dir\AppHall_GuangXi.apk null C:\Users\Chialin\AppData\Local\Temp\com.boco.apphall
+2017-05-18 16:03:28:154 - [debug] [ADB] Extracting strings for language: default
+2017-05-18 16:03:28:155 - [debug] [ADB] Device API level: 19
+2017-05-18 16:03:28:156 - [debug] [ADB] Getting connected devices...
+2017-05-18 16:03:28:190 - [debug] [ADB] 1 device(s) connected
+2017-05-18 16:03:28:191 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","getprop","persist.sys.language"]
+2017-05-18 16:03:28:267 - [debug] [ADB] Current device property 'persist.sys.language': zh
+2017-05-18 16:03:29:085 - [debug] [ADB] No strings.xml for language 'zh', getting default strings.xml
+2017-05-18 16:03:29:849 - [debug] [ADB] Reading strings from converted strings.json
+2017-05-18 16:03:29:858 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","push","C:\\Users\\Chialin\\AppData\\Local\\Temp\\com.boco.apphall\\strings.json","/data/local/tmp"]
+2017-05-18 16:03:30:072 - [AndroidDriver] Remote apk path is /data/local/tmp/fcbc973a20bb88deb18a6c7cafe82adc.apk
+2017-05-18 16:03:30:073 - [debug] [ADB] Getting connected devices...
+2017-05-18 16:03:30:107 - [debug] [ADB] 1 device(s) connected
+2017-05-18 16:03:30:108 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","ls","/data/local/tmp/fcbc973a20bb88deb18a6c7cafe82adc.apk"]
+2017-05-18 16:03:30:174 - [debug] [AndroidDriver] Checking if app is installed
+2017-05-18 16:03:30:174 - [debug] [ADB] Getting install status for com.boco.apphall
+2017-05-18 16:03:30:174 - [debug] [ADB] Device API level: 19
+2017-05-18 16:03:30:174 - [debug] [ADB] Getting connected devices...
+2017-05-18 16:03:30:210 - [debug] [ADB] 1 device(s) connected
+2017-05-18 16:03:30:210 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","pm","list","packages","-3","com.boco.apphall"]
+2017-05-18 16:03:31:211 - [debug] [ADB] App is  installed
+2017-05-18 16:03:31:212 - [AndroidDriver] Apk is already on remote and installed, resetting
+2017-05-18 16:03:31:213 - [debug] [AndroidDriver] Running fast reset (stop and clear)
+2017-05-18 16:03:31:214 - [debug] [ADB] Getting connected devices...
+2017-05-18 16:03:31:264 - [debug] [ADB] 1 device(s) connected
+2017-05-18 16:03:31:265 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","am","force-stop","com.boco.apphall"]
+2017-05-18 16:03:32:285 - [debug] [ADB] Getting connected devices...
+2017-05-18 16:03:32:321 - [debug] [ADB] 1 device(s) connected
+2017-05-18 16:03:32:322 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","pm","clear","com.boco.apphall"]
+2017-05-18 16:03:33:758 - [ADB] Checking whether aapt is present
+2017-05-18 16:03:33:760 - [ADB] Using aapt.exe from D:\AndroidSdk\build-tools\23.0.3\aapt.exe
+2017-05-18 16:03:33:811 - [debug] [ADB] Getting install status for io.appium.uiautomator2.server
+2017-05-18 16:03:33:811 - [debug] [ADB] Device API level: 19
+2017-05-18 16:03:33:813 - [debug] [ADB] Getting connected devices...
+2017-05-18 16:03:33:851 - [debug] [ADB] 1 device(s) connected
+2017-05-18 16:03:33:852 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","pm","list","packages","-3","io.appium.uiautomator2.server"]
+2017-05-18 16:03:34:860 - [debug] [ADB] App is  installed
+2017-05-18 16:03:34:860 - [debug] [ADB] Getting install status for io.appium.uiautomator2.server.test
+2017-05-18 16:03:34:860 - [debug] [ADB] Device API level: 19
+2017-05-18 16:03:34:860 - [debug] [ADB] Getting connected devices...
+2017-05-18 16:03:34:905 - [debug] [ADB] 1 device(s) connected
+2017-05-18 16:03:34:906 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","pm","list","packages","-3","io.appium.uiautomator2.server.test"]
+2017-05-18 16:03:35:918 - [debug] [ADB] App is  installed
+2017-05-18 16:03:35:919 - [ADB] Checking whether aapt is present
+2017-05-18 16:03:35:922 - [ADB] Using aapt.exe from D:\AndroidSdk\build-tools\23.0.3\aapt.exe
+2017-05-18 16:03:35:958 - [debug] [ADB] Getting connected devices...
+2017-05-18 16:03:35:993 - [debug] [ADB] 1 device(s) connected
+2017-05-18 16:03:35:994 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","dumpsys","package","io.appium.uiautomator2.server"]
+2017-05-18 16:03:36:105 - [debug] [ADB] Uninstalling io.appium.uiautomator2.server
+2017-05-18 16:03:36:105 - [debug] [ADB] Getting connected devices...
+2017-05-18 16:03:36:140 - [debug] [ADB] 1 device(s) connected
+2017-05-18 16:03:36:140 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","am","force-stop","io.appium.uiautomator2.server"]
+2017-05-18 16:03:37:119 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","uninstall","io.appium.uiautomator2.server"]
+2017-05-18 16:03:38:930 - [ADB] App was uninstalled
+2017-05-18 16:03:38:938 - [debug] [ADB] Uninstalling io.appium.uiautomator2.server.test
+2017-05-18 16:03:38:938 - [debug] [ADB] Getting connected devices...
+2017-05-18 16:03:38:976 - [debug] [ADB] 1 device(s) connected
+2017-05-18 16:03:38:976 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","am","force-stop","io.appium.uiautomator2.server.test"]
+2017-05-18 16:03:41:320 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","uninstall","io.appium.uiautomator2.server.test"]
+2017-05-18 16:03:42:707 - [ADB] App was uninstalled
+2017-05-18 16:03:42:709 - [debug] [ADB] Checking app cert for C:\Users\Chialin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\uiautomator2\appium-uiautomator2-server-v0.0.8.apk.
+2017-05-18 16:03:43:069 - [debug] [ADB] App already signed.
+2017-05-18 16:03:43:070 - [debug] [ADB] Zip-aligning 'C:\Users\Chialin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\uiautomator2\appium-uiautomator2-server-v0.0.8.apk'
+2017-05-18 16:03:43:070 - [ADB] Checking whether zipalign is present
+2017-05-18 16:03:43:074 - [ADB] Using zipalign.exe from D:\AndroidSdk\build-tools\23.0.3\zipalign.exe
+2017-05-18 16:03:43:078 - [debug] [ADB] Zip-aligning apk.
+2017-05-18 16:03:43:126 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","install","-r","C:\\Users\\Chialin\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-driver\\uiautomator2\\appium-uiautomator2-server-v0.0.8.apk"]
+2017-05-18 16:03:46:352 - [UiAutomator2] Installed UiAutomator2 server apk
+2017-05-18 16:03:46:353 - [debug] [ADB] Checking app cert for C:\Users\Chialin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\uiautomator2\appium-uiautomator2-server-debug-androidTest.apk.
+2017-05-18 16:03:46:724 - [debug] [ADB] App already signed.
+2017-05-18 16:03:46:724 - [debug] [ADB] Zip-aligning 'C:\Users\Chialin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\uiautomator2\appium-uiautomator2-server-debug-androidTest.apk'
+2017-05-18 16:03:46:724 - [ADB] Checking whether zipalign is present
+2017-05-18 16:03:46:728 - [ADB] Using zipalign.exe from D:\AndroidSdk\build-tools\23.0.3\zipalign.exe
+2017-05-18 16:03:46:731 - [debug] [ADB] Zip-aligning apk.
+2017-05-18 16:03:46:765 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","install","-r","C:\\Users\\Chialin\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-driver\\uiautomator2\\appium-uiautomator2-server-debug-androidTest.apk"]
+2017-05-18 16:03:49:813 - [UiAutomator2] Installed UiAutomator2 server apk
+2017-05-18 16:03:49:814 - [debug] [ADB] Attempting to kill all io.appium.uiautomator2.server processes
+2017-05-18 16:03:49:814 - [debug] [ADB] Getting all processes with io.appium.uiautomator2.server
+2017-05-18 16:03:49:814 - [debug] [ADB] Getting connected devices...
+2017-05-18 16:03:49:853 - [debug] [ADB] 1 device(s) connected
+2017-05-18 16:03:49:853 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","ps"]
+2017-05-18 16:03:49:975 - [ADB] No io.appium.uiautomator2.server process found to kill, continuing...
+2017-05-18 16:03:49:975 - [UiAutomator2] Starting uiautomator2 server v0.0.8 with cmd: am,instrument,-w,io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner
+2017-05-18 16:03:49:976 - [UiAutomator2] running command...
+ adb -s 127.0.0.1:62001 shell am instrument -w io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner... 
+2017-05-18 16:03:49:978 - [UiAutomator2] Waiting for UiAutomator2 to be online...
+2017-05-18 16:03:49:980 - [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2017-05-18 16:03:51:011 - [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2017-05-18 16:03:52:021 - [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2017-05-18 16:03:53:032 - [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2017-05-18 16:03:53:100 - [debug] [JSONWP Proxy] Got response with status 200: "{\"value\":\"Status Invoked\",\"status\":0,\"sessionId\":\"SESSIONID\"}"
+2017-05-18 16:03:53:102 - [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8200/wd/hub/session] with body: {"desiredCapabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"deviceName":"vbox86p","sessionOverride":true,"unicodeKeyboard":true,"udid":"127.0.0.1:62001","app":"D:\\Test_dir\\AppHall_GuangXi.apk","resetKeyboard":true,"appActivity":"com.boco.apphall.login.WelcomActivity","platformVersion":"4.4.2","newCommandTimeout":180,"noSign":true,"appPackage":"com.boco.apphall","platformName":"Android","automationName":"Uiautomator2"},"deviceName":"127.0.0.1:62001","sessionOverride":true,"unicodeKeyboard":true,"udid":"127.0.0.1:62001","app":"D:\\Test_dir\\AppHall_GuangXi.apk","resetKeyboard":true,"appActivity":"com.boco.apphall.login.WelcomActivity","platformVersion":"4.4.2","newCommandTimeout":180,"noSign":true,"appPackage":"com.boco.apphall","platformName":"Android","automationName":"Uiautomator2","deviceUDID":"127.0.0.1:62001"}}
+2017-05-18 16:03:53:119 - [debug] [JSONWP Proxy] Got response with status 200: {"value":"Created Session","status":0,"sessionId":"f1b6c471-0c7b-4b45-b37c-dab559cc7df7"}
+2017-05-18 16:03:53:119 - [UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'com.boco.apphall/com.boco.apphall.login.WelcomActivity'. Starting it ourselves
+2017-05-18 16:03:53:121 - [debug] [ADB] Device API level: 19
+2017-05-18 16:03:53:123 - [debug] [ADB] Getting connected devices...
+2017-05-18 16:03:53:161 - [debug] [ADB] 1 device(s) connected
+2017-05-18 16:03:53:162 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","am","start","-W","-n","com.boco.apphall/com.boco.apphall.login.WelcomActivity","-S","-a","android.intent.action.MAIN","-c","android.intent.category.LAUNCHER","-f","0x10200000"]
+2017-05-18 16:03:56:279 - [Appium] New AndroidUiautomator2Driver session created successfully, session bd9172b1-f482-4c72-affe-6ca45cc6dfe6 added to master session list
+2017-05-18 16:03:56:280 - [debug] [MJSONWP] Responding to client with driver.createSession() result: {"deviceName":"vbox86p","sessionOverride":true,"unicodeKeyboard":true,"udid":"127.0.0.1:62001","app":"D:\\Test_dir\\AppHall_GuangXi.apk","resetKeyboard":true,"appActivity":"com.boco.apphall.login.WelcomActivity","platformVersion":"4.4.2","newCommandTimeout":180,"noSign":true,"appPackage":"com.boco.apphall","platformName":"Android","automationName":"Uiautomator2"}
+2017-05-18 16:03:56:286 - [HTTP] <-- POST /wd/hub/session 200 38626 ms - 437 
+2017-05-18 16:03:56:298 - [HTTP] --> POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/timeouts/implicit_wait {"sessionId":"bd9172b1-f482-4c72-affe-6ca45cc6dfe6","ms":30000}
+2017-05-18 16:03:56:300 - [debug] [MJSONWP] Calling AppiumDriver.implicitWait() with args: [30000,"bd9172b1-f482-4c72-affe-6ca45cc6dfe6"]
+2017-05-18 16:03:56:317 - [debug] [BaseDriver] Set implicit wait to 30000ms
+2017-05-18 16:03:56:319 - [debug] [MJSONWP] Responding to client with driver.implicitWait() result: null
+2017-05-18 16:03:56:320 - [HTTP] <-- POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/timeouts/implicit_wait 200 21 ms - 76 
+2017-05-18 16:03:56:399 - [HTTP] --> POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element {"using":"id","sessionId":"bd9172b1-f482-4c72-affe-6ca45cc6dfe6","value":"com.boco.apphall:id/username"}
+2017-05-18 16:03:56:400 - [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.boco.apphall:id/username","bd9172b1-f482-4c72-affe-6ca45cc6dfe6"]
+2017-05-18 16:03:56:402 - [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2017-05-18 16:03:56:402 - [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2017-05-18 16:03:56:402 - [debug] [BaseDriver] Waiting up to 30000 ms for condition
+2017-05-18 16:03:56:404 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/username","context":"","multiple":false}
+2017-05-18 16:03:56:603 - [debug] [BaseDriver] Waited for 199 ms so far
+2017-05-18 16:03:57:104 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/username","context":"","multiple":false}
+2017-05-18 16:03:57:764 - [debug] [BaseDriver] Waited for 1361 ms so far
+2017-05-18 16:03:58:265 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/username","context":"","multiple":false}
+2017-05-18 16:03:58:381 - [debug] [JSONWP Proxy] Got response with status 200: {"value":{"ELEMENT":"c1aed642-79f4-4ae0-a877-688f64c0c18c"},"status":0,"sessionId":"f1b6c471-0c7b-4b45-b37c-dab559cc7df7"}
+2017-05-18 16:03:58:383 - [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"c1aed642-79f4-4ae0-a877-688f64c0c18c"}
+2017-05-18 16:03:58:385 - [HTTP] <-- POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element 200 1985 ms - 122 
+2017-05-18 16:03:58:389 - [HTTP] --> POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element {"using":"id","sessionId":"bd9172b1-f482-4c72-affe-6ca45cc6dfe6","value":"com.boco.apphall:id/username"}
+2017-05-18 16:03:58:391 - [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.boco.apphall:id/username","bd9172b1-f482-4c72-affe-6ca45cc6dfe6"]
+2017-05-18 16:03:58:394 - [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2017-05-18 16:03:58:395 - [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2017-05-18 16:03:58:395 - [debug] [BaseDriver] Waiting up to 30000 ms for condition
+2017-05-18 16:03:58:396 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/username","context":"","multiple":false}
+2017-05-18 16:03:58:871 - [debug] [JSONWP Proxy] Got response with status 200: {"value":{"ELEMENT":"905b3fff-a47f-456d-9ab1-cbc492b308ac"},"status":0,"sessionId":"f1b6c471-0c7b-4b45-b37c-dab559cc7df7"}
+2017-05-18 16:03:58:873 - [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"905b3fff-a47f-456d-9ab1-cbc492b308ac"}
+2017-05-18 16:03:58:876 - [HTTP] <-- POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element 200 485 ms - 122 
+2017-05-18 16:03:58:882 - [HTTP] --> POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/905b3fff-a47f-456d-9ab1-cbc492b308ac/clear {"sessionId":"bd9172b1-f482-4c72-affe-6ca45cc6dfe6","id":"905b3fff-a47f-456d-9ab1-cbc492b308ac"}
+2017-05-18 16:03:58:883 - [debug] [MJSONWP] Calling AppiumDriver.clear() with args: ["905b3fff-a47f-456d-9ab1-cbc492b308ac","bd9172b1-f482-4c72-affe-6ca45cc6dfe6"]
+2017-05-18 16:03:58:891 - [debug] [JSONWP Proxy] Proxying [GET /element/905b3fff-a47f-456d-9ab1-cbc492b308ac/text] to [GET http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element/905b3fff-a47f-456d-9ab1-cbc492b308ac/text] with body: {}
+2017-05-18 16:03:58:904 - [debug] [JSONWP Proxy] Got response with status 200: "{\"value\":\"请输入用户名\",\"status\":0,\"sessionId\":\"f1b6c471-0c7b-4b45-b37c-dab559cc7df7\"}"
+2017-05-18 16:03:58:905 - [debug] [JSONWP Proxy] Proxying [POST /element/905b3fff-a47f-456d-9ab1-cbc492b308ac/click] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element/905b3fff-a47f-456d-9ab1-cbc492b308ac/click] with body: {"elementId":"905b3fff-a47f-456d-9ab1-cbc492b308ac"}
+2017-05-18 16:03:59:441 - [debug] [JSONWP Proxy] Got response with status 200: {"value":true,"status":0,"sessionId":"f1b6c471-0c7b-4b45-b37c-dab559cc7df7"}
+2017-05-18 16:03:59:443 - [debug] [ADB] Clearing up to 6 characters
+2017-05-18 16:03:59:444 - [debug] [ADB] Getting connected devices...
+2017-05-18 16:03:59:533 - [debug] [ADB] 1 device(s) connected
+2017-05-18 16:03:59:534 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","input","keyevent","67","112","67","112","67","112","67","112","67","112","67","112"]
+2017-05-18 16:04:00:688 - [debug] [MJSONWP] Responding to client with driver.clear() result: null
+2017-05-18 16:04:00:691 - [HTTP] <-- POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/905b3fff-a47f-456d-9ab1-cbc492b308ac/clear 200 1808 ms - 76 
+2017-05-18 16:04:00:694 - [HTTP] --> POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/appium/element/905b3fff-a47f-456d-9ab1-cbc492b308ac/replace_value {"sessionId":"bd9172b1-f482-4c72-affe-6ca45cc6dfe6","id":"905b3fff-a47f-456d-9ab1-cbc492b308ac","value":["wangkaiwei"]}
+2017-05-18 16:04:00:696 - [debug] [MJSONWP] Calling AppiumDriver.replaceValue() with args: [["wangkaiwei"],"905b3fff-a47f-456d-9ab1-cbc492b308ac","bd9172b1-f482-4c72-affe-6ca45cc6dfe6"]
+2017-05-18 16:04:00:700 - [debug] [JSONWP Proxy] Proxying [POST /element/905b3fff-a47f-456d-9ab1-cbc492b308ac/value] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element/905b3fff-a47f-456d-9ab1-cbc492b308ac/value] with body: {"elementId":"905b3fff-a47f-456d-9ab1-cbc492b308ac","text":"wangkaiwei","replace":true,"unicodeKeyboard":true}
+2017-05-18 16:04:00:865 - [debug] [JSONWP Proxy] Got response with status 200: {"value":"","status":0,"sessionId":"f1b6c471-0c7b-4b45-b37c-dab559cc7df7"}
+2017-05-18 16:04:00:866 - [debug] [MJSONWP] Responding to client with driver.replaceValue() result: ""
+2017-05-18 16:04:00:867 - [HTTP] <-- POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/appium/element/905b3fff-a47f-456d-9ab1-cbc492b308ac/replace_value 200 173 ms - 74 
+2017-05-18 16:04:00:871 - [HTTP] --> POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element {"using":"id","sessionId":"bd9172b1-f482-4c72-affe-6ca45cc6dfe6","value":"com.boco.apphall:id/password"}
+2017-05-18 16:04:00:871 - [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.boco.apphall:id/password","bd9172b1-f482-4c72-affe-6ca45cc6dfe6"]
+2017-05-18 16:04:00:876 - [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2017-05-18 16:04:00:877 - [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2017-05-18 16:04:00:877 - [debug] [BaseDriver] Waiting up to 30000 ms for condition
+2017-05-18 16:04:00:878 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/password","context":"","multiple":false}
+2017-05-18 16:04:01:407 - [debug] [JSONWP Proxy] Got response with status 200: {"value":{"ELEMENT":"4f97d19e-0c42-4583-b101-33d6356154bb"},"status":0,"sessionId":"f1b6c471-0c7b-4b45-b37c-dab559cc7df7"}
+2017-05-18 16:04:01:411 - [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"4f97d19e-0c42-4583-b101-33d6356154bb"}
+2017-05-18 16:04:01:412 - [HTTP] <-- POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element 200 541 ms - 122 
+2017-05-18 16:04:01:419 - [HTTP] --> POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element {"using":"id","sessionId":"bd9172b1-f482-4c72-affe-6ca45cc6dfe6","value":"com.boco.apphall:id/password"}
+2017-05-18 16:04:01:420 - [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.boco.apphall:id/password","bd9172b1-f482-4c72-affe-6ca45cc6dfe6"]
+2017-05-18 16:04:01:426 - [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2017-05-18 16:04:01:426 - [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2017-05-18 16:04:01:427 - [debug] [BaseDriver] Waiting up to 30000 ms for condition
+2017-05-18 16:04:01:427 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/password","context":"","multiple":false}
+2017-05-18 16:04:01:444 - [debug] [JSONWP Proxy] Got response with status 200: {"value":{"ELEMENT":"9f1e0f4a-e9de-40aa-8e0d-112c9b70f8b4"},"status":0,"sessionId":"f1b6c471-0c7b-4b45-b37c-dab559cc7df7"}
+2017-05-18 16:04:01:445 - [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"9f1e0f4a-e9de-40aa-8e0d-112c9b70f8b4"}
+2017-05-18 16:04:01:446 - [HTTP] <-- POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element 200 27 ms - 122 
+2017-05-18 16:04:01:448 - [HTTP] --> POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/9f1e0f4a-e9de-40aa-8e0d-112c9b70f8b4/clear {"sessionId":"bd9172b1-f482-4c72-affe-6ca45cc6dfe6","id":"9f1e0f4a-e9de-40aa-8e0d-112c9b70f8b4"}
+2017-05-18 16:04:01:449 - [debug] [MJSONWP] Calling AppiumDriver.clear() with args: ["9f1e0f4a-e9de-40aa-8e0d-112c9b70f8b4","bd9172b1-f482-4c72-affe-6ca45cc6dfe6"]
+2017-05-18 16:04:01:452 - [debug] [JSONWP Proxy] Proxying [GET /element/9f1e0f4a-e9de-40aa-8e0d-112c9b70f8b4/text] to [GET http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element/9f1e0f4a-e9de-40aa-8e0d-112c9b70f8b4/text] with body: {}
+2017-05-18 16:04:01:461 - [debug] [JSONWP Proxy] Got response with status 200: "{\"value\":\"\",\"status\":0,\"sessionId\":\"f1b6c471-0c7b-4b45-b37c-dab559cc7df7\"}"
+2017-05-18 16:04:01:461 - [debug] [JSONWP Proxy] Proxying [POST /element/9f1e0f4a-e9de-40aa-8e0d-112c9b70f8b4/click] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element/9f1e0f4a-e9de-40aa-8e0d-112c9b70f8b4/click] with body: {"elementId":"9f1e0f4a-e9de-40aa-8e0d-112c9b70f8b4"}
+2017-05-18 16:04:01:485 - [debug] [JSONWP Proxy] Got response with status 200: {"value":true,"status":0,"sessionId":"f1b6c471-0c7b-4b45-b37c-dab559cc7df7"}
+2017-05-18 16:04:01:485 - [debug] [ADB] Clearing up to 100 characters
+2017-05-18 16:04:01:486 - [debug] [ADB] Getting connected devices...
+2017-05-18 16:04:01:532 - [debug] [ADB] 1 device(s) connected
+2017-05-18 16:04:01:533 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","input","keyevent","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112"]
+2017-05-18 16:04:03:912 - [debug] [MJSONWP] Responding to client with driver.clear() result: null
+2017-05-18 16:04:03:914 - [HTTP] <-- POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/9f1e0f4a-e9de-40aa-8e0d-112c9b70f8b4/clear 200 2465 ms - 76 
+2017-05-18 16:04:03:918 - [HTTP] --> POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/appium/element/9f1e0f4a-e9de-40aa-8e0d-112c9b70f8b4/replace_value {"sessionId":"bd9172b1-f482-4c72-affe-6ca45cc6dfe6","id":"9f1e0f4a-e9de-40aa-8e0d-112c9b70f8b4","value":["Kv@870224"]}
+2017-05-18 16:04:03:920 - [debug] [MJSONWP] Calling AppiumDriver.replaceValue() with args: [["Kv@870224"],"9f1e0f4a-e9de-40aa-8e0d-112c9b70f8b4","bd9172b1-f482-4c72-affe-6ca45cc6dfe6"]
+2017-05-18 16:04:03:923 - [debug] [JSONWP Proxy] Proxying [POST /element/9f1e0f4a-e9de-40aa-8e0d-112c9b70f8b4/value] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element/9f1e0f4a-e9de-40aa-8e0d-112c9b70f8b4/value] with body: {"elementId":"9f1e0f4a-e9de-40aa-8e0d-112c9b70f8b4","text":"Kv@870224","replace":true,"unicodeKeyboard":true}
+2017-05-18 16:04:03:972 - [HTTP] <-- POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/appium/element/9f1e0f4a-e9de-40aa-8e0d-112c9b70f8b4/replace_value 500 53 ms - 3444 
+2017-05-18 16:04:03:975 - [HTTP] --> POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/appium/element/9f1e0f4a-e9de-40aa-8e0d-112c9b70f8b4/value {"sessionId":"bd9172b1-f482-4c72-affe-6ca45cc6dfe6","id":"9f1e0f4a-e9de-40aa-8e0d-112c9b70f8b4","value":["Kv@870224"]}
+2017-05-18 16:04:03:975 - [debug] [MJSONWP] Calling AppiumDriver.setValueImmediate() with args: [["Kv@870224"],"9f1e0f4a-e9de-40aa-8e0d-112c9b70f8b4","bd9172b1-f482-4c72-affe-6ca45cc6dfe6"]
+2017-05-18 16:04:03:976 - [debug] [JSONWP Proxy] Proxying [POST /element/9f1e0f4a-e9de-40aa-8e0d-112c9b70f8b4/click] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element/9f1e0f4a-e9de-40aa-8e0d-112c9b70f8b4/click] with body: {"elementId":"9f1e0f4a-e9de-40aa-8e0d-112c9b70f8b4"}
+2017-05-18 16:04:03:997 - [debug] [JSONWP Proxy] Got response with status 200: {"value":true,"status":0,"sessionId":"f1b6c471-0c7b-4b45-b37c-dab559cc7df7"}
+2017-05-18 16:04:03:998 - [debug] [ADB] Getting connected devices...
+2017-05-18 16:04:04:053 - [debug] [ADB] 1 device(s) connected
+2017-05-18 16:04:04:054 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:62001","shell","input","text","Kv@870224"]
+2017-05-18 16:04:05:274 - [debug] [MJSONWP] Responding to client with driver.setValueImmediate() result: null
+2017-05-18 16:04:05:275 - [HTTP] <-- POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/appium/element/9f1e0f4a-e9de-40aa-8e0d-112c9b70f8b4/value 200 1300 ms - 76 
+2017-05-18 16:04:06:276 - [HTTP] --> POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element {"using":"id","sessionId":"bd9172b1-f482-4c72-affe-6ca45cc6dfe6","value":"com.boco.apphall:id/login_btn"}
+2017-05-18 16:04:06:277 - [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.boco.apphall:id/login_btn","bd9172b1-f482-4c72-affe-6ca45cc6dfe6"]
+2017-05-18 16:04:06:279 - [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2017-05-18 16:04:06:281 - [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2017-05-18 16:04:06:281 - [debug] [BaseDriver] Waiting up to 30000 ms for condition
+2017-05-18 16:04:06:281 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/login_btn","context":"","multiple":false}
+2017-05-18 16:04:06:295 - [debug] [JSONWP Proxy] Got response with status 200: {"value":{"ELEMENT":"85b474e5-5806-4b5d-8e5f-0ddb32c1b353"},"status":0,"sessionId":"f1b6c471-0c7b-4b45-b37c-dab559cc7df7"}
+2017-05-18 16:04:06:295 - [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"85b474e5-5806-4b5d-8e5f-0ddb32c1b353"}
+2017-05-18 16:04:06:296 - [HTTP] <-- POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element 200 19 ms - 122 
+2017-05-18 16:04:06:300 - [HTTP] --> GET /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/85b474e5-5806-4b5d-8e5f-0ddb32c1b353/displayed {}
+2017-05-18 16:04:06:300 - [debug] [MJSONWP] Calling AppiumDriver.elementDisplayed() with args: ["85b474e5-5806-4b5d-8e5f-0ddb32c1b353","bd9172b1-f482-4c72-affe-6ca45cc6dfe6"]
+2017-05-18 16:04:06:304 - [debug] [JSONWP Proxy] Proxying [GET /element/85b474e5-5806-4b5d-8e5f-0ddb32c1b353/attribute/displayed] to [GET http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element/85b474e5-5806-4b5d-8e5f-0ddb32c1b353/attribute/displayed] with body: {}
+2017-05-18 16:04:06:312 - [debug] [JSONWP Proxy] Got response with status 200: "{\"value\":true,\"status\":0,\"sessionId\":\"f1b6c471-0c7b-4b45-b37c-dab559cc7df7\"}"
+2017-05-18 16:04:06:313 - [debug] [MJSONWP] Responding to client with driver.elementDisplayed() result: true
+2017-05-18 16:04:06:313 - [HTTP] <-- GET /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/85b474e5-5806-4b5d-8e5f-0ddb32c1b353/displayed 200 13 ms - 76 
+2017-05-18 16:04:06:315 - [HTTP] --> GET /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/85b474e5-5806-4b5d-8e5f-0ddb32c1b353/enabled {}
+2017-05-18 16:04:06:315 - [debug] [MJSONWP] Calling AppiumDriver.elementEnabled() with args: ["85b474e5-5806-4b5d-8e5f-0ddb32c1b353","bd9172b1-f482-4c72-affe-6ca45cc6dfe6"]
+2017-05-18 16:04:06:318 - [debug] [JSONWP Proxy] Proxying [GET /element/85b474e5-5806-4b5d-8e5f-0ddb32c1b353/attribute/enabled] to [GET http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element/85b474e5-5806-4b5d-8e5f-0ddb32c1b353/attribute/enabled] with body: {}
+2017-05-18 16:04:06:328 - [debug] [JSONWP Proxy] Got response with status 200: "{\"value\":true,\"status\":0,\"sessionId\":\"f1b6c471-0c7b-4b45-b37c-dab559cc7df7\"}"
+2017-05-18 16:04:06:328 - [debug] [MJSONWP] Responding to client with driver.elementEnabled() result: true
+2017-05-18 16:04:06:329 - [HTTP] <-- GET /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/85b474e5-5806-4b5d-8e5f-0ddb32c1b353/enabled 200 14 ms - 76 
+2017-05-18 16:04:06:331 - [HTTP] --> POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/85b474e5-5806-4b5d-8e5f-0ddb32c1b353/click {"sessionId":"bd9172b1-f482-4c72-affe-6ca45cc6dfe6","id":"85b474e5-5806-4b5d-8e5f-0ddb32c1b353"}
+2017-05-18 16:04:06:331 - [debug] [MJSONWP] Calling AppiumDriver.click() with args: ["85b474e5-5806-4b5d-8e5f-0ddb32c1b353","bd9172b1-f482-4c72-affe-6ca45cc6dfe6"]
+2017-05-18 16:04:06:333 - [debug] [JSONWP Proxy] Proxying [POST /element/85b474e5-5806-4b5d-8e5f-0ddb32c1b353/click] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element/85b474e5-5806-4b5d-8e5f-0ddb32c1b353/click] with body: {"elementId":"85b474e5-5806-4b5d-8e5f-0ddb32c1b353"}
+2017-05-18 16:04:06:349 - [debug] [JSONWP Proxy] Got response with status 200: {"value":true,"status":0,"sessionId":"f1b6c471-0c7b-4b45-b37c-dab559cc7df7"}
+2017-05-18 16:04:06:349 - [debug] [MJSONWP] Responding to client with driver.click() result: true
+2017-05-18 16:04:06:350 - [HTTP] <-- POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/85b474e5-5806-4b5d-8e5f-0ddb32c1b353/click 200 19 ms - 76 
+2017-05-18 16:04:07:381 - [HTTP] --> POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element {"using":"id","sessionId":"bd9172b1-f482-4c72-affe-6ca45cc6dfe6","value":"com.boco.apphall:id/cancel_button"}
+2017-05-18 16:04:07:382 - [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.boco.apphall:id/cancel_button","bd9172b1-f482-4c72-affe-6ca45cc6dfe6"]
+2017-05-18 16:04:07:386 - [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2017-05-18 16:04:07:386 - [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2017-05-18 16:04:07:387 - [debug] [BaseDriver] Waiting up to 30000 ms for condition
+2017-05-18 16:04:07:387 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/cancel_button","context":"","multiple":false}
+2017-05-18 16:04:07:435 - [debug] [BaseDriver] Waited for 48 ms so far
+2017-05-18 16:04:07:935 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/cancel_button","context":"","multiple":false}
+2017-05-18 16:04:09:109 - [debug] [JSONWP Proxy] Got response with status 200: {"value":{"ELEMENT":"0992434b-5e71-421d-bb05-cd9e32caee31"},"status":0,"sessionId":"f1b6c471-0c7b-4b45-b37c-dab559cc7df7"}
+2017-05-18 16:04:09:110 - [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"0992434b-5e71-421d-bb05-cd9e32caee31"}
+2017-05-18 16:04:09:111 - [HTTP] <-- POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element 200 1729 ms - 122 
+2017-05-18 16:04:09:113 - [HTTP] --> GET /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/0992434b-5e71-421d-bb05-cd9e32caee31/displayed {}
+2017-05-18 16:04:09:114 - [debug] [MJSONWP] Calling AppiumDriver.elementDisplayed() with args: ["0992434b-5e71-421d-bb05-cd9e32caee31","bd9172b1-f482-4c72-affe-6ca45cc6dfe6"]
+2017-05-18 16:04:09:116 - [debug] [JSONWP Proxy] Proxying [GET /element/0992434b-5e71-421d-bb05-cd9e32caee31/attribute/displayed] to [GET http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element/0992434b-5e71-421d-bb05-cd9e32caee31/attribute/displayed] with body: {}
+2017-05-18 16:04:09:609 - [debug] [JSONWP Proxy] Got response with status 200: "{\"value\":true,\"status\":0,\"sessionId\":\"f1b6c471-0c7b-4b45-b37c-dab559cc7df7\"}"
+2017-05-18 16:04:09:609 - [debug] [MJSONWP] Responding to client with driver.elementDisplayed() result: true
+2017-05-18 16:04:09:610 - [HTTP] <-- GET /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/0992434b-5e71-421d-bb05-cd9e32caee31/displayed 200 496 ms - 76 
+2017-05-18 16:04:09:612 - [HTTP] --> GET /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/0992434b-5e71-421d-bb05-cd9e32caee31/enabled {}
+2017-05-18 16:04:09:613 - [debug] [MJSONWP] Calling AppiumDriver.elementEnabled() with args: ["0992434b-5e71-421d-bb05-cd9e32caee31","bd9172b1-f482-4c72-affe-6ca45cc6dfe6"]
+2017-05-18 16:04:09:615 - [debug] [JSONWP Proxy] Proxying [GET /element/0992434b-5e71-421d-bb05-cd9e32caee31/attribute/enabled] to [GET http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element/0992434b-5e71-421d-bb05-cd9e32caee31/attribute/enabled] with body: {}
+2017-05-18 16:04:09:623 - [debug] [JSONWP Proxy] Got response with status 200: "{\"value\":true,\"status\":0,\"sessionId\":\"f1b6c471-0c7b-4b45-b37c-dab559cc7df7\"}"
+2017-05-18 16:04:09:623 - [debug] [MJSONWP] Responding to client with driver.elementEnabled() result: true
+2017-05-18 16:04:09:624 - [HTTP] <-- GET /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/0992434b-5e71-421d-bb05-cd9e32caee31/enabled 200 12 ms - 76 
+2017-05-18 16:04:09:627 - [HTTP] --> POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/0992434b-5e71-421d-bb05-cd9e32caee31/click {"sessionId":"bd9172b1-f482-4c72-affe-6ca45cc6dfe6","id":"0992434b-5e71-421d-bb05-cd9e32caee31"}
+2017-05-18 16:04:09:627 - [debug] [MJSONWP] Calling AppiumDriver.click() with args: ["0992434b-5e71-421d-bb05-cd9e32caee31","bd9172b1-f482-4c72-affe-6ca45cc6dfe6"]
+2017-05-18 16:04:09:629 - [debug] [JSONWP Proxy] Proxying [POST /element/0992434b-5e71-421d-bb05-cd9e32caee31/click] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element/0992434b-5e71-421d-bb05-cd9e32caee31/click] with body: {"elementId":"0992434b-5e71-421d-bb05-cd9e32caee31"}
+2017-05-18 16:04:09:644 - [debug] [JSONWP Proxy] Got response with status 200: {"value":true,"status":0,"sessionId":"f1b6c471-0c7b-4b45-b37c-dab559cc7df7"}
+2017-05-18 16:04:09:645 - [debug] [MJSONWP] Responding to client with driver.click() result: true
+2017-05-18 16:04:09:645 - [HTTP] <-- POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/0992434b-5e71-421d-bb05-cd9e32caee31/click 200 18 ms - 76 
+2017-05-18 16:04:11:699 - [HTTP] --> POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element {"using":"id","sessionId":"bd9172b1-f482-4c72-affe-6ca45cc6dfe6","value":"com.boco.apphall:id/rb_app"}
+2017-05-18 16:04:11:700 - [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.boco.apphall:id/rb_app","bd9172b1-f482-4c72-affe-6ca45cc6dfe6"]
+2017-05-18 16:04:11:703 - [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2017-05-18 16:04:11:703 - [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2017-05-18 16:04:11:703 - [debug] [BaseDriver] Waiting up to 30000 ms for condition
+2017-05-18 16:04:11:704 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/rb_app","context":"","multiple":false}
+2017-05-18 16:04:11:734 - [debug] [JSONWP Proxy] Got response with status 200: {"value":{"ELEMENT":"48d4691d-8994-403f-9532-014aa4a71825"},"status":0,"sessionId":"f1b6c471-0c7b-4b45-b37c-dab559cc7df7"}
+2017-05-18 16:04:11:734 - [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"48d4691d-8994-403f-9532-014aa4a71825"}
+2017-05-18 16:04:11:735 - [HTTP] <-- POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element 200 36 ms - 122 
+2017-05-18 16:04:11:737 - [HTTP] --> GET /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/48d4691d-8994-403f-9532-014aa4a71825/displayed {}
+2017-05-18 16:04:11:738 - [debug] [MJSONWP] Calling AppiumDriver.elementDisplayed() with args: ["48d4691d-8994-403f-9532-014aa4a71825","bd9172b1-f482-4c72-affe-6ca45cc6dfe6"]
+2017-05-18 16:04:11:739 - [debug] [JSONWP Proxy] Proxying [GET /element/48d4691d-8994-403f-9532-014aa4a71825/attribute/displayed] to [GET http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element/48d4691d-8994-403f-9532-014aa4a71825/attribute/displayed] with body: {}
+2017-05-18 16:04:12:232 - [debug] [JSONWP Proxy] Got response with status 200: "{\"value\":true,\"status\":0,\"sessionId\":\"f1b6c471-0c7b-4b45-b37c-dab559cc7df7\"}"
+2017-05-18 16:04:12:234 - [debug] [MJSONWP] Responding to client with driver.elementDisplayed() result: true
+2017-05-18 16:04:12:235 - [HTTP] <-- GET /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/48d4691d-8994-403f-9532-014aa4a71825/displayed 200 497 ms - 76 
+2017-05-18 16:04:12:243 - [HTTP] --> GET /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/48d4691d-8994-403f-9532-014aa4a71825/enabled {}
+2017-05-18 16:04:12:243 - [debug] [MJSONWP] Calling AppiumDriver.elementEnabled() with args: ["48d4691d-8994-403f-9532-014aa4a71825","bd9172b1-f482-4c72-affe-6ca45cc6dfe6"]
+2017-05-18 16:04:12:246 - [debug] [JSONWP Proxy] Proxying [GET /element/48d4691d-8994-403f-9532-014aa4a71825/attribute/enabled] to [GET http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element/48d4691d-8994-403f-9532-014aa4a71825/attribute/enabled] with body: {}
+2017-05-18 16:04:12:255 - [debug] [JSONWP Proxy] Got response with status 200: "{\"value\":true,\"status\":0,\"sessionId\":\"f1b6c471-0c7b-4b45-b37c-dab559cc7df7\"}"
+2017-05-18 16:04:12:256 - [debug] [MJSONWP] Responding to client with driver.elementEnabled() result: true
+2017-05-18 16:04:12:258 - [HTTP] <-- GET /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/48d4691d-8994-403f-9532-014aa4a71825/enabled 200 14 ms - 76 
+2017-05-18 16:04:12:260 - [HTTP] --> POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/48d4691d-8994-403f-9532-014aa4a71825/click {"sessionId":"bd9172b1-f482-4c72-affe-6ca45cc6dfe6","id":"48d4691d-8994-403f-9532-014aa4a71825"}
+2017-05-18 16:04:12:260 - [debug] [MJSONWP] Calling AppiumDriver.click() with args: ["48d4691d-8994-403f-9532-014aa4a71825","bd9172b1-f482-4c72-affe-6ca45cc6dfe6"]
+2017-05-18 16:04:12:262 - [debug] [JSONWP Proxy] Proxying [POST /element/48d4691d-8994-403f-9532-014aa4a71825/click] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element/48d4691d-8994-403f-9532-014aa4a71825/click] with body: {"elementId":"48d4691d-8994-403f-9532-014aa4a71825"}
+2017-05-18 16:04:12:278 - [debug] [JSONWP Proxy] Got response with status 200: {"value":true,"status":0,"sessionId":"f1b6c471-0c7b-4b45-b37c-dab559cc7df7"}
+2017-05-18 16:04:12:279 - [debug] [MJSONWP] Responding to client with driver.click() result: true
+2017-05-18 16:04:12:279 - [HTTP] <-- POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/48d4691d-8994-403f-9532-014aa4a71825/click 200 19 ms - 76 
+2017-05-18 16:04:14:310 - [HTTP] --> POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element {"using":"xpath","sessionId":"bd9172b1-f482-4c72-affe-6ca45cc6dfe6","value":"//*[@text='排行应用']"}
+2017-05-18 16:04:14:311 - [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath","//*[@text='排行应用']","bd9172b1-f482-4c72-affe-6ca45cc6dfe6"]
+2017-05-18 16:04:14:313 - [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2017-05-18 16:04:14:313 - [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2017-05-18 16:04:14:314 - [debug] [BaseDriver] Waiting up to 30000 ms for condition
+2017-05-18 16:04:14:314 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"xpath","selector":"//*[@text='排行应用']","context":"","multiple":false}
+2017-05-18 16:04:15:195 - [debug] [JSONWP Proxy] Got response with status 200: {"value":{"ELEMENT":"66ffd3bf-6095-4e00-8198-565212a29bbb"},"status":0,"sessionId":"f1b6c471-0c7b-4b45-b37c-dab559cc7df7"}
+2017-05-18 16:04:15:195 - [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"66ffd3bf-6095-4e00-8198-565212a29bbb"}
+2017-05-18 16:04:15:196 - [HTTP] <-- POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element 200 886 ms - 122 
+2017-05-18 16:04:15:198 - [HTTP] --> GET /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/66ffd3bf-6095-4e00-8198-565212a29bbb/displayed {}
+2017-05-18 16:04:15:198 - [debug] [MJSONWP] Calling AppiumDriver.elementDisplayed() with args: ["66ffd3bf-6095-4e00-8198-565212a29bbb","bd9172b1-f482-4c72-affe-6ca45cc6dfe6"]
+2017-05-18 16:04:15:200 - [debug] [JSONWP Proxy] Proxying [GET /element/66ffd3bf-6095-4e00-8198-565212a29bbb/attribute/displayed] to [GET http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element/66ffd3bf-6095-4e00-8198-565212a29bbb/attribute/displayed] with body: {}
+2017-05-18 16:04:15:208 - [debug] [JSONWP Proxy] Got response with status 200: "{\"value\":true,\"status\":0,\"sessionId\":\"f1b6c471-0c7b-4b45-b37c-dab559cc7df7\"}"
+2017-05-18 16:04:15:208 - [debug] [MJSONWP] Responding to client with driver.elementDisplayed() result: true
+2017-05-18 16:04:15:210 - [HTTP] <-- GET /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/66ffd3bf-6095-4e00-8198-565212a29bbb/displayed 200 11 ms - 76 
+2017-05-18 16:04:15:212 - [HTTP] --> GET /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/66ffd3bf-6095-4e00-8198-565212a29bbb/enabled {}
+2017-05-18 16:04:15:212 - [debug] [MJSONWP] Calling AppiumDriver.elementEnabled() with args: ["66ffd3bf-6095-4e00-8198-565212a29bbb","bd9172b1-f482-4c72-affe-6ca45cc6dfe6"]
+2017-05-18 16:04:15:215 - [debug] [JSONWP Proxy] Proxying [GET /element/66ffd3bf-6095-4e00-8198-565212a29bbb/attribute/enabled] to [GET http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element/66ffd3bf-6095-4e00-8198-565212a29bbb/attribute/enabled] with body: {}
+2017-05-18 16:04:15:223 - [debug] [JSONWP Proxy] Got response with status 200: "{\"value\":true,\"status\":0,\"sessionId\":\"f1b6c471-0c7b-4b45-b37c-dab559cc7df7\"}"
+2017-05-18 16:04:15:224 - [debug] [MJSONWP] Responding to client with driver.elementEnabled() result: true
+2017-05-18 16:04:15:224 - [HTTP] <-- GET /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/66ffd3bf-6095-4e00-8198-565212a29bbb/enabled 200 12 ms - 76 
+2017-05-18 16:04:15:226 - [HTTP] --> POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/66ffd3bf-6095-4e00-8198-565212a29bbb/click {"sessionId":"bd9172b1-f482-4c72-affe-6ca45cc6dfe6","id":"66ffd3bf-6095-4e00-8198-565212a29bbb"}
+2017-05-18 16:04:15:227 - [debug] [MJSONWP] Calling AppiumDriver.click() with args: ["66ffd3bf-6095-4e00-8198-565212a29bbb","bd9172b1-f482-4c72-affe-6ca45cc6dfe6"]
+2017-05-18 16:04:15:228 - [debug] [JSONWP Proxy] Proxying [POST /element/66ffd3bf-6095-4e00-8198-565212a29bbb/click] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element/66ffd3bf-6095-4e00-8198-565212a29bbb/click] with body: {"elementId":"66ffd3bf-6095-4e00-8198-565212a29bbb"}
+2017-05-18 16:04:15:247 - [debug] [JSONWP Proxy] Got response with status 200: {"value":true,"status":0,"sessionId":"f1b6c471-0c7b-4b45-b37c-dab559cc7df7"}
+2017-05-18 16:04:15:248 - [debug] [MJSONWP] Responding to client with driver.click() result: true
+2017-05-18 16:04:15:249 - [HTTP] <-- POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/66ffd3bf-6095-4e00-8198-565212a29bbb/click 200 22 ms - 76 
+2017-05-18 16:04:17:271 - [HTTP] --> POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element {"using":"id","sessionId":"bd9172b1-f482-4c72-affe-6ca45cc6dfe6","value":"com.boco.apphall:id/button2"}
+2017-05-18 16:04:17:272 - [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.boco.apphall:id/button2","bd9172b1-f482-4c72-affe-6ca45cc6dfe6"]
+2017-05-18 16:04:17:275 - [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2017-05-18 16:04:17:276 - [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2017-05-18 16:04:17:276 - [debug] [BaseDriver] Waiting up to 30000 ms for condition
+2017-05-18 16:04:17:276 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/button2","context":"","multiple":false}
+2017-05-18 16:04:17:321 - [debug] [JSONWP Proxy] Got response with status 200: {"value":{"ELEMENT":"beeb677c-9347-4266-b803-431257a20a05"},"status":0,"sessionId":"f1b6c471-0c7b-4b45-b37c-dab559cc7df7"}
+2017-05-18 16:04:17:322 - [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"beeb677c-9347-4266-b803-431257a20a05"}
+2017-05-18 16:04:17:323 - [HTTP] <-- POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element 200 51 ms - 122 
+2017-05-18 16:04:17:330 - [HTTP] --> GET /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/beeb677c-9347-4266-b803-431257a20a05/displayed {}
+2017-05-18 16:04:17:331 - [debug] [MJSONWP] Calling AppiumDriver.elementDisplayed() with args: ["beeb677c-9347-4266-b803-431257a20a05","bd9172b1-f482-4c72-affe-6ca45cc6dfe6"]
+2017-05-18 16:04:17:335 - [debug] [JSONWP Proxy] Proxying [GET /element/beeb677c-9347-4266-b803-431257a20a05/attribute/displayed] to [GET http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element/beeb677c-9347-4266-b803-431257a20a05/attribute/displayed] with body: {}
+2017-05-18 16:04:17:345 - [debug] [JSONWP Proxy] Got response with status 200: "{\"value\":true,\"status\":0,\"sessionId\":\"f1b6c471-0c7b-4b45-b37c-dab559cc7df7\"}"
+2017-05-18 16:04:17:346 - [debug] [MJSONWP] Responding to client with driver.elementDisplayed() result: true
+2017-05-18 16:04:17:346 - [HTTP] <-- GET /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/beeb677c-9347-4266-b803-431257a20a05/displayed 200 16 ms - 76 
+2017-05-18 16:04:17:348 - [HTTP] --> GET /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/beeb677c-9347-4266-b803-431257a20a05/enabled {}
+2017-05-18 16:04:17:348 - [debug] [MJSONWP] Calling AppiumDriver.elementEnabled() with args: ["beeb677c-9347-4266-b803-431257a20a05","bd9172b1-f482-4c72-affe-6ca45cc6dfe6"]
+2017-05-18 16:04:17:351 - [debug] [JSONWP Proxy] Proxying [GET /element/beeb677c-9347-4266-b803-431257a20a05/attribute/enabled] to [GET http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element/beeb677c-9347-4266-b803-431257a20a05/attribute/enabled] with body: {}
+2017-05-18 16:04:17:359 - [debug] [JSONWP Proxy] Got response with status 200: "{\"value\":true,\"status\":0,\"sessionId\":\"f1b6c471-0c7b-4b45-b37c-dab559cc7df7\"}"
+2017-05-18 16:04:17:360 - [debug] [MJSONWP] Responding to client with driver.elementEnabled() result: true
+2017-05-18 16:04:17:360 - [HTTP] <-- GET /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/beeb677c-9347-4266-b803-431257a20a05/enabled 200 12 ms - 76 
+2017-05-18 16:04:17:363 - [HTTP] --> POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/beeb677c-9347-4266-b803-431257a20a05/click {"sessionId":"bd9172b1-f482-4c72-affe-6ca45cc6dfe6","id":"beeb677c-9347-4266-b803-431257a20a05"}
+2017-05-18 16:04:17:363 - [debug] [MJSONWP] Calling AppiumDriver.click() with args: ["beeb677c-9347-4266-b803-431257a20a05","bd9172b1-f482-4c72-affe-6ca45cc6dfe6"]
+2017-05-18 16:04:17:365 - [debug] [JSONWP Proxy] Proxying [POST /element/beeb677c-9347-4266-b803-431257a20a05/click] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element/beeb677c-9347-4266-b803-431257a20a05/click] with body: {"elementId":"beeb677c-9347-4266-b803-431257a20a05"}
+2017-05-18 16:04:17:384 - [debug] [JSONWP Proxy] Got response with status 200: {"value":true,"status":0,"sessionId":"f1b6c471-0c7b-4b45-b37c-dab559cc7df7"}
+2017-05-18 16:04:17:385 - [debug] [MJSONWP] Responding to client with driver.click() result: true
+2017-05-18 16:04:17:385 - [HTTP] <-- POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/beeb677c-9347-4266-b803-431257a20a05/click 200 22 ms - 76 
+2017-05-18 16:04:19:420 - [HTTP] --> POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element {"using":"xpath","sessionId":"bd9172b1-f482-4c72-affe-6ca45cc6dfe6","value":"//*[@text='家宽装维']"}
+2017-05-18 16:04:19:422 - [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath","//*[@text='家宽装维']","bd9172b1-f482-4c72-affe-6ca45cc6dfe6"]
+2017-05-18 16:04:19:423 - [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2017-05-18 16:04:19:423 - [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2017-05-18 16:04:19:423 - [debug] [BaseDriver] Waiting up to 30000 ms for condition
+2017-05-18 16:04:19:423 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"xpath","selector":"//*[@text='家宽装维']","context":"","multiple":false}
+2017-05-18 16:04:20:212 - [debug] [JSONWP Proxy] Got response with status 200: {"value":{"ELEMENT":"6de804da-2be2-4d0b-a437-9d7b36c12cdb"},"status":0,"sessionId":"f1b6c471-0c7b-4b45-b37c-dab559cc7df7"}
+2017-05-18 16:04:20:213 - [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"6de804da-2be2-4d0b-a437-9d7b36c12cdb"}
+2017-05-18 16:04:20:213 - [HTTP] <-- POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element 200 793 ms - 122 
+2017-05-18 16:04:20:215 - [HTTP] --> GET /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/6de804da-2be2-4d0b-a437-9d7b36c12cdb/displayed {}
+2017-05-18 16:04:20:215 - [debug] [MJSONWP] Calling AppiumDriver.elementDisplayed() with args: ["6de804da-2be2-4d0b-a437-9d7b36c12cdb","bd9172b1-f482-4c72-affe-6ca45cc6dfe6"]
+2017-05-18 16:04:20:217 - [debug] [JSONWP Proxy] Proxying [GET /element/6de804da-2be2-4d0b-a437-9d7b36c12cdb/attribute/displayed] to [GET http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element/6de804da-2be2-4d0b-a437-9d7b36c12cdb/attribute/displayed] with body: {}
+2017-05-18 16:04:20:225 - [debug] [JSONWP Proxy] Got response with status 200: "{\"value\":true,\"status\":0,\"sessionId\":\"f1b6c471-0c7b-4b45-b37c-dab559cc7df7\"}"
+2017-05-18 16:04:20:226 - [debug] [MJSONWP] Responding to client with driver.elementDisplayed() result: true
+2017-05-18 16:04:20:227 - [HTTP] <-- GET /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/6de804da-2be2-4d0b-a437-9d7b36c12cdb/displayed 200 11 ms - 76 
+2017-05-18 16:04:20:229 - [HTTP] --> GET /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/6de804da-2be2-4d0b-a437-9d7b36c12cdb/enabled {}
+2017-05-18 16:04:20:230 - [debug] [MJSONWP] Calling AppiumDriver.elementEnabled() with args: ["6de804da-2be2-4d0b-a437-9d7b36c12cdb","bd9172b1-f482-4c72-affe-6ca45cc6dfe6"]
+2017-05-18 16:04:20:231 - [debug] [JSONWP Proxy] Proxying [GET /element/6de804da-2be2-4d0b-a437-9d7b36c12cdb/attribute/enabled] to [GET http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element/6de804da-2be2-4d0b-a437-9d7b36c12cdb/attribute/enabled] with body: {}
+2017-05-18 16:04:20:240 - [debug] [JSONWP Proxy] Got response with status 200: "{\"value\":true,\"status\":0,\"sessionId\":\"f1b6c471-0c7b-4b45-b37c-dab559cc7df7\"}"
+2017-05-18 16:04:20:240 - [debug] [MJSONWP] Responding to client with driver.elementEnabled() result: true
+2017-05-18 16:04:20:241 - [HTTP] <-- GET /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/6de804da-2be2-4d0b-a437-9d7b36c12cdb/enabled 200 12 ms - 76 
+2017-05-18 16:04:20:242 - [HTTP] --> POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/6de804da-2be2-4d0b-a437-9d7b36c12cdb/click {"sessionId":"bd9172b1-f482-4c72-affe-6ca45cc6dfe6","id":"6de804da-2be2-4d0b-a437-9d7b36c12cdb"}
+2017-05-18 16:04:20:243 - [debug] [MJSONWP] Calling AppiumDriver.click() with args: ["6de804da-2be2-4d0b-a437-9d7b36c12cdb","bd9172b1-f482-4c72-affe-6ca45cc6dfe6"]
+2017-05-18 16:04:20:244 - [debug] [JSONWP Proxy] Proxying [POST /element/6de804da-2be2-4d0b-a437-9d7b36c12cdb/click] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element/6de804da-2be2-4d0b-a437-9d7b36c12cdb/click] with body: {"elementId":"6de804da-2be2-4d0b-a437-9d7b36c12cdb"}
+2017-05-18 16:04:20:256 - [debug] [JSONWP Proxy] Got response with status 200: {"value":true,"status":0,"sessionId":"f1b6c471-0c7b-4b45-b37c-dab559cc7df7"}
+2017-05-18 16:04:20:257 - [debug] [MJSONWP] Responding to client with driver.click() result: true
+2017-05-18 16:04:20:258 - [HTTP] <-- POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element/6de804da-2be2-4d0b-a437-9d7b36c12cdb/click 200 15 ms - 76 
+2017-05-18 16:04:22:305 - [HTTP] --> POST /wd/hub/session/bd9172b1-f482-4c72-affe-6ca45cc6dfe6/element {"using":"id","sessionId":"bd9172b1-f482-4c72-affe-6ca45cc6dfe6","value":"com.boco.apphall:id/downloadBtn"}
+2017-05-18 16:04:22:306 - [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["id","com.boco.apphall:id/downloadBtn","bd9172b1-f482-4c72-affe-6ca45cc6dfe6"]
+2017-05-18 16:04:22:309 - [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2017-05-18 16:04:22:310 - [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2017-05-18 16:04:22:310 - [debug] [BaseDriver] Waiting up to 30000 ms for condition
+2017-05-18 16:04:22:311 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/downloadBtn","context":"","multiple":false}
+2017-05-18 16:04:22:375 - [debug] [BaseDriver] Waited for 65 ms so far
+2017-05-18 16:04:22:877 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/downloadBtn","context":"","multiple":false}
+2017-05-18 16:04:22:911 - [debug] [BaseDriver] Waited for 601 ms so far
+2017-05-18 16:04:23:413 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/downloadBtn","context":"","multiple":false}
+2017-05-18 16:04:23:450 - [debug] [BaseDriver] Waited for 1140 ms so far
+2017-05-18 16:04:23:951 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/downloadBtn","context":"","multiple":false}
+2017-05-18 16:04:23:996 - [debug] [BaseDriver] Waited for 1686 ms so far
+2017-05-18 16:04:24:497 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/downloadBtn","context":"","multiple":false}
+2017-05-18 16:04:24:517 - [debug] [BaseDriver] Waited for 2207 ms so far
+2017-05-18 16:04:25:020 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/downloadBtn","context":"","multiple":false}
+2017-05-18 16:04:25:057 - [debug] [BaseDriver] Waited for 2747 ms so far
+2017-05-18 16:04:25:558 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/downloadBtn","context":"","multiple":false}
+2017-05-18 16:04:25:617 - [debug] [BaseDriver] Waited for 3307 ms so far
+2017-05-18 16:04:26:118 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/downloadBtn","context":"","multiple":false}
+2017-05-18 16:04:26:188 - [debug] [BaseDriver] Waited for 3878 ms so far
+2017-05-18 16:04:26:690 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/downloadBtn","context":"","multiple":false}
+2017-05-18 16:04:26:756 - [debug] [BaseDriver] Waited for 4446 ms so far
+2017-05-18 16:04:27:258 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/downloadBtn","context":"","multiple":false}
+2017-05-18 16:04:27:309 - [debug] [BaseDriver] Waited for 4999 ms so far
+2017-05-18 16:04:27:811 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/downloadBtn","context":"","multiple":false}
+2017-05-18 16:04:27:853 - [debug] [BaseDriver] Waited for 5543 ms so far
+2017-05-18 16:04:28:355 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/downloadBtn","context":"","multiple":false}
+2017-05-18 16:04:28:427 - [debug] [BaseDriver] Waited for 6117 ms so far
+2017-05-18 16:04:28:929 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/downloadBtn","context":"","multiple":false}
+2017-05-18 16:04:28:985 - [debug] [BaseDriver] Waited for 6675 ms so far
+2017-05-18 16:04:29:485 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/downloadBtn","context":"","multiple":false}
+2017-05-18 16:04:29:512 - [debug] [BaseDriver] Waited for 7202 ms so far
+2017-05-18 16:04:30:013 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/downloadBtn","context":"","multiple":false}
+2017-05-18 16:04:30:065 - [debug] [BaseDriver] Waited for 7755 ms so far
+2017-05-18 16:04:30:565 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/downloadBtn","context":"","multiple":false}
+2017-05-18 16:04:30:611 - [debug] [BaseDriver] Waited for 8301 ms so far
+2017-05-18 16:04:31:112 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/downloadBtn","context":"","multiple":false}
+2017-05-18 16:04:31:152 - [debug] [BaseDriver] Waited for 8842 ms so far
+2017-05-18 16:04:31:653 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/downloadBtn","context":"","multiple":false}
+2017-05-18 16:04:31:672 - [debug] [BaseDriver] Waited for 9361 ms so far
+2017-05-18 16:04:32:173 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/downloadBtn","context":"","multiple":false}
+2017-05-18 16:04:32:242 - [debug] [BaseDriver] Waited for 9932 ms so far
+2017-05-18 16:04:32:744 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/downloadBtn","context":"","multiple":false}
+2017-05-18 16:04:32:807 - [debug] [BaseDriver] Waited for 10497 ms so far
+2017-05-18 16:04:33:308 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/downloadBtn","context":"","multiple":false}
+2017-05-18 16:04:33:389 - [debug] [BaseDriver] Waited for 11079 ms so far
+2017-05-18 16:04:33:890 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/downloadBtn","context":"","multiple":false}
+2017-05-18 16:04:33:943 - [debug] [BaseDriver] Waited for 11633 ms so far
+2017-05-18 16:04:34:446 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/downloadBtn","context":"","multiple":false}
+2017-05-18 16:04:34:509 - [debug] [BaseDriver] Waited for 12199 ms so far
+2017-05-18 16:04:35:009 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/downloadBtn","context":"","multiple":false}
+2017-05-18 16:04:35:048 - [debug] [BaseDriver] Waited for 12738 ms so far
+2017-05-18 16:04:35:550 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/downloadBtn","context":"","multiple":false}
+2017-05-18 16:04:35:586 - [debug] [BaseDriver] Waited for 13276 ms so far
+2017-05-18 16:04:36:087 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/downloadBtn","context":"","multiple":false}
+2017-05-18 16:04:36:135 - [debug] [BaseDriver] Waited for 13824 ms so far
+2017-05-18 16:04:36:635 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/downloadBtn","context":"","multiple":false}
+2017-05-18 16:04:36:678 - [debug] [BaseDriver] Waited for 14367 ms so far
+2017-05-18 16:04:37:178 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/downloadBtn","context":"","multiple":false}
+2017-05-18 16:04:37:245 - [debug] [BaseDriver] Waited for 14934 ms so far
+2017-05-18 16:04:37:747 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/downloadBtn","context":"","multiple":false}
+2017-05-18 16:04:37:821 - [debug] [BaseDriver] Waited for 15511 ms so far
+2017-05-18 16:04:38:322 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/downloadBtn","context":"","multiple":false}
+2017-05-18 16:04:38:394 - [debug] [BaseDriver] Waited for 16083 ms so far
+2017-05-18 16:04:38:895 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/downloadBtn","context":"","multiple":false}
+2017-05-18 16:04:38:951 - [debug] [BaseDriver] Waited for 16641 ms so far
+2017-05-18 16:04:39:455 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/downloadBtn","context":"","multiple":false}
+2017-05-18 16:04:39:532 - [debug] [BaseDriver] Waited for 17222 ms so far
+2017-05-18 16:04:40:034 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/downloadBtn","context":"","multiple":false}
+2017-05-18 16:04:40:102 - [debug] [BaseDriver] Waited for 17792 ms so far
+2017-05-18 16:04:40:602 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/downloadBtn","context":"","multiple":false}
+2017-05-18 16:04:40:621 - [debug] [BaseDriver] Waited for 18311 ms so far
+2017-05-18 16:04:41:123 - [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/f1b6c471-0c7b-4b45-b37c-dab559cc7df7/element] with body: {"strategy":"id","selector":"com.boco.apphall:id/downloadBtn","context":"","multiple":false}
+2017-05-18 16:04:41:171 - [debug] [BaseDriver] Waited for 18861 ms so far

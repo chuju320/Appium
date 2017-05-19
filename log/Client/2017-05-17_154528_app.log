@@ -1,0 +1,1414 @@
+--------- beginning of system
+--------- beginning of main
+05-17 15:43:13.804 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:43:14.491 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:14.492 E/WifiTrafficPoller(  851):  packet count Tx=1615163 Rx=5356212
+05-17 15:43:14.492 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:43:15.511 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:15.511 E/WifiTrafficPoller(  851):  packet count Tx=1615163 Rx=5356227
+05-17 15:43:16.512 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:16.514 E/WifiTrafficPoller(  851):  packet count Tx=1615163 Rx=5356244
+05-17 15:43:16.810 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=150 tx=2.4, 0.0, 0.0  rx=64.7 bcn=0 [on:0 tx:0 rx:0 period:2994] from screen [on:0 period:545555882] gl rssi=-50 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:43:16.812 E/WifiStateMachine(  851):  L2ConnectedState (when=-5ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=150 tx=2.4, 0.0, 0.0  rx=64.7 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:545555884] gl rssi=-50 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:43:16.812 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:43:16.835 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:43:17.514 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:17.515 E/WifiTrafficPoller(  851):  packet count Tx=1615163 Rx=5356259
+05-17 15:43:18.516 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:18.517 E/WifiTrafficPoller(  851):  packet count Tx=1615163 Rx=5356273
+05-17 15:43:19.518 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:19.519 E/WifiTrafficPoller(  851):  packet count Tx=1615163 Rx=5356292
+05-17 15:43:19.841 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=150 tx=1.2, 0.0, 0.0  rx=55.9 bcn=0 [on:0 tx:0 rx:0 period:3003] from screen [on:0 period:545558913] gl rssi=-49 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:43:19.846 E/WifiStateMachine(  851):  L2ConnectedState (when=-9ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=150 tx=1.2, 0.0, 0.0  rx=55.9 bcn=0 [on:0 tx:0 rx:0 period:5] from screen [on:0 period:545558918] gl rssi=-49 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:43:19.848 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:43:19.876 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:43:20.519 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:20.520 E/WifiTrafficPoller(  851):  packet count Tx=1615163 Rx=5356302
+05-17 15:43:21.521 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:21.522 E/WifiTrafficPoller(  851):  packet count Tx=1615163 Rx=5356314
+05-17 15:43:22.523 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:22.524 E/WifiTrafficPoller(  851):  packet count Tx=1615163 Rx=5356335
+05-17 15:43:22.881 E/WifiStateMachine(  851):  ConnectedState (when=-2ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=150 tx=0.6, 0.0, 0.0  rx=51.4 bcn=0 [on:0 tx:0 rx:0 period:2992] from screen [on:0 period:545561953] gl rssi=-50 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:43:22.887 E/WifiStateMachine(  851):  L2ConnectedState (when=-8ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=150 tx=0.6, 0.0, 0.0  rx=51.4 bcn=0 [on:0 tx:0 rx:0 period:6] from screen [on:0 period:545561959] gl rssi=-50 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:43:22.889 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:43:22.917 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:43:23.525 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:23.526 E/WifiTrafficPoller(  851):  packet count Tx=1615163 Rx=5356348
+05-17 15:43:24.527 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:24.528 E/WifiTrafficPoller(  851):  packet count Tx=1615163 Rx=5356363
+05-17 15:43:25.529 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:25.530 E/WifiTrafficPoller(  851):  packet count Tx=1615163 Rx=5356378
+05-17 15:43:25.922 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=150 tx=0.3, 0.0, 0.0  rx=47.7 bcn=0 [on:0 tx:0 rx:0 period:2992] from screen [on:0 period:545564994] gl rssi=-48 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:43:25.928 E/WifiStateMachine(  851):  L2ConnectedState (when=-5ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=150 tx=0.3, 0.0, 0.0  rx=47.7 bcn=0 [on:0 tx:0 rx:0 period:6] from screen [on:0 period:545565000] gl rssi=-48 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:43:25.929 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:43:25.944 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:43:26.530 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:26.532 E/WifiTrafficPoller(  851):  packet count Tx=1615163 Rx=5356416
+05-17 15:43:27.532 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:27.533 E/WifiTrafficPoller(  851):  packet count Tx=1615163 Rx=5356442
+05-17 15:43:28.534 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:28.535 E/WifiTrafficPoller(  851):  packet count Tx=1615163 Rx=5356481
+05-17 15:43:28.949 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=150 tx=0.1, 0.0, 0.0  rx=47.9 bcn=0 [on:0 tx:0 rx:0 period:3003] from screen [on:0 period:545568021] gl rssi=-51 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:43:28.954 E/WifiStateMachine(  851):  L2ConnectedState (when=-8ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=150 tx=0.1, 0.0, 0.0  rx=47.9 bcn=0 [on:0 tx:0 rx:0 period:5] from screen [on:0 period:545568026] gl rssi=-51 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:43:28.955 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:43:28.976 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:43:29.536 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:29.537 E/WifiTrafficPoller(  851):  packet count Tx=1615163 Rx=5356500
+05-17 15:43:30.542 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:30.542 E/WifiTrafficPoller(  851):  packet count Tx=1615163 Rx=5356514
+05-17 15:43:31.543 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:31.544 E/WifiTrafficPoller(  851):  packet count Tx=1615163 Rx=5356528
+05-17 15:43:31.982 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=150 tx=0.1, 0.0, 0.0  rx=75.4 bcn=0 [on:0 tx:0 rx:0 period:2993] from screen [on:0 period:545571054] gl rssi=-51 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:43:31.987 E/WifiStateMachine(  851):  L2ConnectedState (when=-7ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=150 tx=0.1, 0.0, 0.0  rx=75.4 bcn=0 [on:0 tx:0 rx:0 period:4] from screen [on:0 period:545571058] gl rssi=-51 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:43:31.989 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:43:31.999 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:43:32.545 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:32.546 E/WifiTrafficPoller(  851):  packet count Tx=1615163 Rx=5356546
+05-17 15:43:33.547 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:33.548 E/WifiTrafficPoller(  851):  packet count Tx=1615165 Rx=5356566
+05-17 15:43:33.548 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-17 15:43:33.664 E/GpsXtraDownloader(  851): No XTRA servers were specified in the GPS configuration
+05-17 15:43:34.566 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:34.566 E/WifiTrafficPoller(  851):  packet count Tx=1615165 Rx=5356583
+05-17 15:43:34.566 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:43:35.004 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=150 tx=0.0, 0.0, 0.0  rx=61.2 bcn=0 [on:0 tx:0 rx:0 period:2990] from screen [on:0 period:545574076] gl rssi=-51 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:43:35.009 E/WifiStateMachine(  851):  L2ConnectedState (when=-7ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=150 tx=0.0, 0.0, 0.0  rx=61.2 bcn=0 [on:0 tx:0 rx:0 period:5] from screen [on:0 period:545574081] gl rssi=-51 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:43:35.011 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:43:35.036 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:43:35.568 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:35.568 E/WifiTrafficPoller(  851):  packet count Tx=1615165 Rx=5356603
+05-17 15:43:36.569 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:36.570 E/WifiTrafficPoller(  851):  packet count Tx=1615165 Rx=5356626
+05-17 15:43:37.570 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:37.571 E/WifiTrafficPoller(  851):  packet count Tx=1615165 Rx=5356647
+05-17 15:43:38.042 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=150 tx=1.0, 0.0, 0.0  rx=57.1 bcn=0 [on:0 tx:0 rx:0 period:2990] from screen [on:0 period:545577114] gl rssi=-52 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:43:38.044 E/WifiStateMachine(  851):  L2ConnectedState (when=-5ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=150 tx=1.0, 0.0, 0.0  rx=57.1 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:545577115] gl rssi=-52 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:43:38.044 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:43:38.049 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:43:38.572 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:38.572 E/WifiTrafficPoller(  851):  packet count Tx=1615166 Rx=5356672
+05-17 15:43:38.572 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-17 15:43:39.574 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:39.574 E/WifiTrafficPoller(  851):  packet count Tx=1615166 Rx=5356704
+05-17 15:43:39.574 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:43:40.575 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:40.576 E/WifiTrafficPoller(  851):  packet count Tx=1615166 Rx=5356722
+05-17 15:43:41.054 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=150 tx=0.5, 0.0, 0.0  rx=65.1 bcn=0 [on:0 tx:0 rx:0 period:3001] from screen [on:0 period:545580125] gl rssi=-49 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:43:41.058 E/WifiStateMachine(  851):  L2ConnectedState (when=-7ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=150 tx=0.5, 0.0, 0.0  rx=65.1 bcn=0 [on:0 tx:0 rx:0 period:5] from screen [on:0 period:545580130] gl rssi=-49 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:43:41.060 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:43:41.087 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:43:41.576 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:41.577 E/WifiTrafficPoller(  851):  packet count Tx=1615166 Rx=5356736
+05-17 15:43:42.578 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:42.580 E/WifiTrafficPoller(  851):  packet count Tx=1615166 Rx=5356755
+05-17 15:43:43.580 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:43.581 E/WifiTrafficPoller(  851):  packet count Tx=1615166 Rx=5356767
+05-17 15:43:44.094 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=150 tx=0.8, 0.0, 0.0  rx=64.5 bcn=0 [on:0 tx:0 rx:0 period:2990] from screen [on:0 period:545583165] gl rssi=-49 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:43:44.098 E/WifiStateMachine(  851):  L2ConnectedState (when=-8ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=150 tx=0.8, 0.0, 0.0  rx=64.5 bcn=0 [on:0 tx:0 rx:0 period:5] from screen [on:0 period:545583170] gl rssi=-49 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:43:44.100 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:43:44.126 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:43:44.582 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:44.584 E/WifiTrafficPoller(  851):  packet count Tx=1615166 Rx=5356793
+05-17 15:43:45.585 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:45.585 E/WifiTrafficPoller(  851):  packet count Tx=1615166 Rx=5356810
+05-17 15:43:46.586 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:46.587 E/WifiTrafficPoller(  851):  packet count Tx=1615166 Rx=5356845
+05-17 15:43:47.132 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=150 tx=0.4, 0.0, 0.0  rx=59.8 bcn=0 [on:0 tx:0 rx:0 period:2993] from screen [on:0 period:545586204] gl rssi=-49 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:43:47.134 E/WifiStateMachine(  851):  L2ConnectedState (when=-5ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=150 tx=0.4, 0.0, 0.0  rx=59.8 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:545586206] gl rssi=-49 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:43:47.134 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:43:47.155 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:43:47.587 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:47.588 E/WifiTrafficPoller(  851):  packet count Tx=1615166 Rx=5356868
+05-17 15:43:48.589 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:48.591 E/WifiTrafficPoller(  851):  packet count Tx=1615167 Rx=5356891
+05-17 15:43:48.591 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-17 15:43:49.595 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:49.596 E/WifiTrafficPoller(  851):  packet count Tx=1615167 Rx=5356908
+05-17 15:43:49.596 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:43:50.159 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=150 tx=0.2, 0.0, 0.0  rx=64.4 bcn=0 [on:0 tx:0 rx:0 period:3001] from screen [on:0 period:545589231] gl rssi=-50 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:43:50.160 E/WifiStateMachine(  851):  L2ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=150 tx=0.2, 0.0, 0.0  rx=64.4 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:545589232] gl rssi=-50 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:43:50.160 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:43:50.183 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:43:50.624 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:50.625 E/WifiTrafficPoller(  851):  packet count Tx=1615167 Rx=5356927
+05-17 15:43:51.626 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:51.627 E/WifiTrafficPoller(  851):  packet count Tx=1615167 Rx=5356942
+05-17 15:43:52.627 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:52.629 E/WifiTrafficPoller(  851):  packet count Tx=1615167 Rx=5356961
+05-17 15:43:53.189 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=150 tx=0.6, 0.0, 0.0  rx=65.7 bcn=0 [on:0 tx:0 rx:0 period:3001] from screen [on:0 period:545592261] gl rssi=-50 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:43:53.194 E/WifiStateMachine(  851):  L2ConnectedState (when=-9ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=150 tx=0.6, 0.0, 0.0  rx=65.7 bcn=0 [on:0 tx:0 rx:0 period:5] from screen [on:0 period:545592266] gl rssi=-50 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:43:53.196 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:43:53.206 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:43:53.629 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:53.630 E/WifiTrafficPoller(  851):  packet count Tx=1615167 Rx=5356980
+05-17 15:43:54.091 E/SyncManager(  851): Bind attempt failed - target: ComponentInfo{com.baidu.yuedu/com.baidu.yuedu.pushalive.SyncAdapterService}
+05-17 15:43:54.631 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:54.632 E/WifiTrafficPoller(  851):  packet count Tx=1615184 Rx=5357022
+05-17 15:43:54.632 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-17 15:43:55.635 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:55.635 E/WifiTrafficPoller(  851):  packet count Tx=1615184 Rx=5357038
+05-17 15:43:55.635 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:43:56.211 E/WifiStateMachine(  851):  ConnectedState (when=-2ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=150 tx=0.3, 0.0, 0.0  rx=60.3 bcn=0 [on:0 tx:0 rx:0 period:2986] from screen [on:0 period:545595282] gl rssi=-52 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:43:56.215 E/WifiStateMachine(  851):  L2ConnectedState (when=-6ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=150 tx=0.3, 0.0, 0.0  rx=60.3 bcn=0 [on:0 tx:0 rx:0 period:5] from screen [on:0 period:545595287] gl rssi=-52 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:43:56.217 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:43:56.230 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:43:56.637 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:56.638 E/WifiTrafficPoller(  851):  packet count Tx=1615185 Rx=5357058
+05-17 15:43:56.638 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-17 15:43:57.654 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:57.655 E/WifiTrafficPoller(  851):  packet count Tx=1615185 Rx=5357083
+05-17 15:43:57.655 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:43:58.656 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:58.657 E/WifiTrafficPoller(  851):  packet count Tx=1615185 Rx=5357105
+05-17 15:43:59.237 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=150 tx=9.1, 0.0, 0.0  rx=69.2 bcn=0 [on:0 tx:0 rx:0 period:2997] from screen [on:0 period:545598309] gl rssi=-51 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:43:59.239 E/WifiStateMachine(  851):  L2ConnectedState (when=-5ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=150 tx=9.1, 0.0, 0.0  rx=69.2 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:545598311] gl rssi=-51 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:43:59.239 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:43:59.265 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:43:59.658 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:43:59.659 E/WifiTrafficPoller(  851):  packet count Tx=1615185 Rx=5357126
+05-17 15:44:00.659 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:00.659 E/WifiTrafficPoller(  851):  packet count Tx=1615185 Rx=5357149
+05-17 15:44:01.659 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:01.659 E/WifiTrafficPoller(  851):  packet count Tx=1615185 Rx=5357176
+05-17 15:44:02.270 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=150 tx=4.6, 0.0, 0.0  rx=69.6 bcn=0 [on:0 tx:0 rx:0 period:3002] from screen [on:0 period:545601342] gl rssi=-49 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:44:02.275 E/WifiStateMachine(  851):  L2ConnectedState (when=-8ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=150 tx=4.6, 0.0, 0.0  rx=69.6 bcn=0 [on:0 tx:0 rx:0 period:5] from screen [on:0 period:545601347] gl rssi=-49 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:44:02.276 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:44:02.306 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:44:02.660 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:02.661 E/WifiTrafficPoller(  851):  packet count Tx=1615185 Rx=5357191
+05-17 15:44:03.663 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:03.664 E/WifiTrafficPoller(  851):  packet count Tx=1615185 Rx=5357218
+05-17 15:44:04.664 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:04.665 E/WifiTrafficPoller(  851):  packet count Tx=1615185 Rx=5357246
+05-17 15:44:05.312 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=150 tx=2.3, 0.0, 0.0  rx=66.3 bcn=0 [on:0 tx:0 rx:0 period:2994] from screen [on:0 period:545604384] gl rssi=-50 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:44:05.316 E/WifiStateMachine(  851):  L2ConnectedState (when=-8ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=150 tx=2.3, 0.0, 0.0  rx=66.3 bcn=0 [on:0 tx:0 rx:0 period:4] from screen [on:0 period:545604388] gl rssi=-50 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:44:05.319 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:44:05.343 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:44:05.666 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:05.667 E/WifiTrafficPoller(  851):  packet count Tx=1615185 Rx=5357263
+05-17 15:44:06.669 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:06.670 E/WifiTrafficPoller(  851):  packet count Tx=1615185 Rx=5357297
+05-17 15:44:07.670 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:07.671 E/WifiTrafficPoller(  851):  packet count Tx=1615191 Rx=5357329
+05-17 15:44:07.671 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-17 15:44:08.347 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=150 tx=1.1, 0.0, 0.0  rx=69.6 bcn=0 [on:0 tx:0 rx:0 period:2998] from screen [on:0 period:545607419] gl rssi=-49 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:44:08.350 E/WifiStateMachine(  851):  L2ConnectedState (when=-5ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=150 tx=1.1, 0.0, 0.0  rx=69.6 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:545607421] gl rssi=-49 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:44:08.350 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:44:08.354 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:44:08.672 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:08.673 E/WifiTrafficPoller(  851):  packet count Tx=1615196 Rx=5357361
+05-17 15:44:09.674 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:09.675 E/WifiTrafficPoller(  851):  packet count Tx=1615202 Rx=5357390
+05-17 15:44:10.676 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:10.677 E/WifiTrafficPoller(  851):  packet count Tx=1615202 Rx=5357417
+05-17 15:44:10.677 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:44:11.359 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=150 tx=6.1, 0.0, 0.0  rx=82.8 bcn=0 [on:0 tx:0 rx:0 period:3002] from screen [on:0 period:545610431] gl rssi=-49 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:44:11.364 E/WifiStateMachine(  851):  L2ConnectedState (when=-7ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=150 tx=6.1, 0.0, 0.0  rx=82.8 bcn=0 [on:0 tx:0 rx:0 period:5] from screen [on:0 period:545610436] gl rssi=-49 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:44:11.367 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:44:11.398 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:44:11.694 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:11.695 E/WifiTrafficPoller(  851):  packet count Tx=1615202 Rx=5357430
+05-17 15:44:12.696 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:12.698 E/WifiTrafficPoller(  851):  packet count Tx=1615202 Rx=5357444
+05-17 15:44:13.698 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:13.700 E/WifiTrafficPoller(  851):  packet count Tx=1615202 Rx=5357461
+05-17 15:44:14.403 E/WifiStateMachine(  851):  ConnectedState (when=-2ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=150 tx=6.0, 0.0, 0.0  rx=78.4 bcn=0 [on:0 tx:0 rx:0 period:2993] from screen [on:0 period:545613475] gl rssi=-48 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:44:14.407 E/WifiStateMachine(  851):  L2ConnectedState (when=-6ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=150 tx=6.0, 0.0, 0.0  rx=78.4 bcn=0 [on:0 tx:0 rx:0 period:4] from screen [on:0 period:545613479] gl rssi=-48 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:44:14.408 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:44:14.426 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:44:14.700 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:14.701 E/WifiTrafficPoller(  851):  packet count Tx=1615202 Rx=5357482
+05-17 15:44:15.701 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:15.702 E/WifiTrafficPoller(  851):  packet count Tx=1615202 Rx=5357497
+05-17 15:44:16.703 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:16.704 E/WifiTrafficPoller(  851):  packet count Tx=1615202 Rx=5357522
+05-17 15:44:17.430 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-47 f=5785 sc=80 link=150 tx=3.0, 0.0, 0.0  rx=63.7 bcn=0 [on:0 tx:0 rx:0 period:2993] from screen [on:0 period:545616501] gl rssi=-47 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:44:17.435 E/WifiStateMachine(  851):  L2ConnectedState (when=-8ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-47 f=5785 sc=80 link=150 tx=3.0, 0.0, 0.0  rx=63.7 bcn=0 [on:0 tx:0 rx:0 period:6] from screen [on:0 period:545616507] gl rssi=-47 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:44:17.437 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:44:17.455 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:44:17.705 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:17.707 E/WifiTrafficPoller(  851):  packet count Tx=1615203 Rx=5357542
+05-17 15:44:17.707 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-17 15:44:18.724 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:18.724 E/WifiTrafficPoller(  851):  packet count Tx=1615203 Rx=5357552
+05-17 15:44:18.724 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:44:19.725 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:19.726 E/WifiTrafficPoller(  851):  packet count Tx=1615203 Rx=5357567
+05-17 15:44:20.460 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-46 f=5785 sc=80 link=150 tx=1.5, 0.0, 0.0  rx=61.4 bcn=0 [on:0 tx:0 rx:0 period:2993] from screen [on:0 period:545619532] gl rssi=-46 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:44:20.464 E/WifiStateMachine(  851):  L2ConnectedState (when=-8ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-46 f=5785 sc=80 link=150 tx=1.5, 0.0, 0.0  rx=61.4 bcn=0 [on:0 tx:0 rx:0 period:4] from screen [on:0 period:545619536] gl rssi=-46 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:44:20.466 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:44:20.498 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:44:20.727 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:20.728 E/WifiTrafficPoller(  851):  packet count Tx=1615203 Rx=5357581
+05-17 15:44:21.729 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:21.730 E/WifiTrafficPoller(  851):  packet count Tx=1615203 Rx=5357597
+05-17 15:44:22.731 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:22.732 E/WifiTrafficPoller(  851):  packet count Tx=1615203 Rx=5357611
+05-17 15:44:23.503 E/WifiStateMachine(  851):  ConnectedState (when=-2ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-47 f=5785 sc=80 link=150 tx=1.3, 0.0, 0.0  rx=50.7 bcn=0 [on:0 tx:0 rx:0 period:2991] from screen [on:0 period:545622575] gl rssi=-47 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:44:23.509 E/WifiStateMachine(  851):  L2ConnectedState (when=-8ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-47 f=5785 sc=80 link=150 tx=1.3, 0.0, 0.0  rx=50.7 bcn=0 [on:0 tx:0 rx:0 period:6] from screen [on:0 period:545622581] gl rssi=-47 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:44:23.511 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:44:23.534 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:44:23.733 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:23.734 E/WifiTrafficPoller(  851):  packet count Tx=1615203 Rx=5357627
+05-17 15:44:24.735 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:24.736 E/WifiTrafficPoller(  851):  packet count Tx=1615203 Rx=5357652
+05-17 15:44:25.737 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:25.738 E/WifiTrafficPoller(  851):  packet count Tx=1615209 Rx=5357668
+05-17 15:44:25.738 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-17 15:44:26.538 E/WifiStateMachine(  851):  ConnectedState (when=-1ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-46 f=5785 sc=80 link=150 tx=0.6, 0.0, 0.0  rx=49.8 bcn=0 [on:0 tx:0 rx:0 period:2991] from screen [on:0 period:545625610] gl rssi=-46 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:44:26.542 E/WifiStateMachine(  851):  L2ConnectedState (when=-5ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-46 f=5785 sc=80 link=150 tx=0.6, 0.0, 0.0  rx=49.8 bcn=0 [on:0 tx:0 rx:0 period:4] from screen [on:0 period:545625614] gl rssi=-46 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:44:26.544 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:44:26.566 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:44:26.760 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:26.761 E/WifiTrafficPoller(  851):  packet count Tx=1615209 Rx=5357696
+05-17 15:44:26.761 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:44:27.775 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:27.777 E/WifiTrafficPoller(  851):  packet count Tx=1615209 Rx=5357721
+05-17 15:44:28.776 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:28.777 E/WifiTrafficPoller(  851):  packet count Tx=1615209 Rx=5357744
+05-17 15:44:29.572 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-47 f=5785 sc=80 link=150 tx=3.3, 0.0, 0.0  rx=59.4 bcn=0 [on:0 tx:0 rx:0 period:2992] from screen [on:0 period:545628644] gl rssi=-47 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:44:29.575 E/WifiStateMachine(  851):  L2ConnectedState (when=-6ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-47 f=5785 sc=80 link=150 tx=3.3, 0.0, 0.0  rx=59.4 bcn=0 [on:0 tx:0 rx:0 period:3] from screen [on:0 period:545628647] gl rssi=-47 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:44:29.575 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:44:29.595 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:44:29.777 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:29.779 E/WifiTrafficPoller(  851):  packet count Tx=1615209 Rx=5357763
+05-17 15:44:30.779 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:30.781 E/WifiTrafficPoller(  851):  packet count Tx=1615209 Rx=5357784
+05-17 15:44:31.781 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:31.782 E/WifiTrafficPoller(  851):  packet count Tx=1615209 Rx=5357801
+05-17 15:44:32.600 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-47 f=5785 sc=80 link=150 tx=1.7, 0.0, 0.0  rx=61.2 bcn=0 [on:0 tx:0 rx:0 period:3001] from screen [on:0 period:545631672] gl rssi=-47 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:44:32.605 E/WifiStateMachine(  851):  L2ConnectedState (when=-8ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-47 f=5785 sc=80 link=150 tx=1.7, 0.0, 0.0  rx=61.2 bcn=0 [on:0 tx:0 rx:0 period:4] from screen [on:0 period:545631676] gl rssi=-47 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:44:32.606 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:44:32.617 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:44:32.782 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:32.783 E/WifiTrafficPoller(  851):  packet count Tx=1615209 Rx=5357818
+05-17 15:44:33.783 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:33.784 E/WifiTrafficPoller(  851):  packet count Tx=1615209 Rx=5357837
+05-17 15:44:34.786 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:34.787 E/WifiTrafficPoller(  851):  packet count Tx=1615209 Rx=5357862
+05-17 15:44:35.624 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-47 f=5785 sc=80 link=150 tx=0.8, 0.0, 0.0  rx=60.1 bcn=0 [on:0 tx:0 rx:0 period:2994] from screen [on:0 period:545634695] gl rssi=-47 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:44:35.628 E/WifiStateMachine(  851):  L2ConnectedState (when=-8ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-47 f=5785 sc=80 link=150 tx=0.8, 0.0, 0.0  rx=60.1 bcn=0 [on:0 tx:0 rx:0 period:5] from screen [on:0 period:545634700] gl rssi=-47 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:44:35.630 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:44:35.640 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:44:35.787 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:35.788 E/WifiTrafficPoller(  851):  packet count Tx=1615210 Rx=5357876
+05-17 15:44:35.788 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-17 15:44:36.805 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:36.807 E/WifiTrafficPoller(  851):  packet count Tx=1615210 Rx=5357895
+05-17 15:44:36.807 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:44:37.824 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:37.825 E/WifiTrafficPoller(  851):  packet count Tx=1615211 Rx=5357914
+05-17 15:44:37.825 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-17 15:44:38.644 E/WifiStateMachine(  851):  ConnectedState (when=-2ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=150 tx=0.9, 0.0, 0.0  rx=58.6 bcn=0 [on:0 tx:0 rx:0 period:2991] from screen [on:0 period:545637716] gl rssi=-48 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:44:38.649 E/WifiStateMachine(  851):  L2ConnectedState (when=-7ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=150 tx=0.9, 0.0, 0.0  rx=58.6 bcn=0 [on:0 tx:0 rx:0 period:5] from screen [on:0 period:545637721] gl rssi=-48 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:44:38.651 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:44:38.659 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:44:38.843 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:38.844 E/WifiTrafficPoller(  851):  packet count Tx=1615213 Rx=5357931
+05-17 15:44:39.845 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:39.846 E/WifiTrafficPoller(  851):  packet count Tx=1615213 Rx=5357949
+05-17 15:44:39.846 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:44:40.849 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:40.850 E/WifiTrafficPoller(  851):  packet count Tx=1615213 Rx=5357962
+05-17 15:44:41.663 E/WifiStateMachine(  851):  ConnectedState (when=-1ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=150 tx=1.5, 0.0, 0.0  rx=56.8 bcn=0 [on:0 tx:0 rx:0 period:2988] from screen [on:0 period:545640735] gl rssi=-48 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:44:41.669 E/WifiStateMachine(  851):  L2ConnectedState (when=-7ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=150 tx=1.5, 0.0, 0.0  rx=56.8 bcn=0 [on:0 tx:0 rx:0 period:5] from screen [on:0 period:545640740] gl rssi=-48 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:44:41.670 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:44:41.696 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:44:41.850 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:41.851 E/WifiTrafficPoller(  851):  packet count Tx=1615213 Rx=5357979
+05-17 15:44:42.851 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:42.852 E/WifiTrafficPoller(  851):  packet count Tx=1615213 Rx=5357994
+05-17 15:44:43.853 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:43.854 E/WifiTrafficPoller(  851):  packet count Tx=1615213 Rx=5358012
+05-17 15:44:44.703 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=150 tx=1.2, 0.0, 0.0  rx=51.9 bcn=0 [on:0 tx:0 rx:0 period:2993] from screen [on:0 period:545643775] gl rssi=-48 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:44:44.708 E/WifiStateMachine(  851):  L2ConnectedState (when=-9ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=150 tx=1.2, 0.0, 0.0  rx=51.9 bcn=0 [on:0 tx:0 rx:0 period:5] from screen [on:0 period:545643780] gl rssi=-48 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:44:44.710 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:44:44.735 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:44:44.854 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:44.855 E/WifiTrafficPoller(  851):  packet count Tx=1615213 Rx=5358032
+05-17 15:44:45.857 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:45.858 E/WifiTrafficPoller(  851):  packet count Tx=1615213 Rx=5358059
+05-17 15:44:46.858 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:46.859 E/WifiTrafficPoller(  851):  packet count Tx=1615213 Rx=5358101
+05-17 15:44:47.741 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-47 f=5785 sc=80 link=150 tx=0.6, 0.0, 0.0  rx=54.9 bcn=0 [on:0 tx:0 rx:0 period:2990] from screen [on:0 period:545646813] gl rssi=-47 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:44:47.746 E/WifiStateMachine(  851):  L2ConnectedState (when=-8ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-47 f=5785 sc=80 link=150 tx=0.6, 0.0, 0.0  rx=54.9 bcn=0 [on:0 tx:0 rx:0 period:4] from screen [on:0 period:545646817] gl rssi=-47 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:44:47.747 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:44:47.767 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:44:47.860 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:47.861 E/WifiTrafficPoller(  851):  packet count Tx=1615213 Rx=5358135
+05-17 15:44:48.862 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:48.863 E/WifiTrafficPoller(  851):  packet count Tx=1615213 Rx=5358159
+05-17 15:44:49.384 E/MD5     (11322): loadso arm msfbootV2 resultCode=3387394
+05-17 15:44:49.385 E/MD5     (11322): loadso msfbootV2 true resultCode=3387394
+05-17 15:44:49.864 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:49.864 E/WifiTrafficPoller(  851):  packet count Tx=1615213 Rx=5358184
+05-17 15:44:50.772 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=150 tx=0.3, 0.0, 0.0  rx=75.5 bcn=0 [on:0 tx:0 rx:0 period:2993] from screen [on:0 period:545649844] gl rssi=-48 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:44:50.773 E/WifiStateMachine(  851):  L2ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=150 tx=0.3, 0.0, 0.0  rx=75.5 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:545649845] gl rssi=-48 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:44:50.773 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:44:50.775 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:44:50.864 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:50.865 E/WifiTrafficPoller(  851):  packet count Tx=1615231 Rx=5358216
+05-17 15:44:50.865 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-17 15:44:51.872 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:51.873 E/WifiTrafficPoller(  851):  packet count Tx=1615231 Rx=5358235
+05-17 15:44:51.873 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:44:52.879 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:52.880 E/WifiTrafficPoller(  851):  packet count Tx=1615231 Rx=5358257
+05-17 15:44:53.780 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=150 tx=2.2, 0.0, 0.0  rx=74.2 bcn=0 [on:0 tx:0 rx:0 period:3003] from screen [on:0 period:545652852] gl rssi=-48 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:44:53.785 E/WifiStateMachine(  851):  L2ConnectedState (when=-7ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=150 tx=2.2, 0.0, 0.0  rx=74.2 bcn=0 [on:0 tx:0 rx:0 period:5] from screen [on:0 period:545652857] gl rssi=-48 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:44:53.786 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:44:53.816 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:44:53.881 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:53.882 E/WifiTrafficPoller(  851):  packet count Tx=1615231 Rx=5358279
+05-17 15:44:54.883 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:54.884 E/WifiTrafficPoller(  851):  packet count Tx=1615231 Rx=5358303
+05-17 15:44:55.888 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:55.890 E/WifiTrafficPoller(  851):  packet count Tx=1615231 Rx=5358321
+05-17 15:44:56.822 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=150 tx=8.1, 0.0, 0.0  rx=76.1 bcn=0 [on:0 tx:0 rx:0 period:2994] from screen [on:0 period:545655894] gl rssi=-49 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:44:56.827 E/WifiStateMachine(  851):  L2ConnectedState (when=-7ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=150 tx=8.1, 0.0, 0.0  rx=76.1 bcn=0 [on:0 tx:0 rx:0 period:5] from screen [on:0 period:545655899] gl rssi=-49 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:44:56.828 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:44:56.857 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:44:56.890 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:56.893 E/WifiTrafficPoller(  851):  packet count Tx=1615231 Rx=5358346
+05-17 15:44:57.894 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:57.895 E/WifiTrafficPoller(  851):  packet count Tx=1615231 Rx=5358361
+05-17 15:44:58.896 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:58.897 E/WifiTrafficPoller(  851):  packet count Tx=1615231 Rx=5358377
+05-17 15:44:59.863 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=150 tx=4.0, 0.0, 0.0  rx=69.1 bcn=0 [on:0 tx:0 rx:0 period:2987] from screen [on:0 period:545658935] gl rssi=-48 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:44:59.868 E/WifiStateMachine(  851):  L2ConnectedState (when=-9ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=150 tx=4.0, 0.0, 0.0  rx=69.1 bcn=0 [on:0 tx:0 rx:0 period:5] from screen [on:0 period:545658940] gl rssi=-48 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:44:59.870 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:44:59.895 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:44:59.898 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:44:59.899 E/WifiTrafficPoller(  851):  packet count Tx=1615231 Rx=5358392
+05-17 15:45:00.900 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:45:00.900 E/WifiTrafficPoller(  851):  packet count Tx=1615234 Rx=5358414
+05-17 15:45:00.900 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-17 15:45:01.401 E/SQLiteLog(11322): (1) no such table: TracePathData
+05-17 15:45:01.425 E/SQLiteLog(11322): (1) no such table: TracePathData
+05-17 15:45:01.434 E/PathTraceManager(11322): error: mPluginInterface is null
+05-17 15:45:01.578 E/ConnectivityService(  851): RemoteException caught trying to send a callback msg for NetworkRequest [ id=1157, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+05-17 15:45:01.580 E/ConnectivityService(  851): RemoteException caught trying to send a callback msg for NetworkRequest [ id=1158, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+05-17 15:45:01.901 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:01.902 E/WifiTrafficPoller(  851):  packet count Tx=1615235 Rx=5358436
+05-17 15:45:02.902 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=150 tx=2.0, 0.0, 0.0  rx=60.0 bcn=0 [on:0 tx:0 rx:0 period:2989] from screen [on:0 period:545661974] gl rssi=-49 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:45:02.903 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:02.905 E/WifiTrafficPoller(  851):  packet count Tx=1615235 Rx=5358456
+05-17 15:45:02.905 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:45:02.906 E/WifiStateMachine(  851):  L2ConnectedState (when=-6ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=150 tx=2.0, 0.0, 0.0  rx=60.0 bcn=0 [on:0 tx:0 rx:0 period:3] from screen [on:0 period:545661977] gl rssi=-49 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:45:02.907 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:45:02.928 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:45:03.914 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:03.916 E/WifiTrafficPoller(  851):  packet count Tx=1615235 Rx=5358479
+05-17 15:45:04.916 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:04.917 E/WifiTrafficPoller(  851):  packet count Tx=1615236 Rx=5358504
+05-17 15:45:04.917 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-17 15:45:05.933 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=150 tx=3.0, 0.0, 0.0  rx=62.0 bcn=0 [on:0 tx:0 rx:0 period:3001] from screen [on:0 period:545665005] gl rssi=-50 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:45:05.936 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:05.937 E/WifiTrafficPoller(  851):  packet count Tx=1615236 Rx=5358520
+05-17 15:45:05.937 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:45:05.958 E/WifiStateMachine(  851):  L2ConnectedState (when=-28ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=150 tx=3.0, 0.0, 0.0  rx=62.0 bcn=0 [on:0 tx:0 rx:0 period:25] from screen [on:0 period:545665030] gl rssi=-50 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:45:05.960 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:45:05.986 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:45:06.954 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:06.956 E/WifiTrafficPoller(  851):  packet count Tx=1615236 Rx=5358554
+05-17 15:45:07.956 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:07.956 E/WifiTrafficPoller(  851):  packet count Tx=1615236 Rx=5358585
+05-17 15:45:08.958 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:08.959 E/WifiTrafficPoller(  851):  packet count Tx=1615236 Rx=5358600
+05-17 15:45:08.992 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=150 tx=2.0, 0.0, 0.0  rx=63.0 bcn=0 [on:0 tx:0 rx:0 period:3000] from screen [on:0 period:545668064] gl rssi=-50 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:45:08.997 E/WifiStateMachine(  851):  L2ConnectedState (when=-9ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=150 tx=2.0, 0.0, 0.0  rx=63.0 bcn=0 [on:0 tx:0 rx:0 period:5] from screen [on:0 period:545668069] gl rssi=-50 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:45:08.998 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:45:09.026 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:45:09.960 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:09.961 E/WifiTrafficPoller(  851):  packet count Tx=1615236 Rx=5358624
+05-17 15:45:10.962 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:10.962 E/WifiTrafficPoller(  851):  packet count Tx=1615236 Rx=5358645
+05-17 15:45:11.963 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:11.965 E/WifiTrafficPoller(  851):  packet count Tx=1615236 Rx=5358668
+05-17 15:45:12.033 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=150 tx=1.0, 0.0, 0.0  rx=73.0 bcn=0 [on:0 tx:0 rx:0 period:2994] from screen [on:0 period:545671105] gl rssi=-49 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:45:12.035 E/WifiStateMachine(  851):  L2ConnectedState (when=-6ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=150 tx=1.0, 0.0, 0.0  rx=73.0 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:545671107] gl rssi=-49 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:45:12.035 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:45:12.041 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:45:12.966 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:12.967 E/WifiTrafficPoller(  851):  packet count Tx=1615237 Rx=5358692
+05-17 15:45:12.967 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-17 15:45:13.970 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:13.972 E/WifiTrafficPoller(  851):  packet count Tx=1615237 Rx=5358709
+05-17 15:45:13.972 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:45:14.976 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:14.977 E/WifiTrafficPoller(  851):  packet count Tx=1615237 Rx=5358734
+05-17 15:45:15.045 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=150 tx=0.5, 0.0, 0.0  rx=71.5 bcn=0 [on:0 tx:0 rx:0 period:3001] from screen [on:0 period:545674117] gl rssi=-49 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:45:15.048 E/WifiStateMachine(  851):  L2ConnectedState (when=-6ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=150 tx=0.5, 0.0, 0.0  rx=71.5 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:545674119] gl rssi=-49 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:45:15.048 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:45:15.066 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:45:15.978 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:15.980 E/WifiTrafficPoller(  851):  packet count Tx=1615237 Rx=5358759
+05-17 15:45:16.980 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:16.981 E/WifiTrafficPoller(  851):  packet count Tx=1615237 Rx=5358781
+05-17 15:45:17.982 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:17.983 E/WifiTrafficPoller(  851):  packet count Tx=1615237 Rx=5358799
+05-17 15:45:18.069 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=150 tx=0.8, 0.0, 0.0  rx=68.3 bcn=0 [on:0 tx:0 rx:0 period:3000] from screen [on:0 period:545677141] gl rssi=-49 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:45:18.071 E/WifiStateMachine(  851):  L2ConnectedState (when=-5ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=150 tx=0.8, 0.0, 0.0  rx=68.3 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:545677143] gl rssi=-49 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:45:18.071 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:45:18.076 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:45:18.984 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:18.985 E/WifiTrafficPoller(  851):  packet count Tx=1615237 Rx=5358812
+05-17 15:45:19.987 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:19.988 E/WifiTrafficPoller(  851):  packet count Tx=1615237 Rx=5358831
+05-17 15:45:20.988 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:20.989 E/WifiTrafficPoller(  851):  packet count Tx=1615238 Rx=5358847
+05-17 15:45:20.989 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-17 15:45:21.078 E/WifiStateMachine(  851):  ConnectedState (when=-1ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=150 tx=0.4, 0.0, 0.0  rx=66.1 bcn=0 [on:0 tx:0 rx:0 period:2995] from screen [on:0 period:545680150] gl rssi=-49 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:45:21.078 E/WifiStateMachine(  851):  L2ConnectedState (when=-2ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=150 tx=0.4, 0.0, 0.0  rx=66.1 bcn=0 [on:0 tx:0 rx:0 period:0] from screen [on:0 period:545680150] gl rssi=-49 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:45:21.078 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:45:21.082 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:45:22.005 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:22.006 E/WifiTrafficPoller(  851):  packet count Tx=1615239 Rx=5358863
+05-17 15:45:23.008 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:23.009 E/WifiTrafficPoller(  851):  packet count Tx=1615239 Rx=5358877
+05-17 15:45:23.009 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:45:24.013 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:24.014 E/WifiTrafficPoller(  851):  packet count Tx=1615239 Rx=5358892
+05-17 15:45:24.087 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=150 tx=1.2, 0.0, 0.0  rx=58.1 bcn=0 [on:0 tx:0 rx:0 period:3000] from screen [on:0 period:545683159] gl rssi=-49 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:45:24.091 E/WifiStateMachine(  851):  L2ConnectedState (when=-7ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=150 tx=1.2, 0.0, 0.0  rx=58.1 bcn=0 [on:0 tx:0 rx:0 period:4] from screen [on:0 period:545683163] gl rssi=-49 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:45:24.093 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:45:24.116 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:45:25.015 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:25.016 E/WifiTrafficPoller(  851):  packet count Tx=1615239 Rx=5358907
+05-17 15:45:26.017 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:26.018 E/WifiTrafficPoller(  851):  packet count Tx=1615239 Rx=5358921
+05-17 15:45:27.019 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:27.020 E/WifiTrafficPoller(  851):  packet count Tx=1615249 Rx=5358964
+05-17 15:45:27.020 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-17 15:45:27.121 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=150 tx=0.6, 0.0, 0.0  rx=49.0 bcn=0 [on:0 tx:0 rx:0 period:2986] from screen [on:0 period:545686193] gl rssi=-48 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:45:27.122 E/WifiStateMachine(  851):  L2ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=150 tx=0.6, 0.0, 0.0  rx=49.0 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:545686194] gl rssi=-48 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:45:27.122 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:45:27.124 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:45:28.022 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:28.022 E/WifiTrafficPoller(  851):  packet count Tx=1615262 Rx=5359008
+05-17 15:45:29.023 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:29.023 E/WifiTrafficPoller(  851):  packet count Tx=1615262 Rx=5359019
+05-17 15:45:29.023 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:45:29.423 E/memtrack(12405): Couldn't load memtrack module (No such file or directory)
+05-17 15:45:29.423 E/android.os.Debug(12405): failed to load memtrack module: -2
+05-17 15:45:30.026 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:30.026 E/WifiTrafficPoller(  851):  packet count Tx=1615263 Rx=5359039
+05-17 15:45:30.026 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-17 15:45:30.129 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=150 tx=5.8, 0.0, 0.0  rx=61.0 bcn=0 [on:0 tx:0 rx:0 period:2996] from screen [on:0 period:545689201] gl rssi=-48 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:45:30.130 E/WifiStateMachine(  851):  L2ConnectedState (when=-5ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=150 tx=5.8, 0.0, 0.0  rx=61.0 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:545689202] gl rssi=-48 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:45:30.130 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:45:30.133 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:45:30.877 E/memtrack(12423): Couldn't load memtrack module (No such file or directory)
+05-17 15:45:30.877 E/android.os.Debug(12423): failed to load memtrack module: -2
+05-17 15:45:31.027 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:31.029 E/WifiTrafficPoller(  851):  packet count Tx=1615263 Rx=5359052
+05-17 15:45:31.029 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:45:32.034 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:32.034 E/WifiTrafficPoller(  851):  packet count Tx=1615263 Rx=5359072
+05-17 15:45:32.394 E/memtrack(12442): Couldn't load memtrack module (No such file or directory)
+05-17 15:45:32.394 E/android.os.Debug(12442): failed to load memtrack module: -2
+05-17 15:45:33.035 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:33.036 E/WifiTrafficPoller(  851):  packet count Tx=1615263 Rx=5359090
+05-17 15:45:33.107 E/memtrack(12459): Couldn't load memtrack module (No such file or directory)
+05-17 15:45:33.107 E/android.os.Debug(12459): failed to load memtrack module: -2
+05-17 15:45:33.136 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=150 tx=9.4, 0.0, 0.0  rx=67.5 bcn=0 [on:0 tx:0 rx:0 period:3002] from screen [on:0 period:545692208] gl rssi=-51 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:45:33.137 E/WifiStateMachine(  851):  L2ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=150 tx=9.4, 0.0, 0.0  rx=67.5 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:545692209] gl rssi=-51 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:45:33.137 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:45:33.141 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:45:34.036 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:34.036 E/WifiTrafficPoller(  851):  packet count Tx=1615264 Rx=5359110
+05-17 15:45:34.036 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-17 15:45:34.173 E/memtrack(12475): Couldn't load memtrack module (No such file or directory)
+05-17 15:45:34.173 E/android.os.Debug(12475): failed to load memtrack module: -2
+05-17 15:45:35.038 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:35.038 E/WifiTrafficPoller(  851):  packet count Tx=1615264 Rx=5359127
+05-17 15:45:35.038 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:45:35.204 E/memtrack(12491): Couldn't load memtrack module (No such file or directory)
+05-17 15:45:35.204 E/android.os.Debug(12491): failed to load memtrack module: -2
+05-17 15:45:36.039 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:36.040 E/WifiTrafficPoller(  851):  packet count Tx=1615264 Rx=5359140
+05-17 15:45:36.143 E/WifiStateMachine(  851):  ConnectedState (when=-2ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=150 tx=4.7, 0.0, 0.0  rx=60.3 bcn=0 [on:0 tx:0 rx:0 period:3001] from screen [on:0 period:545695215] gl rssi=-51 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:45:36.143 E/WifiStateMachine(  851):  L2ConnectedState (when=-2ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=150 tx=4.7, 0.0, 0.0  rx=60.3 bcn=0 [on:0 tx:0 rx:0 period:0] from screen [on:0 period:545695215] gl rssi=-51 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:45:36.143 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:45:36.163 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:45:36.178 E/memtrack(12531): Couldn't load memtrack module (No such file or directory)
+05-17 15:45:36.179 E/android.os.Debug(12531): failed to load memtrack module: -2
+05-17 15:45:37.041 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:37.042 E/WifiTrafficPoller(  851):  packet count Tx=1615264 Rx=5359156
+05-17 15:45:37.547 E/memtrack(12550): Couldn't load memtrack module (No such file or directory)
+05-17 15:45:37.547 E/android.os.Debug(12550): failed to load memtrack module: -2
+05-17 15:45:37.767 E/NotificationService(  851): Suppressing notification from package com.qihoo.appstore by user request.
+05-17 15:45:37.772 E/NotificationService(  851): Suppressing notification from package com.qihoo.appstore by user request.
+05-17 15:45:37.819 E/CoreDaemon(11928): not Start Daemon in coredaemon
+05-17 15:45:37.819 E/CoreDaemon(11929): not Start Daemon in coredaemon
+05-17 15:45:38.043 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:38.044 E/WifiTrafficPoller(  851):  packet count Tx=1615264 Rx=5359178
+05-17 15:45:38.238 E/memtrack(12571): Couldn't load memtrack module (No such file or directory)
+05-17 15:45:38.238 E/android.os.Debug(12571): failed to load memtrack module: -2
+05-17 15:45:39.044 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:39.044 E/WifiTrafficPoller(  851):  packet count Tx=1615265 Rx=5359192
+05-17 15:45:39.044 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-17 15:45:39.168 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=150 tx=2.8, 0.0, 0.0  rx=55.6 bcn=0 [on:0 tx:0 rx:0 period:3000] from screen [on:0 period:545698240] gl rssi=-50 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:45:39.171 E/WifiStateMachine(  851):  L2ConnectedState (when=-6ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=150 tx=2.8, 0.0, 0.0  rx=55.6 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:545698242] gl rssi=-50 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:45:39.171 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:45:39.175 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:45:39.967 E/memtrack(12596): Couldn't load memtrack module (No such file or directory)
+05-17 15:45:39.967 E/android.os.Debug(12596): failed to load memtrack module: -2
+05-17 15:45:40.045 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:40.046 E/WifiTrafficPoller(  851):  packet count Tx=1615265 Rx=5359213
+05-17 15:45:40.046 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:45:41.048 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:41.049 E/WifiTrafficPoller(  851):  packet count Tx=1615265 Rx=5359225
+05-17 15:45:42.052 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:42.057 E/WifiTrafficPoller(  851):  packet count Tx=1615266 Rx=5359242
+05-17 15:45:42.061 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-17 15:45:42.178 E/WifiStateMachine(  851):  ConnectedState (when=-2ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=150 tx=1.9, 0.0, 0.0  rx=53.8 bcn=0 [on:0 tx:0 rx:0 period:3000] from screen [on:0 period:545701250] gl rssi=-50 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:45:42.178 E/WifiStateMachine(  851):  L2ConnectedState (when=-2ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=150 tx=1.9, 0.0, 0.0  rx=53.8 bcn=0 [on:0 tx:0 rx:0 period:0] from screen [on:0 period:545701250] gl rssi=-50 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:45:42.178 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:45:42.199 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:45:43.082 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:43.083 E/WifiTrafficPoller(  851):  packet count Tx=1615266 Rx=5359261
+05-17 15:45:43.083 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:45:43.696 E/memtrack(12614): Couldn't load memtrack module (No such file or directory)
+05-17 15:45:43.696 E/android.os.Debug(12614): failed to load memtrack module: -2
+05-17 15:45:44.088 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:44.088 E/WifiTrafficPoller(  851):  packet count Tx=1615266 Rx=5359280
+05-17 15:45:44.445 E/memtrack(12631): Couldn't load memtrack module (No such file or directory)
+05-17 15:45:44.445 E/android.os.Debug(12631): failed to load memtrack module: -2
+05-17 15:45:44.587 E/InputDispatcher(  851): channel '16efc45d com.boco.sc.mobileom/com.boco.sc.mobileom.worksheet.search.activity.Comm_WSHDetail (server)' ~ Channel is unrecoverably broken and will be disposed!
+05-17 15:45:44.917 E/VMSG    (12647): RegisterNatives OnUserCommand1
+05-17 15:45:45.089 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:45.090 E/WifiTrafficPoller(  851):  packet count Tx=1615273 Rx=5359300
+05-17 15:45:45.090 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-17 15:45:45.126 E/NativeCrypto(12647): ssl=0x7fa302f980 cert_verify_callback x509_store_ctx=0x7f9e5f6e88 arg=0x0
+05-17 15:45:45.126 E/NativeCrypto(12647): ssl=0x7fa302f980 cert_verify_callback calling verifyCertificateChain authMethod=ECDHE_RSA
+05-17 15:45:45.204 E/WifiStateMachine(  851):  ConnectedState (when=-2ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-53 f=5785 sc=80 link=150 tx=1.5, 0.0, 0.0  rx=50.9 bcn=0 [on:0 tx:0 rx:0 period:2986] from screen [on:0 period:545704276] gl rssi=-53 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:45:45.204 E/WifiStateMachine(  851):  L2ConnectedState (when=-3ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-53 f=5785 sc=80 link=150 tx=1.5, 0.0, 0.0  rx=50.9 bcn=0 [on:0 tx:0 rx:0 period:0] from screen [on:0 period:545704276] gl rssi=-53 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:45:45.205 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:45:45.206 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:45:45.294 E/baidumapsdk(12647): Authentication Error errorcode: 230 uid: -1 appid -1 msg: APP Scode码校验失败
+05-17 15:45:45.698 E/memtrack(12676): Couldn't load memtrack module (No such file or directory)
+05-17 15:45:45.698 E/android.os.Debug(12676): failed to load memtrack module: -2
+05-17 15:45:46.091 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:46.093 E/WifiTrafficPoller(  851):  packet count Tx=1615289 Rx=5359331
+05-17 15:45:46.641 E/memtrack(12697): Couldn't load memtrack module (No such file or directory)
+05-17 15:45:46.642 E/android.os.Debug(12697): failed to load memtrack module: -2
+05-17 15:45:47.094 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:47.095 E/WifiTrafficPoller(  851):  packet count Tx=1615290 Rx=5359369
+05-17 15:45:47.379 E/memtrack(12714): Couldn't load memtrack module (No such file or directory)
+05-17 15:45:47.379 E/android.os.Debug(12714): failed to load memtrack module: -2
+05-17 15:45:48.096 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:48.097 E/WifiTrafficPoller(  851):  packet count Tx=1615290 Rx=5359396
+05-17 15:45:48.097 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:45:48.209 E/WifiStateMachine(  851):  ConnectedState (when=-2ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=150 tx=8.2, 0.0, 0.0  rx=60.0 bcn=0 [on:0 tx:0 rx:0 period:3001] from screen [on:0 period:545707281] gl rssi=-50 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:45:48.209 E/WifiStateMachine(  851):  L2ConnectedState (when=-3ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=150 tx=8.2, 0.0, 0.0  rx=60.0 bcn=0 [on:0 tx:0 rx:0 period:0] from screen [on:0 period:545707281] gl rssi=-50 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:45:48.209 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:45:48.214 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:45:48.493 E/memtrack(12732): Couldn't load memtrack module (No such file or directory)
+05-17 15:45:48.493 E/android.os.Debug(12732): failed to load memtrack module: -2
+05-17 15:45:49.098 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:49.099 E/WifiTrafficPoller(  851):  packet count Tx=1615291 Rx=5359418
+05-17 15:45:49.099 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-17 15:45:49.234 E/memtrack(12749): Couldn't load memtrack module (No such file or directory)
+05-17 15:45:49.234 E/android.os.Debug(12749): failed to load memtrack module: -2
+05-17 15:45:50.100 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:50.100 E/WifiTrafficPoller(  851):  packet count Tx=1615291 Rx=5359429
+05-17 15:45:50.100 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:45:51.101 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:51.102 E/WifiTrafficPoller(  851):  packet count Tx=1615291 Rx=5359443
+05-17 15:45:51.220 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=150 tx=8.6, 0.0, 0.0  rx=73.5 bcn=0 [on:0 tx:0 rx:0 period:3002] from screen [on:0 period:545710292] gl rssi=-48 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:45:51.223 E/WifiStateMachine(  851):  L2ConnectedState (when=-7ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=150 tx=8.6, 0.0, 0.0  rx=73.5 bcn=0 [on:0 tx:0 rx:0 period:3] from screen [on:0 period:545710295] gl rssi=-48 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:45:51.224 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:45:51.246 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:45:52.104 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:52.104 E/WifiTrafficPoller(  851):  packet count Tx=1615292 Rx=5359466
+05-17 15:45:52.104 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-17 15:45:52.695 E/memtrack(12796): Couldn't load memtrack module (No such file or directory)
+05-17 15:45:52.695 E/android.os.Debug(12796): failed to load memtrack module: -2
+05-17 15:45:53.105 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:45:53.105 E/WifiTrafficPoller(  851):  packet count Tx=1615294 Rx=5359495
+05-17 15:45:53.265 E/VMSG    (12814): RegisterNatives OnUserCommand1
+05-17 15:45:53.324 E/WifiTrafficPoller(  851): ADD_CLIENT: 19
+05-17 15:45:53.414 E/NativeCrypto(12814): ssl=0x7fa30d3980 cert_verify_callback x509_store_ctx=0x7f9e4b4e88 arg=0x0
+05-17 15:45:53.414 E/NativeCrypto(12814): ssl=0x7fa30d3980 cert_verify_callback calling verifyCertificateChain authMethod=ECDHE_RSA
+05-17 15:45:53.575 E/[PropSet](12814): connect fail
+05-17 15:45:53.575 E/[PropSet](12814): send_prop_msg return err -1
+05-17 15:45:53.668 E/baidumapsdk(12814): Authentication Error errorcode: 230 uid: -1 appid -1 msg: APP Scode码校验失败
+05-17 15:45:53.721 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:45:53.742 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:45:53.759 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:45:53.776 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:45:54.106 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:45:54.108 E/WifiTrafficPoller(  851):  packet count Tx=1615308 Rx=5359535
+05-17 15:45:54.225 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:45:54.226 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:45:54.226 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:45:54.249 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=150 tx=4.8, 0.0, 0.0  rx=58.7 bcn=0 [on:0 tx:0 rx:0 period:3000] from screen [on:0 period:545713321] gl rssi=-49 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:45:54.250 E/WifiStateMachine(  851):  L2ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=150 tx=4.8, 0.0, 0.0  rx=58.7 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:545713322] gl rssi=-49 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:45:54.250 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:45:54.253 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:45:55.109 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:45:55.110 E/WifiTrafficPoller(  851):  packet count Tx=1615308 Rx=5359551
+05-17 15:45:55.110 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:45:56.111 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:45:56.113 E/WifiTrafficPoller(  851):  packet count Tx=1615308 Rx=5359567
+05-17 15:45:56.894 E/TouchFilter(  851): setTouchFilter LOG Enable prameter: 1
+05-17 15:45:57.114 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:45:57.115 E/WifiTrafficPoller(  851):  packet count Tx=1615309 Rx=5359599
+05-17 15:45:57.115 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-17 15:45:57.256 E/WifiStateMachine(  851):  ConnectedState (when=-2ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=150 tx=10.9, 0.0, 0.0  rx=75.4 bcn=0 [on:0 tx:0 rx:0 period:3002] from screen [on:0 period:545716328] gl rssi=-50 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:45:57.263 E/WifiStateMachine(  851):  L2ConnectedState (when=-9ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=150 tx=10.9, 0.0, 0.0  rx=75.4 bcn=0 [on:0 tx:0 rx:0 period:7] from screen [on:0 period:545716335] gl rssi=-50 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:45:57.267 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:45:57.278 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:45:58.120 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:45:58.124 E/WifiTrafficPoller(  851):  packet count Tx=1615309 Rx=5359620
+05-17 15:45:58.124 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:45:59.144 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:45:59.145 E/WifiTrafficPoller(  851):  packet count Tx=1615309 Rx=5359653
+05-17 15:46:00.146 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:46:00.146 E/WifiTrafficPoller(  851):  packet count Tx=1615309 Rx=5359699
+05-17 15:46:00.283 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=150 tx=6.0, 0.0, 0.0  rx=70.7 bcn=0 [on:0 tx:0 rx:0 period:2985] from screen [on:0 period:545719355] gl rssi=-50 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:46:00.284 E/WifiStateMachine(  851):  L2ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=150 tx=6.0, 0.0, 0.0  rx=70.7 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:545719356] gl rssi=-50 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:46:00.284 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:46:00.286 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:46:01.147 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:46:01.148 E/WifiTrafficPoller(  851):  packet count Tx=1615317 Rx=5359721
+05-17 15:46:01.149 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-17 15:46:01.769 E/memtrack(12887): Couldn't load memtrack module (No such file or directory)
+05-17 15:46:01.769 E/android.os.Debug(12887): failed to load memtrack module: -2
+05-17 15:46:02.153 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:46:02.154 E/WifiTrafficPoller(  851):  packet count Tx=1615317 Rx=5359740
+05-17 15:46:02.154 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:46:03.155 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:46:03.156 E/WifiTrafficPoller(  851):  packet count Tx=1615319 Rx=5359759
+05-17 15:46:03.156 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-17 15:46:03.289 E/WifiStateMachine(  851):  ConnectedState (when=-2ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=150 tx=6.0, 0.0, 0.0  rx=87.8 bcn=0 [on:0 tx:0 rx:0 period:3001] from screen [on:0 period:545722361] gl rssi=-49 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:46:03.290 E/WifiStateMachine(  851):  L2ConnectedState (when=-3ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=150 tx=6.0, 0.0, 0.0  rx=87.8 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:545722362] gl rssi=-49 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:46:03.290 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:46:03.293 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:46:04.157 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:46:04.157 E/WifiTrafficPoller(  851):  packet count Tx=1615319 Rx=5359784
+05-17 15:46:04.157 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:46:05.076 E/memtrack(12918): Couldn't load memtrack module (No such file or directory)
+05-17 15:46:05.076 E/android.os.Debug(12918): failed to load memtrack module: -2
+05-17 15:46:05.158 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:46:05.159 E/WifiTrafficPoller(  851):  packet count Tx=1615319 Rx=5359795
+05-17 15:46:06.158 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:46:06.159 E/WifiTrafficPoller(  851):  packet count Tx=1615319 Rx=5359821
+05-17 15:46:06.296 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=150 tx=5.0, 0.0, 0.0  rx=70.4 bcn=0 [on:0 tx:0 rx:0 period:3002] from screen [on:0 period:545725368] gl rssi=-50 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:46:06.297 E/WifiStateMachine(  851):  L2ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=150 tx=5.0, 0.0, 0.0  rx=70.4 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:545725369] gl rssi=-50 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:46:06.298 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:46:06.314 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:46:07.159 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:46:07.161 E/WifiTrafficPoller(  851):  packet count Tx=1615319 Rx=5359849
+05-17 15:46:08.161 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:46:08.161 E/WifiTrafficPoller(  851):  packet count Tx=1615331 Rx=5359892
+05-17 15:46:08.161 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-17 15:46:08.428 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:08.444 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:08.461 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:08.479 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:08.495 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:08.512 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:08.528 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:08.546 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:08.680 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:08.697 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:08.714 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:08.730 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:08.747 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:08.764 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:08.781 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:09.083 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:09.100 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:09.118 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:09.163 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:46:09.164 E/WifiTrafficPoller(  851):  packet count Tx=1615340 Rx=5359926
+05-17 15:46:09.320 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=150 tx=2.5, 0.0, 0.0  rx=66.7 bcn=0 [on:0 tx:0 rx:0 period:3004] from screen [on:0 period:545728391] gl rssi=-49 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:46:09.324 E/WifiStateMachine(  851):  L2ConnectedState (when=-9ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=150 tx=2.5, 0.0, 0.0  rx=66.7 bcn=0 [on:0 tx:0 rx:0 period:5] from screen [on:0 period:545728396] gl rssi=-49 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:46:09.324 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:46:09.329 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:46:10.007 E/memtrack(12946): Couldn't load memtrack module (No such file or directory)
+05-17 15:46:10.007 E/android.os.Debug(12946): failed to load memtrack module: -2
+05-17 15:46:10.165 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:46:10.167 E/WifiTrafficPoller(  851):  packet count Tx=1615341 Rx=5359944
+05-17 15:46:10.261 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:10.276 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:10.294 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:10.311 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:10.327 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:10.344 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:10.362 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:11.167 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:46:11.168 E/WifiTrafficPoller(  851):  packet count Tx=1615344 Rx=5359963
+05-17 15:46:12.170 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:46:12.170 E/WifiTrafficPoller(  851):  packet count Tx=1615346 Rx=5359997
+05-17 15:46:12.332 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=150 tx=11.7, 0.0, 0.0  rx=89.4 bcn=0 [on:0 tx:0 rx:0 period:3000] from screen [on:0 period:545731404] gl rssi=-50 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:46:12.333 E/WifiStateMachine(  851):  L2ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=150 tx=11.7, 0.0, 0.0  rx=89.4 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:545731405] gl rssi=-50 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:46:12.333 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:46:12.344 E/memtrack(12969): Couldn't load memtrack module (No such file or directory)
+05-17 15:46:12.344 E/android.os.Debug(12969): failed to load memtrack module: -2
+05-17 15:46:12.353 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:46:13.171 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:46:13.172 E/WifiTrafficPoller(  851):  packet count Tx=1615353 Rx=5360019
+05-17 15:46:14.174 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:46:14.174 E/WifiTrafficPoller(  851):  packet count Tx=1615353 Rx=5360040
+05-17 15:46:14.174 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:46:14.388 E/memtrack(12989): Couldn't load memtrack module (No such file or directory)
+05-17 15:46:14.388 E/android.os.Debug(12989): failed to load memtrack module: -2
+05-17 15:46:15.176 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:46:15.178 E/WifiTrafficPoller(  851):  packet count Tx=1615353 Rx=5360059
+05-17 15:46:15.358 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=150 tx=8.9, 0.0, 0.0  rx=76.2 bcn=0 [on:0 tx:0 rx:0 period:3003] from screen [on:0 period:545734430] gl rssi=-50 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:46:15.361 E/WifiStateMachine(  851):  L2ConnectedState (when=-6ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=150 tx=8.9, 0.0, 0.0  rx=76.2 bcn=0 [on:0 tx:0 rx:0 period:3] from screen [on:0 period:545734433] gl rssi=-50 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:46:15.362 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:46:15.366 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:46:15.749 E/memtrack(13008): Couldn't load memtrack module (No such file or directory)
+05-17 15:46:15.749 E/android.os.Debug(13008): failed to load memtrack module: -2
+05-17 15:46:16.178 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:46:16.180 E/WifiTrafficPoller(  851):  packet count Tx=1615353 Rx=5360076
+05-17 15:46:17.181 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:46:17.182 E/WifiTrafficPoller(  851):  packet count Tx=1615355 Rx=5360099
+05-17 15:46:17.182 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-17 15:46:17.295 E/memtrack(13026): Couldn't load memtrack module (No such file or directory)
+05-17 15:46:17.295 E/android.os.Debug(13026): failed to load memtrack module: -2
+05-17 15:46:17.999 E/memtrack(13043): Couldn't load memtrack module (No such file or directory)
+05-17 15:46:17.999 E/android.os.Debug(13043): failed to load memtrack module: -2
+05-17 15:46:18.184 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:46:18.185 E/WifiTrafficPoller(  851):  packet count Tx=1615355 Rx=5360119
+05-17 15:46:18.185 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:46:18.370 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=150 tx=7.9, 0.0, 0.0  rx=69.1 bcn=0 [on:0 tx:0 rx:0 period:3001] from screen [on:0 period:545737442] gl rssi=-50 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:46:18.372 E/WifiStateMachine(  851):  L2ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=150 tx=7.9, 0.0, 0.0  rx=69.1 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:545737444] gl rssi=-50 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:46:18.372 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:46:18.396 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:46:18.998 E/memtrack(13061): Couldn't load memtrack module (No such file or directory)
+05-17 15:46:18.998 E/android.os.Debug(13061): failed to load memtrack module: -2
+05-17 15:46:19.189 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:46:19.190 E/WifiTrafficPoller(  851):  packet count Tx=1615355 Rx=5360141
+05-17 15:46:19.973 E/memtrack(13077): Couldn't load memtrack module (No such file or directory)
+05-17 15:46:19.973 E/android.os.Debug(13077): failed to load memtrack module: -2
+05-17 15:46:20.191 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:46:20.192 E/WifiTrafficPoller(  851):  packet count Tx=1615355 Rx=5360166
+05-17 15:46:20.990 E/memtrack(13093): Couldn't load memtrack module (No such file or directory)
+05-17 15:46:20.991 E/android.os.Debug(13093): failed to load memtrack module: -2
+05-17 15:46:21.193 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:46:21.194 E/WifiTrafficPoller(  851):  packet count Tx=1615355 Rx=5360181
+05-17 15:46:21.400 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=150 tx=5.0, 0.0, 0.0  rx=65.5 bcn=0 [on:0 tx:0 rx:0 period:3002] from screen [on:0 period:545740472] gl rssi=-51 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:46:21.403 E/WifiStateMachine(  851):  L2ConnectedState (when=-6ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=150 tx=5.0, 0.0, 0.0  rx=65.5 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:545740474] gl rssi=-51 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:46:21.403 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:46:21.425 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:46:22.195 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:46:22.195 E/WifiTrafficPoller(  851):  packet count Tx=1615355 Rx=5360197
+05-17 15:46:22.304 E/memtrack(13113): Couldn't load memtrack module (No such file or directory)
+05-17 15:46:22.304 E/android.os.Debug(13113): failed to load memtrack module: -2
+05-17 15:46:23.008 E/memtrack(13130): Couldn't load memtrack module (No such file or directory)
+05-17 15:46:23.008 E/android.os.Debug(13130): failed to load memtrack module: -2
+05-17 15:46:23.196 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:46:23.198 E/WifiTrafficPoller(  851):  packet count Tx=1615355 Rx=5360215
+05-17 15:46:24.199 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:46:24.200 E/WifiTrafficPoller(  851):  packet count Tx=1615355 Rx=5360244
+05-17 15:46:24.430 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=150 tx=2.5, 0.0, 0.0  rx=65.8 bcn=0 [on:0 tx:0 rx:0 period:3002] from screen [on:0 period:545743502] gl rssi=-48 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:46:24.430 E/WifiStateMachine(  851):  L2ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=150 tx=2.5, 0.0, 0.0  rx=65.8 bcn=0 [on:0 tx:0 rx:0 period:0] from screen [on:0 period:545743502] gl rssi=-48 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:46:24.430 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:46:24.435 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:46:25.201 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:46:25.202 E/WifiTrafficPoller(  851):  packet count Tx=1615358 Rx=5360274
+05-17 15:46:25.202 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-17 15:46:26.203 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:46:26.204 E/WifiTrafficPoller(  851):  packet count Tx=1615358 Rx=5360299
+05-17 15:46:26.204 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:46:27.208 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:46:27.209 E/WifiTrafficPoller(  851):  packet count Tx=1615358 Rx=5360332
+05-17 15:46:27.441 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-47 f=5785 sc=80 link=150 tx=2.2, 0.0, 0.0  rx=63.9 bcn=0 [on:0 tx:0 rx:0 period:2996] from screen [on:0 period:545746513] gl rssi=-47 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:46:27.445 E/WifiStateMachine(  851):  L2ConnectedState (when=-9ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-47 f=5785 sc=80 link=150 tx=2.2, 0.0, 0.0  rx=63.9 bcn=0 [on:0 tx:0 rx:0 period:4] from screen [on:0 period:545746517] gl rssi=-47 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:46:27.447 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:46:27.479 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:46:28.211 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:46:28.211 E/WifiTrafficPoller(  851):  packet count Tx=1615358 Rx=5360361
+05-17 15:46:28.921 E/memtrack(13153): Couldn't load memtrack module (No such file or directory)
+05-17 15:46:28.921 E/android.os.Debug(13153): failed to load memtrack module: -2
+05-17 15:46:29.213 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:46:29.214 E/WifiTrafficPoller(  851):  packet count Tx=1615360 Rx=5360385
+05-17 15:46:29.214 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-17 15:46:29.659 E/memtrack(13172): Couldn't load memtrack module (No such file or directory)
+05-17 15:46:29.659 E/android.os.Debug(13172): failed to load memtrack module: -2
+05-17 15:46:30.218 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:46:30.219 E/WifiTrafficPoller(  851):  packet count Tx=1615360 Rx=5360407
+05-17 15:46:30.219 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:46:30.482 E/WifiStateMachine(  851):  ConnectedState (when=-1ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-47 f=5785 sc=80 link=150 tx=1.6, 0.0, 0.0  rx=75.4 bcn=0 [on:0 tx:0 rx:0 period:2986] from screen [on:0 period:545749554] gl rssi=-47 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:46:30.483 E/WifiStateMachine(  851):  L2ConnectedState (when=-2ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-47 f=5785 sc=80 link=150 tx=1.6, 0.0, 0.0  rx=75.4 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:545749555] gl rssi=-47 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:46:30.483 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:46:30.485 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:46:30.532 E/memtrack(13189): Couldn't load memtrack module (No such file or directory)
+05-17 15:46:30.532 E/android.os.Debug(13189): failed to load memtrack module: -2
+05-17 15:46:31.220 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:46:31.220 E/WifiTrafficPoller(  851):  packet count Tx=1615361 Rx=5360430
+05-17 15:46:31.220 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-17 15:46:31.425 E/memtrack(13209): Couldn't load memtrack module (No such file or directory)
+05-17 15:46:31.425 E/android.os.Debug(13209): failed to load memtrack module: -2
+05-17 15:46:32.177 E/memtrack(13227): Couldn't load memtrack module (No such file or directory)
+05-17 15:46:32.177 E/android.os.Debug(13227): failed to load memtrack module: -2
+05-17 15:46:32.221 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:46:32.222 E/WifiTrafficPoller(  851):  packet count Tx=1615361 Rx=5360450
+05-17 15:46:32.222 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:46:33.223 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:46:33.224 E/WifiTrafficPoller(  851):  packet count Tx=1615372 Rx=5360474
+05-17 15:46:33.224 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-17 15:46:33.378 E/memtrack(13247): Couldn't load memtrack module (No such file or directory)
+05-17 15:46:33.378 E/android.os.Debug(13247): failed to load memtrack module: -2
+05-17 15:46:33.489 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=150 tx=2.3, 0.0, 0.0  rx=76.7 bcn=0 [on:0 tx:0 rx:0 period:3000] from screen [on:0 period:545752561] gl rssi=-48 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:46:33.490 E/WifiStateMachine(  851):  L2ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=150 tx=2.3, 0.0, 0.0  rx=76.7 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:545752562] gl rssi=-48 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:46:33.490 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:46:33.493 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:46:34.034 E/memtrack(13263): Couldn't load memtrack module (No such file or directory)
+05-17 15:46:34.034 E/android.os.Debug(13263): failed to load memtrack module: -2
+05-17 15:46:34.225 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:46:34.226 E/WifiTrafficPoller(  851):  packet count Tx=1615373 Rx=5360497
+05-17 15:46:35.227 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:46:35.227 E/WifiTrafficPoller(  851):  packet count Tx=1615373 Rx=5360515
+05-17 15:46:35.227 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:46:36.228 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:46:36.229 E/WifiTrafficPoller(  851):  packet count Tx=1615373 Rx=5360538
+05-17 15:46:36.498 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=150 tx=6.7, 0.0, 0.0  rx=70.4 bcn=0 [on:0 tx:0 rx:0 period:3004] from screen [on:0 period:545755570] gl rssi=-49 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:46:36.500 E/WifiStateMachine(  851):  L2ConnectedState (when=-6ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=150 tx=6.7, 0.0, 0.0  rx=70.4 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:545755572] gl rssi=-49 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:46:36.500 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:46:36.506 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:46:37.231 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 18
+05-17 15:46:37.231 E/WifiTrafficPoller(  851):  packet count Tx=1615379 Rx=5360566
+05-17 15:46:37.231 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-17 15:46:37.539 E/memtrack(13334): Couldn't load memtrack module (No such file or directory)
+05-17 15:46:37.539 E/android.os.Debug(13334): failed to load memtrack module: -2
+05-17 15:46:38.100 E/VMSG    (13390): RegisterNatives OnUserCommand1
+05-17 15:46:38.190 E/WifiTrafficPoller(  851): ADD_CLIENT: 19
+05-17 15:46:38.233 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:46:38.234 E/WifiTrafficPoller(  851):  packet count Tx=1615380 Rx=5360580
+05-17 15:46:38.318 E/NativeCrypto(13390): ssl=0x7faa202e00 cert_verify_callback x509_store_ctx=0x7f9e5f6e88 arg=0x0
+05-17 15:46:38.318 E/NativeCrypto(13390): ssl=0x7faa202e00 cert_verify_callback calling verifyCertificateChain authMethod=ECDHE_RSA
+05-17 15:46:38.425 E/[PropSet](13390): connect fail
+05-17 15:46:38.425 E/[PropSet](13390): send_prop_msg return err -1
+05-17 15:46:38.533 E/baidumapsdk(13390): Authentication Error errorcode: 230 uid: -1 appid -1 msg: APP Scode码校验失败
+05-17 15:46:38.555 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:38.572 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:38.588 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:38.605 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:39.234 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:46:39.235 E/WifiTrafficPoller(  851):  packet count Tx=1615396 Rx=5360618
+05-17 15:46:39.512 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=150 tx=6.3, 0.0, 0.0  rx=71.7 bcn=0 [on:0 tx:0 rx:0 period:3002] from screen [on:0 period:545758584] gl rssi=-48 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:46:39.514 E/WifiStateMachine(  851):  L2ConnectedState (when=-6ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=150 tx=6.3, 0.0, 0.0  rx=71.7 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:545758586] gl rssi=-48 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:46:39.514 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:46:39.519 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:46:40.056 E/memtrack(13450): Couldn't load memtrack module (No such file or directory)
+05-17 15:46:40.056 E/android.os.Debug(13450): failed to load memtrack module: -2
+05-17 15:46:40.234 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:46:40.235 E/WifiTrafficPoller(  851):  packet count Tx=1615396 Rx=5360649
+05-17 15:46:40.235 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:46:41.235 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:46:41.236 E/WifiTrafficPoller(  851):  packet count Tx=1615396 Rx=5360674
+05-17 15:46:42.236 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:46:42.238 E/WifiTrafficPoller(  851):  packet count Tx=1615396 Rx=5360694
+05-17 15:46:42.524 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=150 tx=12.2, 0.0, 0.0  rx=73.3 bcn=0 [on:0 tx:0 rx:0 period:3001] from screen [on:0 period:545761595] gl rssi=-48 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:46:42.526 E/WifiStateMachine(  851):  L2ConnectedState (when=-6ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=150 tx=12.2, 0.0, 0.0  rx=73.3 bcn=0 [on:0 tx:0 rx:0 period:3] from screen [on:0 period:545761598] gl rssi=-48 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:46:42.527 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:46:42.535 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:46:43.238 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:46:43.239 E/WifiTrafficPoller(  851):  packet count Tx=1615398 Rx=5360716
+05-17 15:46:43.239 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-17 15:46:43.489 E/memtrack(13477): Couldn't load memtrack module (No such file or directory)
+05-17 15:46:43.489 E/android.os.Debug(13477): failed to load memtrack module: -2
+05-17 15:46:44.240 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:46:44.240 E/WifiTrafficPoller(  851):  packet count Tx=1615398 Rx=5360737
+05-17 15:46:44.240 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:46:45.242 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:46:45.243 E/WifiTrafficPoller(  851):  packet count Tx=1615398 Rx=5360764
+05-17 15:46:45.541 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=150 tx=6.6, 0.0, 0.0  rx=76.7 bcn=0 [on:0 tx:0 rx:0 period:2998] from screen [on:0 period:545764612] gl rssi=-48 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:46:45.542 E/WifiStateMachine(  851):  L2ConnectedState (when=-6ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=150 tx=6.6, 0.0, 0.0  rx=76.7 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:545764614] gl rssi=-48 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:46:45.542 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:46:45.546 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:46:46.243 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:46:46.244 E/WifiTrafficPoller(  851):  packet count Tx=1615398 Rx=5360789
+05-17 15:46:47.245 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:46:47.246 E/WifiTrafficPoller(  851):  packet count Tx=1615406 Rx=5360832
+05-17 15:46:47.246 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-17 15:46:47.470 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:47.487 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:47.504 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:47.521 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:47.537 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:47.555 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:47.571 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:47.588 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:47.773 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:47.790 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:47.806 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:47.823 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:47.840 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:47.857 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:47.874 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:48.194 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:48.211 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:48.228 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:48.244 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:48.251 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:46:48.251 E/WifiTrafficPoller(  851):  packet count Tx=1615414 Rx=5360871
+05-17 15:46:48.552 E/WifiStateMachine(  851):  ConnectedState (when=-5ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-47 f=5785 sc=80 link=150 tx=3.8, 0.0, 0.0  rx=70.8 bcn=0 [on:0 tx:0 rx:0 period:3004] from screen [on:0 period:545767624] gl rssi=-47 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:46:48.553 E/WifiStateMachine(  851):  L2ConnectedState (when=-6ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-47 f=5785 sc=80 link=150 tx=3.8, 0.0, 0.0  rx=70.8 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:545767625] gl rssi=-47 ag=0 hr ticks 0,0,24 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-17 15:46:48.553 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:46:48.560 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:46:49.152 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:49.169 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:49.187 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:49.203 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:49.220 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:49.237 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:49.252 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:46:49.254 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-17 15:46:49.255 E/WifiTrafficPoller(  851):  packet count Tx=1615416 Rx=5360903
+05-17 15:46:50.255 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:46:50.256 E/WifiTrafficPoller(  851):  packet count Tx=1615416 Rx=5360925
+05-17 15:46:50.256 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:46:50.309 E/appium  (13279): Element not found: 
+05-17 15:46:50.309 E/appium  (13279): io.appium.uiautomator2.common.exceptions.ElementNotFoundException: Could not find an element using supplied strategy. 
+05-17 15:46:50.309 E/appium  (13279): 	at io.appium.uiautomator2.handler.FindElement.getXPathUiObject(FindElement.java:80)
+05-17 15:46:50.309 E/appium  (13279): 	at io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:153)
+05-17 15:46:50.309 E/appium  (13279): 	at io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:102)
+05-17 15:46:50.309 E/appium  (13279): 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:56)
+05-17 15:46:50.309 E/appium  (13279): 	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:202)
+05-17 15:46:50.309 E/appium  (13279): 	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:193)
+05-17 15:46:50.309 E/appium  (13279): 	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)
+05-17 15:46:50.309 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:50.309 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:50.309 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-17 15:46:50.309 E/appium  (13279): 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+05-17 15:46:50.309 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:50.309 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:50.309 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-17 15:46:50.309 E/appium  (13279): 	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+05-17 15:46:50.309 E/appium  (13279): 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+05-17 15:46:50.309 E/appium  (13279): 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+05-17 15:46:50.309 E/appium  (13279): 	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+05-17 15:46:50.309 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:50.309 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:50.309 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-17 15:46:50.309 E/appium  (13279): 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+05-17 15:46:50.309 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:50.309 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:50.309 E/appium  (13279): 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+05-17 15:46:50.309 E/appium  (13279): 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+05-17 15:46:50.309 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+05-17 15:46:50.309 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:514)
+05-17 15:46:50.309 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:468)
+05-17 15:46:50.309 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+05-17 15:46:50.309 E/appium  (13279): 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+05-17 15:46:50.309 E/appium  (13279): 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+05-17 15:46:50.309 E/appium  (13279): 	at java.lang.Thread.run(Thread.java:818)
+05-17 15:46:50.836 E/appium  (13279): Element not found: 
+05-17 15:46:50.836 E/appium  (13279): io.appium.uiautomator2.common.exceptions.ElementNotFoundException: Could not find an element using supplied strategy. 
+05-17 15:46:50.836 E/appium  (13279): 	at io.appium.uiautomator2.handler.FindElement.getXPathUiObject(FindElement.java:80)
+05-17 15:46:50.836 E/appium  (13279): 	at io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:153)
+05-17 15:46:50.836 E/appium  (13279): 	at io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:102)
+05-17 15:46:50.836 E/appium  (13279): 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:56)
+05-17 15:46:50.836 E/appium  (13279): 	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:202)
+05-17 15:46:50.836 E/appium  (13279): 	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:193)
+05-17 15:46:50.836 E/appium  (13279): 	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)
+05-17 15:46:50.836 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:50.836 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:50.836 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-17 15:46:50.836 E/appium  (13279): 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+05-17 15:46:50.836 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:50.836 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:50.836 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-17 15:46:50.836 E/appium  (13279): 	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+05-17 15:46:50.836 E/appium  (13279): 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+05-17 15:46:50.836 E/appium  (13279): 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+05-17 15:46:50.836 E/appium  (13279): 	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+05-17 15:46:50.836 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:50.836 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:50.836 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-17 15:46:50.836 E/appium  (13279): 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+05-17 15:46:50.836 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:50.836 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:50.836 E/appium  (13279): 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+05-17 15:46:50.836 E/appium  (13279): 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+05-17 15:46:50.836 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+05-17 15:46:50.836 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:514)
+05-17 15:46:50.836 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:468)
+05-17 15:46:50.836 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+05-17 15:46:50.836 E/appium  (13279): 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+05-17 15:46:50.836 E/appium  (13279): 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+05-17 15:46:50.836 E/appium  (13279): 	at java.lang.Thread.run(Thread.java:818)
+05-17 15:46:51.261 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:46:51.263 E/WifiTrafficPoller(  851):  packet count Tx=1615418 Rx=5360948
+05-17 15:46:51.263 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-17 15:46:51.389 E/appium  (13279): Element not found: 
+05-17 15:46:51.389 E/appium  (13279): io.appium.uiautomator2.common.exceptions.ElementNotFoundException: Could not find an element using supplied strategy. 
+05-17 15:46:51.389 E/appium  (13279): 	at io.appium.uiautomator2.handler.FindElement.getXPathUiObject(FindElement.java:80)
+05-17 15:46:51.389 E/appium  (13279): 	at io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:153)
+05-17 15:46:51.389 E/appium  (13279): 	at io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:102)
+05-17 15:46:51.389 E/appium  (13279): 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:56)
+05-17 15:46:51.389 E/appium  (13279): 	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:202)
+05-17 15:46:51.389 E/appium  (13279): 	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:193)
+05-17 15:46:51.389 E/appium  (13279): 	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)
+05-17 15:46:51.389 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:51.389 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:51.389 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-17 15:46:51.389 E/appium  (13279): 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+05-17 15:46:51.389 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:51.389 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:51.389 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-17 15:46:51.389 E/appium  (13279): 	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+05-17 15:46:51.389 E/appium  (13279): 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+05-17 15:46:51.389 E/appium  (13279): 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+05-17 15:46:51.389 E/appium  (13279): 	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+05-17 15:46:51.389 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:51.389 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:51.389 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-17 15:46:51.389 E/appium  (13279): 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+05-17 15:46:51.389 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:51.389 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:51.389 E/appium  (13279): 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+05-17 15:46:51.389 E/appium  (13279): 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+05-17 15:46:51.389 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+05-17 15:46:51.389 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:514)
+05-17 15:46:51.389 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:468)
+05-17 15:46:51.389 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+05-17 15:46:51.389 E/appium  (13279): 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+05-17 15:46:51.389 E/appium  (13279): 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+05-17 15:46:51.389 E/appium  (13279): 	at java.lang.Thread.run(Thread.java:818)
+05-17 15:46:51.563 E/WifiStateMachine(  851):  ConnectedState (when=-2ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-47 f=5785 sc=80 link=150 tx=10.4, 0.0, 0.0  rx=92.4 bcn=0 [on:0 tx:0 rx:0 period:2998] from screen [on:0 period:545770635] gl rssi=-47 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:46:51.566 E/WifiStateMachine(  851):  L2ConnectedState (when=-5ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-47 f=5785 sc=80 link=150 tx=10.4, 0.0, 0.0  rx=92.4 bcn=0 [on:0 tx:0 rx:0 period:3] from screen [on:0 period:545770638] gl rssi=-47 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:46:51.567 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:46:51.576 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:46:51.944 E/appium  (13279): Element not found: 
+05-17 15:46:51.944 E/appium  (13279): io.appium.uiautomator2.common.exceptions.ElementNotFoundException: Could not find an element using supplied strategy. 
+05-17 15:46:51.944 E/appium  (13279): 	at io.appium.uiautomator2.handler.FindElement.getXPathUiObject(FindElement.java:80)
+05-17 15:46:51.944 E/appium  (13279): 	at io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:153)
+05-17 15:46:51.944 E/appium  (13279): 	at io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:102)
+05-17 15:46:51.944 E/appium  (13279): 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:56)
+05-17 15:46:51.944 E/appium  (13279): 	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:202)
+05-17 15:46:51.944 E/appium  (13279): 	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:193)
+05-17 15:46:51.944 E/appium  (13279): 	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)
+05-17 15:46:51.944 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:51.944 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:51.944 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-17 15:46:51.944 E/appium  (13279): 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+05-17 15:46:51.944 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:51.944 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:51.944 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-17 15:46:51.944 E/appium  (13279): 	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+05-17 15:46:51.944 E/appium  (13279): 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+05-17 15:46:51.944 E/appium  (13279): 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+05-17 15:46:51.944 E/appium  (13279): 	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+05-17 15:46:51.944 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:51.944 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:51.944 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-17 15:46:51.944 E/appium  (13279): 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+05-17 15:46:51.944 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:51.944 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:51.944 E/appium  (13279): 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+05-17 15:46:51.944 E/appium  (13279): 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+05-17 15:46:51.944 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+05-17 15:46:51.944 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:514)
+05-17 15:46:51.944 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:468)
+05-17 15:46:51.944 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+05-17 15:46:51.944 E/appium  (13279): 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+05-17 15:46:51.944 E/appium  (13279): 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+05-17 15:46:51.944 E/appium  (13279): 	at java.lang.Thread.run(Thread.java:818)
+05-17 15:46:52.273 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:46:52.274 E/WifiTrafficPoller(  851):  packet count Tx=1615418 Rx=5360965
+05-17 15:46:52.274 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:46:52.481 E/appium  (13279): Element not found: 
+05-17 15:46:52.481 E/appium  (13279): io.appium.uiautomator2.common.exceptions.ElementNotFoundException: Could not find an element using supplied strategy. 
+05-17 15:46:52.481 E/appium  (13279): 	at io.appium.uiautomator2.handler.FindElement.getXPathUiObject(FindElement.java:80)
+05-17 15:46:52.481 E/appium  (13279): 	at io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:153)
+05-17 15:46:52.481 E/appium  (13279): 	at io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:102)
+05-17 15:46:52.481 E/appium  (13279): 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:56)
+05-17 15:46:52.481 E/appium  (13279): 	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:202)
+05-17 15:46:52.481 E/appium  (13279): 	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:193)
+05-17 15:46:52.481 E/appium  (13279): 	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)
+05-17 15:46:52.481 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:52.481 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:52.481 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-17 15:46:52.481 E/appium  (13279): 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+05-17 15:46:52.481 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:52.481 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:52.481 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-17 15:46:52.481 E/appium  (13279): 	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+05-17 15:46:52.481 E/appium  (13279): 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+05-17 15:46:52.481 E/appium  (13279): 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+05-17 15:46:52.481 E/appium  (13279): 	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+05-17 15:46:52.481 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:52.481 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:52.481 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-17 15:46:52.481 E/appium  (13279): 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+05-17 15:46:52.481 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:52.481 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:52.481 E/appium  (13279): 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+05-17 15:46:52.481 E/appium  (13279): 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+05-17 15:46:52.481 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+05-17 15:46:52.481 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:514)
+05-17 15:46:52.481 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:468)
+05-17 15:46:52.481 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+05-17 15:46:52.481 E/appium  (13279): 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+05-17 15:46:52.481 E/appium  (13279): 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+05-17 15:46:52.481 E/appium  (13279): 	at java.lang.Thread.run(Thread.java:818)
+05-17 15:46:53.291 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:46:53.293 E/WifiTrafficPoller(  851):  packet count Tx=1615418 Rx=5360983
+05-17 15:46:53.309 E/appium  (13279): Element not found: 
+05-17 15:46:53.309 E/appium  (13279): io.appium.uiautomator2.common.exceptions.ElementNotFoundException: Could not find an element using supplied strategy. 
+05-17 15:46:53.309 E/appium  (13279): 	at io.appium.uiautomator2.handler.FindElement.getXPathUiObject(FindElement.java:80)
+05-17 15:46:53.309 E/appium  (13279): 	at io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:153)
+05-17 15:46:53.309 E/appium  (13279): 	at io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:102)
+05-17 15:46:53.309 E/appium  (13279): 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:56)
+05-17 15:46:53.309 E/appium  (13279): 	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:202)
+05-17 15:46:53.309 E/appium  (13279): 	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:193)
+05-17 15:46:53.309 E/appium  (13279): 	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)
+05-17 15:46:53.309 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:53.309 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:53.309 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-17 15:46:53.309 E/appium  (13279): 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+05-17 15:46:53.309 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:53.309 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:53.309 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-17 15:46:53.309 E/appium  (13279): 	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+05-17 15:46:53.309 E/appium  (13279): 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+05-17 15:46:53.309 E/appium  (13279): 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+05-17 15:46:53.309 E/appium  (13279): 	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+05-17 15:46:53.309 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:53.309 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:53.309 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-17 15:46:53.309 E/appium  (13279): 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+05-17 15:46:53.309 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:53.309 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:53.309 E/appium  (13279): 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+05-17 15:46:53.309 E/appium  (13279): 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+05-17 15:46:53.309 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+05-17 15:46:53.309 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:514)
+05-17 15:46:53.309 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:468)
+05-17 15:46:53.309 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+05-17 15:46:53.309 E/appium  (13279): 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+05-17 15:46:53.309 E/appium  (13279): 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+05-17 15:46:53.309 E/appium  (13279): 	at java.lang.Thread.run(Thread.java:818)
+05-17 15:46:53.859 E/appium  (13279): Element not found: 
+05-17 15:46:53.859 E/appium  (13279): io.appium.uiautomator2.common.exceptions.ElementNotFoundException: Could not find an element using supplied strategy. 
+05-17 15:46:53.859 E/appium  (13279): 	at io.appium.uiautomator2.handler.FindElement.getXPathUiObject(FindElement.java:80)
+05-17 15:46:53.859 E/appium  (13279): 	at io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:153)
+05-17 15:46:53.859 E/appium  (13279): 	at io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:102)
+05-17 15:46:53.859 E/appium  (13279): 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:56)
+05-17 15:46:53.859 E/appium  (13279): 	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:202)
+05-17 15:46:53.859 E/appium  (13279): 	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:193)
+05-17 15:46:53.859 E/appium  (13279): 	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)
+05-17 15:46:53.859 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:53.859 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:53.859 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-17 15:46:53.859 E/appium  (13279): 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+05-17 15:46:53.859 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:53.859 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:53.859 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-17 15:46:53.859 E/appium  (13279): 	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+05-17 15:46:53.859 E/appium  (13279): 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+05-17 15:46:53.859 E/appium  (13279): 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+05-17 15:46:53.859 E/appium  (13279): 	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+05-17 15:46:53.859 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:53.859 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:53.859 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-17 15:46:53.859 E/appium  (13279): 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+05-17 15:46:53.859 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:53.859 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:53.859 E/appium  (13279): 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+05-17 15:46:53.859 E/appium  (13279): 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+05-17 15:46:53.859 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+05-17 15:46:53.859 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:514)
+05-17 15:46:53.859 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:468)
+05-17 15:46:53.859 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+05-17 15:46:53.859 E/appium  (13279): 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+05-17 15:46:53.859 E/appium  (13279): 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+05-17 15:46:53.859 E/appium  (13279): 	at java.lang.Thread.run(Thread.java:818)
+05-17 15:46:54.293 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:46:54.294 E/WifiTrafficPoller(  851):  packet count Tx=1615420 Rx=5361006
+05-17 15:46:54.294 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-17 15:46:54.410 E/appium  (13279): Element not found: 
+05-17 15:46:54.410 E/appium  (13279): io.appium.uiautomator2.common.exceptions.ElementNotFoundException: Could not find an element using supplied strategy. 
+05-17 15:46:54.410 E/appium  (13279): 	at io.appium.uiautomator2.handler.FindElement.getXPathUiObject(FindElement.java:80)
+05-17 15:46:54.410 E/appium  (13279): 	at io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:153)
+05-17 15:46:54.410 E/appium  (13279): 	at io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:102)
+05-17 15:46:54.410 E/appium  (13279): 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:56)
+05-17 15:46:54.410 E/appium  (13279): 	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:202)
+05-17 15:46:54.410 E/appium  (13279): 	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:193)
+05-17 15:46:54.410 E/appium  (13279): 	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)
+05-17 15:46:54.410 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:54.410 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:54.410 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-17 15:46:54.410 E/appium  (13279): 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+05-17 15:46:54.410 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:54.410 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:54.410 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-17 15:46:54.410 E/appium  (13279): 	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+05-17 15:46:54.410 E/appium  (13279): 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+05-17 15:46:54.410 E/appium  (13279): 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+05-17 15:46:54.410 E/appium  (13279): 	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+05-17 15:46:54.410 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:54.410 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:54.410 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-17 15:46:54.410 E/appium  (13279): 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+05-17 15:46:54.410 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:54.410 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:54.410 E/appium  (13279): 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+05-17 15:46:54.410 E/appium  (13279): 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+05-17 15:46:54.410 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+05-17 15:46:54.410 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:514)
+05-17 15:46:54.410 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:468)
+05-17 15:46:54.410 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+05-17 15:46:54.410 E/appium  (13279): 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+05-17 15:46:54.410 E/appium  (13279): 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+05-17 15:46:54.410 E/appium  (13279): 	at java.lang.Thread.run(Thread.java:818)
+05-17 15:46:54.581 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=150 tx=6.7, 0.0, 0.0  rx=79.7 bcn=0 [on:0 tx:0 rx:0 period:2996] from screen [on:0 period:545773653] gl rssi=-48 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:46:54.588 E/WifiStateMachine(  851):  L2ConnectedState (when=-9ms what=131155 arg1=548!CMD_RSSI_POLL 548 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=150 tx=6.7, 0.0, 0.0  rx=79.7 bcn=0 [on:0 tx:0 rx:0 period:6] from screen [on:0 period:545773659] gl rssi=-48 ag=0 hr ticks 0,0,24 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-17 15:46:54.618 E/WifiStateMachine(  851):  get link layer stats 0
+05-17 15:46:54.635 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-17 15:46:54.671 E/MPlugin (21445): Unsupported class: com.mediatek.common.telephony.IOnlyOwnerSimSupport
+05-17 15:46:54.966 E/appium  (13279): Element not found: 
+05-17 15:46:54.966 E/appium  (13279): io.appium.uiautomator2.common.exceptions.ElementNotFoundException: Could not find an element using supplied strategy. 
+05-17 15:46:54.966 E/appium  (13279): 	at io.appium.uiautomator2.handler.FindElement.getXPathUiObject(FindElement.java:80)
+05-17 15:46:54.966 E/appium  (13279): 	at io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:153)
+05-17 15:46:54.966 E/appium  (13279): 	at io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:102)
+05-17 15:46:54.966 E/appium  (13279): 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:56)
+05-17 15:46:54.966 E/appium  (13279): 	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:202)
+05-17 15:46:54.966 E/appium  (13279): 	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:193)
+05-17 15:46:54.966 E/appium  (13279): 	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)
+05-17 15:46:54.966 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:54.966 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:54.966 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-17 15:46:54.966 E/appium  (13279): 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+05-17 15:46:54.966 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:54.966 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:54.966 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-17 15:46:54.966 E/appium  (13279): 	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+05-17 15:46:54.966 E/appium  (13279): 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+05-17 15:46:54.966 E/appium  (13279): 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+05-17 15:46:54.966 E/appium  (13279): 	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+05-17 15:46:54.966 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:54.966 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:54.966 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-17 15:46:54.966 E/appium  (13279): 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+05-17 15:46:54.966 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:54.966 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:54.966 E/appium  (13279): 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+05-17 15:46:54.966 E/appium  (13279): 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+05-17 15:46:54.966 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+05-17 15:46:54.966 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:514)
+05-17 15:46:54.966 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:468)
+05-17 15:46:54.966 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+05-17 15:46:54.966 E/appium  (13279): 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+05-17 15:46:54.966 E/appium  (13279): 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+05-17 15:46:54.966 E/appium  (13279): 	at java.lang.Thread.run(Thread.java:818)
+05-17 15:46:55.295 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:46:55.296 E/WifiTrafficPoller(  851):  packet count Tx=1615427 Rx=5361037
+05-17 15:46:55.494 E/appium  (13279): Element not found: 
+05-17 15:46:55.494 E/appium  (13279): io.appium.uiautomator2.common.exceptions.ElementNotFoundException: Could not find an element using supplied strategy. 
+05-17 15:46:55.494 E/appium  (13279): 	at io.appium.uiautomator2.handler.FindElement.getXPathUiObject(FindElement.java:80)
+05-17 15:46:55.494 E/appium  (13279): 	at io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:153)
+05-17 15:46:55.494 E/appium  (13279): 	at io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:102)
+05-17 15:46:55.494 E/appium  (13279): 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:56)
+05-17 15:46:55.494 E/appium  (13279): 	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:202)
+05-17 15:46:55.494 E/appium  (13279): 	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:193)
+05-17 15:46:55.494 E/appium  (13279): 	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)
+05-17 15:46:55.494 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:55.494 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:55.494 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-17 15:46:55.494 E/appium  (13279): 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+05-17 15:46:55.494 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:55.494 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:55.494 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-17 15:46:55.494 E/appium  (13279): 	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+05-17 15:46:55.494 E/appium  (13279): 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+05-17 15:46:55.494 E/appium  (13279): 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+05-17 15:46:55.494 E/appium  (13279): 	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+05-17 15:46:55.494 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:55.494 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:55.494 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-17 15:46:55.494 E/appium  (13279): 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+05-17 15:46:55.494 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:55.494 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:55.494 E/appium  (13279): 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+05-17 15:46:55.494 E/appium  (13279): 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+05-17 15:46:55.494 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+05-17 15:46:55.494 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:514)
+05-17 15:46:55.494 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:468)
+05-17 15:46:55.494 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+05-17 15:46:55.494 E/appium  (13279): 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+05-17 15:46:55.494 E/appium  (13279): 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+05-17 15:46:55.494 E/appium  (13279): 	at java.lang.Thread.run(Thread.java:818)
+05-17 15:46:56.297 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:46:56.297 E/appium  (13279): Element not found: 
+05-17 15:46:56.297 E/appium  (13279): io.appium.uiautomator2.common.exceptions.ElementNotFoundException: Could not find an element using supplied strategy. 
+05-17 15:46:56.297 E/appium  (13279): 	at io.appium.uiautomator2.handler.FindElement.getXPathUiObject(FindElement.java:80)
+05-17 15:46:56.297 E/appium  (13279): 	at io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:153)
+05-17 15:46:56.297 E/appium  (13279): 	at io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:102)
+05-17 15:46:56.297 E/appium  (13279): 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:56)
+05-17 15:46:56.297 E/appium  (13279): 	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:202)
+05-17 15:46:56.297 E/appium  (13279): 	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:193)
+05-17 15:46:56.297 E/appium  (13279): 	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)
+05-17 15:46:56.297 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:56.297 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:56.297 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-17 15:46:56.297 E/appium  (13279): 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+05-17 15:46:56.297 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:56.297 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:56.297 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-17 15:46:56.297 E/appium  (13279): 	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+05-17 15:46:56.297 E/appium  (13279): 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+05-17 15:46:56.297 E/appium  (13279): 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+05-17 15:46:56.297 E/appium  (13279): 	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+05-17 15:46:56.297 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:56.297 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:56.297 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-17 15:46:56.297 E/appium  (13279): 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+05-17 15:46:56.297 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:56.297 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:56.297 E/appium  (13279): 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+05-17 15:46:56.297 E/appium  (13279): 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+05-17 15:46:56.297 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+05-17 15:46:56.297 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:514)
+05-17 15:46:56.297 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:468)
+05-17 15:46:56.297 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+05-17 15:46:56.297 E/appium  (13279): 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+05-17 15:46:56.297 E/appium  (13279): 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+05-17 15:46:56.297 E/appium  (13279): 	at java.lang.Thread.run(Thread.java:818)
+05-17 15:46:56.298 E/WifiTrafficPoller(  851):  packet count Tx=1615427 Rx=5361053
+05-17 15:46:56.298 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-17 15:46:56.824 E/appium  (13279): Element not found: 
+05-17 15:46:56.824 E/appium  (13279): io.appium.uiautomator2.common.exceptions.ElementNotFoundException: Could not find an element using supplied strategy. 
+05-17 15:46:56.824 E/appium  (13279): 	at io.appium.uiautomator2.handler.FindElement.getXPathUiObject(FindElement.java:80)
+05-17 15:46:56.824 E/appium  (13279): 	at io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:153)
+05-17 15:46:56.824 E/appium  (13279): 	at io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:102)
+05-17 15:46:56.824 E/appium  (13279): 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:56)
+05-17 15:46:56.824 E/appium  (13279): 	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:202)
+05-17 15:46:56.824 E/appium  (13279): 	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:193)
+05-17 15:46:56.824 E/appium  (13279): 	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)
+05-17 15:46:56.824 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:56.824 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:56.824 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-17 15:46:56.824 E/appium  (13279): 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+05-17 15:46:56.824 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:56.824 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:56.824 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-17 15:46:56.824 E/appium  (13279): 	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+05-17 15:46:56.824 E/appium  (13279): 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+05-17 15:46:56.824 E/appium  (13279): 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+05-17 15:46:56.824 E/appium  (13279): 	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+05-17 15:46:56.824 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:56.824 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:56.824 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-17 15:46:56.824 E/appium  (13279): 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+05-17 15:46:56.824 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-17 15:46:56.824 E/appium  (13279): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-17 15:46:56.824 E/appium  (13279): 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+05-17 15:46:56.824 E/appium  (13279): 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+05-17 15:46:56.824 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+05-17 15:46:56.824 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:514)
+05-17 15:46:56.824 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:468)
+05-17 15:46:56.824 E/appium  (13279): 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+05-17 15:46:56.824 E/appium  (13279): 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+05-17 15:46:56.824 E/appium  (13279): 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+05-17 15:46:56.824 E/appium  (13279): 	at java.lang.Thread.run(Thread.java:818)
+05-17 15:46:57.301 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2406 num clients 19
+05-17 15:46:57.302 E/WifiTrafficPoller(  851):  packet count Tx=1615427 Rx=5361068

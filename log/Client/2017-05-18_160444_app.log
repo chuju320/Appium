@@ -1,0 +1,255 @@
+--------- beginning of /dev/log/system
+05-18 16:00:49.141 E/NetdConnector(  333): Communications error: java.io.IOException: Connection refused
+05-18 16:00:49.141 E/NetdConnector(  333): Error in NativeDaemonConnector: java.io.IOException: Connection refused
+05-18 16:00:54.201 E/ConnectivityService(  333): Ignoring protectedNetwork 10
+05-18 16:00:54.201 E/ConnectivityService(  333): Ignoring protectedNetwork 11
+05-18 16:00:54.201 E/ConnectivityService(  333): Ignoring protectedNetwork 12
+05-18 16:00:54.201 E/ConnectivityService(  333): Ignoring protectedNetwork 14
+05-18 16:00:54.211 E/MobileDataStateTracker(  333): default: Ignoring feature request because could not acquire PhoneService
+05-18 16:00:54.211 E/MobileDataStateTracker(  333): default: Could not enable APN type "default"
+05-18 16:00:56.321 E/NetdConnector(  333): NDC Command {1 bandwidth enable} took too long (1849ms)
+05-18 16:00:56.321 E/NetdConnector(  333): NDC Command {2 softap fwreload eth1 STA} took too long (1620ms)
+05-18 16:00:57.171 E/LocationManagerService(  333): no geocoder provider found
+05-18 16:00:57.171 E/LocationManagerService(  333): No FusedProvider found.
+05-18 16:00:57.171 E/LocationManagerService(  333): no geofence provider found
+05-18 16:01:01.431 E/ConnectivityService(  333): Unexpected mtu value: android.net.wifi.WifiStateTracker@4a8f0654
+05-18 16:01:08.855 E/RemotePrintSpooler(  333): Error removing obsolete print jobs .
+05-18 16:01:08.855 E/RemotePrintSpooler(  333): java.util.concurrent.TimeoutException: Cannot get spooler!
+05-18 16:01:08.855 E/RemotePrintSpooler(  333): 	at com.android.server.print.RemotePrintSpooler.bindLocked(RemotePrintSpooler.java:376)
+05-18 16:01:08.855 E/RemotePrintSpooler(  333): 	at com.android.server.print.RemotePrintSpooler.getRemoteInstanceLazy(RemotePrintSpooler.java:352)
+05-18 16:01:08.855 E/RemotePrintSpooler(  333): 	at com.android.server.print.RemotePrintSpooler.removeObsoletePrintJobs(RemotePrintSpooler.java:287)
+05-18 16:01:08.855 E/RemotePrintSpooler(  333): 	at com.android.server.print.UserState.removeObsoletePrintJobs(UserState.java:163)
+05-18 16:01:08.855 E/RemotePrintSpooler(  333): 	at com.android.server.print.PrintManagerService$1.run(PrintManagerService.java:94)
+05-18 16:01:08.855 E/RemotePrintSpooler(  333): 	at android.os.Handler.handleCallback(Handler.java:733)
+05-18 16:01:08.855 E/RemotePrintSpooler(  333): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+05-18 16:01:08.855 E/RemotePrintSpooler(  333): 	at android.os.Looper.loop(Looper.java:136)
+05-18 16:01:08.855 E/RemotePrintSpooler(  333): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+05-18 16:01:09.275 E/local_gps(  159): Can't send RMC command
+05-18 16:01:31.045 E/ActivityThread(  937): Failed to find provider info for com.google.android.wearable.settings
+--------- beginning of /dev/log/main
+05-18 16:03:55.175 E/cutils-trace( 2575): Error opening trace file: No such file or directory (2)
+05-18 16:03:55.445 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:03:56.445 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:03:57.445 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:03:58.465 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:03:59.375 E/memtrack( 2615): Couldn't load memtrack module (No such file or directory)
+05-18 16:03:59.375 E/android.os.Debug( 2615): failed to load memtrack module: -2
+05-18 16:03:59.465 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:03:59.555 E/cutils-trace( 2615): Error opening trace file: No such file or directory (2)
+05-18 16:04:00.465 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:01.345 E/memtrack( 2629): Couldn't load memtrack module (No such file or directory)
+05-18 16:04:01.355 E/android.os.Debug( 2629): failed to load memtrack module: -2
+05-18 16:04:01.635 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:02.465 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:02.785 E/cutils-trace( 2629): Error opening trace file: No such file or directory (2)
+05-18 16:04:03.055 E/appium  ( 2556): Exception while handling action in: io.appium.uiautomator2.handler.Clear
+05-18 16:04:03.055 E/appium  ( 2556): java.lang.NullPointerException
+05-18 16:04:03.055 E/appium  ( 2556): 	at android.support.test.uiautomator.UiObject2.setText(UiObject2.java:601)
+05-18 16:04:03.055 E/appium  ( 2556): 	at android.support.test.uiautomator.UiObject2.clear(UiObject2.java:338)
+05-18 16:04:03.055 E/appium  ( 2556): 	at io.appium.uiautomator2.model.UiObject2Element.clear(UiObject2Element.java:137)
+05-18 16:04:03.055 E/appium  ( 2556): 	at io.appium.uiautomator2.handler.Clear.safeHandle(Clear.java:51)
+05-18 16:04:03.055 E/appium  ( 2556): 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)
+05-18 16:04:03.055 E/appium  ( 2556): 	at io.appium.uiautomator2.handler.SendKeysToElement.safeHandle(SendKeysToElement.java:73)
+05-18 16:04:03.055 E/appium  ( 2556): 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)
+05-18 16:04:03.055 E/appium  ( 2556): 	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:201)
+05-18 16:04:03.055 E/appium  ( 2556): 	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:192)
+05-18 16:04:03.055 E/appium  ( 2556): 	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)
+05-18 16:04:03.055 E/appium  ( 2556): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-18 16:04:03.055 E/appium  ( 2556): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-18 16:04:03.055 E/appium  ( 2556): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-18 16:04:03.055 E/appium  ( 2556): 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+05-18 16:04:03.055 E/appium  ( 2556): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-18 16:04:03.055 E/appium  ( 2556): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-18 16:04:03.055 E/appium  ( 2556): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-18 16:04:03.055 E/appium  ( 2556): 	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+05-18 16:04:03.055 E/appium  ( 2556): 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+05-18 16:04:03.055 E/appium  ( 2556): 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+05-18 16:04:03.055 E/appium  ( 2556): 	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+05-18 16:04:03.055 E/appium  ( 2556): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-18 16:04:03.055 E/appium  ( 2556): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-18 16:04:03.055 E/appium  ( 2556): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-18 16:04:03.055 E/appium  ( 2556): 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+05-18 16:04:03.055 E/appium  ( 2556): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-18 16:04:03.055 E/appium  ( 2556): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-18 16:04:03.055 E/appium  ( 2556): 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+05-18 16:04:03.055 E/appium  ( 2556): 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+05-18 16:04:03.055 E/appium  ( 2556): 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+05-18 16:04:03.055 E/appium  ( 2556): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:514)
+05-18 16:04:03.055 E/appium  ( 2556): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:468)
+05-18 16:04:03.055 E/appium  ( 2556): 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+05-18 16:04:03.055 E/appium  ( 2556): 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+05-18 16:04:03.055 E/appium  ( 2556): 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+05-18 16:04:03.055 E/appium  ( 2556): 	at java.lang.Thread.run(Thread.java:841)
+05-18 16:04:03.065 E/appium  ( 2556): Exception while handling action in: io.appium.uiautomator2.handler.SendKeysToElement
+05-18 16:04:03.065 E/appium  ( 2556): java.lang.NullPointerException
+05-18 16:04:03.065 E/appium  ( 2556): 	at android.support.test.uiautomator.UiObject2.setText(UiObject2.java:601)
+05-18 16:04:03.065 E/appium  ( 2556): 	at io.appium.uiautomator2.model.UiObject2Element.setText(UiObject2Element.java:128)
+05-18 16:04:03.065 E/appium  ( 2556): 	at io.appium.uiautomator2.handler.SendKeysToElement.safeHandle(SendKeysToElement.java:83)
+05-18 16:04:03.065 E/appium  ( 2556): 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:54)
+05-18 16:04:03.065 E/appium  ( 2556): 	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:201)
+05-18 16:04:03.065 E/appium  ( 2556): 	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:192)
+05-18 16:04:03.065 E/appium  ( 2556): 	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)
+05-18 16:04:03.065 E/appium  ( 2556): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-18 16:04:03.065 E/appium  ( 2556): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-18 16:04:03.065 E/appium  ( 2556): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-18 16:04:03.065 E/appium  ( 2556): 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+05-18 16:04:03.065 E/appium  ( 2556): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-18 16:04:03.065 E/appium  ( 2556): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-18 16:04:03.065 E/appium  ( 2556): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-18 16:04:03.065 E/appium  ( 2556): 	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+05-18 16:04:03.065 E/appium  ( 2556): 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+05-18 16:04:03.065 E/appium  ( 2556): 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+05-18 16:04:03.065 E/appium  ( 2556): 	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+05-18 16:04:03.065 E/appium  ( 2556): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-18 16:04:03.065 E/appium  ( 2556): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-18 16:04:03.065 E/appium  ( 2556): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-18 16:04:03.065 E/appium  ( 2556): 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+05-18 16:04:03.065 E/appium  ( 2556): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-18 16:04:03.065 E/appium  ( 2556): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-18 16:04:03.065 E/appium  ( 2556): 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+05-18 16:04:03.065 E/appium  ( 2556): 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+05-18 16:04:03.065 E/appium  ( 2556): 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+05-18 16:04:03.065 E/appium  ( 2556): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:514)
+05-18 16:04:03.065 E/appium  ( 2556): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:468)
+05-18 16:04:03.065 E/appium  ( 2556): 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+05-18 16:04:03.065 E/appium  ( 2556): 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+05-18 16:04:03.065 E/appium  ( 2556): 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+05-18 16:04:03.065 E/appium  ( 2556): 	at java.lang.Thread.run(Thread.java:841)
+05-18 16:04:03.465 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:03.955 E/memtrack( 2641): Couldn't load memtrack module (No such file or directory)
+05-18 16:04:03.955 E/android.os.Debug( 2641): failed to load memtrack module: -2
+05-18 16:04:04.155 E/cutils-trace( 2641): Error opening trace file: No such file or directory (2)
+05-18 16:04:04.465 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:05.475 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:05.515 E/FastMixer(  167): did not receive expected priority boost
+05-18 16:04:06.475 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:07.625 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:08.485 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:09.485 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:10.485 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:11.485 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:11.505 E/---RankingListAppFragment---( 2587): onResume
+05-18 16:04:11.945 E/GCM     (  726): Missing checkin config file
+05-18 16:04:11.955 E/GCM     (  726): Missing checkin config file
+05-18 16:04:12.095 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/3205omy4td9oxw05yijfjsa900.tmp
+05-18 16:04:12.095 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/3205omy4td9oxw05yijfjsa900.tmp
+05-18 16:04:12.105 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/3205omy4td9oxw05yijfjsa900.tmp
+05-18 16:04:12.105 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/3205omy4td9oxw05yijfjsa900.tmp
+05-18 16:04:12.105 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/3205omy4td9oxw05yijfjsa900.tmp
+05-18 16:04:12.225 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/3205omy4td9oxw05yijfjsa900.tmp
+05-18 16:04:12.225 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/3205omy4td9oxw05yijfjsa900
+05-18 16:04:12.225 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/3205omy4td9oxw05yijfjsa900
+05-18 16:04:12.225 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5qxqvdbogs92lp9xsu05v4d050.tmp
+05-18 16:04:12.225 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5qxqvdbogs92lp9xsu05v4d050.tmp
+05-18 16:04:12.225 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5qxqvdbogs92lp9xsu05v4d050.tmp
+05-18 16:04:12.225 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5qxqvdbogs92lp9xsu05v4d050.tmp
+05-18 16:04:12.225 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5qxqvdbogs92lp9xsu05v4d050.tmp
+05-18 16:04:12.325 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5qxqvdbogs92lp9xsu05v4d050.tmp
+05-18 16:04:12.325 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5qxqvdbogs92lp9xsu05v4d050
+05-18 16:04:12.325 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5qxqvdbogs92lp9xsu05v4d050
+05-18 16:04:12.325 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/64u2kf0bfy71nodbxsvrwaoat0.tmp
+05-18 16:04:12.325 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/64u2kf0bfy71nodbxsvrwaoat0.tmp
+05-18 16:04:12.325 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/64u2kf0bfy71nodbxsvrwaoat0.tmp
+05-18 16:04:12.335 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/64u2kf0bfy71nodbxsvrwaoat0.tmp
+05-18 16:04:12.335 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/64u2kf0bfy71nodbxsvrwaoat0.tmp
+05-18 16:04:12.365 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/64u2kf0bfy71nodbxsvrwaoat0.tmp
+05-18 16:04:12.375 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/64u2kf0bfy71nodbxsvrwaoat0
+05-18 16:04:12.375 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/64u2kf0bfy71nodbxsvrwaoat0
+05-18 16:04:12.375 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/1yr55s6idym5vmr2kp828kc730.tmp
+05-18 16:04:12.375 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/1yr55s6idym5vmr2kp828kc730.tmp
+05-18 16:04:12.375 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5qk5ab5bpi8w4etc52xne53rs0.tmp
+05-18 16:04:12.375 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5qk5ab5bpi8w4etc52xne53rs0.tmp
+05-18 16:04:12.375 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/1yr55s6idym5vmr2kp828kc730.tmp
+05-18 16:04:12.395 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/1yr55s6idym5vmr2kp828kc730.tmp
+05-18 16:04:12.395 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/1yr55s6idym5vmr2kp828kc730.tmp
+05-18 16:04:12.465 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/1yr55s6idym5vmr2kp828kc730.tmp
+05-18 16:04:12.465 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/1yr55s6idym5vmr2kp828kc730
+05-18 16:04:12.465 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/1yr55s6idym5vmr2kp828kc730
+05-18 16:04:12.465 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/3zj5e7agc5dxrx9zld8s8tazk0.tmp
+05-18 16:04:12.475 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/3zj5e7agc5dxrx9zld8s8tazk0.tmp
+05-18 16:04:12.475 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/3zj5e7agc5dxrx9zld8s8tazk0.tmp
+05-18 16:04:12.475 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/3zj5e7agc5dxrx9zld8s8tazk0.tmp
+05-18 16:04:12.475 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/3zj5e7agc5dxrx9zld8s8tazk0.tmp
+05-18 16:04:12.515 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/3zj5e7agc5dxrx9zld8s8tazk0.tmp
+05-18 16:04:12.525 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/3zj5e7agc5dxrx9zld8s8tazk0
+05-18 16:04:12.525 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/3zj5e7agc5dxrx9zld8s8tazk0
+05-18 16:04:12.525 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5qk5ab5bpi8w4etc52xne53rs0.tmp
+05-18 16:04:12.535 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5qk5ab5bpi8w4etc52xne53rs0.tmp
+05-18 16:04:12.535 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5qk5ab5bpi8w4etc52xne53rs0.tmp
+05-18 16:04:12.615 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5qk5ab5bpi8w4etc52xne53rs0.tmp
+05-18 16:04:12.615 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5qk5ab5bpi8w4etc52xne53rs0
+05-18 16:04:12.615 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5qk5ab5bpi8w4etc52xne53rs0
+05-18 16:04:12.615 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/mk3hplefdtlqmx38m1iwlp2r0.tmp
+05-18 16:04:12.615 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/mk3hplefdtlqmx38m1iwlp2r0.tmp
+05-18 16:04:12.615 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/mk3hplefdtlqmx38m1iwlp2r0.tmp
+05-18 16:04:12.625 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/mk3hplefdtlqmx38m1iwlp2r0.tmp
+05-18 16:04:12.625 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/4kxgwmqh15kqpdwvd91ok1rs00.tmp
+05-18 16:04:12.625 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/4kxgwmqh15kqpdwvd91ok1rs00.tmp
+05-18 16:04:12.625 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/4kxgwmqh15kqpdwvd91ok1rs00.tmp
+05-18 16:04:12.625 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/4kxgwmqh15kqpdwvd91ok1rs00.tmp
+05-18 16:04:12.625 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/2dw14j6zx8fuf59l70lizvt710.tmp
+05-18 16:04:12.635 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/2dw14j6zx8fuf59l70lizvt710.tmp
+05-18 16:04:12.635 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/2dw14j6zx8fuf59l70lizvt710.tmp
+05-18 16:04:12.635 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/2dw14j6zx8fuf59l70lizvt710.tmp
+05-18 16:04:12.635 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/mk3hplefdtlqmx38m1iwlp2r0.tmp
+05-18 16:04:12.665 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/mk3hplefdtlqmx38m1iwlp2r0.tmp
+05-18 16:04:12.665 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/mk3hplefdtlqmx38m1iwlp2r0
+05-18 16:04:12.665 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/mk3hplefdtlqmx38m1iwlp2r0
+05-18 16:04:12.665 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/2dw14j6zx8fuf59l70lizvt710.tmp
+05-18 16:04:12.675 E/GCM     (  726): Missing checkin config file
+05-18 16:04:12.695 E/GCM     (  726): Missing checkin config file
+05-18 16:04:12.715 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/2dw14j6zx8fuf59l70lizvt710.tmp
+05-18 16:04:12.725 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/2dw14j6zx8fuf59l70lizvt710
+05-18 16:04:12.725 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/2dw14j6zx8fuf59l70lizvt710
+05-18 16:04:12.725 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/4kxgwmqh15kqpdwvd91ok1rs00.tmp
+05-18 16:04:12.765 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/4kxgwmqh15kqpdwvd91ok1rs00.tmp
+05-18 16:04:12.765 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/4kxgwmqh15kqpdwvd91ok1rs00
+05-18 16:04:12.765 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/4kxgwmqh15kqpdwvd91ok1rs00
+05-18 16:04:12.765 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5252683xnrtcrm7o65y7uirsl0.tmp
+05-18 16:04:12.775 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5252683xnrtcrm7o65y7uirsl0.tmp
+05-18 16:04:12.775 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5252683xnrtcrm7o65y7uirsl0.tmp
+05-18 16:04:12.775 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5252683xnrtcrm7o65y7uirsl0.tmp
+05-18 16:04:12.775 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5252683xnrtcrm7o65y7uirsl0.tmp
+05-18 16:04:12.815 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5252683xnrtcrm7o65y7uirsl0.tmp
+05-18 16:04:12.815 E/Cataloger( 1238): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5252683xnrtcrm7o65y7uirsl0
+05-18 16:04:12.815 E/Cataloger( 1238): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5252683xnrtcrm7o65y7uirsl0
+05-18 16:04:12.895 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:13.485 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:14.375 E/FastMixer(  167): did not receive expected priority boost
+05-18 16:04:14.535 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:15.495 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:16.495 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:17.515 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:18.515 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:19.515 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:20.515 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:21.525 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:22.525 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:23.525 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:24.535 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:25.555 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:26.545 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:27.555 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:28.575 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:29.595 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:30.575 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:31.575 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:32.585 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:33.595 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:34.615 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:35.625 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:36.635 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:37.625 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:38.645 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:39.635 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:40.635 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:41.635 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:42.665 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:43.655 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:44.715 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:45.645 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:46.675 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:47.645 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:48.665 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:49.665 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665
+05-18 16:04:50.665 E/GPSManager( 1769): Location changed : Lat: 40.00125 Lng: 105.56358166666665

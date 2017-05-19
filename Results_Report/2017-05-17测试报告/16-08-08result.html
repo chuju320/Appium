@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>测试报告</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.2"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    
+<style type="text/css" media="screen">
+body        { font-family: verdana, arial, helvetica, sans-serif; font-size: 80%; }
+table       { font-size: 100%; }
+pre         { }
+
+/* -- heading ---------------------------------------------------------------------- */
+h1 {
+	font-size: 16pt;
+	color: gray;
+}
+.heading {
+    margin-top: 0ex;
+    margin-bottom: 1ex;
+}
+
+.heading .attribute {
+    margin-top: 1ex;
+    margin-bottom: 0;
+}
+
+.heading .description {
+    margin-top: 4ex;
+    margin-bottom: 6ex;
+}
+
+/* -- css div popup ------------------------------------------------------------------------ */
+a.popup_link {
+}
+
+a.popup_link:hover {
+    color: red;
+}
+
+.popup_window {
+    display: none;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    /*border: solid #627173 1px; */
+    padding: 10px;
+    background-color: #E6E6D6;
+    font-family: "Lucida Console", "Courier New", Courier, monospace;
+    text-align: left;
+    font-size: 8pt;
+    width: 500px;
+}
+
+}
+/* -- report ------------------------------------------------------------------------ */
+#show_detail_line {
+    margin-top: 3ex;
+    margin-bottom: 1ex;
+}
+#result_table {
+    width: 80%;
+    border-collapse: collapse;
+    border: 1px solid #777;
+}
+#header_row {
+    font-weight: bold;
+    color: white;
+    background-color: #777;
+}
+#result_table td {
+    border: 1px solid #777;
+    padding: 2px;
+}
+#total_row  { font-weight: bold; }
+.passClass  { background-color: #6c6; }
+.failClass  { background-color: #c60; }
+.errorClass { background-color: #c00; }
+.passCase   { color: #6c6; }
+.failCase   { color: #c60; font-weight: bold; }
+.errorCase  { color: #c00; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+
+
+/* -- ending ---------------------------------------------------------------------- */
+#ending {
+}
+
+</style>
+
+</head>
+<body>
+<script language="javascript" type="text/javascript"><!--
+output_list = Array();
+
+/* level - 0:Summary; 1:Failed; 2:All */
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level < 1) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level > 1) {
+                tr.className = '';
+            }
+            else {
+                tr.className = 'hiddenRow';
+            }
+        }
+    }
+}
+
+
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '.' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        if (toHide) {
+            document.getElementById('div_'+tid).style.display = 'none'
+            document.getElementById(tid).className = 'hiddenRow';
+        }
+        else {
+            document.getElementById(tid).className = '';
+        }
+    }
+}
+
+
+function showTestDetail(div_id){
+    var details_div = document.getElementById(div_id)
+    var displayState = details_div.style.display
+    // alert(displayState)
+    if (displayState != 'block' ) {
+        displayState = 'block'
+        details_div.style.display = 'block'
+    }
+    else {
+        details_div.style.display = 'none'
+    }
+}
+
+
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+
+/* obsoleted by detail in <div>
+function showOutput(id, name) {
+    var w = window.open("", //url
+                    name,
+                    "resizable,scrollbars,status,width=800,height=450");
+    d = w.document;
+    d.write("<pre>");
+    d.write(html_escape(output_list[id]));
+    d.write("\n");
+    d.write("<a href='javascript:window.close()'>close</a>\n");
+    d.write("</pre>\n");
+    d.close();
+}
+*/
+--></script>
+
+<div class='heading'>
+<h1>测试报告</h1>
+<p class='attribute'><strong>Start Time:</strong> 2017-05-17 16:08:08</p>
+<p class='attribute'><strong>Duration:</strong> 0:14:47.215000</p>
+<p class='attribute'><strong>Status:</strong> Pass 12 Error 2</p>
+
+<p class='description'>用例执行情况</p>
+</div>
+
+
+
+<p id='show_detail_line'>Show
+<a href='javascript:showCase(0)'>Summary</a>
+<a href='javascript:showCase(1)'>Failed</a>
+<a href='javascript:showCase(2)'>All</a>
+</p>
+<table id='result_table'>
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row'>
+    <td>Test Group/Test case</td>
+    <td>Count</td>
+    <td>Pass</td>
+    <td>Fail</td>
+    <td>Error</td>
+    <td>View</td>
+</tr>
+
+<tr class='errorClass'>
+    <td>executeMain.ExcutionEngin: 测试用例生成与执行</td>
+    <td>14</td>
+    <td>12</td>
+    <td>0</td>
+    <td>2</td>
+    <td><a href="javascript:showClassDetail('c1',14)">Detail</a></td>
+</tr>
+
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_data_0001_LoginUI</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        pass</a>
+
+    <div id='div_pt1.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.1: 【登录测试】
++++++++++++++++++++++++++++++++++++
+测试平台：Android
+平台版本：5.1
+设备：PD1501D
+测试app：app_release.apk
++++++++++++++++++++++++++++++++++++
+打开app
+登录界面截图
+等待2秒
+验证“手机工单”字样
+预期查找元素：[u'xpath', u"//*[contains(@text,'\u624b\u673a\u5de5\u5355')]"]
+预期结果：手机工单
+实际结果：手机工单
+匹配成功！
+登录
+关闭app
+end
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_data_0002_MainUI</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
+        pass</a>
+
+    <div id='div_pt1.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.2: 【主界面测试】
++++++++++++++++++++++++++++++++++++
+测试平台：Android
+平台版本：5.1
+设备：PD1501D
+测试app：app_release.apk
++++++++++++++++++++++++++++++++++++
+打开app
+登录
+验证‘首页’
+预期查找元素：[u'xpath', u"//*[contains(@text,'\u9996\u9875')]"]
+预期结果：首页
+实际结果：首页
+匹配成功！
+主界面截图
+点击‘故障工单’
+点击元素：[u'xpath', u"//*[contains(@text,'\u6545\u969c\u5de5\u5355')]"]
+点击‘待办列表’
+点击元素：[u'xpath', u"//*[contains(@text,'\u5f85\u529e\u5217\u8868')]"]
+验证‘页面标题’
+预期查找元素：[u'xpath', u"//*[contains(@text,'\u6545\u969c-\u5f85\u529e\u5de5\u5355\u5217\u8868')]"]
+预期结果：故障-待办工单列表
+实际结果：故障-待办工单列表
+匹配成功！
+验证‘超时’
+预期查找元素：[u'xpath', u"//*[contains(@text,'\u8d85\u65f6')]"]
+预期结果：超时
+实际结果：超时
+匹配成功！
+验证‘将要超时’
+预期查找元素：[u'xpath', u"//*[contains(@text,'\u5c06\u8981\u8d85\u65f6')]"]
+预期结果：将要超时
+实际结果：将要超时
+匹配成功！
+验证‘已受理’
+预期查找元素：[u'xpath', u"//*[contains(@text,'\u5df2\u53d7\u7406')]"]
+预期结果：已受理
+实际结果：已受理
+匹配成功！
+验证‘驳回’
+预期查找元素：[u'xpath', u"//*[contains(@text,'\u9a73\u56de')]"]
+预期结果：驳回
+实际结果：驳回
+匹配成功！
+上滑页面
+关闭app
+end
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.3' class='none'>
+    <td class='errorCase'><div class='testcase'>test_data_0003_DetailOne</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.3')" >
+        error</a>
+
+    <div id='div_ft1.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.3: 【第一张工单测试】
++++++++++++++++++++++++++++++++++++
+测试平台：Android
+平台版本：5.1
+设备：PD1501D
+测试app：app_release.apk
++++++++++++++++++++++++++++++++++++
+打开app
+登录
+验证‘首页’
+预期查找元素：[u'xpath', u"//*[contains(@text,'\u9996\u9875')]"]
+预期结果：首页
+实际结果：首页
+匹配成功！
+点击‘故障工单’
+点击元素：[u'xpath', u"//*[contains(@text,'\u6545\u969c\u5de5\u5355')]"]
+点击‘待办列表’
+点击元素：[u'xpath', u"//*[contains(@text,'\u5f85\u529e\u5217\u8868')]"]
+点击第一张工单
+点击元素：[u'xpath', u"//*[contains(@text,'SC-051-170515-00005T2\u5904\u7406')]"]
+验证‘操作人’
+预期查找元素：[u'xpath', u"//*[contains(@text,'\u4f20\u8f93\u5efa\u5355')]"]
+预期结果：传输建单
+实际结果：传输建单
+匹配成功！
+验证‘操作人联系方式’
+预期查找元素：[u'xpath', u"//*[contains(@text,'15008430744')]"]
+BasePage页面查找元素失败:Message: 
+
+页面未找到元素:[u'xpath', u"//*[contains(@text,'15008430744')]"]
+Traceback (most recent call last):
+  File "D:\code\AppiumHq\executeMain.py", line 264, in func
+    self.action(*txt)
+  File "D:\code\AppiumHq\executeMain.py", line 96, in action
+    exeKeyword.assertData(loc,actual)
+  File "D:\code\AppiumHq\config\keyWords.py", line 147, in assertData
+    actual = self.find_element(loc).text
+AttributeError: 'NoneType' object has no attribute 'text'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.4' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_data_0004_setTime</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.4')" >
+        pass</a>
+
+    <div id='div_pt1.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.4: 【设置日期】
++++++++++++++++++++++++++++++++++++
+测试平台：Android
+平台版本：5.1
+设备：PD1501D
+测试app：app_release.apk
++++++++++++++++++++++++++++++++++++
+打开app
+登录
+点击‘故障工单’
+点击元素：[u'xpath', u"//*[contains(@text,'\u6545\u969c\u5de5\u5355')]"]
+点击‘待办列表’
+点击元素：[u'xpath', u"//*[contains(@text,'\u5f85\u529e\u5217\u8868')]"]
+点击第一张工单
+点击元素：[u'xpath', u"//*[contains(@text,'SC-051-170515-00005T2\u5904\u7406')]"]
+点击‘操作’
+点击元素：[u'id', u'com.boco.sc.mobileom:id/mobileom_ws_detail_action']
+点击‘回复’
+点击元素：[u'xpath', u"//*[contains(@text,'\u56de\u590d')]"]
+设置时间
+目标时间 2015-8-13 11:16:20
+当前时间 2017-05-17 16:12:21
+关闭app
+end
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.5' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_data_0005_test_01</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.5')" >
+        pass</a>
+
+    <div id='div_pt1.5' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.5').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.5: 【设置GPS、网络】
++++++++++++++++++++++++++++++++++++
+测试平台：Android
+平台版本：5.1
+设备：PD1501D
+测试app：app_release.apk
++++++++++++++++++++++++++++++++++++
+打开app
+登录
+点击‘故障工单’
+点击屏幕[210,260]
+点击‘待办列表’
+点击元素：[u'xpath', u"//*[contains(@text,'\u5f85\u529e\u5217\u8868')]"]
+点击第一张工单
+点击元素：[u'xpath', u"//*[contains(@text,'SC-051-170515-00005T2\u5904\u7406')]"]
+设置GPS
+创建截图存储目录！
+创建目录成功！
+设置网络
+设置网络为：4
+网络设置失败！
+关闭app
+end
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.6' class='none'>
+    <td class='errorCase'><div class='testcase'>test_data_0006_test_02</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.6')" >
+        error</a>
+
+    <div id='div_ft1.6' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.6').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.6: 【安装卸载】
++++++++++++++++++++++++++++++++++++
+测试平台：Android
+平台版本：5.1
+设备：PD1501D
+测试app：app_release.apk
++++++++++++++++++++++++++++++++++++
+打开app
+卸载app
+卸载完成！
+安装app
+app未安装，将进行安装！
+尝试第 1 次安装！
+Traceback (most recent call last):
+  File "D:\code\AppiumHq\executeMain.py", line 264, in func
+    self.action(*txt)
+  File "D:\code\AppiumHq\executeMain.py", line 243, in action
+    exeKeyword.install()
+  File "D:\code\AppiumHq\config\keyWords.py", line 261, in install
+    self.install_app()
+  File "D:\code\AppiumHq\page\BasePage.py", line 480, in install_app
+    WebDriverWait(self.driver,10).until(lambda driver:driver.is_app_installed(packages))
+  File "C:\Python27\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.7' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_data_0007_test_03</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.7')" >
+        pass</a>
+
+    <div id='div_pt1.7' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.7').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.7: 【单选】
++++++++++++++++++++++++++++++++++++
+测试平台：Android
+平台版本：5.1
+设备：PD1501D
+测试app：app_release.apk
++++++++++++++++++++++++++++++++++++
+打开app
+登录
+点击‘故障工单’
+点击元素：[u'xpath', u"//*[contains(@text,'\u6545\u969c\u5de5\u5355')]"]
+点击‘待办列表’
+点击元素：[u'xpath', u"//*[contains(@text,'\u5f85\u529e\u5217\u8868')]"]
+点击第一张工单
+点击元素：[u'xpath', u"//*[contains(@text,'SC-051-170515-00005T2\u5904\u7406')]"]
+点击‘操作’
+点击元素：[u'id', u'com.boco.sc.mobileom:id/mobileom_ws_detail_action']
+点击‘延期申请’
+点击元素：[u'xpath', u"//*[contains(@text,'\u5ef6\u671f\u7533\u8bf7')]"]
+验证‘延期申请’
+预期查找元素：[u'xpath', u"//*[contains(@text,'\u5ef6\u671f\u7533\u8bf7')]"]
+预期结果：延期申请
+实际结果：延期申请
+匹配成功！
+验证‘操作人’
+预期查找元素：[u'id', u'com.boco.sc.mobileom:id/emos_cws_relay_czr_value']
+预期结果：ceshi1
+实际结果：ceshi1
+匹配成功！
+点击‘派往对象’
+点击元素：[u'id', u'com.boco.sc.mobileom:id/wsoperate_typel_transfer']
+点击第一个复选框
+点击元素：[u'xpath', u'//android.widget.ListView/android.widget.RelativeLayout/android.widget.CheckBox']
+点击‘完成’
+点击元素：[u'id', u'com.boco.sc.mobileom:id/emos_sc_fd_submit']
+点击‘完成’
+点击元素：[u'id', u'com.boco.sc.mobileom:id/emos_sc_fd_submit']
+点击‘取消’
+点击元素：[u'xpath', u"//*[contains(@text,'\u53d6\u6d88')]"]
+关闭app
+end
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.8' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_data_0008_test_04</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.8')" >
+        pass</a>
+
+    <div id='div_pt1.8' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.8').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.8: 【搜索测试】
++++++++++++++++++++++++++++++++++++
+测试平台：Android
+平台版本：5.1
+设备：PD1501D
+测试app：app_release.apk
++++++++++++++++++++++++++++++++++++
+打开app
+登录
+点击‘故障工单’
+点击元素：[u'xpath', u"//*[contains(@text,'\u6545\u969c\u5de5\u5355')]"]
+点击‘待办列表’
+点击元素：[u'xpath', u"//*[contains(@text,'\u5f85\u529e\u5217\u8868')]"]
+点击‘搜索’
+点击元素：[u'id', u'com.boco.sc.mobileom:id/emos_sc_fd_submit']
+输入‘工单编号’
+txt[k] SC-051-170611-00005T1
+点击‘查询’
+点击元素：[u'xpath', u"//*[contains(@text,'\u67e5\u8be2')]"]
+点击‘确定’
+点击元素：[u'xpath', u"//*[contains(@text,'\u786e\u5b9a')]"]
+关闭app
+end
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.9' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_data_0009_test_05</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.9')" >
+        pass</a>
+
+    <div id='div_pt1.9' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.9').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.9: 【批量选择测试】
++++++++++++++++++++++++++++++++++++
+测试平台：Android
+平台版本：5.1
+设备：PD1501D
+测试app：app_release.apk
++++++++++++++++++++++++++++++++++++
+打开app
+登录
+点击‘故障工单’
+点击元素：[u'xpath', u"//*[contains(@text,'\u6545\u969c\u5de5\u5355')]"]
+点击‘待办列表’
+点击元素：[u'xpath', u"//*[contains(@text,'\u5f85\u529e\u5217\u8868')]"]
+点击第一张工单
+点击元素：[u'xpath', u"//*[contains(@text,'SC-051-170515-00005T2\u5904\u7406')]"]
+点击‘操作’
+点击元素：[u'id', u'com.boco.sc.mobileom:id/mobileom_ws_detail_action']
+点击‘延期申请’
+点击元素：[u'xpath', u"//*[contains(@text,'\u5ef6\u671f\u7533\u8bf7')]"]
+点击‘派往对象’
+点击元素：[u'id', u'com.boco.sc.mobileom:id/wsoperate_typel_transfer']
+批量选择‘角色’
+点击元素[u'id', u'com.boco.sc.mobileom:id/emos_ws_tree_list_select']：位置[1,3,6]
+点击‘完成’
+点击元素：[u'id', u'com.boco.sc.mobileom:id/emos_sc_fd_submit']
+点击‘完成’
+点击元素：[u'id', u'com.boco.sc.mobileom:id/emos_sc_fd_submit']
+点击‘取消’
+点击元素：[u'xpath', u"//*[contains(@text,'\u53d6\u6d88')]"]
+关闭app
+end
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.10' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_data_0010_test_06</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.10')" >
+        pass</a>
+
+    <div id='div_pt1.10' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.10').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.10: 【设置测试】
++++++++++++++++++++++++++++++++++++
+测试平台：Android
+平台版本：5.1
+设备：PD1501D
+测试app：app_release.apk
++++++++++++++++++++++++++++++++++++
+打开app
+登录
+点击‘设置’图标
+点击元素：[u'id', u'com.boco.sc.mobileom:id/emos_sc_fd_submit']
+开启推送
+点击元素：[u'id', u'com.boco.sc.mobileom:id/emos_ws_about_kqts_value']
+返回上一级
+点击元素：[u'id', u'com.boco.sc.mobileom:id/emos_sc_fd_back']
+点击‘设置’图标
+点击元素：[u'id', u'com.boco.sc.mobileom:id/emos_sc_fd_submit']
+点击‘切换用户’
+点击元素：[u'id', u'com.boco.sc.mobileom:id/emos_ws_about_qhyh']
+登录
+点击‘设置’图标
+点击元素：[u'id', u'com.boco.sc.mobileom:id/emos_sc_fd_submit']
+验证当前登录用户
+预期查找元素：[u'id', u'com.boco.sc.mobileom:id/emos_ws_about_qhyh']
+预期结果：切换用户(ceshi1)
+实际结果：切换用户(ceshi1)
+匹配成功！
+关闭app
+end
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.11' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_data_0011_test_07</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.11')" >
+        pass</a>
+
+    <div id='div_pt1.11' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.11').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.11: 【下载附件】
++++++++++++++++++++++++++++++++++++
+测试平台：Android
+平台版本：5.1
+设备：PD1501D
+测试app：app_release.apk
++++++++++++++++++++++++++++++++++++
+打开app
+登录
+点击‘隐患工单’
+点击元素：[u'xpath', u"//*[contains(@text,'\u9690\u60a3\u5de5\u5355')]"]
+点击‘待办列表’
+点击元素：[u'xpath', u"//*[contains(@text,'\u5f85\u529e\u5217\u8868')]"]
+选择一张工单
+点击元素：[u'xpath', u"//*[contains(@text,'SC-606-170504-21218')]"]
+等待2秒
+页面滑动
+页面执行操作：up滑动4次
+点击‘附件查看’
+点击元素：[u'xpath', u"//*[contains(@text,'\u9644\u4ef6\u67e5\u770b')]"]
+打印‘下载路径’
+获取元素[u'id', u'com.boco.sc.mobileom:id/mobile_tws_attach_tag']的显示信息：下载路径:   /sdcard/mobileom_gx/worksheet/attachment
+后退
+等待1秒
+关闭app
+end
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.12' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_data_0012_test_08</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.12')" >
+        pass</a>
+
+    <div id='div_pt1.12' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.12').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.12: 【className定位】
++++++++++++++++++++++++++++++++++++
+测试平台：Android
+平台版本：5.1
+设备：PD1501D
+测试app：app_release.apk
++++++++++++++++++++++++++++++++++++
+打开app
+登录
+点击‘隐患工单’
+点击元素：[u'xpath', u"//*[contains(@text,'\u9690\u60a3\u5de5\u5355')]"]
+点击‘待办列表’
+点击元素：[u'xpath', u"//*[contains(@text,'\u5f85\u529e\u5217\u8868')]"]
+选择一张工单
+点击元素：[u'xpath', u"//*[contains(@text,'SC-606-170504-21218')]"]
+点击‘流转信息’
+点击元素：[u'id', u'com.boco.sc.mobileom:id/mobileom_ws_detail_history']
+点击第一条信息
+点击元素[u'id', u'com.boco.sc.mobileom:id/eoms_ws_sc_fhistory_id']：位置[1]
+关闭app
+end
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.13' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_data_0013_test_09</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.13')" >
+        pass</a>
+
+    <div id='div_pt1.13' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.13').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.13: 【角色树图】
++++++++++++++++++++++++++++++++++++
+测试平台：Android
+平台版本：5.1
+设备：PD1501D
+测试app：app_release.apk
++++++++++++++++++++++++++++++++++++
+打开app
+登录
+点击‘故障工单’
+点击元素：[u'xpath', u"//*[contains(@text,'\u6545\u969c\u5de5\u5355')]"]
+点击‘工单概况’
+点击元素：[u'xpath', u"//*[@text='\u5de5\u5355\u6982\u51b5']"]
+展开第一项
+点击元素：[u'xpath', u'//android.widget.ListView/android.widget.RelativeLayout[1]']
+选中第三个
+点击元素：[u'xpath', u'//android.widget.ListView/android.widget.RelativeLayout[3]/android.widget.ImageView']
+合并列表
+点击元素：[u'xpath', u"//*[@text='\u4ebf\u9633\u7ef4\u62a4\u7ec4']/preceding-sibling::*[@resource-id='com.boco.sc.mobileom:id/role_tree_item_flex_img']"]
+勾选第一项
+点击元素：[u'xpath', u"//*[@text='\u4ebf\u9633\u7ef4\u62a4\u7ec4']/following-sibling::android.widget.ImageView"]
+关闭app
+end
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.14' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_data_0014_test_10</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.14')" >
+        pass</a>
+
+    <div id='div_pt1.14' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.14').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.14: 【信息流转】
++++++++++++++++++++++++++++++++++++
+测试平台：Android
+平台版本：5.1
+设备：PD1501D
+测试app：app_release.apk
++++++++++++++++++++++++++++++++++++
+打开app
+登录
+点击‘故障工单’
+点击元素：[u'xpath', u"//*[contains(@text,'\u6545\u969c\u5de5\u5355')]"]
+点击‘同组列表’
+点击元素：[u'xpath', u"//*[@text='\u540c\u7ec4\u5217\u8868']"]
+选择第一项工单
+点击元素：[u'xpath', u'//android.widget.ListView/android.widget.RelativeLayout[1]']
+点击‘操作’
+点击元素：[u'id', u'com.boco.sc.mobileom:id/mobileom_ws_detail_action']
+选择‘信息流转’
+点击元素：[u'xpath', u"//*[@text='\u4fe1\u606f\u6d41\u8f6c']"]
+点击‘提交申请’
+点击元素：[u'xpath', u"//*[@text='\u63d0\u4ea4\u7533\u8bf7']"]
+验证‘建单部门’
+预期查找元素：[u'xpath', u"//*[@text='\u5efa\u5355\u90e8\u95e8:']/following-sibling::android.widget.EditText"]
+预期结果：网管中心
+实际结果：网管中心
+匹配成功！
+未知关键字swipe_page
+关闭app
+end
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='total_row'>
+    <td>Total</td>
+    <td>14</td>
+    <td>12</td>
+    <td>0</td>
+    <td>2</td>
+    <td>&nbsp;</td>
+</tr>
+</table>
+
+<div id='ending'>&nbsp;</div>
+
+</body>
+</html>

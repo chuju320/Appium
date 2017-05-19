@@ -1,0 +1,363 @@
+--------- beginning of system
+05-18 09:50:05.937 E/NotificationService(  851): Suppressing notification from package com.qihoo.appstore by user request.
+05-18 09:50:05.938 E/NotificationService(  851): Suppressing notification from package com.qihoo.appstore by user request.
+--------- beginning of main
+05-18 09:50:06.304 E/AKAD    (17818): no ad
+05-18 09:50:06.833 E/CoreDaemonUtils(17775): getLibDir/data/app/com.qihoo.appstore-2/lib/arm
+05-18 09:50:06.955 E/NotificationService(  851): Suppressing notification from package com.qihoo.appstore by user request.
+05-18 09:50:06.960 E/NotificationService(  851): Suppressing notification from package com.qihoo.appstore by user request.
+05-18 09:50:07.016 E/DaemonThread(17775): countProcess => 0
+05-18 09:50:07.066 E/NotificationService(  851): Suppressing notification from package com.qihoo.appstore by user request.
+05-18 09:50:07.070 E/NotificationService(  851): Suppressing notification from package com.qihoo.appstore by user request.
+05-18 09:50:07.121 E/NativeCrypto(17818): ssl=0xe0e24600 cert_verify_callback x509_store_ctx=0xdda00170 arg=0x0
+05-18 09:50:07.121 E/NativeCrypto(17818): ssl=0xe0e24600 cert_verify_callback calling verifyCertificateChain authMethod=ECDHE_RSA
+05-18 09:50:07.135 E/memtrack(17992): Couldn't load memtrack module (No such file or directory)
+05-18 09:50:07.135 E/android.os.Debug(17992): failed to load memtrack module: -2
+05-18 09:50:07.177 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:07.177 E/WifiTrafficPoller(  851):  packet count Tx=1749404 Rx=5768544
+05-18 09:50:07.284 E/CoreDaemon(18025): getProcessName com.qihoo.appstore_CoreDaemon
+05-18 09:50:07.285 E/CoreDaemon(18026): getProcessName com.qihoo.appstore_CoreDaemon
+05-18 09:50:08.177 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:08.178 E/WifiTrafficPoller(  851):  packet count Tx=1749411 Rx=5768560
+05-18 09:50:08.305 E/WifiStateMachine(  851):  ConnectedState (when=-1ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=135 tx=5.8, 0.0, 0.0  rx=11.7 bcn=0 [on:0 tx:0 rx:0 period:2580] from screen [on:0 period:610767377] gl rssi=-50 ag=0 hr ticks 314,77,49 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-18 09:50:08.306 E/WifiStateMachine(  851):  L2ConnectedState (when=-2ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=135 tx=5.8, 0.0, 0.0  rx=11.7 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:610767378] gl rssi=-50 ag=0 hr ticks 314,77,49 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-18 09:50:08.306 E/WifiStateMachine(  851):  get link layer stats 0
+05-18 09:50:08.319 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-18 09:50:08.807 E/memtrack(18032): Couldn't load memtrack module (No such file or directory)
+05-18 09:50:08.807 E/android.os.Debug(18032): failed to load memtrack module: -2
+05-18 09:50:09.177 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:09.178 E/WifiTrafficPoller(  851):  packet count Tx=1749411 Rx=5768569
+05-18 09:50:09.178 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-18 09:50:09.438 E/fpc_jni ( 1924): abortNative()
+05-18 09:50:10.179 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:10.180 E/WifiTrafficPoller(  851):  packet count Tx=1749413 Rx=5768583
+05-18 09:50:10.180 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-18 09:50:11.180 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:11.181 E/WifiTrafficPoller(  851):  packet count Tx=1749413 Rx=5768596
+05-18 09:50:11.181 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-18 09:50:11.323 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=135 tx=12.9, 0.0, 0.0  rx=26.4 bcn=0 [on:0 tx:0 rx:0 period:3003] from screen [on:0 period:610770395] gl rssi=-50 ag=0 hr ticks 314,77,49 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-18 09:50:11.324 E/WifiStateMachine(  851):  L2ConnectedState (when=-4ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=135 tx=12.9, 0.0, 0.0  rx=26.4 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:610770396] gl rssi=-50 ag=0 hr ticks 314,77,49 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-18 09:50:11.324 E/WifiStateMachine(  851):  get link layer stats 0
+05-18 09:50:11.326 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-18 09:50:12.182 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:12.182 E/WifiTrafficPoller(  851):  packet count Tx=1749414 Rx=5768606
+05-18 09:50:12.182 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-18 09:50:13.184 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:13.185 E/WifiTrafficPoller(  851):  packet count Tx=1749414 Rx=5768619
+05-18 09:50:13.185 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-18 09:50:13.603 E/Launcher.FragmentLoader( 1966): Widget ComponentInfo{net.qihoo.launcher.widget.clockweather/net.qihoo.clockweather.widget.WidgetProvider52} can not fit on this device (1170, 438)
+05-18 09:50:13.604 E/Launcher.FragmentLoader( 1966): Widget ComponentInfo{net.qihoo.launcher.widget.clockweather/net.qihoo.clockweather.widget.WidgetProvider51} can not fit on this device (1170, 210)
+05-18 09:50:14.186 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:14.188 E/WifiTrafficPoller(  851):  packet count Tx=1749416 Rx=5768635
+05-18 09:50:14.188 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-18 09:50:14.329 E/WifiStateMachine(  851):  ConnectedState (when=-1ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=135 tx=8.0, 0.0, 0.0  rx=30.7 bcn=0 [on:0 tx:0 rx:0 period:3002] from screen [on:0 period:610773401] gl rssi=-50 ag=0 hr ticks 314,77,49 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-18 09:50:14.330 E/WifiStateMachine(  851):  L2ConnectedState (when=-3ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=135 tx=8.0, 0.0, 0.0  rx=30.7 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:610773402] gl rssi=-50 ag=0 hr ticks 314,77,49 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-18 09:50:14.331 E/WifiStateMachine(  851):  get link layer stats 0
+05-18 09:50:14.351 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-18 09:50:15.190 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:15.191 E/WifiTrafficPoller(  851):  packet count Tx=1749416 Rx=5768645
+05-18 09:50:15.191 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-18 09:50:16.193 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:16.195 E/WifiTrafficPoller(  851):  packet count Tx=1749417 Rx=5768666
+05-18 09:50:16.195 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-18 09:50:17.201 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:17.201 E/WifiTrafficPoller(  851):  packet count Tx=1749417 Rx=5768678
+05-18 09:50:17.201 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-18 09:50:17.357 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=135 tx=5.0, 0.0, 0.0  rx=35.8 bcn=0 [on:0 tx:0 rx:0 period:3003] from screen [on:0 period:610776429] gl rssi=-49 ag=0 hr ticks 314,77,49 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-18 09:50:17.360 E/WifiStateMachine(  851):  L2ConnectedState (when=-7ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=135 tx=5.0, 0.0, 0.0  rx=35.8 bcn=0 [on:0 tx:0 rx:0 period:3] from screen [on:0 period:610776432] gl rssi=-49 ag=0 hr ticks 314,77,49 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-18 09:50:17.360 E/WifiStateMachine(  851):  get link layer stats 0
+05-18 09:50:17.381 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-18 09:50:18.202 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:18.204 E/WifiTrafficPoller(  851):  packet count Tx=1749417 Rx=5768690
+05-18 09:50:19.204 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:19.206 E/WifiTrafficPoller(  851):  packet count Tx=1749417 Rx=5768697
+05-18 09:50:20.206 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:20.207 E/WifiTrafficPoller(  851):  packet count Tx=1749418 Rx=5768707
+05-18 09:50:20.207 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-18 09:50:20.386 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=135 tx=3.0, 0.0, 0.0  rx=39.4 bcn=0 [on:0 tx:0 rx:0 period:3002] from screen [on:0 period:610779458] gl rssi=-50 ag=0 hr ticks 314,77,49 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-18 09:50:20.389 E/WifiStateMachine(  851):  L2ConnectedState (when=-7ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=135 tx=3.0, 0.0, 0.0  rx=39.4 bcn=0 [on:0 tx:0 rx:0 period:3] from screen [on:0 period:610779461] gl rssi=-50 ag=0 hr ticks 314,77,49 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-18 09:50:20.390 E/WifiStateMachine(  851):  get link layer stats 0
+05-18 09:50:20.411 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-18 09:50:21.214 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:21.216 E/WifiTrafficPoller(  851):  packet count Tx=1749418 Rx=5768718
+05-18 09:50:21.216 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-18 09:50:22.220 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:22.220 E/WifiTrafficPoller(  851):  packet count Tx=1749418 Rx=5768728
+05-18 09:50:23.220 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:23.222 E/WifiTrafficPoller(  851):  packet count Tx=1749420 Rx=5768737
+05-18 09:50:23.222 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-18 09:50:23.417 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=135 tx=2.0, 0.0, 0.0  rx=34.2 bcn=0 [on:0 tx:0 rx:0 period:2999] from screen [on:0 period:610782489] gl rssi=-50 ag=0 hr ticks 314,77,49 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-18 09:50:23.420 E/WifiStateMachine(  851):  L2ConnectedState (when=-7ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=135 tx=2.0, 0.0, 0.0  rx=34.2 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:610782491] gl rssi=-50 ag=0 hr ticks 314,77,49 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-18 09:50:23.420 E/WifiStateMachine(  851):  get link layer stats 0
+05-18 09:50:23.425 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-18 09:50:24.229 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:24.231 E/WifiTrafficPoller(  851):  packet count Tx=1749420 Rx=5768744
+05-18 09:50:24.231 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-18 09:50:25.234 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:25.235 E/WifiTrafficPoller(  851):  packet count Tx=1749425 Rx=5768766
+05-18 09:50:25.236 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-18 09:50:26.238 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:26.240 E/WifiTrafficPoller(  851):  packet count Tx=1749426 Rx=5768781
+05-18 09:50:26.430 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=135 tx=2.0, 0.0, 0.0  rx=31.1 bcn=0 [on:0 tx:0 rx:0 period:3002] from screen [on:0 period:610785502] gl rssi=-50 ag=0 hr ticks 314,77,49 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-18 09:50:26.431 E/WifiStateMachine(  851):  L2ConnectedState (when=-5ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=135 tx=2.0, 0.0, 0.0  rx=31.1 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:610785503] gl rssi=-50 ag=0 hr ticks 314,77,49 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-18 09:50:26.432 E/WifiStateMachine(  851):  get link layer stats 0
+05-18 09:50:26.435 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-18 09:50:27.240 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:27.240 E/WifiTrafficPoller(  851):  packet count Tx=1749428 Rx=5768797
+05-18 09:50:28.241 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:28.243 E/WifiTrafficPoller(  851):  packet count Tx=1749431 Rx=5768814
+05-18 09:50:29.244 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:29.245 E/WifiTrafficPoller(  851):  packet count Tx=1749435 Rx=5768829
+05-18 09:50:29.438 E/WifiStateMachine(  851):  ConnectedState (when=-2ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=135 tx=5.0, 0.0, 0.0  rx=39.1 bcn=0 [on:0 tx:0 rx:0 period:3000] from screen [on:0 period:610788510] gl rssi=-49 ag=0 hr ticks 314,77,49 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-18 09:50:29.438 E/WifiStateMachine(  851):  L2ConnectedState (when=-3ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=135 tx=5.0, 0.0, 0.0  rx=39.1 bcn=0 [on:0 tx:0 rx:0 period:0] from screen [on:0 period:610788510] gl rssi=-49 ag=0 hr ticks 314,77,49 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-18 09:50:29.438 E/WifiStateMachine(  851):  get link layer stats 0
+05-18 09:50:29.441 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-18 09:50:29.713 E/memtrack(18079): Couldn't load memtrack module (No such file or directory)
+05-18 09:50:29.713 E/android.os.Debug(18079): failed to load memtrack module: -2
+05-18 09:50:30.246 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:30.247 E/WifiTrafficPoller(  851):  packet count Tx=1749439 Rx=5768846
+05-18 09:50:31.248 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:31.250 E/WifiTrafficPoller(  851):  packet count Tx=1749439 Rx=5768857
+05-18 09:50:31.250 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-18 09:50:31.698 E/memtrack(18096): Couldn't load memtrack module (No such file or directory)
+05-18 09:50:31.698 E/android.os.Debug(18096): failed to load memtrack module: -2
+05-18 09:50:32.255 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:32.257 E/WifiTrafficPoller(  851):  packet count Tx=1749439 Rx=5768871
+05-18 09:50:32.446 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=135 tx=8.0, 0.0, 0.0  rx=43.5 bcn=0 [on:0 tx:0 rx:0 period:2821] from screen [on:0 period:610791518] gl rssi=-50 ag=0 hr ticks 314,77,49 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-18 09:50:32.448 E/WifiStateMachine(  851):  L2ConnectedState (when=-5ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=135 tx=8.0, 0.0, 0.0  rx=43.5 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:610791520] gl rssi=-50 ag=0 hr ticks 314,77,49 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-18 09:50:32.448 E/WifiStateMachine(  851):  get link layer stats 0
+05-18 09:50:32.471 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-18 09:50:33.028 E/memtrack(18114): Couldn't load memtrack module (No such file or directory)
+05-18 09:50:33.028 E/android.os.Debug(18114): failed to load memtrack module: -2
+05-18 09:50:33.256 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:33.258 E/WifiTrafficPoller(  851):  packet count Tx=1749439 Rx=5768881
+05-18 09:50:34.239 E/CellLocation(17818): create GsmCellLocation
+05-18 09:50:34.247 E/CellLocation(17818): create GsmCellLocation
+05-18 09:50:34.259 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:34.259 E/WifiTrafficPoller(  851):  packet count Tx=1749442 Rx=5768898
+05-18 09:50:34.259 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-18 09:50:34.516 E/memtrack(18132): Couldn't load memtrack module (No such file or directory)
+05-18 09:50:34.516 E/android.os.Debug(18132): failed to load memtrack module: -2
+05-18 09:50:35.234 E/memtrack(18169): Couldn't load memtrack module (No such file or directory)
+05-18 09:50:35.234 E/android.os.Debug(18169): failed to load memtrack module: -2
+05-18 09:50:35.260 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:35.261 E/WifiTrafficPoller(  851):  packet count Tx=1749459 Rx=5768914
+05-18 09:50:35.477 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=135 tx=4.0, 0.0, 0.0  rx=41.3 bcn=0 [on:0 tx:0 rx:0 period:3001] from screen [on:0 period:610794549] gl rssi=-49 ag=0 hr ticks 314,77,49 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-18 09:50:35.481 E/WifiStateMachine(  851):  L2ConnectedState (when=-6ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=135 tx=4.0, 0.0, 0.0  rx=41.3 bcn=0 [on:0 tx:0 rx:0 period:4] from screen [on:0 period:610794553] gl rssi=-49 ag=0 hr ticks 314,77,49 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-18 09:50:35.481 E/WifiStateMachine(  851):  get link layer stats 0
+05-18 09:50:35.495 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-18 09:50:36.261 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:36.262 E/WifiTrafficPoller(  851):  packet count Tx=1749475 Rx=5768934
+05-18 09:50:36.269 E/memtrack(18185): Couldn't load memtrack module (No such file or directory)
+05-18 09:50:36.270 E/android.os.Debug(18185): failed to load memtrack module: -2
+05-18 09:50:37.263 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:37.263 E/WifiTrafficPoller(  851):  packet count Tx=1749476 Rx=5768954
+05-18 09:50:37.347 E/memtrack(18202): Couldn't load memtrack module (No such file or directory)
+05-18 09:50:37.347 E/android.os.Debug(18202): failed to load memtrack module: -2
+05-18 09:50:38.203 E/memtrack(18218): Couldn't load memtrack module (No such file or directory)
+05-18 09:50:38.203 E/android.os.Debug(18218): failed to load memtrack module: -2
+05-18 09:50:38.264 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:38.264 E/WifiTrafficPoller(  851):  packet count Tx=1749491 Rx=5768969
+05-18 09:50:38.499 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=135 tx=20.0, 0.0, 0.0  rx=44.6 bcn=0 [on:0 tx:0 rx:0 period:2999] from screen [on:0 period:610797571] gl rssi=-49 ag=0 hr ticks 314,77,49 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-18 09:50:38.502 E/WifiStateMachine(  851):  L2ConnectedState (when=-6ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=135 tx=20.0, 0.0, 0.0  rx=44.6 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:610797573] gl rssi=-49 ag=0 hr ticks 314,77,49 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-18 09:50:38.502 E/WifiStateMachine(  851):  get link layer stats 0
+05-18 09:50:38.521 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-18 09:50:39.265 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:39.265 E/WifiTrafficPoller(  851):  packet count Tx=1749491 Rx=5768974
+05-18 09:50:39.265 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-18 09:50:39.426 E/memtrack(18237): Couldn't load memtrack module (No such file or directory)
+05-18 09:50:39.426 E/android.os.Debug(18237): failed to load memtrack module: -2
+05-18 09:50:40.176 E/memtrack(18254): Couldn't load memtrack module (No such file or directory)
+05-18 09:50:40.176 E/android.os.Debug(18254): failed to load memtrack module: -2
+05-18 09:50:40.266 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:40.266 E/WifiTrafficPoller(  851):  packet count Tx=1749491 Rx=5768983
+05-18 09:50:41.267 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:41.268 E/WifiTrafficPoller(  851):  packet count Tx=1749493 Rx=5768988
+05-18 09:50:41.268 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-18 09:50:41.526 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=135 tx=18.0, 0.0, 0.0  rx=47.3 bcn=0 [on:0 tx:0 rx:0 period:3001] from screen [on:0 period:610800598] gl rssi=-50 ag=0 hr ticks 314,77,49 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-18 09:50:41.529 E/WifiStateMachine(  851):  L2ConnectedState (when=-7ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=135 tx=18.0, 0.0, 0.0  rx=47.3 bcn=0 [on:0 tx:0 rx:0 period:3] from screen [on:0 period:610800601] gl rssi=-50 ag=0 hr ticks 314,77,49 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-18 09:50:41.529 E/WifiStateMachine(  851):  get link layer stats 0
+05-18 09:50:41.535 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-18 09:50:42.272 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:42.274 E/WifiTrafficPoller(  851):  packet count Tx=1749510 Rx=5768996
+05-18 09:50:43.273 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:43.275 E/WifiTrafficPoller(  851):  packet count Tx=1749510 Rx=5769004
+05-18 09:50:43.275 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-18 09:50:43.785 E/memtrack(18275): Couldn't load memtrack module (No such file or directory)
+05-18 09:50:43.786 E/android.os.Debug(18275): failed to load memtrack module: -2
+05-18 09:50:44.278 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:44.280 E/WifiTrafficPoller(  851):  packet count Tx=1749510 Rx=5769010
+05-18 09:50:44.539 E/WifiStateMachine(  851):  ConnectedState (when=-2ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=135 tx=18.5, 0.0, 0.0  rx=34.7 bcn=0 [on:0 tx:0 rx:0 period:2998] from screen [on:0 period:610803611] gl rssi=-50 ag=0 hr ticks 314,77,49 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-18 09:50:44.541 E/WifiStateMachine(  851):  L2ConnectedState (when=-4ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=135 tx=18.5, 0.0, 0.0  rx=34.7 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:610803613] gl rssi=-50 ag=0 hr ticks 314,77,49 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-18 09:50:44.541 E/WifiStateMachine(  851):  get link layer stats 0
+05-18 09:50:44.562 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-18 09:50:44.994 E/memtrack(18295): Couldn't load memtrack module (No such file or directory)
+05-18 09:50:44.994 E/android.os.Debug(18295): failed to load memtrack module: -2
+05-18 09:50:45.280 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:45.281 E/WifiTrafficPoller(  851):  packet count Tx=1749510 Rx=5769024
+05-18 09:50:45.827 E/memtrack(18312): Couldn't load memtrack module (No such file or directory)
+05-18 09:50:45.827 E/android.os.Debug(18312): failed to load memtrack module: -2
+05-18 09:50:46.156 E/Pm      (18312): Failure details: Bundle[{android.content.pm.extra.STATUS=1, android.content.pm.extra.PACKAGE_NAME=com.boco.apphall, android.content.pm.extra.LEGACY_STATUS=-1, android.content.pm.extra.STATUS_MESSAGE=DELETE_FAILED_INTERNAL_ERROR}]
+05-18 09:50:46.281 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:46.282 E/WifiTrafficPoller(  851):  packet count Tx=1749510 Rx=5769031
+05-18 09:50:46.860 E/memtrack(18331): Couldn't load memtrack module (No such file or directory)
+05-18 09:50:46.860 E/android.os.Debug(18331): failed to load memtrack module: -2
+05-18 09:50:47.058 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:47.075 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:47.092 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:47.109 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:47.126 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:47.142 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:47.161 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:47.176 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:47.192 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:47.282 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:47.283 E/WifiTrafficPoller(  851):  packet count Tx=1749512 Rx=5769043
+05-18 09:50:47.284 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-18 09:50:47.567 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=135 tx=9.2, 0.0, 0.0  rx=28.8 bcn=0 [on:0 tx:0 rx:0 period:2994] from screen [on:0 period:610806639] gl rssi=-49 ag=0 hr ticks 314,77,49 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-18 09:50:47.569 E/WifiStateMachine(  851):  L2ConnectedState (when=-6ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=135 tx=9.2, 0.0, 0.0  rx=28.8 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:610806641] gl rssi=-49 ag=0 hr ticks 314,77,49 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-18 09:50:47.569 E/WifiStateMachine(  851):  get link layer stats 0
+05-18 09:50:47.574 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-18 09:50:48.305 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:48.308 E/WifiTrafficPoller(  851):  packet count Tx=1749514 Rx=5769056
+05-18 09:50:49.304 E/QHStatAgent(17775): Got exception while trying to submit event data: p=sdk&content=H4sIAAAAAAAAAFVTyW7UQBD9lVGfR6Z6dds3FK4gDhyQAEXd7ZqMlRl7sHtMFuUDCH8A3IEDd8TyNyQc+QWqHJZwsFzLe+WnV+VzgRN2WdRPzkVutyhqaSoLzoIuLcBSHOOpqEXqBzwccZjaRO8chnyYT3coliKkRJylGPFI1OeU5rbviCErcXHxbCnWGBocuLXtqTy1U7947B5u9uPiHtEnYmsAKAGUW4pt4I+Z2rm6qmoDtcU6KsKNE88sbCGBskyCTakNMXLLjX+atWFAP1I1dM3Qtw2zE4PAw4ms1NzncTSMwnZLoXe+cgaUt0aVrqTyVlLZNdGgMyZVHsvSSGN0lKjiqkLZeDCMU4QrTcCoIEAwUdpQAVidSteAVhoc8ryxm23akDClKMjjnEc2Zd8dd/2LjlAp/7cAa0jqjhDfP328evPtx7svV5fvGcasgwcUsdXawfXLV9dvP19dfqCAq7xHTeJWvy2nWhz+xRu2+WzNk9Y8gBYA7MVutr/fFs/bdd8XYbcbM22eOscMM9KF0q5MwlBJIJVlCqnxqFYq4CrxYsIRAynazwSQ1trK8aJZaVlAoTjbTLczPMl8IPlM1J5E7GZn+GjEQd91mPIi94und6SUhdSFNL6QSv/8+trDgm+2WfT7TNdGn8dh23Yh43zPI47jzTGCV86rFG1VyahXCY2KTiUdm1hhiJaNGJB4j/78AsZLehR4e2vqTReW85VPbT5l1fdD2939mysJju7+4hf3n3FnWAMAAA==
+05-18 09:50:49.304 E/QHStatAgent(17775): org.apache.http.conn.ConnectTimeoutException: Connect to /111.13.148.123:80 timed out
+05-18 09:50:49.304 E/QHStatAgent(17775): 	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:126)
+05-18 09:50:49.304 E/QHStatAgent(17775): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:168)
+05-18 09:50:49.304 E/QHStatAgent(17775): 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:169)
+05-18 09:50:49.304 E/QHStatAgent(17775): 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:124)
+05-18 09:50:49.304 E/QHStatAgent(17775): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:365)
+05-18 09:50:49.304 E/QHStatAgent(17775): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:608)
+05-18 09:50:49.304 E/QHStatAgent(17775): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:522)
+05-18 09:50:49.304 E/QHStatAgent(17775): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:500)
+05-18 09:50:49.304 E/QHStatAgent(17775): 	at com.qihoo.sdk.report.network.b.a(AppStore:53)
+05-18 09:50:49.304 E/QHStatAgent(17775): 	at com.qihoo.sdk.report.network.c.b(AppStore:263)
+05-18 09:50:49.304 E/QHStatAgent(17775): 	at com.qihoo.sdk.report.network.c.b(AppStore:207)
+05-18 09:50:49.304 E/QHStatAgent(17775): 	at com.qihoo.sdk.report.network.c.c(AppStore:236)
+05-18 09:50:49.304 E/QHStatAgent(17775): 	at com.qihoo.sdk.report.e.a$3.run(AppStore:180)
+05-18 09:50:49.304 E/QHStatAgent(17775): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+05-18 09:50:49.304 E/QHStatAgent(17775): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+05-18 09:50:49.304 E/QHStatAgent(17775): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+05-18 09:50:49.304 E/QHStatAgent(17775): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+05-18 09:50:49.304 E/QHStatAgent(17775): 	at java.lang.Thread.run(Thread.java:818)
+05-18 09:50:49.313 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:49.316 E/WifiTrafficPoller(  851):  packet count Tx=1749516 Rx=5769063
+05-18 09:50:49.396 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:49.412 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:49.429 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:49.445 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:49.462 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:49.479 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:49.496 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:49.600 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:49.617 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:49.631 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:49.649 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:49.665 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:49.681 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:49.698 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:49.715 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:49.732 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:49.749 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:49.765 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:50.268 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:50.285 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:50.302 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:50.316 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:50.317 E/WifiTrafficPoller(  851):  packet count Tx=1749518 Rx=5769071
+05-18 09:50:50.319 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:50.337 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:50.353 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:50.370 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:50.387 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:50.403 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:50.420 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:50.437 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:50.577 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=135 tx=6.6, 0.0, 0.0  rx=30.9 bcn=0 [on:0 tx:0 rx:0 period:3000] from screen [on:0 period:610809649] gl rssi=-50 ag=0 hr ticks 314,77,49 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-18 09:50:50.578 E/WifiStateMachine(  851):  L2ConnectedState (when=-4ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=135 tx=6.6, 0.0, 0.0  rx=30.9 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:610809650] gl rssi=-50 ag=0 hr ticks 314,77,49 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-18 09:50:50.578 E/WifiStateMachine(  851):  get link layer stats 0
+05-18 09:50:50.580 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-18 09:50:51.078 E/NotificationService(  851): Suppressing notification from package com.qihoo.appstore by user request.
+05-18 09:50:51.080 E/NotificationService(  851): Suppressing notification from package com.qihoo.appstore by user request.
+05-18 09:50:51.115 E/Launcher.FragmentLoader( 1966): Widget ComponentInfo{net.qihoo.launcher.widget.clockweather/net.qihoo.clockweather.widget.WidgetProvider52} can not fit on this device (1170, 438)
+05-18 09:50:51.115 E/Launcher.FragmentLoader( 1966): Widget ComponentInfo{net.qihoo.launcher.widget.clockweather/net.qihoo.clockweather.widget.WidgetProvider51} can not fit on this device (1170, 210)
+05-18 09:50:51.318 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:51.319 E/WifiTrafficPoller(  851):  packet count Tx=1749534 Rx=5769092
+05-18 09:50:52.113 E/memtrack(18442): Couldn't load memtrack module (No such file or directory)
+05-18 09:50:52.113 E/android.os.Debug(18442): failed to load memtrack module: -2
+05-18 09:50:52.319 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:52.319 E/WifiTrafficPoller(  851):  packet count Tx=1749536 Rx=5769121
+05-18 09:50:52.807 E/memtrack(18460): Couldn't load memtrack module (No such file or directory)
+05-18 09:50:52.807 E/android.os.Debug(18460): failed to load memtrack module: -2
+05-18 09:50:53.319 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:53.320 E/WifiTrafficPoller(  851):  packet count Tx=1749544 Rx=5769148
+05-18 09:50:53.583 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=135 tx=8.3, 0.0, 0.0  rx=30.5 bcn=0 [on:0 tx:0 rx:0 period:3002] from screen [on:0 period:610812655] gl rssi=-50 ag=0 hr ticks 314,77,49 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-18 09:50:53.584 E/WifiStateMachine(  851):  L2ConnectedState (when=-4ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=135 tx=8.3, 0.0, 0.0  rx=30.5 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:610812656] gl rssi=-50 ag=0 hr ticks 314,77,49 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-18 09:50:53.584 E/WifiStateMachine(  851):  get link layer stats 0
+05-18 09:50:53.587 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-18 09:50:53.800 E/memtrack(18485): Couldn't load memtrack module (No such file or directory)
+05-18 09:50:53.800 E/android.os.Debug(18485): failed to load memtrack module: -2
+05-18 09:50:54.048 E/GpsXtraDownloader(  851): No XTRA servers were specified in the GPS configuration
+05-18 09:50:54.320 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:54.320 E/WifiTrafficPoller(  851):  packet count Tx=1749554 Rx=5769158
+05-18 09:50:54.470 E/memtrack(18501): Couldn't load memtrack module (No such file or directory)
+05-18 09:50:54.470 E/android.os.Debug(18501): failed to load memtrack module: -2
+05-18 09:50:55.321 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:55.322 E/WifiTrafficPoller(  851):  packet count Tx=1749569 Rx=5769174
+05-18 09:50:56.321 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:56.323 E/WifiTrafficPoller(  851):  packet count Tx=1749577 Rx=5769185
+05-18 09:50:56.592 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=15.2, 0.0, 0.0  rx=53.2 bcn=0 [on:0 tx:0 rx:0 period:3004] from screen [on:0 period:610815664] gl rssi=-51 ag=0 hr ticks 314,77,49 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-18 09:50:56.594 E/WifiStateMachine(  851):  L2ConnectedState (when=-6ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=15.2, 0.0, 0.0  rx=53.2 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:610815666] gl rssi=-51 ag=0 hr ticks 314,77,49 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-18 09:50:56.594 E/WifiStateMachine(  851):  get link layer stats 0
+05-18 09:50:56.611 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-18 09:50:57.322 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:57.323 E/WifiTrafficPoller(  851):  packet count Tx=1749584 Rx=5769202
+05-18 09:50:57.976 E/memtrack(18550): Couldn't load memtrack module (No such file or directory)
+05-18 09:50:57.976 E/android.os.Debug(18550): failed to load memtrack module: -2
+05-18 09:50:58.323 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:58.324 E/WifiTrafficPoller(  851):  packet count Tx=1749593 Rx=5769219
+05-18 09:50:58.442 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:58.461 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:58.477 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:58.495 E/MPlugin (18566): Unsupported class: com.mediatek.common.telephony.IOnlyOwnerSimSupport
+05-18 09:50:58.508 E/WifiManager(18566): mWifiServiceMessenger == null
+05-18 09:50:58.510 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:58.526 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:58.543 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:58.560 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:58.577 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:58.594 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:58.611 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:58.627 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:58.644 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:58.661 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:58.678 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:58.695 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:58.762 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:58.779 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:58.795 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:58.812 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:58.830 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:58.847 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:58.864 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-18 09:50:59.323 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:50:59.325 E/WifiTrafficPoller(  851):  packet count Tx=1749600 Rx=5769232
+05-18 09:50:59.616 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=135 tx=23.1, 0.0, 0.0  rx=45.1 bcn=0 [on:0 tx:0 rx:0 period:3001] from screen [on:0 period:610818688] gl rssi=-50 ag=0 hr ticks 314,77,49 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-18 09:50:59.618 E/WifiStateMachine(  851):  L2ConnectedState (when=-5ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=135 tx=23.1, 0.0, 0.0  rx=45.1 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:610818690] gl rssi=-50 ag=0 hr ticks 314,77,49 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-18 09:50:59.618 E/WifiStateMachine(  851):  get link layer stats 0
+05-18 09:50:59.623 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-18 09:51:00.325 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:51:00.326 E/WifiTrafficPoller(  851):  packet count Tx=1749600 Rx=5769247
+05-18 09:51:00.326 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-18 09:51:01.329 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:51:01.330 E/WifiTrafficPoller(  851):  packet count Tx=1749607 Rx=5769257
+05-18 09:51:01.330 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-18 09:51:02.330 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:51:02.332 E/WifiTrafficPoller(  851):  packet count Tx=1749615 Rx=5769272
+05-18 09:51:02.627 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=23.0, 0.0, 0.0  rx=47.1 bcn=0 [on:0 tx:0 rx:0 period:3002] from screen [on:0 period:610821699] gl rssi=-51 ag=0 hr ticks 314,77,49 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-18 09:51:02.630 E/WifiStateMachine(  851):  L2ConnectedState (when=-6ms what=131155 arg1=591!CMD_RSSI_POLL 591 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=23.0, 0.0, 0.0  rx=47.1 bcn=0 [on:0 tx:0 rx:0 period:3] from screen [on:0 period:610821702] gl rssi=-51 ag=0 hr ticks 314,77,49 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-18 09:51:02.632 E/WifiStateMachine(  851):  get link layer stats 0
+05-18 09:51:02.643 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-18 09:51:03.332 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 2644 num clients 19
+05-18 09:51:03.333 E/WifiTrafficPoller(  851):  packet count Tx=1749615 Rx=5769280
+05-18 09:51:03.333 E/WifiTrafficPoller(  851): notifying of data activity 1

@@ -1,0 +1,213 @@
+2017-05-17 17:15:35:473 - [Appium] Welcome to Appium v1.6.3
+2017-05-17 17:15:35:475 - [Appium] Non-default server args:
+2017-05-17 17:15:35:476 - [Appium]   address: '127.0.0.1'
+2017-05-17 17:15:35:477 - [Appium]   sessionOverride: true
+2017-05-17 17:15:35:477 - [Appium]   logTimestamp: true
+2017-05-17 17:15:35:478 - [Appium]   localTimezone: true
+2017-05-17 17:15:35:585 - [Appium] Appium REST http interface listener started on 127.0.0.1:4723
+2017-05-17 17:15:37:520 - [HTTP] --> POST /wd/hub/session {"capabilities":{"alwaysMatch":{"deviceName":"PD1501D","sessionOverride":true,"unicodeKeyboard":true,"udid":"KJO78HTWP7LRYPIR","app":"D:\\Test_dir\\AppHall_GuangXi.apk","newCommandTimeout":180,"automationName":"Uiautomator2","resetKeyboard":true,"platformVersion":"5.1","appPackage":"com.boco.apphall","platformName":"Android","appActivity":"com.boco.apphall.login.WelcomActivity"},"firstMatch":[]},"desiredCapabilities":{"deviceName":"PD1501D","sessionOverride":true,"unicodeKeyboard":true,"udid":"KJO78HTWP7LRYPIR","app":"D:\\Test_dir\\AppHall_GuangXi.apk","resetKeyboard":true,"appActivity":"com.boco.apphall.login.WelcomActivity","newCommandTimeout":180,"platformVersion":"5.1","appPackage":"com.boco.apphall","platformName":"Android","automationName":"Uiautomator2"}}
+2017-05-17 17:15:37:524 - [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"deviceName":"PD1501D","sessionOverride":true,"unicodeKeyboard":true,"udid":"KJO78HTWP7LRYPIR","app":"D:\\Test_dir\\AppHall_GuangXi.apk","resetKeyboard":true,"appActivity":"com.boco.apphall.login.WelcomActivity","newCommandTimeout":180,"platformVersion":"5.1","appPackage":"com.boco.apphall","platformName":"Android","automationName":"Uiautomator2"},null,{"alwaysMatch":{"deviceName":"PD1501D","sessionOverride":true,"unicodeKeyboard":true,"udid":"KJO78HTWP7LRYPIR","app":"D:\\Test_dir\\AppHall_GuangXi.apk","newCommandTimeout":180,"automationName":"Uiautomator2","resetKeyboard":true,"platformVersion":"5.1","appPackage":"com.boco.apphall","platformName":"Android","appActivity":"com.boco.apphall.login.WelcomActivity"},"firstMatch":[]},null,null]
+2017-05-17 17:15:37:526 - [Appium] Creating new AndroidUiautomator2Driver session
+2017-05-17 17:15:37:526 - [Appium] Capabilities:
+2017-05-17 17:15:37:528 - [Appium]   deviceName: 'PD1501D'
+2017-05-17 17:15:37:528 - [Appium]   sessionOverride: true
+2017-05-17 17:15:37:528 - [Appium]   unicodeKeyboard: true
+2017-05-17 17:15:37:529 - [Appium]   udid: 'KJO78HTWP7LRYPIR'
+2017-05-17 17:15:37:529 - [Appium]   app: 'D:\\Test_dir\\AppHall_GuangXi.apk'
+2017-05-17 17:15:37:529 - [Appium]   resetKeyboard: true
+2017-05-17 17:15:37:529 - [Appium]   appActivity: 'com.boco.apphall.login.WelcomActivity'
+2017-05-17 17:15:37:529 - [Appium]   newCommandTimeout: 180
+2017-05-17 17:15:37:529 - [Appium]   platformVersion: '5.1'
+2017-05-17 17:15:37:530 - [Appium]   appPackage: 'com.boco.apphall'
+2017-05-17 17:15:37:530 - [Appium]   platformName: 'Android'
+2017-05-17 17:15:37:530 - [Appium]   automationName: 'Uiautomator2'
+2017-05-17 17:15:37:535 - [BaseDriver] The following capabilities were provided, but are not recognized by appium: sessionOverride.
+2017-05-17 17:15:37:559 - [BaseDriver] Session created with session id: b8d3316b-65d6-4dc4-b36d-e96865a23504
+2017-05-17 17:15:37:561 - [BaseDriver] Using local app 'D:\Test_dir\AppHall_GuangXi.apk'
+2017-05-17 17:15:37:561 - [debug] [UiAutomator2] Checking whether app is actually present
+2017-05-17 17:15:37:964 - [UiAutomator2] UIAutomator2 Driver version:0.2.3
+2017-05-17 17:15:37:965 - [debug] [AndroidDriver] Getting Java version
+2017-05-17 17:15:38:125 - [AndroidDriver] Java version is: 1.8.0_131
+2017-05-17 17:15:38:127 - [ADB] Checking whether adb is present
+2017-05-17 17:15:38:131 - [ADB] Using adb.exe from D:\AndroidSdk\platform-tools\adb.exe
+2017-05-17 17:15:38:131 - [AndroidDriver] Retrieving device list
+2017-05-17 17:15:38:132 - [debug] [ADB] Trying to find a connected android device
+2017-05-17 17:15:38:132 - [debug] [ADB] Getting connected devices...
+2017-05-17 17:15:38:241 - [debug] [ADB] 1 device(s) connected
+2017-05-17 17:15:38:242 - [AndroidDriver] Using device: KJO78HTWP7LRYPIR
+2017-05-17 17:15:38:244 - [ADB] Checking whether adb is present
+2017-05-17 17:15:38:247 - [ADB] Using adb.exe from D:\AndroidSdk\platform-tools\adb.exe
+2017-05-17 17:15:38:248 - [debug] [ADB] Setting device id to KJO78HTWP7LRYPIR
+2017-05-17 17:15:38:249 - [ADB] Getting device platform version
+2017-05-17 17:15:38:249 - [debug] [ADB] Getting connected devices...
+2017-05-17 17:15:38:307 - [debug] [ADB] 1 device(s) connected
+2017-05-17 17:15:38:310 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","KJO78HTWP7LRYPIR","shell","getprop","ro.build.version.release"]
+2017-05-17 17:15:38:424 - [debug] [ADB] Attempting to kill all io.appium.uiautomator2.server processes
+2017-05-17 17:15:38:425 - [debug] [ADB] Getting all processes with io.appium.uiautomator2.server
+2017-05-17 17:15:38:425 - [debug] [ADB] Getting connected devices...
+2017-05-17 17:15:38:478 - [debug] [ADB] 1 device(s) connected
+2017-05-17 17:15:38:478 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","KJO78HTWP7LRYPIR","shell","ps"]
+2017-05-17 17:15:38:641 - [ADB] No io.appium.uiautomator2.server process found to kill, continuing...
+2017-05-17 17:15:38:643 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","KJO78HTWP7LRYPIR","wait-for-device"]
+2017-05-17 17:15:38:701 - [debug] [ADB] Getting connected devices...
+2017-05-17 17:15:38:756 - [debug] [ADB] 1 device(s) connected
+2017-05-17 17:15:38:757 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","KJO78HTWP7LRYPIR","shell","echo","ping"]
+2017-05-17 17:15:38:837 - [debug] [Logcat] Starting logcat capture
+2017-05-17 17:15:38:910 - [debug] [ADB] Getting install status for io.appium.android.ime
+2017-05-17 17:15:38:910 - [debug] [ADB] Getting connected devices...
+2017-05-17 17:15:38:983 - [debug] [ADB] 1 device(s) connected
+2017-05-17 17:15:38:984 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","KJO78HTWP7LRYPIR","shell","getprop","ro.build.version.sdk"]
+2017-05-17 17:15:39:097 - [debug] [ADB] Device API level: 22
+2017-05-17 17:15:39:098 - [debug] [ADB] Getting connected devices...
+2017-05-17 17:15:39:173 - [debug] [ADB] 1 device(s) connected
+2017-05-17 17:15:39:173 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","KJO78HTWP7LRYPIR","shell","pm","list","packages","-3","io.appium.android.ime"]
+2017-05-17 17:15:39:769 - [debug] [ADB] App is  installed
+2017-05-17 17:15:39:769 - [debug] [AndroidDriver] io.appium.android.ime is already installed,don't install
+2017-05-17 17:15:39:771 - [debug] [ADB] Getting connected devices...
+2017-05-17 17:15:39:824 - [debug] [ADB] 1 device(s) connected
+2017-05-17 17:15:39:825 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","KJO78HTWP7LRYPIR","shell","settings","get","secure","default_input_method"]
+2017-05-17 17:15:40:627 - [debug] [AndroidDriver] Unsetting previous IME io.appium.android.ime/.UnicodeIME
+2017-05-17 17:15:40:628 - [debug] [AndroidDriver] Setting IME to 'io.appium.android.ime/.UnicodeIME'
+2017-05-17 17:15:40:628 - [debug] [ADB] Getting connected devices...
+2017-05-17 17:15:40:684 - [debug] [ADB] 1 device(s) connected
+2017-05-17 17:15:40:684 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","KJO78HTWP7LRYPIR","shell","ime","enable","io.appium.android.ime/.UnicodeIME"]
+2017-05-17 17:15:41:408 - [debug] [ADB] Getting connected devices...
+2017-05-17 17:15:41:466 - [debug] [ADB] 1 device(s) connected
+2017-05-17 17:15:41:467 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","KJO78HTWP7LRYPIR","shell","ime","set","io.appium.android.ime/.UnicodeIME"]
+2017-05-17 17:15:42:180 - [debug] [ADB] Getting install status for io.appium.settings
+2017-05-17 17:15:42:180 - [debug] [ADB] Device API level: 22
+2017-05-17 17:15:42:181 - [debug] [ADB] Getting connected devices...
+2017-05-17 17:15:42:238 - [debug] [ADB] 1 device(s) connected
+2017-05-17 17:15:42:238 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","KJO78HTWP7LRYPIR","shell","pm","list","packages","-3","io.appium.settings"]
+2017-05-17 17:15:42:815 - [debug] [ADB] App is  installed
+2017-05-17 17:15:42:815 - [debug] [AndroidDriver] io.appium.settings is already installed,don't install
+2017-05-17 17:15:42:816 - [debug] [ADB] Getting install status for io.appium.unlock
+2017-05-17 17:15:42:816 - [debug] [ADB] Device API level: 22
+2017-05-17 17:15:42:816 - [debug] [ADB] Getting connected devices...
+2017-05-17 17:15:42:872 - [debug] [ADB] 1 device(s) connected
+2017-05-17 17:15:42:872 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","KJO78HTWP7LRYPIR","shell","pm","list","packages","-3","io.appium.unlock"]
+2017-05-17 17:15:43:356 - [debug] [ADB] App is  installed
+2017-05-17 17:15:43:356 - [debug] [AndroidDriver] io.appium.unlock is already installed,don't install
+2017-05-17 17:15:43:356 - [debug] [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8200
+2017-05-17 17:15:43:357 - [debug] [ADB] Forwarding system: 8200 to device: 6790
+2017-05-17 17:15:43:357 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","KJO78HTWP7LRYPIR","forward","tcp:8200","tcp:6790"]
+2017-05-17 17:15:43:413 - [debug] [ADB] Getting connected devices...
+2017-05-17 17:15:43:470 - [debug] [ADB] 1 device(s) connected
+2017-05-17 17:15:43:471 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","KJO78HTWP7LRYPIR","shell","dumpsys","window"]
+2017-05-17 17:15:43:559 - [AndroidDriver] Screen already unlocked, doing nothing
+2017-05-17 17:15:43:561 - [debug] [AndroidDriver] Extracting strings from apk D:\Test_dir\AppHall_GuangXi.apk null C:\Users\Chialin\AppData\Local\Temp\com.boco.apphall
+2017-05-17 17:15:43:562 - [debug] [ADB] Extracting strings for language: default
+2017-05-17 17:15:43:563 - [debug] [ADB] Device API level: 22
+2017-05-17 17:15:43:565 - [debug] [ADB] Getting connected devices...
+2017-05-17 17:15:43:617 - [debug] [ADB] 1 device(s) connected
+2017-05-17 17:15:43:618 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","KJO78HTWP7LRYPIR","shell","getprop","persist.sys.language"]
+2017-05-17 17:15:43:705 - [debug] [ADB] Current device property 'persist.sys.language': zh
+2017-05-17 17:15:44:593 - [debug] [ADB] No strings.xml for language 'zh', getting default strings.xml
+2017-05-17 17:15:45:562 - [debug] [ADB] Reading strings from converted strings.json
+2017-05-17 17:15:45:566 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","KJO78HTWP7LRYPIR","push","C:\\Users\\Chialin\\AppData\\Local\\Temp\\com.boco.apphall\\strings.json","/data/local/tmp"]
+2017-05-17 17:15:45:803 - [debug] [ADB] Checking app cert for D:\Test_dir\AppHall_GuangXi.apk.
+2017-05-17 17:15:46:512 - [debug] [ADB] App already signed.
+2017-05-17 17:15:46:513 - [debug] [ADB] Zip-aligning 'D:\Test_dir\AppHall_GuangXi.apk'
+2017-05-17 17:15:46:514 - [ADB] Checking whether zipalign is present
+2017-05-17 17:15:46:515 - [ADB] Using zipalign.exe from D:\AndroidSdk\build-tools\23.0.3\zipalign.exe
+2017-05-17 17:15:46:520 - [debug] [ADB] Zip-aligning apk.
+2017-05-17 17:15:46:695 - [AndroidDriver] Remote apk path is /data/local/tmp/78ab2a17cec85fedf3ba0bf72518f0c8.apk
+2017-05-17 17:15:46:695 - [debug] [ADB] Getting connected devices...
+2017-05-17 17:15:46:781 - [debug] [ADB] 1 device(s) connected
+2017-05-17 17:15:46:781 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","KJO78HTWP7LRYPIR","shell","ls","/data/local/tmp/78ab2a17cec85fedf3ba0bf72518f0c8.apk"]
+2017-05-17 17:15:46:887 - [debug] [AndroidDriver] Checking if app is installed
+2017-05-17 17:15:46:888 - [debug] [ADB] Getting install status for com.boco.apphall
+2017-05-17 17:15:46:888 - [debug] [ADB] Device API level: 22
+2017-05-17 17:15:46:888 - [debug] [ADB] Getting connected devices...
+2017-05-17 17:15:46:948 - [debug] [ADB] 1 device(s) connected
+2017-05-17 17:15:46:948 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","KJO78HTWP7LRYPIR","shell","pm","list","packages","-3","com.boco.apphall"]
+2017-05-17 17:15:47:483 - [debug] [ADB] App is  not installed
+2017-05-17 17:15:47:484 - [AndroidDriver] Apk is not yet installed
+2017-05-17 17:15:47:484 - [AndroidDriver] installing apk from remote
+2017-05-17 17:15:47:484 - [debug] [ADB] Getting connected devices...
+2017-05-17 17:15:47:564 - [debug] [ADB] 1 device(s) connected
+2017-05-17 17:15:47:564 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","KJO78HTWP7LRYPIR","shell","mkdir","-p","/data/local/tmp"]
+2017-05-17 17:15:47:659 - [AndroidDriver] Clearing out any existing remote apks with the same hash
+2017-05-17 17:15:47:660 - [debug] [AndroidDriver] Removing any old apks
+2017-05-17 17:15:47:662 - [debug] [AndroidDriver] Except ["78ab2a17cec85fedf3ba0bf72518f0c8"]
+2017-05-17 17:15:47:664 - [debug] [ADB] Getting connected devices...
+2017-05-17 17:15:47:752 - [debug] [ADB] 1 device(s) connected
+2017-05-17 17:15:47:752 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","KJO78HTWP7LRYPIR","shell","ls","/data/local/tmp/*.apk"]
+2017-05-17 17:15:47:862 - [debug] [ADB] Uninstalling com.boco.apphall
+2017-05-17 17:15:47:863 - [debug] [ADB] Getting connected devices...
+2017-05-17 17:15:47:932 - [debug] [ADB] 1 device(s) connected
+2017-05-17 17:15:47:932 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","KJO78HTWP7LRYPIR","shell","am","force-stop","com.boco.apphall"]
+2017-05-17 17:15:48:741 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","KJO78HTWP7LRYPIR","uninstall","com.boco.apphall"]
+2017-05-17 17:15:49:534 - [ADB] App was not uninstalled, maybe it wasn't on device?
+2017-05-17 17:15:49:535 - [debug] [ADB] Getting connected devices...
+2017-05-17 17:15:49:596 - [debug] [ADB] 1 device(s) connected
+2017-05-17 17:15:49:597 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","KJO78HTWP7LRYPIR","shell","pm","install","-r","/data/local/tmp/78ab2a17cec85fedf3ba0bf72518f0c8.apk"]
+2017-05-17 17:15:57:153 - [ADB] Checking whether aapt is present
+2017-05-17 17:15:57:155 - [ADB] Using aapt.exe from D:\AndroidSdk\build-tools\23.0.3\aapt.exe
+2017-05-17 17:15:57:222 - [debug] [ADB] Getting install status for io.appium.uiautomator2.server
+2017-05-17 17:15:57:222 - [debug] [ADB] Device API level: 22
+2017-05-17 17:15:57:222 - [debug] [ADB] Getting connected devices...
+2017-05-17 17:15:57:322 - [debug] [ADB] 1 device(s) connected
+2017-05-17 17:15:57:323 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","KJO78HTWP7LRYPIR","shell","pm","list","packages","-3","io.appium.uiautomator2.server"]
+2017-05-17 17:15:57:875 - [debug] [ADB] App is  installed
+2017-05-17 17:15:57:875 - [debug] [ADB] Getting install status for io.appium.uiautomator2.server.test
+2017-05-17 17:15:57:875 - [debug] [ADB] Device API level: 22
+2017-05-17 17:15:57:875 - [debug] [ADB] Getting connected devices...
+2017-05-17 17:15:57:934 - [debug] [ADB] 1 device(s) connected
+2017-05-17 17:15:57:935 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","KJO78HTWP7LRYPIR","shell","pm","list","packages","-3","io.appium.uiautomator2.server.test"]
+2017-05-17 17:15:58:460 - [debug] [ADB] App is  installed
+2017-05-17 17:15:58:461 - [ADB] Checking whether aapt is present
+2017-05-17 17:15:58:462 - [ADB] Using aapt.exe from D:\AndroidSdk\build-tools\23.0.3\aapt.exe
+2017-05-17 17:15:58:496 - [debug] [ADB] Getting connected devices...
+2017-05-17 17:15:58:556 - [debug] [ADB] 1 device(s) connected
+2017-05-17 17:15:58:556 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","KJO78HTWP7LRYPIR","shell","dumpsys","package","io.appium.uiautomator2.server"]
+2017-05-17 17:15:58:644 - [debug] [ADB] Uninstalling io.appium.uiautomator2.server
+2017-05-17 17:15:58:644 - [debug] [ADB] Getting connected devices...
+2017-05-17 17:15:58:704 - [debug] [ADB] 1 device(s) connected
+2017-05-17 17:15:58:704 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","KJO78HTWP7LRYPIR","shell","am","force-stop","io.appium.uiautomator2.server"]
+2017-05-17 17:15:59:376 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","KJO78HTWP7LRYPIR","uninstall","io.appium.uiautomator2.server"]
+2017-05-17 17:16:00:468 - [ADB] App was uninstalled
+2017-05-17 17:16:00:468 - [debug] [ADB] Uninstalling io.appium.uiautomator2.server.test
+2017-05-17 17:16:00:469 - [debug] [ADB] Getting connected devices...
+2017-05-17 17:16:00:531 - [debug] [ADB] 1 device(s) connected
+2017-05-17 17:16:00:532 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","KJO78HTWP7LRYPIR","shell","am","force-stop","io.appium.uiautomator2.server.test"]
+2017-05-17 17:16:01:266 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","KJO78HTWP7LRYPIR","uninstall","io.appium.uiautomator2.server.test"]
+2017-05-17 17:16:02:218 - [ADB] App was uninstalled
+2017-05-17 17:16:02:219 - [debug] [ADB] Checking app cert for C:\Users\Chialin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\uiautomator2\appium-uiautomator2-server-v0.0.8.apk.
+2017-05-17 17:16:02:626 - [debug] [ADB] App already signed.
+2017-05-17 17:16:02:626 - [debug] [ADB] Zip-aligning 'C:\Users\Chialin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\uiautomator2\appium-uiautomator2-server-v0.0.8.apk'
+2017-05-17 17:16:02:626 - [ADB] Checking whether zipalign is present
+2017-05-17 17:16:02:628 - [ADB] Using zipalign.exe from D:\AndroidSdk\build-tools\23.0.3\zipalign.exe
+2017-05-17 17:16:02:632 - [debug] [ADB] Zip-aligning apk.
+2017-05-17 17:16:02:688 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","KJO78HTWP7LRYPIR","install","-r","C:\\Users\\Chialin\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-driver\\uiautomator2\\appium-uiautomator2-server-v0.0.8.apk"]
+2017-05-17 17:16:09:197 - [UiAutomator2] Installed UiAutomator2 server apk
+2017-05-17 17:16:09:198 - [debug] [ADB] Checking app cert for C:\Users\Chialin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\uiautomator2\appium-uiautomator2-server-debug-androidTest.apk.
+2017-05-17 17:16:09:606 - [debug] [ADB] App already signed.
+2017-05-17 17:16:09:606 - [debug] [ADB] Zip-aligning 'C:\Users\Chialin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\uiautomator2\appium-uiautomator2-server-debug-androidTest.apk'
+2017-05-17 17:16:09:606 - [ADB] Checking whether zipalign is present
+2017-05-17 17:16:09:609 - [ADB] Using zipalign.exe from D:\AndroidSdk\build-tools\23.0.3\zipalign.exe
+2017-05-17 17:16:09:611 - [debug] [ADB] Zip-aligning apk.
+2017-05-17 17:16:09:771 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","KJO78HTWP7LRYPIR","install","-r","C:\\Users\\Chialin\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-driver\\uiautomator2\\appium-uiautomator2-server-debug-androidTest.apk"]
+2017-05-17 17:16:15:556 - [UiAutomator2] Installed UiAutomator2 server apk
+2017-05-17 17:16:15:557 - [debug] [ADB] Attempting to kill all io.appium.uiautomator2.server processes
+2017-05-17 17:16:15:557 - [debug] [ADB] Getting all processes with io.appium.uiautomator2.server
+2017-05-17 17:16:15:557 - [debug] [ADB] Getting connected devices...
+2017-05-17 17:16:15:628 - [debug] [ADB] 1 device(s) connected
+2017-05-17 17:16:15:629 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","KJO78HTWP7LRYPIR","shell","ps"]
+2017-05-17 17:16:15:747 - [ADB] No io.appium.uiautomator2.server process found to kill, continuing...
+2017-05-17 17:16:15:747 - [UiAutomator2] Starting uiautomator2 server v0.0.8 with cmd: am,instrument,-w,io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner
+2017-05-17 17:16:15:748 - [UiAutomator2] running command...
+ adb -s KJO78HTWP7LRYPIR shell am instrument -w io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner... 
+2017-05-17 17:16:15:751 - [UiAutomator2] Waiting for UiAutomator2 to be online...
+2017-05-17 17:16:15:754 - [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2017-05-17 17:16:16:786 - [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2017-05-17 17:16:17:793 - [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2017-05-17 17:16:18:800 - [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2017-05-17 17:16:18:876 - [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"SESSIONID\",\"status\":0,\"value\":\"Status Invoked\"}"
+2017-05-17 17:16:18:877 - [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8200/wd/hub/session] with body: {"desiredCapabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"deviceName":"PD1501D","sessionOverride":true,"unicodeKeyboard":true,"udid":"KJO78HTWP7LRYPIR","app":"D:\\Test_dir\\AppHall_GuangXi.apk","resetKeyboard":true,"appActivity":"com.boco.apphall.login.WelcomActivity","newCommandTimeout":180,"platformVersion":"5.1","appPackage":"com.boco.apphall","platformName":"Android","automationName":"Uiautomator2"},"deviceName":"KJO78HTWP7LRYPIR","sessionOverride":true,"unicodeKeyboard":true,"udid":"KJO78HTWP7LRYPIR","app":"D:\\Test_dir\\AppHall_GuangXi.apk","resetKeyboard":true,"appActivity":"com.boco.apphall.login.WelcomActivity","newCommandTimeout":180,"platformVersion":"5.1","appPackage":"com.boco.apphall","platformName":"Android","automationName":"Uiautomator2","deviceUDID":"KJO78HTWP7LRYPIR"}}
+2017-05-17 17:16:18:893 - [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"9b2d4b92-69b4-4a1a-b7da-974c529fd47d","status":0,"value":"Created Session"}
+2017-05-17 17:16:18:894 - [UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'com.boco.apphall/com.boco.apphall.login.WelcomActivity'. Starting it ourselves
+2017-05-17 17:16:18:896 - [debug] [ADB] Device API level: 22
+2017-05-17 17:16:18:896 - [debug] [ADB] Getting connected devices...
+2017-05-17 17:16:18:955 - [debug] [ADB] 1 device(s) connected
+2017-05-17 17:16:18:956 - [debug] [ADB] Running 'D:\AndroidSdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","KJO78HTWP7LRYPIR","shell","am","start","-W","-n","com.boco.apphall/com.boco.apphall.login.WelcomActivity","-S","-a","android.intent.action.MAIN","-c","android.intent.category.LAUNCHER","-f","0x10200000"]
