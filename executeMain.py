@@ -9,8 +9,9 @@ from config import keyWords
 from page import BasePage
 import HTML_Result
 from test import test_support
-
-testunit = unittest.TestSuite()
+from moudles import ReSuit
+#testunit = unittest.TestSuite()
+testunit = ReSuit.Suit()
 
 class ExcutionEngin(unittest.TestCase):
     '''测试用例生成与执行'''
@@ -23,10 +24,12 @@ class ExcutionEngin(unittest.TestCase):
     def tearDownClass(cls):
         print 'End!'
 
-    def action(self,tarApp,*txt):
+    def action(self,tarApp,toastYN,*txt):
         '''
         测试demo
         :param txt: 参数,case data行数据
+        :param tarApp: apk名
+        :param toastYN: 是否获取toast
         :return: 无
         '''
         exeKeyword = keyWords.ActionKey()
@@ -38,8 +41,9 @@ class ExcutionEngin(unittest.TestCase):
         for i in stepsData:  #遍历测试步骤
             if i[0] == txt[1]:
                 if i[3] == 'openApp':
-                    self.tarApp = tarApp
-                    desired_caps = exeKeyword.getDesCap(tarApp)
+                    self.tarApps = tarApp
+                    self.toastYN = toastYN
+                    desired_caps = exeKeyword.getDesCap(self.tarApps)
                     #print 'desired_caps',desired_caps
                     print '+'*35
                     print u'测试平台：{}'.format(desired_caps[0])
@@ -49,7 +53,7 @@ class ExcutionEngin(unittest.TestCase):
                     print '+'*35
                     print i[2]
                     try:
-                        self.driver = exeKeyword.openApp(*desired_caps)
+                        self.driver = exeKeyword.openApp(self.toastYN,*desired_caps)
                     except Exception,e:
                         print str(e)
                         try:
@@ -116,6 +120,7 @@ class ExcutionEngin(unittest.TestCase):
                     password = i[7]
                     submit = base.locate(i[8])
                     exeKeyword.login(username,password,userinput,pwdinput,submit)
+                    time.sleep(2)
                 elif i[3] == 'DBsql':
                     print i[2]
                     host = base.getIniData('DataBase','host')
@@ -263,9 +268,9 @@ class ExcutionEngin(unittest.TestCase):
 
 
     @staticmethod
-    def getTestFunc(tarApp,*txt):
+    def getTestFunc(tarApp,toastYN,*txt):
         def func(self):
-            self.action(tarApp,*txt)
+            self.action(tarApp,toastYN,*txt)
         return func
 
     #退出
@@ -297,7 +302,8 @@ def generateTestCases(run,result='Yes',open='No'):
     for i in casedata:
         TCid = i[1]   #Login
         if i[4] == 'Y':
-            tarApp = i[5]
+            tarApp = i[5]   #app名
+            toastYN = i[6]
             table = login_page.getSheetData("dataEngin\\testData.xls", "case data")
             print TCid
             print "【Run】"+i[2]+"："
@@ -305,7 +311,7 @@ def generateTestCases(run,result='Yes',open='No'):
             for txt in table:
                 if (txt[2] == "Y") & (txt[1] == TCid):  #Login==Login
                     print txt
-                    setattr(ExcutionEngin, 'test_%s_%s' % (txt[0], txt[1]), ExcutionEngin.getTestFunc(tarApp,*txt))
+                    setattr(ExcutionEngin, 'test_%s_%s' % (txt[0], txt[1]), ExcutionEngin.getTestFunc(tarApp,toastYN,*txt))
                     #添加测试用例到测试套件
                     testunit.addTest(ExcutionEngin('test_%s_%s' % (txt[0], txt[1])))
     if run == 'Debug':

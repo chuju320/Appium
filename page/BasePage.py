@@ -13,7 +13,7 @@ import xlrd.sheet
 import os.path
 from uiautomator import Device
 from configparser import ConfigParser
-
+import inspect
 PATH = lambda p: os.path.abspath(os.path.join(os.path.dirname(__file__), p))
 class AppAction(object):
     '''封装公共方法'''
@@ -28,7 +28,7 @@ class AppAction(object):
             return self.driver.find_element(*loc)
         except(NoSuchElementException,KeyError,ValueError,Exception),e:
             print u'BasePage页面查找元素失败:{}'.format(str(e))
-            print u'页面未找到元素:%s' %loc
+            print u'页面未找到元素:%s，如果要获取toast，请开启Uiautomator2' %loc
             self.saveScreenShot_error('页面未找到元素')
 
     def find_elements(self,loc):
@@ -66,9 +66,7 @@ class AppAction(object):
     #重写send_keys方法
     def send_key(self,loc,values):
         ele = self.find_element(loc)
-        ele.set_text(values)
-
-        '''
+        #ele.set_text(values)
         try:
             ele.clear()
             ele.set_text(values)
@@ -77,7 +75,8 @@ class AppAction(object):
                 ele.set_value(values)
             except Exception,e:
                 print u'输入内容异常：{}'.format(str(e))
-                '''
+                self.saveScreenShot_error(u'输入文本异常：{}'.format(values))
+
     #获取屏幕大小
     def getWindowsSize(self,x):
         return int(self.driver.get_window_size()[x])
@@ -93,7 +92,8 @@ class AppAction(object):
         return location,size
 
     #重写滑动页面方法,上下移动均为半个屏，左右移动80%
-    def swipePage(self,direction,duration=1000):
+    def swipePage(self,direction,duration=500):
+        time.sleep(.5)
         try:
             width = self.getWindowsSize('width')
             height = self.getWindowsSize('height')
@@ -112,12 +112,13 @@ class AppAction(object):
             self.saveScreenShot_error('页面滑动失败')
 
     #滑动元素
-    def swipeElement(self,direction,loc,duration=1000):
+    def swipeElement(self,direction,loc,duration=500):
         '''
         :param direction: 滑动方向
         :param loc: 定位方式
         :return: 无
         '''
+        time.sleep(.5)
         try:
             location,size= self.getElementSize(loc)
             x = int(location.get('x'))
@@ -336,9 +337,10 @@ class AppAction(object):
         :return: 截图名称
         '''
         day = time.strftime('%Y-%m-%d',time.localtime(time.time()))
-        dirs1 = 'result\\' + day + '\\images'
-        dirs2 = 'result\\' + day + '\\errorImages'
-        dirs3 = 'result\\' + day + '\\shotImg'
+        nowFunc = inspect.stack()[0][3]
+        dirs1 = 'result\\' + day + '\\images' + '\\' + nowFunc
+        dirs2 = 'result\\' + day + '\\errorImages' + '\\' + nowFunc
+        dirs3 = 'result\\' + day + '\\shotImg' + '\\' + nowFunc
         timeNow = time.strftime('%Y-%m-%d_%H-%M-%S',time.localtime(time.time()))
         type = '.png'
 
@@ -384,9 +386,12 @@ class AppAction(object):
         :return: True or False
         '''
         try:
-            self.driver.get_screenshot_as_file(self.savePngName(name,'normal'))
+            saveName = self.savePngName(name,'normal')
+            self.driver.get_screenshot_as_file(saveName)
+            print '***' + os.path.dirname(saveName) + '****'
         except Exception,e:
             print u'截图失败:{}'.format(str(e))
+
 
     #对脚本运行错误进行截图
     def saveScreenShot_error(self, name):
@@ -396,9 +401,12 @@ class AppAction(object):
         '''
         try:
             #self.driver.get_screenshot_as_file(self.savePngName(name,'error'))
-            self.driver.get_screenshot_as_file(self.savePngName(name,'error'))
+            saveName = self.savePngName(name,'error')
+            self.driver.get_screenshot_as_file(saveName)
+            print '***' + os.path.dirname(saveName) + '****'
         except Exception,e:
             print u'代码异常截图失败:{}'.format(str(e))
+
 
     # 手动截图
     def saveScreenShot_img(self, name):
@@ -407,14 +415,17 @@ class AppAction(object):
         :return: True or False
         '''
         try:
-            self.driver.get_screenshot_as_file(self.savePngName(name,'img'))
+            saveName = self.savePngName(name,'img')
+            self.driver.get_screenshot_as_file(saveName)
+            print '***'+os.path.dirname(saveName)+'****'
         except Exception,e:
             print u'手动截图失败:{}'.format(str(e))
 
 
     #配置desired_capabilities
-    def set_desCaps(self,platformName,platformVersion,deviceName,app,appPackage,appActivity,udid,unicodeKeyboard=True,resetKeyboard=True):
+    def set_desCaps(self,toast,platformName,platformVersion,deviceName,app,appPackage,appActivity,udid,unicodeKeyboard=True,resetKeyboard=True):
         '''
+        :param toast: 是否获取toast
         :param platformName: 要测试的手机系统
         :param platformVersion: 手机操作系统版本
         :param deviceName: 使用手机类型或模拟器类型
@@ -438,19 +449,24 @@ class AppAction(object):
         desired_caps['appActivity'] = appActivity
         desired_caps['newCommandTimeout'] = 180
         #desired_caps['appWaitActivity'] = appPackage
-        desired_caps['automationName'] = 'Uiautomator2'
+        if toast == 'Y':
+            print u'是否获取toast：',toast
+            desired_caps['automationName'] = 'Uiautomator2'
+        else:
+            print u'是否获取toast：',toast
         desired_caps['sessionOverride'] = True
         desired_caps['noSign'] = True   #不进行重签名
         return desired_caps
 
     def getDesCap(self,tarApp):
         '''获取desired_caps配置'''
+        self.tarApp = tarApp
         platformName = self.getIniData('DesiredCaps','platformName')
         platformVersion = self.getIniData('DesiredCaps','platformVersion')
         deviceName = self.getIniData('DesiredCaps','deviceName')
-        app = self.getIniData(tarApp,'app')
-        appPackage = self.getIniData(tarApp, 'appPackage')
-        appActivity = self.getIniData(tarApp, 'appActivity')
+        app = self.getIniData(self.tarApp,'app')
+        appPackage = self.getIniData(self.tarApp, 'appPackage')
+        appActivity = self.getIniData(self.tarApp, 'appActivity')
         unicodeKeyboard = self.getIniData('DesiredCaps', 'unicodeKeyboard')
         resetKeyboard = self.getIniData('DesiredCaps', 'resetKeyboard')
         udid = self.getIniData('DesiredCaps','udid')
@@ -469,8 +485,8 @@ class AppAction(object):
     #app安装
     def install_app(self):
         #packages = self.getIniData('DesiredCaps', 'appPackage')
-        packages = self.getDesCap()[4]
-        app = self.getDesCap()[3]
+        packages = self.getDesCap(self.tarApp)[4]
+        app = self.getDesCap(self.tarApp)[3]
         if self.driver.is_app_installed(packages):
             print u'app已安装，进行重新安装！'
         elif not self.driver.is_app_installed(packages):
@@ -479,9 +495,9 @@ class AppAction(object):
             while i < 4:
                 print u'尝试第 %s 次安装！'%i
                 #self.driver.install_app(app)
-                if os.system('adb install {}'.format(self.getDesCap()[3]))==0:
+                if os.system('adb install {}'.format(self.getDesCap(self.tarApp)[3]))==0:
                     WebDriverWait(self.driver,10).until(lambda driver:driver.is_app_installed(packages))
-                if self.driver.is_app_installed(self.getDesCap()[4]):
+                if self.driver.is_app_installed(self.getDesCap(self.tarApp)[4]):
                     print u'安装成功！'
                     break
                 else:
@@ -492,11 +508,11 @@ class AppAction(object):
 
     #卸载app
     def uninstall_app(self):
-        if self.driver.is_app_installed(self.getDesCap()[4]):
-            self.driver.remove_app(self.getDesCap()[4])
+        if self.driver.is_app_installed(self.getDesCap(self.tarApp)[4]):
+            self.driver.remove_app(self.getDesCap(self.tarApp)[4])
             i = 1
             while i < 4:
-                if not self.driver.is_app_installed(self.getDesCap()[4]):
+                if not self.driver.is_app_installed(self.getDesCap(self.tarApp)[4]):
                     print u'卸载完成！'
                     break
                 else:
@@ -563,4 +579,3 @@ class AppAction(object):
             if el2.exists:
                 el2.click()
             time.sleep(2)
-

@@ -18,10 +18,10 @@ from threading import Thread
 class ActionKey(BasePage.AppAction):
     '''封装关键字方法'''
 
-    def openApp(self,plN,plV,dN,app,aPa,aAc,udid,uKey=True,reKey=True):
+    def openApp(self,toast,plN,plV,dN,app,aPa,aAc,udid,uKey=True,reKey=True):
         '''打开app'''
         self.driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub',
-                                       self.set_desCaps(plN,plV,dN,app,aPa,aAc,udid,uKey,reKey))
+                                       self.set_desCaps(toast,plN,plV,dN,app,aPa,aAc,udid,uKey,reKey))
         self.driver.implicitly_wait(30)
 
     def login(self,username,password,userinput,pwdinput,submit):
@@ -51,6 +51,7 @@ class ActionKey(BasePage.AppAction):
         while i < 3:
             try:
                 ele = WebDriverWait(self.driver, 30).until(expected_conditions.element_to_be_clickable(loc))
+                time.sleep(.5)
                 ele.click()
                 break
             except:
@@ -244,12 +245,12 @@ class ActionKey(BasePage.AppAction):
         :return: 无
         '''
         self.setNetWork(connectType)
-        self.saveScreenShot('设置网络%s'%connectType)
+        #self.saveScreenShot('设置网络%s'%connectType)
 
     def toggle(self):
         '''定位'''
         self.toggleLocation()
-        self.saveScreenShot('定位系统打开')
+        #self.saveScreenShot('定位系统打开')
 
 
     def save_img(self,name):
@@ -338,12 +339,12 @@ class ActionKey(BasePage.AppAction):
         x = po['x']
         y = po['y']
 
-        y_x = 169
-        m_x = 365
-        d_x = 518
-        H_x = 667
-        M_x = 819
-        S_x = 965
+        y_x = x + width/12    #169
+        m_x = x + width*3/12  #365
+        d_x = x + width*5/12  #518
+        H_x = x + width*7/12  #667
+        M_x = x + width*9/12  #819
+        S_x = x + width*11/12 #965
 
         start_y = y + height*13/50
         end_y = y + height/2
@@ -417,14 +418,14 @@ class ActionKey(BasePage.AppAction):
         x = po['x']
         y = po['y']
 
-        y_x = 150
-        m_x = 370
-        d_x = 545
-        H_x = 730
-        M_x = 915
+        y_x = x + width/8    #150
+        m_x = x + width*3/8  #370
+        d_x = x + width/2    #545
+        H_x = x + width*3/4  #730
+        M_x = x + width*7/8  #915
         #S_x = 965
 
-        start_y = y + height*13.5/50
+        start_y = y + height*13.1/50
         end_y = y + height/2
 
         time2 = str(time2).strip()

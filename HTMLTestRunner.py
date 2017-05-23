@@ -1,7 +1,8 @@
+#-*-coding:utf-8-*-
 """
 A TestRunner for use with the Python unit testing framework. It
 generates a HTML report to show the result at a glance.
-
+用于使用Python单元测试框架的TestRunner。它 生成一个HTML报告，以显示结果。
 The simplest way to use this is to invoke its main method. E.g.
 
     import unittest
@@ -15,7 +16,8 @@ The simplest way to use this is to invoke its main method. E.g.
 
 For more customization options, instantiates a HTMLTestRunner object.
 HTMLTestRunner is a counterpart to unittest's TextTestRunner. E.g.
-
+对于更多的自定义选项，实例化一个HTMLTestRunner对象。 
+HTMLTestRunner是与unittest的TextTestRunner相对应的
     # output to a file
     fp = file('my_report.html', 'wb')
     runner = HTMLTestRunner.HTMLTestRunner(
@@ -24,8 +26,9 @@ HTMLTestRunner is a counterpart to unittest's TextTestRunner. E.g.
                 description='This demonstrates the report output by HTMLTestRunner.'
                 )
 
-    # Use an external stylesheet.
+    # Use an external stylesheet.使用外部样式表
     # See the Template_mixin class for more customizable options
+    请参阅Template_mixin类，以获得更多可定制的选项
     runner.STYLESHEET_TMPL = '<link rel="stylesheet" href="my_stylesheet.css" type="text/css">'
 
     # run the test
@@ -39,15 +42,19 @@ All rights reserved.
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
 met:
+如果满足以下条件，diamante是可以修改的
 
 * Redistributions of source code must retain the above copyright notice,
   this list of conditions and the following disclaimer.
+  保留版权声明
 * Redistributions in binary form must reproduce the above copyright
   notice, this list of conditions and the following disclaimer in the
   documentation and/or other materials provided with the distribution.
+  修改后必须附上版权声明
 * Neither the name Wai Yip Tung nor the names of its contributors may be
   used to endorse or promote products derived from this software without
   specific prior written permission.
+Wai Yip Tung的名字和贡献者的名字都不可能是 用于支持或推广来自该软件的产品 具体的书面许可
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS
 IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
@@ -73,13 +80,15 @@ Change History
 
 Version 0.8.2
 * Show output inline instead of popup window (Viorel Lupu).
-
+显示输出，而不是弹出窗口
 Version in 0.8.1
 * Validated XHTML (Wolfgang Borgert).
+验证XHTML
 * Added description of test classes and test cases.
-
+添加了测试类和测试用例的描述
 Version in 0.8.0
 * Define Template_mixin class for customization.
+定义用于定制的Template_mixin类
 * Workaround a IE 6 bug that it does not treat <script> block as CDATA.
 
 Version in 0.7.1
@@ -99,9 +108,13 @@ from xml.sax import saxutils
 
 # ------------------------------------------------------------------------
 # The redirectors below are used to capture output during testing. Output
+#以下部分用于在测试时捕获输出
 # sent to sys.stdout and sys.stderr are automatically captured. However
+#自动捕获并输出到sys.stdout和sys.stderr
 # in some cases sys.stdout is already cached before HTMLTestRunner is
+#但是，有时候sys.stdout会在HTMLTestRunner启动前就已经缓存，比如调用logging.basicConfig。
 # invoked (e.g. calling logging.basicConfig). In order to capture those
+#为了捕获这些输出，对缓存流使用重定向
 # output, use the redirectors for the cached stream.
 #
 # e.g.
@@ -110,6 +123,7 @@ from xml.sax import saxutils
 
 class OutputRedirector(object):
     """ Wrapper to redirect stdout or stderr """
+    #用于重定向stdout或stderr的包装器，将sys.stdout和sys.stderr输出到file，而不是控制台
     def __init__(self, fp):
         self.fp = fp
 
@@ -133,9 +147,9 @@ stderr_redirector = OutputRedirector(sys.stderr)
 class Template_mixin(object):
     """
     Define a HTML template for report customerization and generation.
-
+    定义一个HTML自定义报告模板
     Overall structure of an HTML report
-
+    报告结构
     HTML
     +------------------------+
     |<html>                  |
@@ -170,18 +184,21 @@ class Template_mixin(object):
     +------------------------+
     """
 
+    #定义状态
     STATUS = {
     0: 'pass',
     1: 'fail',
     2: 'error',
     }
 
+    #默认报告标题
     DEFAULT_TITLE = 'Unit Test Report'
+    #默认描述
     DEFAULT_DESCRIPTION = ''
 
     # ------------------------------------------------------------------------
     # HTML Template
-
+    #HTML模板
     HTML_TMPL = r"""<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -303,6 +320,7 @@ function showOutput(id, name) {
     # alternatively use a <link> for external style sheet, e.g.
     #   <link rel="stylesheet" href="$url" type="text/css">
 
+    #样式模板
     STYLESHEET_TMPL = """
 <style type="text/css" media="screen">
 body        { font-family: verdana, arial, helvetica, sans-serif; font-size: 80%; }
@@ -395,6 +413,7 @@ a.popup_link:hover {
     # Heading
     #
 
+    #头部模板
     HEADING_TMPL = """<div class='heading'>
 <h1>%(title)s</h1>
 %(parameters)s
@@ -403,6 +422,7 @@ a.popup_link:hover {
 
 """ # variables: (title, parameters, description)
 
+    #头部属性
     HEADING_ATTRIBUTE_TMPL = """<p class='attribute'><strong>%(name)s:</strong> %(value)s</p>
 """ # variables: (name, value)
 
@@ -412,6 +432,7 @@ a.popup_link:hover {
     # Report
     #
 
+    #报告模板,即表格部分
     REPORT_TMPL = """
 <p id='show_detail_line'>Show
 <a href='javascript:showCase(0)'>Summary</a>
@@ -428,40 +449,46 @@ a.popup_link:hover {
 <col align='right' />
 </colgroup>
 <tr id='header_row'>
-    <td>Test Group/Test case</td>
+    <td colspan='2'>Test Group/Test case</td>
     <td>Count</td>
     <td>Pass</td>
     <td>Fail</td>
     <td>Error</td>
     <td>View</td>
+    <td>Screenshot</td>
 </tr>
 %(test_list)s
 <tr id='total_row'>
-    <td>Total</td>
+    <td colspan='2'>Total</td>
     <td>%(count)s</td>
     <td>%(Pass)s</td>
     <td>%(fail)s</td>
     <td>%(error)s</td>
     <td>&nbsp;</td>
+    <td>&nbsp;</td>
 </tr>
 </table>
 """ # variables: (test_list, count, Pass, fail, error)
 
+    #报告类模板，即表格中的summary类部分
     REPORT_CLASS_TMPL = r"""
 <tr class='%(style)s'>
+    <td>case_id</td>
     <td>%(desc)s</td>
     <td>%(count)s</td>
     <td>%(Pass)s</td>
     <td>%(fail)s</td>
     <td>%(error)s</td>
     <td><a href="javascript:showClassDetail('%(cid)s',%(count)s)">Detail</a></td>
+    <td>&nbsp;</td>
 </tr>
 """ # variables: (style, desc, count, Pass, fail, error, cid)
 
-
+    #报告输出模板，即用例展开部分
     REPORT_TEST_WITH_OUTPUT_TMPL = r"""
 <tr id='%(tid)s' class='%(Class)s'>
-    <td class='%(style)s'><div class='testcase'>%(desc)s</div></td>
+    <td  align='center'>%(tid)s</td>
+    <td class='%(style)s'><div class='testcase'>%(desc)s:%(summary)s</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
@@ -478,14 +505,19 @@ a.popup_link:hover {
         </pre>
     </div>
     <!--css div popup end-->
-
+    
+    </td>
+    <td align='center'>
+    <a target="_blank" href="%(image)s" title="%(image)s ">
+    <img src="..\img.png" height=20 width=20 border=0 /></a>
     </td>
 </tr>
 """ # variables: (tid, Class, style, desc, status)
 
-
+    #报告不输出模板,即用例折叠状态
     REPORT_TEST_NO_OUTPUT_TMPL = r"""
 <tr id='%(tid)s' class='%(Class)s'>
+    <td class='%(style)s'>case_id</td>
     <td class='%(style)s'><div class='testcase'>%(desc)s</div></td>
     <td colspan='5' align='center'>%(status)s</td>
 </tr>
@@ -495,6 +527,15 @@ a.popup_link:hover {
     REPORT_TEST_OUTPUT_TMPL = r"""
 %(id)s: %(output)s
 """ # variables: (id, output)
+
+    #报告图片展示
+    REPORT_TEST_OUTPUT_IMAGE = r"""
+%(screenshot)s
+"""
+
+    REPORT_TEST_OUTPUT_CASEID = r"""
+%(case_id)s
+"""
 
 
 
@@ -511,15 +552,19 @@ TestResult = unittest.TestResult
 
 class _TestResult(TestResult):
     # note: _TestResult is a pure representation of results.
+    #_TestResult是结果的一个纯粹的表现
     # It lacks the output and reporting ability compares to unittest._TextTestResult.
+    #与unittest相比，它缺少输出和报告能力
 
     def __init__(self, verbosity=1):
         TestResult.__init__(self)
-        self.stdout0 = None
-        self.stderr0 = None
-        self.success_count = 0
-        self.failure_count = 0
-        self.error_count = 0
+        self.stdout0 = None         #输出
+        self.stderr0 = None         #错误信息
+        self.success_count = 0      #成功数量
+        self.failure_count = 0      #失败数量
+        self.error_count = 0        #错误数量
+        self.image_view = 0
+
         self.verbosity = verbosity
 
         # result is a list of result in 4 tuple
@@ -535,11 +580,11 @@ class _TestResult(TestResult):
     def startTest(self, test):
         TestResult.startTest(self, test)
         # just one buffer for both stdout and stderr
-        self.outputBuffer = StringIO.StringIO()
+        self.outputBuffer = StringIO.StringIO()    #内存中缓存的数据
         stdout_redirector.fp = self.outputBuffer
         stderr_redirector.fp = self.outputBuffer
-        self.stdout0 = sys.stdout
-        self.stderr0 = sys.stderr
+        self.stdout0 = sys.stdout  #输出方向，即内存还是文件
+        self.stderr0 = sys.stderr   #错误
         sys.stdout = stdout_redirector
         sys.stderr = stderr_redirector
 
@@ -548,19 +593,23 @@ class _TestResult(TestResult):
         """
         Disconnect output redirection and return buffer.
         Safe to call multiple times.
+        断开输出重定向并返回缓冲数据。 可以多次通话。
         """
         if self.stdout0:
             sys.stdout = self.stdout0
             sys.stderr = self.stderr0
             self.stdout0 = None
             self.stderr0 = None
-        return self.outputBuffer.getvalue()
+        return self.outputBuffer.getvalue()   #返回内存缓存数据
 
 
     def stopTest(self, test):
         # Usually one of addSuccess, addError or addFailure would have been called.
+        #通常   addSuccess, addError or addFailure   其中之一会被调用
         # But there are some path in unittest that would bypass this.
+        #但是unittest中有些路径会绕过这些
         # We must disconnect stdout in stopTest(), which is guaranteed to be called.
+        #因此我们必须断开stdout，以保证被调用
         self.complete_output()
 
 
@@ -575,6 +624,7 @@ class _TestResult(TestResult):
             sys.stderr.write('\n')
         else:
             sys.stderr.write('.')
+
 
     def addError(self, test, err):
         self.error_count += 1
@@ -623,6 +673,7 @@ class HTMLTestRunner(Template_mixin):
 
     def run(self, test):
         "Run the given test case or test suite."
+        #运行
         result = _TestResult(self.verbosity)
         test(result)
         self.stopTime = datetime.datetime.now()
@@ -650,6 +701,7 @@ class HTMLTestRunner(Template_mixin):
         """
         Return report attributes as a list of (name, value).
         Override this to add custom attributes.
+        返回报告的属性列表，重写并添加自定义属性
         """
         startTime = str(self.startTime)[:19]
         duration = str(self.stopTime - self.startTime)
@@ -669,6 +721,7 @@ class HTMLTestRunner(Template_mixin):
 
 
     def generateReport(self, test, result):
+        '''报告生成器'''
         report_attrs = self.getReportAttributes(result)
         generator = 'HTMLTestRunner %s' % __version__
         stylesheet = self._generate_stylesheet()
@@ -683,6 +736,7 @@ class HTMLTestRunner(Template_mixin):
             report = report,
             ending = ending,
         )
+        #将数据写入内存（已经修改成写入文件）
         self.stream.write(output.encode('utf8'))
 
 
@@ -713,8 +767,8 @@ class HTMLTestRunner(Template_mixin):
             # subtotal for a class
             np = nf = ne = 0
             for n,t,o,e in cls_results:
-                if n == 0: np += 1
-                elif n == 1: nf += 1
+                if n == 0: np += 1   #0代表成功
+                elif n == 1: nf += 1   #1代表失败
                 else: ne += 1
 
             # format class description
@@ -750,6 +804,19 @@ class HTMLTestRunner(Template_mixin):
 
 
     def _generate_report_test(self, rows, cid, tid, n, t, o, e):
+        '''
+        #(0, test, output, '')          成功
+        #(1, test, output, _exc_str)    失败
+        #(2, test, output, _exc_str)    错误
+        :param rows: 
+        :param cid: 
+        :param tid: 
+        :param n: 0,1，2
+        :param t: test
+        :param o: output
+        :param e: '' or _exc_str（成功时为空，失败和错误时为error信息）
+        :return: 
+        '''
         # e.g. 'pt1.1', 'ft1.1', etc
         has_output = bool(o or e)
         tid = (n == 0 and 'p' or 'f') + 't%s.%s' % (cid+1,tid+1)
@@ -771,20 +838,32 @@ class HTMLTestRunner(Template_mixin):
             ue = e.decode('latin-1')
         else:
             ue = e
-
+        #saxutils.escape()函数，接受一个字符串，
+        # 并返回一个带有html字符的字符串（"&"、"<"、">"分别以转义符"&"、"<"、"$gt;"的形式出现）
         script = self.REPORT_TEST_OUTPUT_TMPL % dict(
             id = tid,
             output = saxutils.escape(uo+ue),
         )
+        image = self.REPORT_TEST_OUTPUT_IMAGE % dict(
+            screenshot=saxutils.escape(uo + ue)
+        )
+        caseid = self.REPORT_TEST_OUTPUT_CASEID % dict(
+            case_id=saxutils.escape(uo + ue)
+        )
 
+        #screenshot_a = self.screenshot()
         row = tmpl % dict(
             tid = tid,
             Class = (n == 0 and 'hiddenRow' or 'none'),
             style = n == 2 and 'errorCase' or (n == 1 and 'failCase' or 'none'),
             desc = desc,
             script = script,
+            summary=image[image.find("["):(int(image.find("]")) + 1)],
+            image=image[image.find("***")+3:(int(image.find("****")))],
+            caseid=caseid[caseid.find("case"):(int(caseid.find("case")) + 9)],
             status = self.STATUS[n],
         )
+        print image[image.find("result\\"):(int(image.find("png")) + 3)]
         rows.append(row)
         if not has_output:
             return
@@ -803,12 +882,17 @@ class HTMLTestRunner(Template_mixin):
 class TestProgram(unittest.TestProgram):
     """
     A variation of the unittest.TestProgram. Please refer to the base
+    一个unittest.TestProgram的变种。
     class for command line parameters.
+    请参考基础类的命令行参数
     """
     def runTests(self):
         # Pick HTMLTestRunner as the default test runner.
+        #选择HTMLTestRunner作为默认测试执行
         # base class's testRunner parameter is not useful because it means
+        #基础类的testRunner参数不可用，
         # we have to instantiate HTMLTestRunner before we know self.verbosity.
+        #因为那意味着我们必须实例化HTMLTestRunner之前就得知道self.verbosity.
         if self.testRunner is None:
             self.testRunner = HTMLTestRunner(verbosity=self.verbosity)
         unittest.TestProgram.runTests(self)
