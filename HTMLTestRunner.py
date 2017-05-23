@@ -101,6 +101,7 @@ Version in 0.7.1
 
 import StringIO
 import datetime
+import os
 import sys
 import unittest
 from xml.sax import saxutils
@@ -507,9 +508,9 @@ a.popup_link:hover {
     <!--css div popup end-->
     
     </td>
-    <td align='center'>
-    <a target="_blank" href="%(image)s" title="%(image)s ">
-    <img src="..\img.png" height=20 width=20 border=0 /></a>
+        <td align='center'>
+        <a target="_blank" href="%(image)s" title="%(image)s ">
+        <img src="..\img.png" height=20 width=20 border=0 /></a>
     </td>
 </tr>
 """ # variables: (tid, Class, style, desc, status)
@@ -852,14 +853,18 @@ class HTMLTestRunner(Template_mixin):
         )
 
         #screenshot_a = self.screenshot()
+        if '***' in image and '****' in image:
+            image2 = 'file:///' + os.path.abspath(os.path.dirname(__file__)) + '\\' + image[image.find("***") + 3:(int(image.find("****")))]
+        else:
+            image2 = '.'
         row = tmpl % dict(
             tid = tid,
             Class = (n == 0 and 'hiddenRow' or 'none'),
             style = n == 2 and 'errorCase' or (n == 1 and 'failCase' or 'none'),
             desc = desc,
             script = script,
-            summary=image[image.find("["):(int(image.find("]")) + 1)],
-            image=image[image.find("***")+3:(int(image.find("****")))],
+            summary=image[image.find("【"):(int(image.find("】")) + 1)],
+            image= image2,
             caseid=caseid[caseid.find("case"):(int(caseid.find("case")) + 9)],
             status = self.STATUS[n],
         )

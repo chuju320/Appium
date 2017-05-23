@@ -24,7 +24,7 @@ class ExcutionEngin(unittest.TestCase):
     def tearDownClass(cls):
         print 'End!'
 
-    def action(self,tarApp,toastYN,*txt):
+    def action(self,tarApp,toastYN,nowFunc,*txt):
         '''
         测试demo
         :param txt: 参数,case data行数据
@@ -32,7 +32,8 @@ class ExcutionEngin(unittest.TestCase):
         :param toastYN: 是否获取toast
         :return: 无
         '''
-        exeKeyword = keyWords.ActionKey()
+        self.nowFunc = nowFunc
+        exeKeyword = keyWords.ActionKey(self.nowFunc)
         base = BasePage.AppAction()
         summary = txt[3]   #case data中的行数据，表示用例主题
         print '【' + summary + '】'
@@ -43,6 +44,7 @@ class ExcutionEngin(unittest.TestCase):
                 if i[3] == 'openApp':
                     self.tarApps = tarApp
                     self.toastYN = toastYN
+
                     desired_caps = exeKeyword.getDesCap(self.tarApps)
                     #print 'desired_caps',desired_caps
                     print '+'*35
@@ -304,6 +306,7 @@ def generateTestCases(run,result='Yes',open='No'):
         if i[4] == 'Y':
             tarApp = i[5]   #app名
             toastYN = i[6]
+            nowFunc = i[0]  #用例编号
             table = login_page.getSheetData("dataEngin\\testData.xls", "case data")
             print TCid
             print "【Run】"+i[2]+"："
@@ -311,7 +314,7 @@ def generateTestCases(run,result='Yes',open='No'):
             for txt in table:
                 if (txt[2] == "Y") & (txt[1] == TCid):  #Login==Login
                     print txt
-                    setattr(ExcutionEngin, 'test_%s_%s' % (txt[0], txt[1]), ExcutionEngin.getTestFunc(tarApp,toastYN,*txt))
+                    setattr(ExcutionEngin, 'test_%s_%s' % (txt[0], txt[1]), ExcutionEngin.getTestFunc(tarApp,toastYN,nowFunc,*txt))
                     #添加测试用例到测试套件
                     testunit.addTest(ExcutionEngin('test_%s_%s' % (txt[0], txt[1])))
     if run == 'Debug':

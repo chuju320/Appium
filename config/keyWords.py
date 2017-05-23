@@ -17,6 +17,8 @@ from threading import Thread
 
 class ActionKey(BasePage.AppAction):
     '''封装关键字方法'''
+    def __init__(self,nowFunc):
+        self.nowFunc = nowFunc
 
     def openApp(self,toast,plN,plV,dN,app,aPa,aAc,udid,uKey=True,reKey=True):
         '''打开app'''
@@ -70,7 +72,7 @@ class ActionKey(BasePage.AppAction):
             i += 1
             time.sleep(1)
         if i == 3:
-            self.saveScreenShot_error('元素点击失败')
+            self.savePngName(self.nowFunc,'元素点击失败','error')
 
     #切换到webview
     def switch_web(self):
@@ -154,7 +156,8 @@ class ActionKey(BasePage.AppAction):
         print u'实际结果：%s'%actual
 
         if actual != text:
-            self.saveScreenShot('预期结果与实际结果不符')
+            #self.saveScreenShot('预期结果与实际结果不符')
+            self.savePngName(self.nowFunc,'预期结果与实际结果不符')
             print u'匹配不符！'
         else:
             print u'匹配成功！'
@@ -235,7 +238,7 @@ class ActionKey(BasePage.AppAction):
 
 
     def submit(self,loc):
-        self.saveScreenShot('提交表单')
+        self.saveScreenShot(self.nowFunc,'提交表单')
         self.click(loc)
 
     def set_net(self,connectType):
@@ -259,7 +262,7 @@ class ActionKey(BasePage.AppAction):
         :param name: 截图命名
         :return: 无
         '''
-        self.saveScreenShot_img(name)
+        self.savePngName(self.nowFunc,name,'img')
 
     def install(self):
         '''安装app'''
@@ -425,7 +428,7 @@ class ActionKey(BasePage.AppAction):
         M_x = x + width*7/8  #915
         #S_x = 965
 
-        start_y = y + height*13.1/50
+        start_y = y + height*13/50
         end_y = y + height/2
 
         time2 = str(time2).strip()

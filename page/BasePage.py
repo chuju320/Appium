@@ -13,23 +13,20 @@ import xlrd.sheet
 import os.path
 from uiautomator import Device
 from configparser import ConfigParser
-import inspect
+
 PATH = lambda p: os.path.abspath(os.path.join(os.path.dirname(__file__), p))
 class AppAction(object):
     '''封装公共方法'''
     driver = None
-    def __init__(self):
-        pass
-
     #重写元素定位方法
     def find_element(self,loc):
         try:
-            WebDriverWait(self.driver,60,0.2).until(expected_conditions.presence_of_element_located(loc))
+            WebDriverWait(self.driver,30,0.2).until(expected_conditions.presence_of_element_located(loc))
             return self.driver.find_element(*loc)
         except(NoSuchElementException,KeyError,ValueError,Exception),e:
             print u'BasePage页面查找元素失败:{}'.format(str(e))
             print u'页面未找到元素:%s，如果要获取toast，请开启Uiautomator2' %loc
-            self.saveScreenShot_error('页面未找到元素')
+            raise e
 
     def find_elements(self,loc):
         try:
@@ -37,7 +34,7 @@ class AppAction(object):
                 return self.driver.find_elements(*loc)
         except(NoSuchElementException,KeyError,ValueError,Exception),e:
             print u'页面未找到元素:%s' %(e.args[0])
-            self.saveScreenShot_error('页面未找到元素s')
+            raise e
 
     def find_elements_i(self,index,loc):
             return self.find_elements(loc)[index]
@@ -51,17 +48,17 @@ class AppAction(object):
                     self.driver.switch_to.context(i)
                 else:
                     print u'没有webview出现！'
-        except:
+        except Exception,e:
             print u'webvie页面切换失败！s'
-            self.saveScreenShot_error('webvie页面切换失败')
+            raise e
 
     #切换回NATIVE_APP
     def switch_to_app(self):
         try:
             self.driver.switch_to.context('NATIVE_APP')
-        except:
+        except Exception,e:
             print u'切换NATIVE_APP失败！'
-            self.saveScreenShot_error('切换NATIVE_APP失败')
+            raise e
 
     #重写send_keys方法
     def send_key(self,loc,values):
@@ -75,7 +72,7 @@ class AppAction(object):
                 ele.set_value(values)
             except Exception,e:
                 print u'输入内容异常：{}'.format(str(e))
-                self.saveScreenShot_error(u'输入文本异常：{}'.format(values))
+                raise e
 
     #获取屏幕大小
     def getWindowsSize(self,x):
@@ -107,9 +104,9 @@ class AppAction(object):
                 self.driver.swipe(width/10,height/2,width*9/10,height/2,duration)
             else:
                 print u'滑动页面操作指令有误！'
-        except:
+        except Exception,e:
             print u'页面滑动失败！'
-            self.saveScreenShot_error('页面滑动失败')
+            raise e
 
     #滑动元素
     def swipeElement(self,direction,loc,duration=500):
@@ -158,7 +155,7 @@ class AppAction(object):
                 print u'元素滑动方向有误！'
         except Exception,e:
             print u'元素滑动失败:{}'.format(str(e))
-            self.saveScreenShot_error('元素滑动失败')
+            raise e
 
     #重写点击方法
     def tap(self,positions,duration=250):
@@ -177,9 +174,9 @@ class AppAction(object):
                     s = 0
         try:
             self.driver.tap(list2, duration)
-        except:
+        except Exception,e:
             print u'%s点击失败！'%positions
-            self.saveScreenShot_error('tap元素点击失败')
+            raise e
 
 
     #元素拖动
@@ -193,9 +190,9 @@ class AppAction(object):
         end = self.find_element(loc2)
         try:
             self.driver.drag_and_drop(start,end)
-        except:
+        except Exception,e:
             print u'元素拖动失败！'
-            self.saveScreenShot_error('元素拖动失败')
+            raise e
     #缩小放大页面
     def p_z_page(self,how):
         '''
@@ -213,13 +210,13 @@ class AppAction(object):
                 self.driver.pinch(x,y)
             except Exception,e:
                 print u'页面缩小失败:{}'.format(str(e))
-                self.saveScreenShot_error('页面缩小失败')
+                raise e
         elif how.upper() == 'LARGER':
             try:
                 self.driver.zoom(x,y)
             except Exception,e:
                 print u'页面放大失败:{}'.format(str(e))
-                self.saveScreenShot_error('页面放大失败')
+                raise e
         else:
             print u'页面大小操作指令有误！'
 
@@ -236,13 +233,13 @@ class AppAction(object):
                 self.driver.pinch(element)
             except Exception,e:
                 print u'元素缩小失败:{}'.format(str(e))
-                self.saveScreenShot_error('元素缩小失败')
+                raise e
         elif how.upper() == 'LARGER':
             try:
                 self.driver.zoom(element)
             except Exception,e:
                 print u'元素放大失败:{}'.format(str(e))
-                self.saveScreenShot_error('元素放大失败')
+                raise e
         else:
             print u'元素大小操作指令有误！'
 
@@ -269,17 +266,17 @@ class AppAction(object):
             time.sleep(3)
             type = self.driver.network_connection
             assert int(type)==int(connectType)
-        except:
+        except Exception,e:
             print u'网络设置失败！'
-            self.saveScreenShot_error('网络设置失败')
+            raise e
 
     #定位系统
     def toggleLocation(self):
         try:
             self.driver.toggle_location_services()
-        except:
+        except Exception,e:
             print u'定位系统打开失败！'
-            self.saveScreenShot_error('定位系统打开失败')
+            raise e
 
     def setTable(self,filePath,sheetname):
         '''获取excel中的sheet:
@@ -330,17 +327,19 @@ class AppAction(object):
                 return [a,b]
 
     #生成截图名称
-    def savePngName(self,name,toe='normal'):
+    def savePngName(self,nowFunc,name,toe='normal'):
         '''
+        :param nowFunc 当前运行的用例名
         :param name: 截图名称
         :param toe: normal表示正常截图，error表示对框架运行失败截图
         :return: 截图名称
         '''
         day = time.strftime('%Y-%m-%d',time.localtime(time.time()))
-        nowFunc = inspect.stack()[0][3]
-        dirs1 = 'result\\' + day + '\\images' + '\\' + nowFunc
-        dirs2 = 'result\\' + day + '\\errorImages' + '\\' + nowFunc
-        dirs3 = 'result\\' + day + '\\shotImg' + '\\' + nowFunc
+        #nowFunc = inspect.stack()[3][-2][0][:-3].strip()  #用例名目录
+        #dirs1 = 'result\\' + day + '\\images' + '\\' + nowFunc
+        #dirs2 = 'result\\' + day + '\\errorImages' + '\\' + nowFunc
+        #dirs3 = 'result\\' + day + '\\shotImg' + '\\' + nowFunc
+        dirs1=dirs2=dirs3 = 'result\\' + day + '\\' + nowFunc
         timeNow = time.strftime('%Y-%m-%d_%H-%M-%S',time.localtime(time.time()))
         type = '.png'
 
@@ -348,78 +347,83 @@ class AppAction(object):
         if toe == 'normal':
             if os.path.exists(dirs1):
                 pngName = str(dirs1) + '\\' + timeNow + '_' + str(name).decode('utf-8') + type
-                return pngName
+                self.saveScreenShot(nowFunc,name,pngName)
             else:
                 print u'创建截图存储目录！'
                 os.makedirs(dirs1)
                 print u'创建目录成功！'
                 pngName = str(dirs1) + '\\' + timeNow + '_' + str(name).decode('utf-8') + type
-                return pngName
+                self.saveScreenShot(nowFunc, name,pngName)
         elif toe == 'error':
             if os.path.exists(dirs2):
                 pngName = str(dirs2) + '\\' + timeNow + '_' + str(name).decode('utf-8') + type
-                return pngName
+                self.saveScreenShot_error(nowFunc,name,pngName)
             else:
                 print u'创建异常截图存储目录！'
                 os.makedirs(dirs2)  #创建多级目录，如果最后一级目录已存在，抛异常。所有贵哦城目录均被创建，如果不存在
                 #os.mkdir(dirs2)  #创建单目录，如果路径为多层目录，只创建最后一级目录，如果最后一级以上的目录不存在则抛异常
                 print u'创建目录成功！'
                 pngName = str(dirs2) + '\\' + timeNow + '_' + str(name).decode('utf-8') + type
-                return pngName
+                self.saveScreenShot_error(nowFunc, name,pngName)
         elif toe == 'img':
             if os.path.exists(dirs3):
                 pngName = str(dirs3) + '\\' + timeNow + '_' + str(name).decode('utf-8') + type
-                return pngName
+                self.saveScreenShot_img(nowFunc,name,pngName)
             else:
                 print u'创建手动截图存储目录！'
                 os.makedirs(dirs3)
                 print u'创建目录成功！'
                 pngName = str(dirs3) + '\\' + timeNow + '_' + str(name).decode('utf-8') + type
-                return pngName
+                self.saveScreenShot_img(nowFunc, name,pngName)
         else:
             print u'截图存储命名有误！'
 
+
     #系统截图
-    def saveScreenShot(self,name):
+    def saveScreenShot(self,nowFunc,name,pngName):
         '''
         :param name: 截图名称
         :return: True or False
         '''
         try:
-            saveName = self.savePngName(name,'normal')
+            saveName = pngName
             self.driver.get_screenshot_as_file(saveName)
             print '***' + os.path.dirname(saveName) + '****'
         except Exception,e:
             print u'截图失败:{}'.format(str(e))
+            raise e
 
 
     #对脚本运行错误进行截图
-    def saveScreenShot_error(self, name):
+    def saveScreenShot_error(self,nowFunc,name,pngName):
         '''
         :param name: 截图名称
         :return: True or False
         '''
         try:
             #self.driver.get_screenshot_as_file(self.savePngName(name,'error'))
-            saveName = self.savePngName(name,'error')
+            saveName = pngName
             self.driver.get_screenshot_as_file(saveName)
             print '***' + os.path.dirname(saveName) + '****'
         except Exception,e:
             print u'代码异常截图失败:{}'.format(str(e))
+            raise e
 
 
     # 手动截图
-    def saveScreenShot_img(self, name):
+    def saveScreenShot_img(self,nowFunc,name,pngName):
         '''
+        :param nowFunc 当前运行的用例名
         :param name: 截图名称
         :return: True or False
         '''
         try:
-            saveName = self.savePngName(name,'img')
+            saveName = pngName
             self.driver.get_screenshot_as_file(saveName)
             print '***'+os.path.dirname(saveName)+'****'
         except Exception,e:
             print u'手动截图失败:{}'.format(str(e))
+            raise e
 
 
     #配置desired_capabilities
