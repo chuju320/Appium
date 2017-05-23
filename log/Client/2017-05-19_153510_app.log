@@ -1,0 +1,256 @@
+--------- beginning of /dev/log/system
+05-19 15:27:31.329 E/ConnectivityService(  477): Ignoring protectedNetwork 10
+05-19 15:27:31.329 E/ConnectivityService(  477): Ignoring protectedNetwork 11
+05-19 15:27:31.329 E/ConnectivityService(  477): Ignoring protectedNetwork 12
+05-19 15:27:31.329 E/ConnectivityService(  477): Ignoring protectedNetwork 14
+05-19 15:27:31.329 E/MobileDataStateTracker(  477): default: Ignoring feature request because could not acquire PhoneService
+05-19 15:27:31.329 E/MobileDataStateTracker(  477): default: Could not enable APN type "default"
+05-19 15:27:32.099 E/LocationManagerService(  477): no geocoder provider found
+05-19 15:27:32.099 E/LocationManagerService(  477): No FusedProvider found.
+05-19 15:27:32.099 E/LocationManagerService(  477): no geofence provider found
+05-19 15:27:34.339 E/ConnectivityService(  477): Unexpected mtu value: android.net.wifi.WifiStateTracker@4a8d9b24
+05-19 15:27:42.262 E/RemotePrintSpooler(  477): Error removing obsolete print jobs .
+05-19 15:27:42.262 E/RemotePrintSpooler(  477): java.util.concurrent.TimeoutException: Cannot get spooler!
+05-19 15:27:42.262 E/RemotePrintSpooler(  477): 	at com.android.server.print.RemotePrintSpooler.bindLocked(RemotePrintSpooler.java:376)
+05-19 15:27:42.262 E/RemotePrintSpooler(  477): 	at com.android.server.print.RemotePrintSpooler.getRemoteInstanceLazy(RemotePrintSpooler.java:352)
+05-19 15:27:42.262 E/RemotePrintSpooler(  477): 	at com.android.server.print.RemotePrintSpooler.removeObsoletePrintJobs(RemotePrintSpooler.java:287)
+05-19 15:27:42.262 E/RemotePrintSpooler(  477): 	at com.android.server.print.UserState.removeObsoletePrintJobs(UserState.java:163)
+05-19 15:27:42.262 E/RemotePrintSpooler(  477): 	at com.android.server.print.PrintManagerService$1.run(PrintManagerService.java:94)
+05-19 15:27:42.262 E/RemotePrintSpooler(  477): 	at android.os.Handler.handleCallback(Handler.java:733)
+05-19 15:27:42.262 E/RemotePrintSpooler(  477): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+05-19 15:27:42.262 E/RemotePrintSpooler(  477): 	at android.os.Looper.loop(Looper.java:136)
+05-19 15:27:42.262 E/RemotePrintSpooler(  477): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+05-19 15:27:45.072 E/ActivityThread(  990): Failed to find provider info for com.google.android.wearable.settings
+--------- beginning of /dev/log/main
+05-19 15:29:16.201 E/NetworkScheduler.ATC(  703): Provided calling package not found: com.google.android.apps.photos
+05-19 15:29:16.391 E/GCM     (  703): Missing checkin config file
+05-19 15:29:16.391 E/GCM     (  703): Missing checkin config file
+05-19 15:29:16.951 E/GCM     (  703): Missing checkin config file
+05-19 15:29:16.951 E/GCM     (  703): Missing checkin config file
+05-19 15:29:57.261 E/PlayCommon(  877): [43] com.google.android.play.a.g.a(1054): Failed to connect to server: java.net.SocketTimeoutException: failed to connect to play.googleapis.com/216.58.200.234 (port 443) after 10000ms
+05-19 15:30:29.500 E/GCM     (  703): Missing checkin config file
+05-19 15:30:29.500 E/GCM     (  703): Missing checkin config file
+05-19 15:30:30.070 E/GCM     (  703): Missing checkin config file
+05-19 15:30:30.080 E/GCM     (  703): Missing checkin config file
+05-19 15:31:21.650 E/memtrack( 2400): Couldn't load memtrack module (No such file or directory)
+05-19 15:31:21.650 E/android.os.Debug( 2400): failed to load memtrack module: -2
+05-19 15:31:21.670 E/cutils-trace( 2400): Error opening trace file: No such file or directory (2)
+05-19 15:31:22.370 E/memtrack( 2412): Couldn't load memtrack module (No such file or directory)
+05-19 15:31:22.370 E/android.os.Debug( 2412): failed to load memtrack module: -2
+05-19 15:31:22.390 E/JavaBinder(  477): !!! FAILED BINDER TRANSACTION !!!
+05-19 15:31:22.400 E/InputDispatcher(  477): channel '4a97402c com.boco.sc.mobileom/com.boco.sc.mobileom.start.StartLogin (server)' ~ Channel is unrecoverably broken and will be disposed!
+05-19 15:31:22.400 E/cutils-trace( 2412): Error opening trace file: No such file or directory (2)
+05-19 15:31:22.450 E/QueryController( 1990): Got null root node from accessibility - Retrying...
+05-19 15:31:23.190 E/memtrack( 2429): Couldn't load memtrack module (No such file or directory)
+05-19 15:31:23.190 E/android.os.Debug( 2429): failed to load memtrack module: -2
+05-19 15:31:23.220 E/cutils-trace( 2429): Error opening trace file: No such file or directory (2)
+05-19 15:31:24.060 E/memtrack( 2445): Couldn't load memtrack module (No such file or directory)
+05-19 15:31:24.060 E/android.os.Debug( 2445): failed to load memtrack module: -2
+05-19 15:31:24.080 E/cutils-trace( 2445): Error opening trace file: No such file or directory (2)
+05-19 15:32:54.939 E/GCM     (  703): Missing checkin config file
+05-19 15:32:54.939 E/GCM     (  703): Missing checkin config file
+05-19 15:32:55.539 E/GCM     (  703): Missing checkin config file
+05-19 15:32:55.549 E/GCM     (  703): Missing checkin config file
+05-19 15:33:35.418 E/memtrack( 2481): Couldn't load memtrack module (No such file or directory)
+05-19 15:33:35.418 E/android.os.Debug( 2481): failed to load memtrack module: -2
+05-19 15:33:35.438 E/cutils-trace( 2481): Error opening trace file: No such file or directory (2)
+05-19 15:33:36.058 E/memtrack( 2493): Couldn't load memtrack module (No such file or directory)
+05-19 15:33:36.058 E/android.os.Debug( 2493): failed to load memtrack module: -2
+05-19 15:33:36.078 E/cutils-trace( 2493): Error opening trace file: No such file or directory (2)
+05-19 15:33:36.838 E/memtrack( 2505): Couldn't load memtrack module (No such file or directory)
+05-19 15:33:36.838 E/android.os.Debug( 2505): failed to load memtrack module: -2
+05-19 15:33:36.848 E/cutils-trace( 2505): Error opening trace file: No such file or directory (2)
+05-19 15:33:37.628 E/memtrack( 2517): Couldn't load memtrack module (No such file or directory)
+05-19 15:33:37.628 E/android.os.Debug( 2517): failed to load memtrack module: -2
+05-19 15:33:37.648 E/cutils-trace( 2517): Error opening trace file: No such file or directory (2)
+05-19 15:33:38.308 E/memtrack( 2529): Couldn't load memtrack module (No such file or directory)
+05-19 15:33:38.308 E/android.os.Debug( 2529): failed to load memtrack module: -2
+05-19 15:33:38.328 E/cutils-trace( 2529): Error opening trace file: No such file or directory (2)
+05-19 15:33:39.378 E/memtrack( 2545): Couldn't load memtrack module (No such file or directory)
+05-19 15:33:39.378 E/android.os.Debug( 2545): failed to load memtrack module: -2
+05-19 15:33:39.398 E/cutils-trace( 2545): Error opening trace file: No such file or directory (2)
+05-19 15:33:40.028 E/memtrack( 2557): Couldn't load memtrack module (No such file or directory)
+05-19 15:33:40.028 E/android.os.Debug( 2557): failed to load memtrack module: -2
+05-19 15:33:40.038 E/cutils-trace( 2557): Error opening trace file: No such file or directory (2)
+05-19 15:33:40.828 E/memtrack( 2571): Couldn't load memtrack module (No such file or directory)
+05-19 15:33:40.828 E/android.os.Debug( 2571): failed to load memtrack module: -2
+05-19 15:33:40.848 E/cutils-trace( 2571): Error opening trace file: No such file or directory (2)
+05-19 15:33:41.988 E/memtrack( 2589): Couldn't load memtrack module (No such file or directory)
+05-19 15:33:41.988 E/android.os.Debug( 2589): failed to load memtrack module: -2
+05-19 15:33:42.008 E/cutils-trace( 2589): Error opening trace file: No such file or directory (2)
+05-19 15:33:42.668 E/memtrack( 2601): Couldn't load memtrack module (No such file or directory)
+05-19 15:33:42.668 E/android.os.Debug( 2601): failed to load memtrack module: -2
+05-19 15:33:42.678 E/cutils-trace( 2601): Error opening trace file: No such file or directory (2)
+05-19 15:33:43.338 E/memtrack( 2613): Couldn't load memtrack module (No such file or directory)
+05-19 15:33:43.338 E/android.os.Debug( 2613): failed to load memtrack module: -2
+05-19 15:33:43.358 E/cutils-trace( 2613): Error opening trace file: No such file or directory (2)
+05-19 15:33:46.838 E/memtrack( 2644): Couldn't load memtrack module (No such file or directory)
+05-19 15:33:46.838 E/android.os.Debug( 2644): failed to load memtrack module: -2
+05-19 15:33:47.718 E/memtrack( 2661): Couldn't load memtrack module (No such file or directory)
+05-19 15:33:47.718 E/android.os.Debug( 2661): failed to load memtrack module: -2
+05-19 15:33:48.068 E/QueryController( 2644): Got null root node from accessibility - Retrying...
+05-19 15:33:48.318 E/QueryController( 2644): Got null root node from accessibility - Retrying...
+05-19 15:33:48.328 E/VMSG    ( 2673): RegisterNatives OnUserCommand1
+05-19 15:33:48.608 E/QueryController( 2644): Got null root node from accessibility - Retrying...
+05-19 15:33:48.778 E/baidumapsdk( 2673): Authentication Error errorcode: 230 uid: -1 appid -1 msg: APP Scode码校验失败
+05-19 15:33:48.788 E/cutils-trace( 2661): Error opening trace file: No such file or directory (2)
+05-19 15:33:50.708 E/cutils-trace( 2644): Error opening trace file: No such file or directory (2)
+05-19 15:33:57.198 E/memtrack( 2702): Couldn't load memtrack module (No such file or directory)
+05-19 15:33:57.198 E/android.os.Debug( 2702): failed to load memtrack module: -2
+05-19 15:33:57.218 E/cutils-trace( 2702): Error opening trace file: No such file or directory (2)
+05-19 15:33:57.908 E/memtrack( 2713): Couldn't load memtrack module (No such file or directory)
+05-19 15:33:57.908 E/android.os.Debug( 2713): failed to load memtrack module: -2
+05-19 15:33:57.938 E/InputDispatcher(  477): channel '4a948abc com.boco.sc.mobileom/com.boco.sc.mobileom.start.StartLogin (server)' ~ Channel is unrecoverably broken and will be disposed!
+05-19 15:33:57.938 E/cutils-trace( 2713): Error opening trace file: No such file or directory (2)
+05-19 15:33:57.988 E/QueryController( 2644): Got null root node from accessibility - Retrying...
+05-19 15:33:58.748 E/memtrack( 2732): Couldn't load memtrack module (No such file or directory)
+05-19 15:33:58.748 E/android.os.Debug( 2732): failed to load memtrack module: -2
+05-19 15:33:58.758 E/cutils-trace( 2732): Error opening trace file: No such file or directory (2)
+05-19 15:33:59.698 E/memtrack( 2748): Couldn't load memtrack module (No such file or directory)
+05-19 15:33:59.698 E/android.os.Debug( 2748): failed to load memtrack module: -2
+05-19 15:33:59.718 E/cutils-trace( 2748): Error opening trace file: No such file or directory (2)
+05-19 15:34:01.188 E/memtrack( 2763): Couldn't load memtrack module (No such file or directory)
+05-19 15:34:01.188 E/android.os.Debug( 2763): failed to load memtrack module: -2
+05-19 15:34:01.208 E/cutils-trace( 2763): Error opening trace file: No such file or directory (2)
+05-19 15:34:01.858 E/memtrack( 2775): Couldn't load memtrack module (No such file or directory)
+05-19 15:34:01.858 E/android.os.Debug( 2775): failed to load memtrack module: -2
+05-19 15:34:01.878 E/cutils-trace( 2775): Error opening trace file: No such file or directory (2)
+05-19 15:34:05.888 E/memtrack( 2787): Couldn't load memtrack module (No such file or directory)
+05-19 15:34:05.888 E/android.os.Debug( 2787): failed to load memtrack module: -2
+05-19 15:34:05.908 E/cutils-trace( 2787): Error opening trace file: No such file or directory (2)
+05-19 15:34:06.938 E/memtrack( 2800): Couldn't load memtrack module (No such file or directory)
+05-19 15:34:06.938 E/android.os.Debug( 2800): failed to load memtrack module: -2
+05-19 15:34:06.958 E/cutils-trace( 2800): Error opening trace file: No such file or directory (2)
+05-19 15:34:07.738 E/memtrack( 2814): Couldn't load memtrack module (No such file or directory)
+05-19 15:34:07.738 E/android.os.Debug( 2814): failed to load memtrack module: -2
+05-19 15:34:07.758 E/cutils-trace( 2814): Error opening trace file: No such file or directory (2)
+05-19 15:34:08.718 E/memtrack( 2830): Couldn't load memtrack module (No such file or directory)
+05-19 15:34:08.718 E/android.os.Debug( 2830): failed to load memtrack module: -2
+05-19 15:34:08.728 E/cutils-trace( 2830): Error opening trace file: No such file or directory (2)
+05-19 15:34:09.378 E/memtrack( 2842): Couldn't load memtrack module (No such file or directory)
+05-19 15:34:09.388 E/android.os.Debug( 2842): failed to load memtrack module: -2
+05-19 15:34:09.398 E/cutils-trace( 2842): Error opening trace file: No such file or directory (2)
+05-19 15:34:10.138 E/memtrack( 2856): Couldn't load memtrack module (No such file or directory)
+05-19 15:34:10.138 E/android.os.Debug( 2856): failed to load memtrack module: -2
+05-19 15:34:10.158 E/cutils-trace( 2856): Error opening trace file: No such file or directory (2)
+05-19 15:34:11.238 E/memtrack( 2874): Couldn't load memtrack module (No such file or directory)
+05-19 15:34:11.238 E/android.os.Debug( 2874): failed to load memtrack module: -2
+05-19 15:34:11.258 E/cutils-trace( 2874): Error opening trace file: No such file or directory (2)
+05-19 15:34:11.938 E/memtrack( 2886): Couldn't load memtrack module (No such file or directory)
+05-19 15:34:11.938 E/android.os.Debug( 2886): failed to load memtrack module: -2
+05-19 15:34:11.958 E/cutils-trace( 2886): Error opening trace file: No such file or directory (2)
+05-19 15:34:12.568 E/memtrack( 2898): Couldn't load memtrack module (No such file or directory)
+05-19 15:34:12.568 E/android.os.Debug( 2898): failed to load memtrack module: -2
+05-19 15:34:12.598 E/cutils-trace( 2898): Error opening trace file: No such file or directory (2)
+05-19 15:34:15.767 E/memtrack( 2927): Couldn't load memtrack module (No such file or directory)
+05-19 15:34:15.767 E/android.os.Debug( 2927): failed to load memtrack module: -2
+05-19 15:34:16.667 E/memtrack( 2944): Couldn't load memtrack module (No such file or directory)
+05-19 15:34:16.667 E/android.os.Debug( 2944): failed to load memtrack module: -2
+05-19 15:34:16.997 E/QueryController( 2927): Got null root node from accessibility - Retrying...
+05-19 15:34:17.177 E/NetworkScheduler.ATC(  703): Trying to release unacquired lock: com.google.android.gms/.clearcut.uploader.UploaderService
+05-19 15:34:17.177 E/NetworkScheduler(  703): Called closeAndCleanupTask for already completed task [com.google.android.gms/.clearcut.uploader.UploaderService:upload_periodic,u0]' :TIMED_OUT
+05-19 15:34:17.227 E/NetworkScheduler(  703): Task completed but with no record in list of active tasks: [com.google.android.gms/.clearcut.uploader.UploaderService:upload_periodic,u0]
+05-19 15:34:17.257 E/QueryController( 2927): Got null root node from accessibility - Retrying...
+05-19 15:34:17.297 E/GCM     (  703): Missing checkin config file
+05-19 15:34:17.327 E/VMSG    ( 2957): RegisterNatives OnUserCommand1
+05-19 15:34:17.517 E/QueryController( 2927): Got null root node from accessibility - Retrying...
+05-19 15:34:17.637 E/baidumapsdk( 2957): Authentication Error errorcode: 230 uid: -1 appid -1 msg: APP Scode码校验失败
+05-19 15:34:17.747 E/cutils-trace( 2944): Error opening trace file: No such file or directory (2)
+05-19 15:34:18.687 E/memtrack( 2987): Couldn't load memtrack module (No such file or directory)
+05-19 15:34:18.687 E/android.os.Debug( 2987): failed to load memtrack module: -2
+05-19 15:34:18.707 E/cutils-trace( 2987): Error opening trace file: No such file or directory (2)
+05-19 15:34:19.387 E/memtrack( 2999): Couldn't load memtrack module (No such file or directory)
+05-19 15:34:19.387 E/android.os.Debug( 2999): failed to load memtrack module: -2
+05-19 15:34:19.407 E/InputDispatcher(  477): channel '4a97efac com.boco.sc.mobileom/com.boco.sc.mobileom.start.StartLogin (server)' ~ Channel is unrecoverably broken and will be disposed!
+05-19 15:34:19.407 E/QueryController( 2927): Got null root node from accessibility - Retrying...
+05-19 15:34:19.417 E/cutils-trace( 2999): Error opening trace file: No such file or directory (2)
+05-19 15:34:20.057 E/cutils-trace( 2927): Error opening trace file: No such file or directory (2)
+05-19 15:34:20.187 E/memtrack( 3015): Couldn't load memtrack module (No such file or directory)
+05-19 15:34:20.187 E/android.os.Debug( 3015): failed to load memtrack module: -2
+05-19 15:34:20.207 E/cutils-trace( 3015): Error opening trace file: No such file or directory (2)
+05-19 15:34:21.217 E/memtrack( 3031): Couldn't load memtrack module (No such file or directory)
+05-19 15:34:21.217 E/android.os.Debug( 3031): failed to load memtrack module: -2
+05-19 15:34:21.237 E/cutils-trace( 3031): Error opening trace file: No such file or directory (2)
+05-19 15:34:22.437 E/memtrack( 3047): Couldn't load memtrack module (No such file or directory)
+05-19 15:34:22.437 E/android.os.Debug( 3047): failed to load memtrack module: -2
+05-19 15:34:22.457 E/cutils-trace( 3047): Error opening trace file: No such file or directory (2)
+05-19 15:34:23.057 E/memtrack( 3059): Couldn't load memtrack module (No such file or directory)
+05-19 15:34:23.057 E/android.os.Debug( 3059): failed to load memtrack module: -2
+05-19 15:34:23.077 E/cutils-trace( 3059): Error opening trace file: No such file or directory (2)
+05-19 15:34:29.027 E/memtrack( 3071): Couldn't load memtrack module (No such file or directory)
+05-19 15:34:29.027 E/android.os.Debug( 3071): failed to load memtrack module: -2
+05-19 15:34:29.047 E/cutils-trace( 3071): Error opening trace file: No such file or directory (2)
+05-19 15:34:29.947 E/memtrack( 3083): Couldn't load memtrack module (No such file or directory)
+05-19 15:34:29.947 E/android.os.Debug( 3083): failed to load memtrack module: -2
+05-19 15:34:29.967 E/cutils-trace( 3083): Error opening trace file: No such file or directory (2)
+05-19 15:34:30.637 E/memtrack( 3095): Couldn't load memtrack module (No such file or directory)
+05-19 15:34:30.637 E/android.os.Debug( 3095): failed to load memtrack module: -2
+05-19 15:34:30.667 E/cutils-trace( 3095): Error opening trace file: No such file or directory (2)
+05-19 15:34:31.617 E/memtrack( 3111): Couldn't load memtrack module (No such file or directory)
+05-19 15:34:31.617 E/android.os.Debug( 3111): failed to load memtrack module: -2
+05-19 15:34:31.637 E/cutils-trace( 3111): Error opening trace file: No such file or directory (2)
+05-19 15:34:32.247 E/memtrack( 3123): Couldn't load memtrack module (No such file or directory)
+05-19 15:34:32.247 E/android.os.Debug( 3123): failed to load memtrack module: -2
+05-19 15:34:32.267 E/cutils-trace( 3123): Error opening trace file: No such file or directory (2)
+05-19 15:34:33.007 E/memtrack( 3137): Couldn't load memtrack module (No such file or directory)
+05-19 15:34:33.007 E/android.os.Debug( 3137): failed to load memtrack module: -2
+05-19 15:34:33.027 E/cutils-trace( 3137): Error opening trace file: No such file or directory (2)
+05-19 15:34:34.127 E/memtrack( 3155): Couldn't load memtrack module (No such file or directory)
+05-19 15:34:34.127 E/android.os.Debug( 3155): failed to load memtrack module: -2
+05-19 15:34:34.137 E/cutils-trace( 3155): Error opening trace file: No such file or directory (2)
+05-19 15:34:34.757 E/memtrack( 3167): Couldn't load memtrack module (No such file or directory)
+05-19 15:34:34.757 E/android.os.Debug( 3167): failed to load memtrack module: -2
+05-19 15:34:34.767 E/cutils-trace( 3167): Error opening trace file: No such file or directory (2)
+05-19 15:34:35.377 E/memtrack( 3179): Couldn't load memtrack module (No such file or directory)
+05-19 15:34:35.377 E/android.os.Debug( 3179): failed to load memtrack module: -2
+05-19 15:34:35.407 E/cutils-trace( 3179): Error opening trace file: No such file or directory (2)
+05-19 15:34:41.837 E/memtrack( 3209): Couldn't load memtrack module (No such file or directory)
+05-19 15:34:41.837 E/android.os.Debug( 3209): failed to load memtrack module: -2
+05-19 15:34:43.917 E/cutils-trace( 3209): Error opening trace file: No such file or directory (2)
+05-19 15:34:45.777 E/memtrack( 3226): Couldn't load memtrack module (No such file or directory)
+05-19 15:34:45.777 E/android.os.Debug( 3226): failed to load memtrack module: -2
+05-19 15:34:46.097 E/QueryController( 3209): Got null root node from accessibility - Retrying...
+05-19 15:34:46.347 E/QueryController( 3209): Got null root node from accessibility - Retrying...
+05-19 15:34:46.407 E/VMSG    ( 3238): RegisterNatives OnUserCommand1
+05-19 15:34:46.607 E/QueryController( 3209): Got null root node from accessibility - Retrying...
+05-19 15:34:46.747 E/baidumapsdk( 3238): Authentication Error errorcode: 230 uid: -1 appid -1 msg: APP Scode码校验失败
+05-19 15:34:46.747 E/cutils-trace( 3226): Error opening trace file: No such file or directory (2)
+05-19 15:34:47.407 E/memtrack( 3265): Couldn't load memtrack module (No such file or directory)
+05-19 15:34:47.407 E/android.os.Debug( 3265): failed to load memtrack module: -2
+05-19 15:34:47.427 E/cutils-trace( 3265): Error opening trace file: No such file or directory (2)
+05-19 15:35:01.817 E/memtrack( 3279): Couldn't load memtrack module (No such file or directory)
+05-19 15:35:01.817 E/android.os.Debug( 3279): failed to load memtrack module: -2
+05-19 15:35:01.837 E/cutils-trace( 3279): Error opening trace file: No such file or directory (2)
+05-19 15:35:02.767 E/memtrack( 3291): Couldn't load memtrack module (No such file or directory)
+05-19 15:35:02.767 E/android.os.Debug( 3291): failed to load memtrack module: -2
+05-19 15:35:02.787 E/JavaBinder(  477): !!! FAILED BINDER TRANSACTION !!!
+05-19 15:35:02.787 E/InputDispatcher(  477): channel '4a92aac4 com.boco.sc.mobileom/com.boco.sc.mobileom.start.StartLogin (server)' ~ Channel is unrecoverably broken and will be disposed!
+05-19 15:35:02.797 E/QueryController( 3209): Got null root node from accessibility - Retrying...
+05-19 15:35:02.797 E/cutils-trace( 3291): Error opening trace file: No such file or directory (2)
+05-19 15:35:03.597 E/memtrack( 3307): Couldn't load memtrack module (No such file or directory)
+05-19 15:35:03.597 E/android.os.Debug( 3307): failed to load memtrack module: -2
+05-19 15:35:03.647 E/cutils-trace( 3307): Error opening trace file: No such file or directory (2)
+05-19 15:35:04.617 E/memtrack( 3323): Couldn't load memtrack module (No such file or directory)
+05-19 15:35:04.617 E/android.os.Debug( 3323): failed to load memtrack module: -2
+05-19 15:35:04.637 E/cutils-trace( 3323): Error opening trace file: No such file or directory (2)
+05-19 15:35:05.987 E/memtrack( 3339): Couldn't load memtrack module (No such file or directory)
+05-19 15:35:05.987 E/android.os.Debug( 3339): failed to load memtrack module: -2
+05-19 15:35:06.007 E/cutils-trace( 3339): Error opening trace file: No such file or directory (2)
+05-19 15:35:06.627 E/memtrack( 3351): Couldn't load memtrack module (No such file or directory)
+05-19 15:35:06.637 E/android.os.Debug( 3351): failed to load memtrack module: -2
+05-19 15:35:06.647 E/cutils-trace( 3351): Error opening trace file: No such file or directory (2)
+05-19 15:35:07.577 E/memtrack( 3363): Couldn't load memtrack module (No such file or directory)
+05-19 15:35:07.577 E/android.os.Debug( 3363): failed to load memtrack module: -2
+05-19 15:35:07.597 E/cutils-trace( 3363): Error opening trace file: No such file or directory (2)
+05-19 15:35:11.577 E/memtrack( 3378): Couldn't load memtrack module (No such file or directory)
+05-19 15:35:11.577 E/android.os.Debug( 3378): failed to load memtrack module: -2
+05-19 15:35:11.597 E/cutils-trace( 3378): Error opening trace file: No such file or directory (2)
+05-19 15:35:12.277 E/memtrack( 3390): Couldn't load memtrack module (No such file or directory)
+05-19 15:35:12.277 E/android.os.Debug( 3390): failed to load memtrack module: -2
+05-19 15:35:12.297 E/cutils-trace( 3390): Error opening trace file: No such file or directory (2)
+05-19 15:35:13.217 E/memtrack( 3406): Couldn't load memtrack module (No such file or directory)
+05-19 15:35:13.217 E/android.os.Debug( 3406): failed to load memtrack module: -2
+05-19 15:35:13.237 E/cutils-trace( 3406): Error opening trace file: No such file or directory (2)
+05-19 15:35:13.847 E/memtrack( 3418): Couldn't load memtrack module (No such file or directory)
+05-19 15:35:13.847 E/android.os.Debug( 3418): failed to load memtrack module: -2
+05-19 15:35:13.867 E/cutils-trace( 3418): Error opening trace file: No such file or directory (2)

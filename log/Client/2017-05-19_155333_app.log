@@ -1,0 +1,121 @@
+--------- beginning of /dev/log/system
+05-19 15:27:31.329 E/ConnectivityService(  477): Ignoring protectedNetwork 10
+05-19 15:27:31.329 E/ConnectivityService(  477): Ignoring protectedNetwork 11
+05-19 15:27:31.329 E/ConnectivityService(  477): Ignoring protectedNetwork 12
+05-19 15:27:31.329 E/ConnectivityService(  477): Ignoring protectedNetwork 14
+05-19 15:27:31.329 E/MobileDataStateTracker(  477): default: Ignoring feature request because could not acquire PhoneService
+05-19 15:27:31.329 E/MobileDataStateTracker(  477): default: Could not enable APN type "default"
+05-19 15:27:32.099 E/LocationManagerService(  477): no geocoder provider found
+05-19 15:27:32.099 E/LocationManagerService(  477): No FusedProvider found.
+05-19 15:27:32.099 E/LocationManagerService(  477): no geofence provider found
+05-19 15:27:34.339 E/ConnectivityService(  477): Unexpected mtu value: android.net.wifi.WifiStateTracker@4a8d9b24
+05-19 15:27:42.262 E/RemotePrintSpooler(  477): Error removing obsolete print jobs .
+05-19 15:27:42.262 E/RemotePrintSpooler(  477): java.util.concurrent.TimeoutException: Cannot get spooler!
+05-19 15:27:42.262 E/RemotePrintSpooler(  477): 	at com.android.server.print.RemotePrintSpooler.bindLocked(RemotePrintSpooler.java:376)
+05-19 15:27:42.262 E/RemotePrintSpooler(  477): 	at com.android.server.print.RemotePrintSpooler.getRemoteInstanceLazy(RemotePrintSpooler.java:352)
+05-19 15:27:42.262 E/RemotePrintSpooler(  477): 	at com.android.server.print.RemotePrintSpooler.removeObsoletePrintJobs(RemotePrintSpooler.java:287)
+05-19 15:27:42.262 E/RemotePrintSpooler(  477): 	at com.android.server.print.UserState.removeObsoletePrintJobs(UserState.java:163)
+05-19 15:27:42.262 E/RemotePrintSpooler(  477): 	at com.android.server.print.PrintManagerService$1.run(PrintManagerService.java:94)
+05-19 15:27:42.262 E/RemotePrintSpooler(  477): 	at android.os.Handler.handleCallback(Handler.java:733)
+05-19 15:27:42.262 E/RemotePrintSpooler(  477): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+05-19 15:27:42.262 E/RemotePrintSpooler(  477): 	at android.os.Looper.loop(Looper.java:136)
+05-19 15:27:42.262 E/RemotePrintSpooler(  477): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+05-19 15:27:45.072 E/ActivityThread(  990): Failed to find provider info for com.google.android.wearable.settings
+05-19 15:40:39.323 E/ActivityThread(  990): Failed to find provider info for com.google.android.wearable.settings
+--------- beginning of /dev/log/main
+05-19 15:52:16.854 E/LogHome ( 7506): http://223.86.3.14:9985/bmdp/service
+05-19 15:52:16.854 E/LogHome ( 7506): java.io.FileNotFoundException: http://223.86.3.14:9985/bmdp/service
+05-19 15:52:16.854 E/LogHome ( 7506): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:186)
+05-19 15:52:16.854 E/LogHome ( 7506): 	at com.boco.transnms.client.model.base.HttpBOProxy.exec(HttpBOProxy.java:231)
+05-19 15:52:16.854 E/LogHome ( 7506): 	at com.boco.transnms.client.model.base.HttpBOProxy.invoke(HttpBOProxy.java:91)
+05-19 15:52:16.854 E/LogHome ( 7506): 	at $Proxy1.CommonCall(Native Method)
+05-19 15:52:16.854 E/LogHome ( 7506): 	at com.boco.sc.mobileom.worksheet.search.activity.Comm_WSDetail$RequestWsDetailTask.doInBackground(Comm_WSDetail.java:252)
+05-19 15:52:16.854 E/LogHome ( 7506): 	at com.boco.sc.mobileom.worksheet.search.activity.Comm_WSDetail$RequestWsDetailTask.doInBackground(Comm_WSDetail.java:163)
+05-19 15:52:16.854 E/LogHome ( 7506): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+05-19 15:52:16.854 E/LogHome ( 7506): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+05-19 15:52:16.854 E/LogHome ( 7506): 	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:231)
+05-19 15:52:16.854 E/LogHome ( 7506): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+05-19 15:52:16.854 E/LogHome ( 7506): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+05-19 15:52:16.854 E/LogHome ( 7506): 	at java.lang.Thread.run(Thread.java:841)
+05-19 15:53:18.083 E/CheckinTask(  990): Checkin failed: https://android.clients.google.com/checkin (request #0): java.net.SocketTimeoutException: failed to connect to android.clients.google.com/74.125.204.102 (port 443) after 120000ms: isConnected failed: ETIMEDOUT (Connection timed out)
+05-19 15:53:37.413 E/memtrack( 7592): Couldn't load memtrack module (No such file or directory)
+05-19 15:53:37.413 E/android.os.Debug( 7592): failed to load memtrack module: -2
+05-19 15:53:37.433 E/cutils-trace( 7592): Error opening trace file: No such file or directory (2)
+05-19 15:53:38.263 E/memtrack( 7604): Couldn't load memtrack module (No such file or directory)
+05-19 15:53:38.263 E/android.os.Debug( 7604): failed to load memtrack module: -2
+05-19 15:53:38.283 E/QueryController( 7477): Got null root node from accessibility - Retrying...
+05-19 15:53:38.283 E/InputDispatcher(  477): channel '4a9ce628 com.boco.sc.mobileom/com.boco.sc.mobileom.worksheet.search.activity.Comm_WSDetail (server)' ~ Channel is unrecoverably broken and will be disposed!
+05-19 15:53:38.313 E/cutils-trace( 7604): Error opening trace file: No such file or directory (2)
+05-19 15:53:38.343 E/VMSG    ( 7616): RegisterNatives OnUserCommand1
+05-19 15:53:38.703 E/baidumapsdk( 7616): Authentication Error errorcode: 230 uid: -1 appid -1 msg: APP Scode码校验失败
+05-19 15:53:38.893 E/ActivityThread( 4355): Performing stop of activity that is not resumed: {com.boco.apphall/com.boco.apphall.guangxi.mix.login.LoginActivityNormal}
+05-19 15:53:38.893 E/ActivityThread( 4355): java.lang.RuntimeException: Performing stop of activity that is not resumed: {com.boco.apphall/com.boco.apphall.guangxi.mix.login.LoginActivityNormal}
+05-19 15:53:38.893 E/ActivityThread( 4355): 	at android.app.ActivityThread.performStopActivityInner(ActivityThread.java:3145)
+05-19 15:53:38.893 E/ActivityThread( 4355): 	at android.app.ActivityThread.handleStopActivity(ActivityThread.java:3232)
+05-19 15:53:38.893 E/ActivityThread( 4355): 	at android.app.ActivityThread.access$1100(ActivityThread.java:135)
+05-19 15:53:38.893 E/ActivityThread( 4355): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1223)
+05-19 15:53:38.893 E/ActivityThread( 4355): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+05-19 15:53:38.893 E/ActivityThread( 4355): 	at android.os.Looper.loop(Looper.java:136)
+05-19 15:53:38.893 E/ActivityThread( 4355): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+05-19 15:53:38.893 E/ActivityThread( 4355): 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-19 15:53:38.893 E/ActivityThread( 4355): 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-19 15:53:38.893 E/ActivityThread( 4355): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+05-19 15:53:38.893 E/ActivityThread( 4355): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+05-19 15:53:38.893 E/ActivityThread( 4355): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 15:53:39.063 E/memtrack( 7640): Couldn't load memtrack module (No such file or directory)
+05-19 15:53:39.063 E/android.os.Debug( 7640): failed to load memtrack module: -2
+05-19 15:53:39.093 E/cutils-trace( 7640): Error opening trace file: No such file or directory (2)
+05-19 15:53:40.083 E/memtrack( 7656): Couldn't load memtrack module (No such file or directory)
+05-19 15:53:40.083 E/android.os.Debug( 7656): failed to load memtrack module: -2
+05-19 15:53:40.103 E/cutils-trace( 7656): Error opening trace file: No such file or directory (2)
+05-19 15:53:41.383 E/memtrack( 7674): Couldn't load memtrack module (No such file or directory)
+05-19 15:53:41.383 E/android.os.Debug( 7674): failed to load memtrack module: -2
+05-19 15:53:41.393 E/cutils-trace( 7674): Error opening trace file: No such file or directory (2)
+05-19 15:53:42.043 E/memtrack( 7686): Couldn't load memtrack module (No such file or directory)
+05-19 15:53:42.043 E/android.os.Debug( 7686): failed to load memtrack module: -2
+05-19 15:53:42.053 E/cutils-trace( 7686): Error opening trace file: No such file or directory (2)
+05-19 15:53:42.813 E/memtrack( 7698): Couldn't load memtrack module (No such file or directory)
+05-19 15:53:42.813 E/android.os.Debug( 7698): failed to load memtrack module: -2
+05-19 15:53:42.833 E/cutils-trace( 7698): Error opening trace file: No such file or directory (2)
+05-19 15:53:43.633 E/memtrack( 7710): Couldn't load memtrack module (No such file or directory)
+05-19 15:53:43.633 E/android.os.Debug( 7710): failed to load memtrack module: -2
+05-19 15:53:43.643 E/cutils-trace( 7710): Error opening trace file: No such file or directory (2)
+05-19 15:53:44.333 E/memtrack( 7722): Couldn't load memtrack module (No such file or directory)
+05-19 15:53:44.333 E/android.os.Debug( 7722): failed to load memtrack module: -2
+05-19 15:53:44.353 E/cutils-trace( 7722): Error opening trace file: No such file or directory (2)
+05-19 15:53:45.383 E/memtrack( 7738): Couldn't load memtrack module (No such file or directory)
+05-19 15:53:45.383 E/android.os.Debug( 7738): failed to load memtrack module: -2
+05-19 15:53:45.403 E/cutils-trace( 7738): Error opening trace file: No such file or directory (2)
+05-19 15:53:46.073 E/memtrack( 7750): Couldn't load memtrack module (No such file or directory)
+05-19 15:53:46.073 E/android.os.Debug( 7750): failed to load memtrack module: -2
+05-19 15:53:46.083 E/cutils-trace( 7750): Error opening trace file: No such file or directory (2)
+05-19 15:53:46.903 E/memtrack( 7764): Couldn't load memtrack module (No such file or directory)
+05-19 15:53:46.903 E/android.os.Debug( 7764): failed to load memtrack module: -2
+05-19 15:53:46.913 E/cutils-trace( 7764): Error opening trace file: No such file or directory (2)
+05-19 15:53:48.073 E/memtrack( 7782): Couldn't load memtrack module (No such file or directory)
+05-19 15:53:48.073 E/android.os.Debug( 7782): failed to load memtrack module: -2
+05-19 15:53:48.093 E/cutils-trace( 7782): Error opening trace file: No such file or directory (2)
+05-19 15:53:48.763 E/memtrack( 7794): Couldn't load memtrack module (No such file or directory)
+05-19 15:53:48.763 E/android.os.Debug( 7794): failed to load memtrack module: -2
+05-19 15:53:48.783 E/cutils-trace( 7794): Error opening trace file: No such file or directory (2)
+05-19 15:53:49.433 E/memtrack( 7806): Couldn't load memtrack module (No such file or directory)
+05-19 15:53:49.433 E/android.os.Debug( 7806): failed to load memtrack module: -2
+05-19 15:53:49.453 E/cutils-trace( 7806): Error opening trace file: No such file or directory (2)
+05-19 15:53:57.703 E/memtrack( 7837): Couldn't load memtrack module (No such file or directory)
+05-19 15:53:57.703 E/android.os.Debug( 7837): failed to load memtrack module: -2
+05-19 15:53:58.733 E/memtrack( 7854): Couldn't load memtrack module (No such file or directory)
+05-19 15:53:58.733 E/android.os.Debug( 7854): failed to load memtrack module: -2
+05-19 15:53:59.063 E/QueryController( 7837): Got null root node from accessibility - Retrying...
+05-19 15:53:59.323 E/QueryController( 7837): Got null root node from accessibility - Retrying...
+05-19 15:53:59.323 E/VMSG    ( 7866): RegisterNatives OnUserCommand1
+05-19 15:53:59.573 E/QueryController( 7837): Got null root node from accessibility - Retrying...
+05-19 15:53:59.643 E/baidumapsdk( 7866): Authentication Error errorcode: 230 uid: -1 appid -1 msg: APP Scode码校验失败
+05-19 15:53:59.643 E/cutils-trace( 7854): Error opening trace file: No such file or directory (2)
+05-19 15:54:01.533 E/cutils-trace( 7837): Error opening trace file: No such file or directory (2)
+05-19 15:54:03.923 E/memtrack( 7893): Couldn't load memtrack module (No such file or directory)
+05-19 15:54:03.923 E/android.os.Debug( 7893): failed to load memtrack module: -2
+05-19 15:54:04.823 E/cutils-trace( 7893): Error opening trace file: No such file or directory (2)
+05-19 15:54:10.982 E/memtrack( 7906): Couldn't load memtrack module (No such file or directory)
+05-19 15:54:10.982 E/android.os.Debug( 7906): failed to load memtrack module: -2
+05-19 15:54:11.952 E/cutils-trace( 7906): Error opening trace file: No such file or directory (2)
+05-19 15:54:20.312 E/QueryController( 7837): Got null root node from accessibility - Retrying...

@@ -1,0 +1,115 @@
+2017-05-19 13:32:50:680 - [Appium] Welcome to Appium v1.6.3
+2017-05-19 13:32:50:682 - [Appium] Non-default server args:
+2017-05-19 13:32:50:683 - [Appium]   address: '127.0.0.1'
+2017-05-19 13:32:50:684 - [Appium]   sessionOverride: true
+2017-05-19 13:32:50:684 - [Appium]   logTimestamp: true
+2017-05-19 13:32:50:685 - [Appium]   localTimezone: true
+2017-05-19 13:32:50:728 - [Appium] Appium REST http interface listener started on 127.0.0.1:4723
+2017-05-19 13:33:06:262 - [HTTP] --> POST /wd/hub/session {"capabilities":{"alwaysMatch":{"deviceName":"vbox86p","sessionOverride":true,"unicodeKeyboard":true,"udid":"127.0.0.1:62001","app":"D:\\Test_dir\\AppHall_GuangXi.apk","newCommandTimeout":180,"noSign":true,"automationName":"Uiautomator2","resetKeyboard":true,"platformVersion":"4.4.2","appPackage":"com.boco.apphall","platformName":"Android","appActivity":"com.boco.apphall.login.WelcomActivity"},"firstMatch":[]},"desiredCapabilities":{"deviceName":"vbox86p","sessionOverride":true,"unicodeKeyboard":true,"udid":"127.0.0.1:62001","app":"D:\\Test_dir\\AppHall_GuangXi.apk","resetKeyboard":true,"appActivity":"com.boco.apphall.login.WelcomActivity","platformVersion":"4.4.2","newCommandTimeout":180,"noSign":true,"appPackage":"com.boco.apphall","platformName":"Android","automationName":"Uiautomator2"}}
+2017-05-19 13:33:06:264 - [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"deviceName":"vbox86p","sessionOverride":true,"unicodeKeyboard":true,"udid":"127.0.0.1:62001","app":"D:\\Test_dir\\AppHall_GuangXi.apk","resetKeyboard":true,"appActivity":"com.boco.apphall.login.WelcomActivity","platformVersion":"4.4.2","newCommandTimeout":180,"noSign":true,"appPackage":"com.boco.apphall","platformName":"Android","automationName":"Uiautomator2"},null,{"alwaysMatch":{"deviceName":"vbox86p","sessionOverride":true,"unicodeKeyboard":true,"udid":"127.0.0.1:62001","app":"D:\\Test_dir\\AppHall_GuangXi.apk","newCommandTimeout":180,"noSign":true,"automationName":"Uiautomator2","resetKeyboard":true,"platformVersion":"4.4.2","appPackage":"com.boco.apphall","platformName":"Android","appActivity":"com.boco.apphall.login.WelcomActivity"},"firstMatch":[]},null,null]
+2017-05-19 13:33:06:267 - [Appium] Creating new AndroidUiautomator2Driver session
+2017-05-19 13:33:06:268 - [Appium] Capabilities:
+2017-05-19 13:33:06:270 - [Appium]   deviceName: 'vbox86p'
+2017-05-19 13:33:06:270 - [Appium]   sessionOverride: true
+2017-05-19 13:33:06:271 - [Appium]   unicodeKeyboard: true
+2017-05-19 13:33:06:271 - [Appium]   udid: '127.0.0.1:62001'
+2017-05-19 13:33:06:271 - [Appium]   app: 'D:\\Test_dir\\AppHall_GuangXi.apk'
+2017-05-19 13:33:06:271 - [Appium]   resetKeyboard: true
+2017-05-19 13:33:06:272 - [Appium]   appActivity: 'com.boco.apphall.login.WelcomActivity'
+2017-05-19 13:33:06:272 - [Appium]   platformVersion: '4.4.2'
+2017-05-19 13:33:06:272 - [Appium]   newCommandTimeout: 180
+2017-05-19 13:33:06:272 - [Appium]   noSign: true
+2017-05-19 13:33:06:272 - [Appium]   appPackage: 'com.boco.apphall'
+2017-05-19 13:33:06:272 - [Appium]   platformName: 'Android'
+2017-05-19 13:33:06:272 - [Appium]   automationName: 'Uiautomator2'
+2017-05-19 13:33:06:278 - [BaseDriver] The following capabilities were provided, but are not recognized by appium: sessionOverride.
+2017-05-19 13:33:06:304 - [BaseDriver] Session created with session id: bf3aa255-e6fc-46a2-9ea0-035b9437a1c8
+2017-05-19 13:33:06:306 - [BaseDriver] Using local app 'D:\Test_dir\AppHall_GuangXi.apk'
+2017-05-19 13:33:06:307 - [debug] [UiAutomator2] Checking whether app is actually present
+2017-05-19 13:33:06:711 - [UiAutomator2] UIAutomator2 Driver version:0.2.3
+2017-05-19 13:33:06:711 - [debug] [AndroidDriver] Getting Java version
+2017-05-19 13:33:06:898 - [AndroidDriver] Java version is: 1.8.0_131
+2017-05-19 13:33:06:900 - [ADB] Checking whether adb is present
+2017-05-19 13:33:06:903 - [ADB] Using adb.exe from D:\AndroidSdk\platform-tools\adb.exe
+2017-05-19 13:33:06:904 - [AndroidDriver] Retrieving device list
+2017-05-19 13:33:06:905 - [debug] [ADB] Trying to find a connected android device
+2017-05-19 13:33:06:906 - [debug] [ADB] Getting connected devices...
+2017-05-19 13:33:06:952 - [debug] [ADB] 0 device(s) connected
+2017-05-19 13:33:06:953 - [debug] [ADB] Could not find devices, restarting adb server...
+2017-05-19 13:33:06:953 - [debug] [ADB] Restarting adb
+2017-05-19 13:33:07:211 - [debug] [ADB] Getting connected devices...
+2017-05-19 13:33:11:277 - [debug] [ADB] 0 device(s) connected
+2017-05-19 13:33:11:278 - [debug] [ADB] Could not find devices, restarting adb server...
+2017-05-19 13:33:11:278 - [debug] [ADB] Restarting adb
+2017-05-19 13:33:11:522 - [debug] [ADB] Getting connected devices...
+2017-05-19 13:33:15:593 - [debug] [ADB] 0 device(s) connected
+2017-05-19 13:33:15:593 - [debug] [ADB] Could not find devices, restarting adb server...
+2017-05-19 13:33:15:594 - [debug] [ADB] Restarting adb
+2017-05-19 13:33:15:853 - [debug] [ADB] Getting connected devices...
+2017-05-19 13:33:19:946 - [debug] [ADB] 0 device(s) connected
+2017-05-19 13:33:19:946 - [debug] [ADB] Could not find devices, restarting adb server...
+2017-05-19 13:33:19:946 - [debug] [ADB] Restarting adb
+2017-05-19 13:33:20:187 - [debug] [ADB] Getting connected devices...
+2017-05-19 13:33:24:325 - [debug] [ADB] 0 device(s) connected
+2017-05-19 13:33:24:327 - [debug] [ADB] Could not find devices, restarting adb server...
+2017-05-19 13:33:24:327 - [debug] [ADB] Restarting adb
+2017-05-19 13:33:24:573 - [debug] [ADB] Getting connected devices...
+2017-05-19 13:33:28:668 - [debug] [ADB] 0 device(s) connected
+2017-05-19 13:33:28:669 - [debug] [ADB] Could not find devices, restarting adb server...
+2017-05-19 13:33:28:670 - [debug] [ADB] Restarting adb
+2017-05-19 13:33:28:916 - [debug] [ADB] Could not find devices, restarting adb server...
+2017-05-19 13:33:28:916 - [debug] [ADB] Restarting adb
+2017-05-19 13:33:30:175 - [debug] [ADB] Could not find devices, restarting adb server...
+2017-05-19 13:33:30:176 - [debug] [ADB] Restarting adb
+2017-05-19 13:33:31:412 - [debug] [ADB] Could not find devices, restarting adb server...
+2017-05-19 13:33:31:413 - [debug] [ADB] Restarting adb
+2017-05-19 13:33:32:665 - [debug] [ADB] Could not find devices, restarting adb server...
+2017-05-19 13:33:32:666 - [debug] [ADB] Restarting adb
+2017-05-19 13:33:33:910 - [debug] [ADB] Could not find devices, restarting adb server...
+2017-05-19 13:33:33:910 - [debug] [ADB] Restarting adb
+2017-05-19 13:33:35:219 - [debug] [ADB] Could not find devices, restarting adb server...
+2017-05-19 13:33:35:220 - [debug] [ADB] Restarting adb
+2017-05-19 13:33:36:468 - [debug] [UiAutomator2] Deleting UiAutomator2 session
+2017-05-19 13:33:36:475 - [UiAutomator2] Unable to remove port forward 'Cannot read property 'removePortForward' of undefined'
+2017-05-19 13:33:36:508 - [HTTP] <-- POST /wd/hub/session 500 30243 ms - 179 
+2017-05-19 13:33:36:545 - [HTTP] --> POST /wd/hub/session {"capabilities":{"alwaysMatch":{"deviceName":"vbox86p","sessionOverride":true,"unicodeKeyboard":true,"udid":"127.0.0.1:62001","app":"D:\\Test_dir\\AppHall_GuangXi.apk","newCommandTimeout":180,"noSign":true,"automationName":"Uiautomator2","resetKeyboard":true,"platformVersion":"4.4.2","appPackage":"com.boco.apphall","platformName":"Android","appActivity":"com.boco.apphall.login.WelcomActivity"},"firstMatch":[]},"desiredCapabilities":{"deviceName":"vbox86p","sessionOverride":true,"unicodeKeyboard":true,"udid":"127.0.0.1:62001","app":"D:\\Test_dir\\AppHall_GuangXi.apk","resetKeyboard":true,"appActivity":"com.boco.apphall.login.WelcomActivity","platformVersion":"4.4.2","newCommandTimeout":180,"noSign":true,"appPackage":"com.boco.apphall","platformName":"Android","automationName":"Uiautomator2"}}
+2017-05-19 13:33:36:546 - [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"deviceName":"vbox86p","sessionOverride":true,"unicodeKeyboard":true,"udid":"127.0.0.1:62001","app":"D:\\Test_dir\\AppHall_GuangXi.apk","resetKeyboard":true,"appActivity":"com.boco.apphall.login.WelcomActivity","platformVersion":"4.4.2","newCommandTimeout":180,"noSign":true,"appPackage":"com.boco.apphall","platformName":"Android","automationName":"Uiautomator2"},null,{"alwaysMatch":{"deviceName":"vbox86p","sessionOverride":true,"unicodeKeyboard":true,"udid":"127.0.0.1:62001","app":"D:\\Test_dir\\AppHall_GuangXi.apk","newCommandTimeout":180,"noSign":true,"automationName":"Uiautomator2","resetKeyboard":true,"platformVersion":"4.4.2","appPackage":"com.boco.apphall","platformName":"Android","appActivity":"com.boco.apphall.login.WelcomActivity"},"firstMatch":[]},null,null,null,null]
+2017-05-19 13:33:36:548 - [Appium] Creating new AndroidUiautomator2Driver session
+2017-05-19 13:33:36:548 - [Appium] Capabilities:
+2017-05-19 13:33:36:549 - [Appium]   deviceName: 'vbox86p'
+2017-05-19 13:33:36:550 - [Appium]   sessionOverride: true
+2017-05-19 13:33:36:550 - [Appium]   unicodeKeyboard: true
+2017-05-19 13:33:36:550 - [Appium]   udid: '127.0.0.1:62001'
+2017-05-19 13:33:36:550 - [Appium]   app: 'D:\\Test_dir\\AppHall_GuangXi.apk'
+2017-05-19 13:33:36:551 - [Appium]   resetKeyboard: true
+2017-05-19 13:33:36:551 - [Appium]   appActivity: 'com.boco.apphall.login.WelcomActivity'
+2017-05-19 13:33:36:552 - [Appium]   platformVersion: '4.4.2'
+2017-05-19 13:33:36:552 - [Appium]   newCommandTimeout: 180
+2017-05-19 13:33:36:553 - [Appium]   noSign: true
+2017-05-19 13:33:36:553 - [Appium]   appPackage: 'com.boco.apphall'
+2017-05-19 13:33:36:553 - [Appium]   platformName: 'Android'
+2017-05-19 13:33:36:554 - [Appium]   automationName: 'Uiautomator2'
+2017-05-19 13:33:36:557 - [BaseDriver] The following capabilities were provided, but are not recognized by appium: sessionOverride.
+2017-05-19 13:33:36:559 - [BaseDriver] Session created with session id: 26d1262d-8fb0-4ae1-a2fa-80d84fcf5227
+2017-05-19 13:33:36:560 - [BaseDriver] Using local app 'D:\Test_dir\AppHall_GuangXi.apk'
+2017-05-19 13:33:36:560 - [debug] [UiAutomator2] Checking whether app is actually present
+2017-05-19 13:33:36:963 - [UiAutomator2] UIAutomator2 Driver version:0.2.3
+2017-05-19 13:33:36:964 - [debug] [AndroidDriver] Getting Java version
+2017-05-19 13:33:37:133 - [AndroidDriver] Java version is: 1.8.0_131
+2017-05-19 13:33:37:134 - [ADB] Checking whether adb is present
+2017-05-19 13:33:37:137 - [ADB] Using adb.exe from D:\AndroidSdk\platform-tools\adb.exe
+2017-05-19 13:33:37:137 - [AndroidDriver] Retrieving device list
+2017-05-19 13:33:37:137 - [debug] [ADB] Trying to find a connected android device
+2017-05-19 13:33:37:138 - [debug] [ADB] Getting connected devices...
+2017-05-19 13:33:41:268 - [debug] [ADB] 0 device(s) connected
+2017-05-19 13:33:41:268 - [debug] [ADB] Could not find devices, restarting adb server...
+2017-05-19 13:33:41:269 - [debug] [ADB] Restarting adb
+2017-05-19 13:33:41:531 - [debug] [ADB] Getting connected devices...
+2017-05-19 13:33:45:673 - [debug] [ADB] 0 device(s) connected
+2017-05-19 13:33:45:673 - [debug] [ADB] Could not find devices, restarting adb server...
+2017-05-19 13:33:45:674 - [debug] [ADB] Restarting adb
+2017-05-19 13:33:45:970 - [debug] [ADB] Getting connected devices...
+2017-05-19 13:33:50:039 - [debug] [ADB] 0 device(s) connected
+2017-05-19 13:33:50:051 - [debug] [ADB] Could not find devices, restarting adb server...
+2017-05-19 13:33:50:051 - [debug] [ADB] Restarting adb
+2017-05-19 13:33:50:287 - [debug] [ADB] Getting connected devices...

@@ -1,0 +1,188 @@
+--------- beginning of /dev/log/system
+05-19 14:29:20.470 E/ConnectivityService(  423): Ignoring protectedNetwork 10
+05-19 14:29:20.470 E/ConnectivityService(  423): Ignoring protectedNetwork 11
+05-19 14:29:20.470 E/ConnectivityService(  423): Ignoring protectedNetwork 12
+05-19 14:29:20.470 E/ConnectivityService(  423): Ignoring protectedNetwork 14
+05-19 14:29:20.470 E/MobileDataStateTracker(  423): default: Ignoring feature request because could not acquire PhoneService
+05-19 14:29:20.470 E/MobileDataStateTracker(  423): default: Could not enable APN type "default"
+05-19 14:29:21.640 E/LocationManagerService(  423): no geocoder provider found
+05-19 14:29:21.640 E/LocationManagerService(  423): No FusedProvider found.
+05-19 14:29:21.640 E/LocationManagerService(  423): no geofence provider found
+05-19 14:29:23.240 E/ConnectivityService(  423): Unexpected mtu value: android.net.wifi.WifiStateTracker@4a8ef3fc
+05-19 14:29:31.695 E/RemotePrintSpooler(  423): Error removing obsolete print jobs .
+05-19 14:29:31.695 E/RemotePrintSpooler(  423): java.util.concurrent.TimeoutException: Cannot get spooler!
+05-19 14:29:31.695 E/RemotePrintSpooler(  423): 	at com.android.server.print.RemotePrintSpooler.bindLocked(RemotePrintSpooler.java:376)
+05-19 14:29:31.695 E/RemotePrintSpooler(  423): 	at com.android.server.print.RemotePrintSpooler.getRemoteInstanceLazy(RemotePrintSpooler.java:352)
+05-19 14:29:31.695 E/RemotePrintSpooler(  423): 	at com.android.server.print.RemotePrintSpooler.removeObsoletePrintJobs(RemotePrintSpooler.java:287)
+05-19 14:29:31.695 E/RemotePrintSpooler(  423): 	at com.android.server.print.UserState.removeObsoletePrintJobs(UserState.java:163)
+05-19 14:29:31.695 E/RemotePrintSpooler(  423): 	at com.android.server.print.PrintManagerService$1.run(PrintManagerService.java:94)
+05-19 14:29:31.695 E/RemotePrintSpooler(  423): 	at android.os.Handler.handleCallback(Handler.java:733)
+05-19 14:29:31.695 E/RemotePrintSpooler(  423): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+05-19 14:29:31.695 E/RemotePrintSpooler(  423): 	at android.os.Looper.loop(Looper.java:136)
+05-19 14:29:31.695 E/RemotePrintSpooler(  423): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+05-19 14:29:32.185 E/local_gps(  157): Can't send RMC command
+05-19 14:29:34.485 E/ActivityThread(  978): Failed to find provider info for com.google.android.wearable.settings
+05-19 14:33:50.135 E/AndroidRuntime( 2826): FATAL EXCEPTION: main
+05-19 14:33:50.135 E/AndroidRuntime( 2826): Process: com.boco.sc.mobileom, PID: 2826
+05-19 14:33:50.135 E/AndroidRuntime( 2826): java.lang.ClassCastException: android.text.SpannableString cannot be cast to java.lang.String
+05-19 14:33:50.135 E/AndroidRuntime( 2826): 	at com.boco.sc.mobileom.base.BaseActivity.openTimeWheelView(BaseActivity.java:556)
+05-19 14:33:50.135 E/AndroidRuntime( 2826): 	at com.boco.sc.mobileom.base.BaseActivity$13.onClick(BaseActivity.java:909)
+05-19 14:33:50.135 E/AndroidRuntime( 2826): 	at android.view.View.performClick(View.java:4438)
+05-19 14:33:50.135 E/AndroidRuntime( 2826): 	at android.view.View$PerformClick.run(View.java:18422)
+05-19 14:33:50.135 E/AndroidRuntime( 2826): 	at android.os.Handler.handleCallback(Handler.java:733)
+05-19 14:33:50.135 E/AndroidRuntime( 2826): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+05-19 14:33:50.135 E/AndroidRuntime( 2826): 	at android.os.Looper.loop(Looper.java:136)
+05-19 14:33:50.135 E/AndroidRuntime( 2826): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+05-19 14:33:50.135 E/AndroidRuntime( 2826): 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-19 14:33:50.135 E/AndroidRuntime( 2826): 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-19 14:33:50.135 E/AndroidRuntime( 2826): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+05-19 14:33:50.135 E/AndroidRuntime( 2826): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+05-19 14:33:50.135 E/AndroidRuntime( 2826): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 14:34:05.145 E/AndroidRuntime( 2894): FATAL EXCEPTION: main
+05-19 14:34:05.145 E/AndroidRuntime( 2894): Process: com.boco.sc.mobileom, PID: 2894
+05-19 14:34:05.145 E/AndroidRuntime( 2894): java.lang.ClassCastException: android.text.SpannableString cannot be cast to java.lang.String
+05-19 14:34:05.145 E/AndroidRuntime( 2894): 	at com.boco.sc.mobileom.base.BaseActivity.openTimeWheelView(BaseActivity.java:556)
+05-19 14:34:05.145 E/AndroidRuntime( 2894): 	at com.boco.sc.mobileom.base.BaseActivity$13.onClick(BaseActivity.java:909)
+05-19 14:34:05.145 E/AndroidRuntime( 2894): 	at android.view.View.performClick(View.java:4438)
+05-19 14:34:05.145 E/AndroidRuntime( 2894): 	at android.view.View$PerformClick.run(View.java:18422)
+05-19 14:34:05.145 E/AndroidRuntime( 2894): 	at android.os.Handler.handleCallback(Handler.java:733)
+05-19 14:34:05.145 E/AndroidRuntime( 2894): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+05-19 14:34:05.145 E/AndroidRuntime( 2894): 	at android.os.Looper.loop(Looper.java:136)
+05-19 14:34:05.145 E/AndroidRuntime( 2894): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+05-19 14:34:05.145 E/AndroidRuntime( 2894): 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-19 14:34:05.145 E/AndroidRuntime( 2894): 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-19 14:34:05.145 E/AndroidRuntime( 2894): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+05-19 14:34:05.145 E/AndroidRuntime( 2894): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+05-19 14:34:05.145 E/AndroidRuntime( 2894): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 14:34:12.775 E/AndroidRuntime( 2925): FATAL EXCEPTION: main
+05-19 14:34:12.775 E/AndroidRuntime( 2925): Process: com.boco.sc.mobileom, PID: 2925
+05-19 14:34:12.775 E/AndroidRuntime( 2925): java.lang.ClassCastException: android.text.SpannableString cannot be cast to java.lang.String
+05-19 14:34:12.775 E/AndroidRuntime( 2925): 	at com.boco.sc.mobileom.base.BaseActivity.openTimeWheelView(BaseActivity.java:556)
+05-19 14:34:12.775 E/AndroidRuntime( 2925): 	at com.boco.sc.mobileom.base.BaseActivity$13.onClick(BaseActivity.java:909)
+05-19 14:34:12.775 E/AndroidRuntime( 2925): 	at android.view.View.performClick(View.java:4438)
+05-19 14:34:12.775 E/AndroidRuntime( 2925): 	at android.view.View$PerformClick.run(View.java:18422)
+05-19 14:34:12.775 E/AndroidRuntime( 2925): 	at android.os.Handler.handleCallback(Handler.java:733)
+05-19 14:34:12.775 E/AndroidRuntime( 2925): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+05-19 14:34:12.775 E/AndroidRuntime( 2925): 	at android.os.Looper.loop(Looper.java:136)
+05-19 14:34:12.775 E/AndroidRuntime( 2925): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+05-19 14:34:12.775 E/AndroidRuntime( 2925): 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-19 14:34:12.775 E/AndroidRuntime( 2925): 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-19 14:34:12.775 E/AndroidRuntime( 2925): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+05-19 14:34:12.775 E/AndroidRuntime( 2925): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+05-19 14:34:12.775 E/AndroidRuntime( 2925): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 14:34:19.545 E/AndroidRuntime( 2955): FATAL EXCEPTION: main
+05-19 14:34:19.545 E/AndroidRuntime( 2955): Process: com.boco.sc.mobileom, PID: 2955
+05-19 14:34:19.545 E/AndroidRuntime( 2955): java.lang.ClassCastException: android.text.SpannableString cannot be cast to java.lang.String
+05-19 14:34:19.545 E/AndroidRuntime( 2955): 	at com.boco.sc.mobileom.base.BaseActivity.openTimeWheelView(BaseActivity.java:556)
+05-19 14:34:19.545 E/AndroidRuntime( 2955): 	at com.boco.sc.mobileom.base.BaseActivity$13.onClick(BaseActivity.java:909)
+05-19 14:34:19.545 E/AndroidRuntime( 2955): 	at android.view.View.performClick(View.java:4438)
+05-19 14:34:19.545 E/AndroidRuntime( 2955): 	at android.view.View$PerformClick.run(View.java:18422)
+05-19 14:34:19.545 E/AndroidRuntime( 2955): 	at android.os.Handler.handleCallback(Handler.java:733)
+05-19 14:34:19.545 E/AndroidRuntime( 2955): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+05-19 14:34:19.545 E/AndroidRuntime( 2955): 	at android.os.Looper.loop(Looper.java:136)
+05-19 14:34:19.545 E/AndroidRuntime( 2955): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+05-19 14:34:19.545 E/AndroidRuntime( 2955): 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-19 14:34:19.545 E/AndroidRuntime( 2955): 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-19 14:34:19.545 E/AndroidRuntime( 2955): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+05-19 14:34:19.545 E/AndroidRuntime( 2955): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+05-19 14:34:19.545 E/AndroidRuntime( 2955): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 14:34:28.325 E/AndroidRuntime( 2986): FATAL EXCEPTION: main
+05-19 14:34:28.325 E/AndroidRuntime( 2986): Process: com.boco.sc.mobileom, PID: 2986
+05-19 14:34:28.325 E/AndroidRuntime( 2986): java.lang.ClassCastException: android.text.SpannableString cannot be cast to java.lang.String
+05-19 14:34:28.325 E/AndroidRuntime( 2986): 	at com.boco.sc.mobileom.base.BaseActivity.openTimeWheelView(BaseActivity.java:556)
+05-19 14:34:28.325 E/AndroidRuntime( 2986): 	at com.boco.sc.mobileom.base.BaseActivity$13.onClick(BaseActivity.java:909)
+05-19 14:34:28.325 E/AndroidRuntime( 2986): 	at android.view.View.performClick(View.java:4438)
+05-19 14:34:28.325 E/AndroidRuntime( 2986): 	at android.view.View$PerformClick.run(View.java:18422)
+05-19 14:34:28.325 E/AndroidRuntime( 2986): 	at android.os.Handler.handleCallback(Handler.java:733)
+05-19 14:34:28.325 E/AndroidRuntime( 2986): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+05-19 14:34:28.325 E/AndroidRuntime( 2986): 	at android.os.Looper.loop(Looper.java:136)
+05-19 14:34:28.325 E/AndroidRuntime( 2986): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+05-19 14:34:28.325 E/AndroidRuntime( 2986): 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-19 14:34:28.325 E/AndroidRuntime( 2986): 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-19 14:34:28.325 E/AndroidRuntime( 2986): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+05-19 14:34:28.325 E/AndroidRuntime( 2986): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+05-19 14:34:28.325 E/AndroidRuntime( 2986): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 14:38:53.565 E/AndroidRuntime( 3018): FATAL EXCEPTION: main
+05-19 14:38:53.565 E/AndroidRuntime( 3018): Process: com.boco.sc.mobileom, PID: 3018
+05-19 14:38:53.565 E/AndroidRuntime( 3018): java.lang.ClassCastException: android.text.SpannableString cannot be cast to java.lang.String
+05-19 14:38:53.565 E/AndroidRuntime( 3018): 	at com.boco.sc.mobileom.base.BaseActivity.openTimeWheelView(BaseActivity.java:556)
+05-19 14:38:53.565 E/AndroidRuntime( 3018): 	at com.boco.sc.mobileom.base.BaseActivity$13.onClick(BaseActivity.java:909)
+05-19 14:38:53.565 E/AndroidRuntime( 3018): 	at android.view.View.performClick(View.java:4438)
+05-19 14:38:53.565 E/AndroidRuntime( 3018): 	at android.view.View$PerformClick.run(View.java:18422)
+05-19 14:38:53.565 E/AndroidRuntime( 3018): 	at android.os.Handler.handleCallback(Handler.java:733)
+05-19 14:38:53.565 E/AndroidRuntime( 3018): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+05-19 14:38:53.565 E/AndroidRuntime( 3018): 	at android.os.Looper.loop(Looper.java:136)
+05-19 14:38:53.565 E/AndroidRuntime( 3018): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+05-19 14:38:53.565 E/AndroidRuntime( 3018): 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-19 14:38:53.565 E/AndroidRuntime( 3018): 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-19 14:38:53.565 E/AndroidRuntime( 3018): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+05-19 14:38:53.565 E/AndroidRuntime( 3018): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+05-19 14:38:53.565 E/AndroidRuntime( 3018): 	at dalvik.system.NativeStart.main(Native Method)
+--------- beginning of /dev/log/main
+05-19 14:41:11.545 E/cutils-trace( 3735): Error opening trace file: No such file or directory (2)
+05-19 14:41:28.245 E/GCM     (  713): Missing checkin config file
+05-19 14:41:28.245 E/GCM     (  713): Missing checkin config file
+05-19 14:42:05.265 E/PlayCommon(  804): [43] com.google.android.play.a.g.a(1054): Failed to connect to server: java.net.SocketTimeoutException: failed to connect to play.googleapis.com/172.217.27.138 (port 443) after 10000ms
+05-19 14:42:13.845 E/CheckinTask(  978): Checkin failed: https://android.clients.google.com/checkin (request #0): java.net.SocketTimeoutException: failed to connect to android.clients.google.com/74.125.204.138 (port 443) after 120000ms: isConnected failed: ETIMEDOUT (Connection timed out)
+05-19 14:42:32.465 E/memtrack( 3777): Couldn't load memtrack module (No such file or directory)
+05-19 14:42:32.465 E/android.os.Debug( 3777): failed to load memtrack module: -2
+05-19 14:42:32.475 E/cutils-trace( 3777): Error opening trace file: No such file or directory (2)
+05-19 14:42:33.235 E/memtrack( 3789): Couldn't load memtrack module (No such file or directory)
+05-19 14:42:33.235 E/android.os.Debug( 3789): failed to load memtrack module: -2
+05-19 14:42:33.265 E/cutils-trace( 3789): Error opening trace file: No such file or directory (2)
+05-19 14:42:33.285 E/QueryController( 3656): Got null root node from accessibility - Retrying...
+05-19 14:42:33.945 E/memtrack( 3806): Couldn't load memtrack module (No such file or directory)
+05-19 14:42:33.945 E/android.os.Debug( 3806): failed to load memtrack module: -2
+05-19 14:42:33.975 E/cutils-trace( 3806): Error opening trace file: No such file or directory (2)
+05-19 14:42:34.895 E/memtrack( 3823): Couldn't load memtrack module (No such file or directory)
+05-19 14:42:34.895 E/android.os.Debug( 3823): failed to load memtrack module: -2
+05-19 14:42:34.915 E/cutils-trace( 3823): Error opening trace file: No such file or directory (2)
+05-19 14:42:36.145 E/memtrack( 3839): Couldn't load memtrack module (No such file or directory)
+05-19 14:42:36.145 E/android.os.Debug( 3839): failed to load memtrack module: -2
+05-19 14:42:36.165 E/cutils-trace( 3839): Error opening trace file: No such file or directory (2)
+05-19 14:42:36.835 E/memtrack( 3851): Couldn't load memtrack module (No such file or directory)
+05-19 14:42:36.835 E/android.os.Debug( 3851): failed to load memtrack module: -2
+05-19 14:42:36.845 E/cutils-trace( 3851): Error opening trace file: No such file or directory (2)
+05-19 14:42:42.695 E/memtrack( 3864): Couldn't load memtrack module (No such file or directory)
+05-19 14:42:42.695 E/android.os.Debug( 3864): failed to load memtrack module: -2
+05-19 14:42:42.715 E/cutils-trace( 3864): Error opening trace file: No such file or directory (2)
+05-19 14:42:43.505 E/memtrack( 3876): Couldn't load memtrack module (No such file or directory)
+05-19 14:42:43.505 E/android.os.Debug( 3876): failed to load memtrack module: -2
+05-19 14:42:43.515 E/cutils-trace( 3876): Error opening trace file: No such file or directory (2)
+05-19 14:42:44.175 E/memtrack( 3888): Couldn't load memtrack module (No such file or directory)
+05-19 14:42:44.175 E/android.os.Debug( 3888): failed to load memtrack module: -2
+05-19 14:42:44.195 E/cutils-trace( 3888): Error opening trace file: No such file or directory (2)
+05-19 14:42:45.195 E/memtrack( 3904): Couldn't load memtrack module (No such file or directory)
+05-19 14:42:45.195 E/android.os.Debug( 3904): failed to load memtrack module: -2
+05-19 14:42:45.225 E/cutils-trace( 3904): Error opening trace file: No such file or directory (2)
+05-19 14:42:45.865 E/memtrack( 3916): Couldn't load memtrack module (No such file or directory)
+05-19 14:42:45.865 E/android.os.Debug( 3916): failed to load memtrack module: -2
+05-19 14:42:45.885 E/cutils-trace( 3916): Error opening trace file: No such file or directory (2)
+05-19 14:42:46.685 E/memtrack( 3930): Couldn't load memtrack module (No such file or directory)
+05-19 14:42:46.685 E/android.os.Debug( 3930): failed to load memtrack module: -2
+05-19 14:42:46.695 E/cutils-trace( 3930): Error opening trace file: No such file or directory (2)
+05-19 14:42:47.865 E/memtrack( 3948): Couldn't load memtrack module (No such file or directory)
+05-19 14:42:47.865 E/android.os.Debug( 3948): failed to load memtrack module: -2
+05-19 14:42:47.885 E/cutils-trace( 3948): Error opening trace file: No such file or directory (2)
+05-19 14:42:48.545 E/memtrack( 3960): Couldn't load memtrack module (No such file or directory)
+05-19 14:42:48.545 E/android.os.Debug( 3960): failed to load memtrack module: -2
+05-19 14:42:48.565 E/cutils-trace( 3960): Error opening trace file: No such file or directory (2)
+05-19 14:42:49.205 E/memtrack( 3972): Couldn't load memtrack module (No such file or directory)
+05-19 14:42:49.205 E/android.os.Debug( 3972): failed to load memtrack module: -2
+05-19 14:42:49.225 E/cutils-trace( 3972): Error opening trace file: No such file or directory (2)
+05-19 14:42:52.355 E/memtrack( 4002): Couldn't load memtrack module (No such file or directory)
+05-19 14:42:52.355 E/android.os.Debug( 4002): failed to load memtrack module: -2
+05-19 14:42:53.195 E/memtrack( 4019): Couldn't load memtrack module (No such file or directory)
+05-19 14:42:53.205 E/android.os.Debug( 4019): failed to load memtrack module: -2
+05-19 14:42:53.565 E/QueryController( 4002): Got null root node from accessibility - Retrying...
+05-19 14:42:53.745 E/VMSG    ( 4031): RegisterNatives OnUserCommand1
+05-19 14:42:53.825 E/QueryController( 4002): Got null root node from accessibility - Retrying...
+05-19 14:42:54.045 E/cutils-trace( 4019): Error opening trace file: No such file or directory (2)
+05-19 14:42:56.145 E/cutils-trace( 4002): Error opening trace file: No such file or directory (2)
+05-19 14:42:57.595 E/baidumapsdk( 4031): Authentication Error errorcode: 230 uid: -1 appid -1 msg: APP Scode码校验失败
+05-19 14:42:58.305 E/memtrack( 4057): Couldn't load memtrack module (No such file or directory)
+05-19 14:42:58.305 E/android.os.Debug( 4057): failed to load memtrack module: -2
+05-19 14:42:59.145 E/cutils-trace( 4057): Error opening trace file: No such file or directory (2)
+05-19 14:43:05.135 E/memtrack( 4070): Couldn't load memtrack module (No such file or directory)
+05-19 14:43:05.135 E/android.os.Debug( 4070): failed to load memtrack module: -2
+05-19 14:43:06.035 E/cutils-trace( 4070): Error opening trace file: No such file or directory (2)

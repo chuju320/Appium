@@ -1,0 +1,316 @@
+--------- beginning of /dev/log/system
+05-19 13:36:25.804 E/ConnectivityService(  479): Ignoring protectedNetwork 10
+05-19 13:36:25.804 E/ConnectivityService(  479): Ignoring protectedNetwork 11
+05-19 13:36:25.804 E/ConnectivityService(  479): Ignoring protectedNetwork 12
+05-19 13:36:25.804 E/ConnectivityService(  479): Ignoring protectedNetwork 14
+05-19 13:36:25.804 E/MobileDataStateTracker(  479): default: Ignoring feature request because could not acquire PhoneService
+05-19 13:36:25.804 E/MobileDataStateTracker(  479): default: Could not enable APN type "default"
+05-19 13:36:26.614 E/LocationManagerService(  479): no geocoder provider found
+05-19 13:36:26.674 E/LocationManagerService(  479): No FusedProvider found.
+05-19 13:36:26.674 E/LocationManagerService(  479): no geofence provider found
+05-19 13:36:28.754 E/ConnectivityService(  479): Unexpected mtu value: android.net.wifi.WifiStateTracker@4a868d80
+05-19 13:36:36.724 E/RemotePrintSpooler(  479): Error removing obsolete print jobs .
+05-19 13:36:36.724 E/RemotePrintSpooler(  479): java.util.concurrent.TimeoutException: Cannot get spooler!
+05-19 13:36:36.724 E/RemotePrintSpooler(  479): 	at com.android.server.print.RemotePrintSpooler.bindLocked(RemotePrintSpooler.java:376)
+05-19 13:36:36.724 E/RemotePrintSpooler(  479): 	at com.android.server.print.RemotePrintSpooler.getRemoteInstanceLazy(RemotePrintSpooler.java:352)
+05-19 13:36:36.724 E/RemotePrintSpooler(  479): 	at com.android.server.print.RemotePrintSpooler.removeObsoletePrintJobs(RemotePrintSpooler.java:287)
+05-19 13:36:36.724 E/RemotePrintSpooler(  479): 	at com.android.server.print.UserState.removeObsoletePrintJobs(UserState.java:163)
+05-19 13:36:36.724 E/RemotePrintSpooler(  479): 	at com.android.server.print.PrintManagerService$1.run(PrintManagerService.java:94)
+05-19 13:36:36.724 E/RemotePrintSpooler(  479): 	at android.os.Handler.handleCallback(Handler.java:733)
+05-19 13:36:36.724 E/RemotePrintSpooler(  479): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+05-19 13:36:36.724 E/RemotePrintSpooler(  479): 	at android.os.Looper.loop(Looper.java:136)
+05-19 13:36:36.724 E/RemotePrintSpooler(  479): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+05-19 13:36:37.234 E/local_gps(  163): Can't send RMC command
+05-19 13:36:40.484 E/ActivityThread(  881): Failed to find provider info for com.google.android.wearable.settings
+05-19 13:39:00.954 E/AndroidRuntime( 3223): *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+05-19 13:39:00.954 E/AndroidRuntime( 3223): java.lang.NullPointerException
+05-19 13:39:00.954 E/AndroidRuntime( 3223): 	at com.android.commands.input.Input.sendText(Input.java:173)
+05-19 13:39:00.954 E/AndroidRuntime( 3223): 	at com.android.commands.input.Input.run(Input.java:82)
+05-19 13:39:00.954 E/AndroidRuntime( 3223): 	at com.android.commands.input.Input.main(Input.java:59)
+05-19 13:39:00.954 E/AndroidRuntime( 3223): 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+05-19 13:39:00.954 E/AndroidRuntime( 3223): 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+05-19 13:39:00.954 E/AndroidRuntime( 3223): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 13:39:00.954 E/AndroidRuntime( 3223): Error reporting crash
+05-19 13:39:00.954 E/AndroidRuntime( 3223): java.lang.NullPointerException
+05-19 13:39:00.954 E/AndroidRuntime( 3223): 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:86)
+05-19 13:39:00.954 E/AndroidRuntime( 3223): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-19 13:39:00.954 E/AndroidRuntime( 3223): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-19 13:39:00.954 E/AndroidRuntime( 3223): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 13:39:15.944 E/AndroidRuntime( 3315): *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+05-19 13:39:15.944 E/AndroidRuntime( 3315): java.lang.NullPointerException
+05-19 13:39:15.944 E/AndroidRuntime( 3315): 	at com.android.commands.input.Input.sendText(Input.java:173)
+05-19 13:39:15.944 E/AndroidRuntime( 3315): 	at com.android.commands.input.Input.run(Input.java:82)
+05-19 13:39:15.944 E/AndroidRuntime( 3315): 	at com.android.commands.input.Input.main(Input.java:59)
+05-19 13:39:15.944 E/AndroidRuntime( 3315): 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+05-19 13:39:15.944 E/AndroidRuntime( 3315): 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+05-19 13:39:15.944 E/AndroidRuntime( 3315): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 13:39:15.944 E/AndroidRuntime( 3315): Error reporting crash
+05-19 13:39:15.944 E/AndroidRuntime( 3315): java.lang.NullPointerException
+05-19 13:39:15.944 E/AndroidRuntime( 3315): 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:86)
+05-19 13:39:15.944 E/AndroidRuntime( 3315): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-19 13:39:15.944 E/AndroidRuntime( 3315): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-19 13:39:15.944 E/AndroidRuntime( 3315): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 13:39:36.004 E/AndroidRuntime( 3393): *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+05-19 13:39:36.004 E/AndroidRuntime( 3393): java.lang.IllegalStateException: UiAutomationService android.accessibilityservice.IAccessibilityServiceClient$Stub$Proxy@4aab8818already registered!
+05-19 13:39:36.004 E/AndroidRuntime( 3393): 	at android.os.Parcel.readException(Parcel.java:1473)
+05-19 13:39:36.004 E/AndroidRuntime( 3393): 	at android.os.Parcel.readException(Parcel.java:1419)
+05-19 13:39:36.004 E/AndroidRuntime( 3393): 	at android.view.accessibility.IAccessibilityManager$Stub$Proxy.registerUiTestAutomationService(IAccessibilityManager.java:342)
+05-19 13:39:36.004 E/AndroidRuntime( 3393): 	at android.app.UiAutomationConnection.registerUiTestAutomationServiceLocked(UiAutomationConnection.java:175)
+05-19 13:39:36.004 E/AndroidRuntime( 3393): 	at android.app.UiAutomationConnection.connect(UiAutomationConnection.java:72)
+05-19 13:39:36.004 E/AndroidRuntime( 3393): 	at android.app.UiAutomation.connect(UiAutomation.java:188)
+05-19 13:39:36.004 E/AndroidRuntime( 3393): 	at com.android.uiautomator.core.UiAutomationShellWrapper.connect(UiAutomationShellWrapper.java:32)
+05-19 13:39:36.004 E/AndroidRuntime( 3393): 	at com.android.commands.uiautomator.DumpCommand.run(DumpCommand.java:74)
+05-19 13:39:36.004 E/AndroidRuntime( 3393): 	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+05-19 13:39:36.004 E/AndroidRuntime( 3393): 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+05-19 13:39:36.004 E/AndroidRuntime( 3393): 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+05-19 13:39:36.004 E/AndroidRuntime( 3393): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 13:39:36.014 E/AndroidRuntime( 3393): Error reporting crash
+05-19 13:39:36.014 E/AndroidRuntime( 3393): java.lang.NullPointerException
+05-19 13:39:36.014 E/AndroidRuntime( 3393): 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:86)
+05-19 13:39:36.014 E/AndroidRuntime( 3393): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-19 13:39:36.014 E/AndroidRuntime( 3393): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-19 13:39:36.014 E/AndroidRuntime( 3393): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 13:39:45.064 E/AndroidRuntime( 3444): *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+05-19 13:39:45.064 E/AndroidRuntime( 3444): java.lang.IllegalStateException: UiAutomationService android.accessibilityservice.IAccessibilityServiceClient$Stub$Proxy@4a9e8778already registered!
+05-19 13:39:45.064 E/AndroidRuntime( 3444): 	at android.os.Parcel.readException(Parcel.java:1473)
+05-19 13:39:45.064 E/AndroidRuntime( 3444): 	at android.os.Parcel.readException(Parcel.java:1419)
+05-19 13:39:45.064 E/AndroidRuntime( 3444): 	at android.view.accessibility.IAccessibilityManager$Stub$Proxy.registerUiTestAutomationService(IAccessibilityManager.java:342)
+05-19 13:39:45.064 E/AndroidRuntime( 3444): 	at android.app.UiAutomationConnection.registerUiTestAutomationServiceLocked(UiAutomationConnection.java:175)
+05-19 13:39:45.064 E/AndroidRuntime( 3444): 	at android.app.UiAutomationConnection.connect(UiAutomationConnection.java:72)
+05-19 13:39:45.064 E/AndroidRuntime( 3444): 	at android.app.UiAutomation.connect(UiAutomation.java:188)
+05-19 13:39:45.064 E/AndroidRuntime( 3444): 	at com.android.uiautomator.core.UiAutomationShellWrapper.connect(UiAutomationShellWrapper.java:32)
+05-19 13:39:45.064 E/AndroidRuntime( 3444): 	at com.android.commands.uiautomator.DumpCommand.run(DumpCommand.java:74)
+05-19 13:39:45.064 E/AndroidRuntime( 3444): 	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+05-19 13:39:45.064 E/AndroidRuntime( 3444): 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+05-19 13:39:45.064 E/AndroidRuntime( 3444): 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+05-19 13:39:45.064 E/AndroidRuntime( 3444): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 13:39:45.064 E/AndroidRuntime( 3444): Error reporting crash
+05-19 13:39:45.064 E/AndroidRuntime( 3444): java.lang.NullPointerException
+05-19 13:39:45.064 E/AndroidRuntime( 3444): 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:86)
+05-19 13:39:45.064 E/AndroidRuntime( 3444): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-19 13:39:45.064 E/AndroidRuntime( 3444): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-19 13:39:45.064 E/AndroidRuntime( 3444): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 13:40:00.064 E/AndroidRuntime( 3470): *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+05-19 13:40:00.064 E/AndroidRuntime( 3470): java.lang.NullPointerException
+05-19 13:40:00.064 E/AndroidRuntime( 3470): 	at com.android.commands.input.Input.sendText(Input.java:173)
+05-19 13:40:00.064 E/AndroidRuntime( 3470): 	at com.android.commands.input.Input.run(Input.java:82)
+05-19 13:40:00.064 E/AndroidRuntime( 3470): 	at com.android.commands.input.Input.main(Input.java:59)
+05-19 13:40:00.064 E/AndroidRuntime( 3470): 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+05-19 13:40:00.064 E/AndroidRuntime( 3470): 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+05-19 13:40:00.064 E/AndroidRuntime( 3470): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 13:40:00.064 E/AndroidRuntime( 3470): Error reporting crash
+05-19 13:40:00.064 E/AndroidRuntime( 3470): java.lang.NullPointerException
+05-19 13:40:00.064 E/AndroidRuntime( 3470): 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:86)
+05-19 13:40:00.064 E/AndroidRuntime( 3470): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-19 13:40:00.064 E/AndroidRuntime( 3470): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-19 13:40:00.064 E/AndroidRuntime( 3470): 	at dalvik.system.NativeStart.main(Native Method)
+--------- beginning of /dev/log/main
+05-19 13:40:25.874 E/cutils-trace( 3818): Error opening trace file: No such file or directory (2)
+05-19 13:40:26.094 E/appium  ( 3759): Exception while handling action in: io.appium.uiautomator2.handler.Clear
+05-19 13:40:26.094 E/appium  ( 3759): java.lang.NullPointerException
+05-19 13:40:26.094 E/appium  ( 3759): 	at android.support.test.uiautomator.UiObject2.setText(UiObject2.java:601)
+05-19 13:40:26.094 E/appium  ( 3759): 	at android.support.test.uiautomator.UiObject2.clear(UiObject2.java:338)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.appium.uiautomator2.model.UiObject2Element.clear(UiObject2Element.java:138)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.appium.uiautomator2.handler.Clear.safeHandle(Clear.java:51)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:56)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.appium.uiautomator2.handler.SendKeysToElement.safeHandle(SendKeysToElement.java:73)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:56)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:202)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:193)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:514)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:468)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+05-19 13:40:26.094 E/appium  ( 3759): 	at java.lang.Thread.run(Thread.java:841)
+05-19 13:40:26.094 E/appium  ( 3759): Exception while handling action in: io.appium.uiautomator2.handler.SendKeysToElement
+05-19 13:40:26.094 E/appium  ( 3759): java.lang.NullPointerException
+05-19 13:40:26.094 E/appium  ( 3759): 	at android.support.test.uiautomator.UiObject2.setText(UiObject2.java:601)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.appium.uiautomator2.model.UiObject2Element.setText(UiObject2Element.java:129)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.appium.uiautomator2.handler.SendKeysToElement.safeHandle(SendKeysToElement.java:83)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:56)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:202)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:193)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:514)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:468)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+05-19 13:40:26.094 E/appium  ( 3759): 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+05-19 13:40:26.094 E/appium  ( 3759): 	at java.lang.Thread.run(Thread.java:841)
+05-19 13:40:27.074 E/memtrack( 3830): Couldn't load memtrack module (No such file or directory)
+05-19 13:40:27.074 E/android.os.Debug( 3830): failed to load memtrack module: -2
+05-19 13:40:27.114 E/cutils-trace( 3830): Error opening trace file: No such file or directory (2)
+05-19 13:40:28.114 E/memtrack( 3843): Couldn't load memtrack module (No such file or directory)
+05-19 13:40:28.114 E/android.os.Debug( 3843): failed to load memtrack module: -2
+05-19 13:40:28.894 E/cutils-trace( 3843): Error opening trace file: No such file or directory (2)
+05-19 13:40:29.114 E/appium  ( 3759): Exception while handling action in: io.appium.uiautomator2.handler.Clear
+05-19 13:40:29.114 E/appium  ( 3759): java.lang.NullPointerException
+05-19 13:40:29.114 E/appium  ( 3759): 	at android.support.test.uiautomator.UiObject2.setText(UiObject2.java:601)
+05-19 13:40:29.114 E/appium  ( 3759): 	at android.support.test.uiautomator.UiObject2.clear(UiObject2.java:338)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.appium.uiautomator2.model.UiObject2Element.clear(UiObject2Element.java:138)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.appium.uiautomator2.handler.Clear.safeHandle(Clear.java:51)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:56)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.appium.uiautomator2.handler.SendKeysToElement.safeHandle(SendKeysToElement.java:73)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:56)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:202)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:193)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:514)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:468)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+05-19 13:40:29.114 E/appium  ( 3759): 	at java.lang.Thread.run(Thread.java:841)
+05-19 13:40:29.114 E/appium  ( 3759): Exception while handling action in: io.appium.uiautomator2.handler.SendKeysToElement
+05-19 13:40:29.114 E/appium  ( 3759): java.lang.NullPointerException
+05-19 13:40:29.114 E/appium  ( 3759): 	at android.support.test.uiautomator.UiObject2.setText(UiObject2.java:601)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.appium.uiautomator2.model.UiObject2Element.setText(UiObject2Element.java:129)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.appium.uiautomator2.handler.SendKeysToElement.safeHandle(SendKeysToElement.java:83)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:56)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:202)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:193)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:514)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:468)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+05-19 13:40:29.114 E/appium  ( 3759): 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+05-19 13:40:29.114 E/appium  ( 3759): 	at java.lang.Thread.run(Thread.java:841)
+05-19 13:40:29.584 E/memtrack( 3857): Couldn't load memtrack module (No such file or directory)
+05-19 13:40:29.584 E/android.os.Debug( 3857): failed to load memtrack module: -2
+05-19 13:40:29.674 E/cutils-trace( 3857): Error opening trace file: No such file or directory (2)
+05-19 13:40:55.174 E/GCM     (  727): Missing checkin config file
+05-19 13:41:01.014 E/GCM     (  727): Missing checkin config file
+05-19 13:41:01.024 E/GCM     (  727): Missing checkin config file
+05-19 13:43:42.734 E/memtrack( 3892): Couldn't load memtrack module (No such file or directory)
+05-19 13:43:42.734 E/android.os.Debug( 3892): failed to load memtrack module: -2
+05-19 13:43:42.754 E/InputDispatcher(  479): channel '4a9cce08 com.boco.sc.mobileom/com.boco.sc.mobileom.worksheet.search.activity.Comm_WSDetail (server)' ~ Channel is unrecoverably broken and will be disposed!
+05-19 13:43:42.754 E/InputDispatcher(  479): channel '4a9c6890 com.boco.sc.mobileom/com.boco.sc.mobileom.worksheet.search.activity.Comm_WSListnotab (server)' ~ Channel is unrecoverably broken and will be disposed!
+05-19 13:43:42.754 E/InputDispatcher(  479): channel '4a9f4ab4 com.boco.sc.mobileom/com.boco.sc.mobileom.worksheet.fault.activity.FWSOction_relay (server)' ~ Channel is unrecoverably broken and will be disposed!
+05-19 13:43:42.754 E/InputDispatcher(  479): channel '4a9b99ac com.boco.sc.mobileom/com.boco.sc.mobileom.start.WorkSheetModuleList2 (server)' ~ Channel is unrecoverably broken and will be disposed!
+05-19 13:43:42.774 E/cutils-trace( 3892): Error opening trace file: No such file or directory (2)
+05-19 13:43:42.804 E/VMSG    ( 3904): RegisterNatives OnUserCommand1
+05-19 13:43:43.104 E/cutils-trace( 3747): Error opening trace file: No such file or directory (2)
+05-19 13:43:43.324 E/baidumapsdk( 3904): Authentication Error errorcode: 230 uid: -1 appid -1 msg: APP Scode码校验失败
+05-19 13:44:24.924 E/NetworkScheduler.ATC(  727): Trying to release unacquired lock: com.google.android.gms/.clearcut.uploader.UploaderService
+05-19 13:44:24.974 E/GCM     (  727): Missing checkin config file
+05-19 13:44:25.184 E/GCM     (  727): Missing checkin config file
+05-19 13:44:25.184 E/GCM     (  727): Missing checkin config file
+05-19 13:44:25.744 E/GCM     (  727): Missing checkin config file
+05-19 13:44:25.744 E/GCM     (  727): Missing checkin config file
+05-19 13:44:41.404 E/memtrack( 3952): Couldn't load memtrack module (No such file or directory)
+05-19 13:44:41.404 E/android.os.Debug( 3952): failed to load memtrack module: -2
+05-19 13:44:42.524 E/cutils-trace( 3952): Error opening trace file: No such file or directory (2)
+05-19 13:44:42.804 E/cutils-trace( 3967): Error opening trace file: No such file or directory (2)
+05-19 13:47:07.784 E/NetworkScheduler(  727): Received callback from client for task that is already complete. ComponentInfo{com.google.android.gms/com.google.android.gms.clearcut.uploader.UploaderService} upload_periodic
+05-19 13:48:41.464 E/GCM     (  727): Missing checkin config file
+05-19 13:50:19.144 E/CheckinTask(  881): Checkin failed: https://android.clients.google.com/checkin (request #0): java.net.SocketTimeoutException: failed to connect to android.clients.google.com/74.125.204.100 (port 443) after 120000ms: isConnected failed: ETIMEDOUT (Connection timed out)
+05-19 13:51:13.594 E/ActivityThread(  881): Failed to find provider info for com.google.android.wearable.settings
+05-19 13:51:13.714 E/Drm     (  171): Failed to open plugin directory /vendor/lib/mediadrm
+05-19 13:51:13.744 E/GCM     (  727): Missing checkin config file
+05-19 13:51:13.744 E/GCM     (  727): Missing checkin config file
+05-19 13:51:14.334 E/GCM     (  727): Missing checkin config file
+05-19 13:51:14.344 E/GCM     (  727): Missing checkin config file
+05-19 13:56:41.754 E/NetworkScheduler.ATC(  727): Trying to release unacquired lock: com.google.android.gms/.clearcut.uploader.UploaderService
+05-19 13:56:41.754 E/NetworkScheduler(  727): Called closeAndCleanupTask for already completed task [com.google.android.gms/.clearcut.uploader.UploaderService:upload_periodic,u0]' :TIMED_OUT
+05-19 13:56:41.794 E/NetworkScheduler(  727): Task completed but with no record in list of active tasks: [com.google.android.gms/.clearcut.uploader.UploaderService:upload_periodic,u0]
+05-19 13:56:41.834 E/GCM     (  727): Missing checkin config file
+05-19 14:03:52.264 E/CheckinTask(  881): Checkin failed: https://android.clients.google.com/checkin (request #0): java.net.SocketTimeoutException: failed to connect to android.clients.google.com/64.233.189.101 (port 443) after 120000ms: isConnected failed: ETIMEDOUT (Connection timed out)
+05-19 14:04:49.974 E/ActivityThread(  881): Failed to find provider info for com.google.android.wearable.settings
+05-19 14:04:50.104 E/GCM     (  727): Missing checkin config file
+05-19 14:04:50.104 E/GCM     (  727): Missing checkin config file
+05-19 14:04:50.134 E/Drm     (  171): Failed to open plugin directory /vendor/lib/mediadrm
+05-19 14:04:51.264 E/GCM     (  727): Missing checkin config file
+05-19 14:04:51.264 E/GCM     (  727): Missing checkin config file
+05-19 14:06:38.604 E/memtrack( 4093): Couldn't load memtrack module (No such file or directory)
+05-19 14:06:38.604 E/android.os.Debug( 4093): failed to load memtrack module: -2
+05-19 14:06:38.624 E/cutils-trace( 4093): Error opening trace file: No such file or directory (2)
+05-19 14:06:40.484 E/BandwidthController(  164): Updating quota globalAlert failed (No such file or directory)
+05-19 14:07:39.334 E/memtrack( 4117): Couldn't load memtrack module (No such file or directory)
+05-19 14:07:39.334 E/android.os.Debug( 4117): failed to load memtrack module: -2
+05-19 14:07:39.354 E/cutils-trace( 4117): Error opening trace file: No such file or directory (2)
+05-19 14:07:40.294 E/memtrack( 4133): Couldn't load memtrack module (No such file or directory)
+05-19 14:07:40.294 E/android.os.Debug( 4133): failed to load memtrack module: -2
+05-19 14:07:40.314 E/cutils-trace( 4133): Error opening trace file: No such file or directory (2)

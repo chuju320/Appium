@@ -1,0 +1,766 @@
+--------- beginning of /dev/log/system
+05-19 16:36:55.470 E/AndroidRuntime(17086): *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+05-19 16:36:55.470 E/AndroidRuntime(17086): java.lang.IllegalStateException: UiAutomationService android.accessibilityservice.IAccessibilityServiceClient$Stub$Proxy@4a921f44already registered!
+05-19 16:36:55.470 E/AndroidRuntime(17086): 	at android.os.Parcel.readException(Parcel.java:1473)
+05-19 16:36:55.470 E/AndroidRuntime(17086): 	at android.os.Parcel.readException(Parcel.java:1419)
+05-19 16:36:55.470 E/AndroidRuntime(17086): 	at android.view.accessibility.IAccessibilityManager$Stub$Proxy.registerUiTestAutomationService(IAccessibilityManager.java:342)
+05-19 16:36:55.470 E/AndroidRuntime(17086): 	at android.app.UiAutomationConnection.registerUiTestAutomationServiceLocked(UiAutomationConnection.java:175)
+05-19 16:36:55.470 E/AndroidRuntime(17086): 	at android.app.UiAutomationConnection.connect(UiAutomationConnection.java:72)
+05-19 16:36:55.470 E/AndroidRuntime(17086): 	at android.app.UiAutomation.connect(UiAutomation.java:188)
+05-19 16:36:55.470 E/AndroidRuntime(17086): 	at com.android.uiautomator.core.UiAutomationShellWrapper.connect(UiAutomationShellWrapper.java:32)
+05-19 16:36:55.470 E/AndroidRuntime(17086): 	at com.android.commands.uiautomator.DumpCommand.run(DumpCommand.java:74)
+05-19 16:36:55.470 E/AndroidRuntime(17086): 	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+05-19 16:36:55.470 E/AndroidRuntime(17086): 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+05-19 16:36:55.470 E/AndroidRuntime(17086): 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+05-19 16:36:55.470 E/AndroidRuntime(17086): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 16:36:55.480 E/AndroidRuntime(17086): Error reporting crash
+05-19 16:36:55.480 E/AndroidRuntime(17086): java.lang.NullPointerException
+05-19 16:36:55.480 E/AndroidRuntime(17086): 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:86)
+05-19 16:36:55.480 E/AndroidRuntime(17086): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-19 16:36:55.480 E/AndroidRuntime(17086): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-19 16:36:55.480 E/AndroidRuntime(17086): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 16:42:58.886 E/AndroidRuntime(17173): *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+05-19 16:42:58.886 E/AndroidRuntime(17173): java.lang.IllegalStateException: UiAutomationService android.accessibilityservice.IAccessibilityServiceClient$Stub$Proxy@4a9b7decalready registered!
+05-19 16:42:58.886 E/AndroidRuntime(17173): 	at android.os.Parcel.readException(Parcel.java:1473)
+05-19 16:42:58.886 E/AndroidRuntime(17173): 	at android.os.Parcel.readException(Parcel.java:1419)
+05-19 16:42:58.886 E/AndroidRuntime(17173): 	at android.view.accessibility.IAccessibilityManager$Stub$Proxy.registerUiTestAutomationService(IAccessibilityManager.java:342)
+05-19 16:42:58.886 E/AndroidRuntime(17173): 	at android.app.UiAutomationConnection.registerUiTestAutomationServiceLocked(UiAutomationConnection.java:175)
+05-19 16:42:58.886 E/AndroidRuntime(17173): 	at android.app.UiAutomationConnection.connect(UiAutomationConnection.java:72)
+05-19 16:42:58.886 E/AndroidRuntime(17173): 	at android.app.UiAutomation.connect(UiAutomation.java:188)
+05-19 16:42:58.886 E/AndroidRuntime(17173): 	at com.android.uiautomator.core.UiAutomationShellWrapper.connect(UiAutomationShellWrapper.java:32)
+05-19 16:42:58.886 E/AndroidRuntime(17173): 	at com.android.commands.uiautomator.DumpCommand.run(DumpCommand.java:74)
+05-19 16:42:58.886 E/AndroidRuntime(17173): 	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+05-19 16:42:58.886 E/AndroidRuntime(17173): 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+05-19 16:42:58.886 E/AndroidRuntime(17173): 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+05-19 16:42:58.886 E/AndroidRuntime(17173): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 16:42:58.896 E/AndroidRuntime(17173): Error reporting crash
+05-19 16:42:58.896 E/AndroidRuntime(17173): java.lang.NullPointerException
+05-19 16:42:58.896 E/AndroidRuntime(17173): 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:86)
+05-19 16:42:58.896 E/AndroidRuntime(17173): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-19 16:42:58.896 E/AndroidRuntime(17173): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-19 16:42:58.896 E/AndroidRuntime(17173): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 16:59:23.553 E/AndroidRuntime(20760): FATAL EXCEPTION: main
+05-19 16:59:23.553 E/AndroidRuntime(20760): Process: com.boco.apphall, PID: 20760
+05-19 16:59:23.553 E/AndroidRuntime(20760): android.content.ActivityNotFoundException: No Activity found to handle Intent { act=android.intent.action.VIEW typ=vnd.android-dir/mms-sms (has extras) }
+05-19 16:59:23.553 E/AndroidRuntime(20760): 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1649)
+05-19 16:59:23.553 E/AndroidRuntime(20760): 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1441)
+05-19 16:59:23.553 E/AndroidRuntime(20760): 	at android.app.Activity.startActivityForResult(Activity.java:3424)
+05-19 16:59:23.553 E/AndroidRuntime(20760): 	at android.app.Activity.startActivityForResult(Activity.java:3385)
+05-19 16:59:23.553 E/AndroidRuntime(20760): 	at android.support.v4.app.FragmentActivity.startActivityForResult(FragmentActivity.java:748)
+05-19 16:59:23.553 E/AndroidRuntime(20760): 	at android.app.Activity.startActivity(Activity.java:3627)
+05-19 16:59:23.553 E/AndroidRuntime(20760): 	at android.app.Activity.startActivity(Activity.java:3595)
+05-19 16:59:23.553 E/AndroidRuntime(20760): 	at com.boco.apphall.guangxi.mix.apps.manager.FriendShareMain$2.onItemClick(FriendShareMain.java:107)
+05-19 16:59:23.553 E/AndroidRuntime(20760): 	at android.widget.AdapterView.performItemClick(AdapterView.java:299)
+05-19 16:59:23.553 E/AndroidRuntime(20760): 	at android.widget.AbsListView.performItemClick(AbsListView.java:1113)
+05-19 16:59:23.553 E/AndroidRuntime(20760): 	at android.widget.AbsListView$PerformClick.run(AbsListView.java:2904)
+05-19 16:59:23.553 E/AndroidRuntime(20760): 	at android.widget.AbsListView$3.run(AbsListView.java:3638)
+05-19 16:59:23.553 E/AndroidRuntime(20760): 	at android.os.Handler.handleCallback(Handler.java:733)
+05-19 16:59:23.553 E/AndroidRuntime(20760): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+05-19 16:59:23.553 E/AndroidRuntime(20760): 	at android.os.Looper.loop(Looper.java:136)
+05-19 16:59:23.553 E/AndroidRuntime(20760): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+05-19 16:59:23.553 E/AndroidRuntime(20760): 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-19 16:59:23.553 E/AndroidRuntime(20760): 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-19 16:59:23.553 E/AndroidRuntime(20760): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+05-19 16:59:23.553 E/AndroidRuntime(20760): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+05-19 16:59:23.553 E/AndroidRuntime(20760): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 16:59:30.973 E/AndroidRuntime(20842): FATAL EXCEPTION: main
+05-19 16:59:30.973 E/AndroidRuntime(20842): Process: com.boco.apphall, PID: 20842
+05-19 16:59:30.973 E/AndroidRuntime(20842): android.content.ActivityNotFoundException: No Activity found to handle Intent { act=android.intent.action.VIEW typ=vnd.android-dir/mms-sms (has extras) }
+05-19 16:59:30.973 E/AndroidRuntime(20842): 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1649)
+05-19 16:59:30.973 E/AndroidRuntime(20842): 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1441)
+05-19 16:59:30.973 E/AndroidRuntime(20842): 	at android.app.Activity.startActivityForResult(Activity.java:3424)
+05-19 16:59:30.973 E/AndroidRuntime(20842): 	at android.app.Activity.startActivityForResult(Activity.java:3385)
+05-19 16:59:30.973 E/AndroidRuntime(20842): 	at android.support.v4.app.FragmentActivity.startActivityForResult(FragmentActivity.java:748)
+05-19 16:59:30.973 E/AndroidRuntime(20842): 	at android.app.Activity.startActivity(Activity.java:3627)
+05-19 16:59:30.973 E/AndroidRuntime(20842): 	at android.app.Activity.startActivity(Activity.java:3595)
+05-19 16:59:30.973 E/AndroidRuntime(20842): 	at com.boco.apphall.guangxi.mix.apps.manager.FriendShareMain$2.onItemClick(FriendShareMain.java:107)
+05-19 16:59:30.973 E/AndroidRuntime(20842): 	at android.widget.AdapterView.performItemClick(AdapterView.java:299)
+05-19 16:59:30.973 E/AndroidRuntime(20842): 	at android.widget.AbsListView.performItemClick(AbsListView.java:1113)
+05-19 16:59:30.973 E/AndroidRuntime(20842): 	at android.widget.AbsListView$PerformClick.run(AbsListView.java:2904)
+05-19 16:59:30.973 E/AndroidRuntime(20842): 	at android.widget.AbsListView$3.run(AbsListView.java:3638)
+05-19 16:59:30.973 E/AndroidRuntime(20842): 	at android.os.Handler.handleCallback(Handler.java:733)
+05-19 16:59:30.973 E/AndroidRuntime(20842): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+05-19 16:59:30.973 E/AndroidRuntime(20842): 	at android.os.Looper.loop(Looper.java:136)
+05-19 16:59:30.973 E/AndroidRuntime(20842): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+05-19 16:59:30.973 E/AndroidRuntime(20842): 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-19 16:59:30.973 E/AndroidRuntime(20842): 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-19 16:59:30.973 E/AndroidRuntime(20842): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+05-19 16:59:30.973 E/AndroidRuntime(20842): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+05-19 16:59:30.973 E/AndroidRuntime(20842): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 16:59:38.753 E/AndroidRuntime(20884): FATAL EXCEPTION: main
+05-19 16:59:38.753 E/AndroidRuntime(20884): Process: com.boco.apphall, PID: 20884
+05-19 16:59:38.753 E/AndroidRuntime(20884): android.content.ActivityNotFoundException: No Activity found to handle Intent { act=android.intent.action.VIEW typ=vnd.android-dir/mms-sms (has extras) }
+05-19 16:59:38.753 E/AndroidRuntime(20884): 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1649)
+05-19 16:59:38.753 E/AndroidRuntime(20884): 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1441)
+05-19 16:59:38.753 E/AndroidRuntime(20884): 	at android.app.Activity.startActivityForResult(Activity.java:3424)
+05-19 16:59:38.753 E/AndroidRuntime(20884): 	at android.app.Activity.startActivityForResult(Activity.java:3385)
+05-19 16:59:38.753 E/AndroidRuntime(20884): 	at android.support.v4.app.FragmentActivity.startActivityForResult(FragmentActivity.java:748)
+05-19 16:59:38.753 E/AndroidRuntime(20884): 	at android.app.Activity.startActivity(Activity.java:3627)
+05-19 16:59:38.753 E/AndroidRuntime(20884): 	at android.app.Activity.startActivity(Activity.java:3595)
+05-19 16:59:38.753 E/AndroidRuntime(20884): 	at com.boco.apphall.guangxi.mix.apps.manager.FriendShareMain$2.onItemClick(FriendShareMain.java:107)
+05-19 16:59:38.753 E/AndroidRuntime(20884): 	at android.widget.AdapterView.performItemClick(AdapterView.java:299)
+05-19 16:59:38.753 E/AndroidRuntime(20884): 	at android.widget.AbsListView.performItemClick(AbsListView.java:1113)
+05-19 16:59:38.753 E/AndroidRuntime(20884): 	at android.widget.AbsListView$PerformClick.run(AbsListView.java:2904)
+05-19 16:59:38.753 E/AndroidRuntime(20884): 	at android.widget.AbsListView$3.run(AbsListView.java:3638)
+05-19 16:59:38.753 E/AndroidRuntime(20884): 	at android.os.Handler.handleCallback(Handler.java:733)
+05-19 16:59:38.753 E/AndroidRuntime(20884): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+05-19 16:59:38.753 E/AndroidRuntime(20884): 	at android.os.Looper.loop(Looper.java:136)
+05-19 16:59:38.753 E/AndroidRuntime(20884): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+05-19 16:59:38.753 E/AndroidRuntime(20884): 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-19 16:59:38.753 E/AndroidRuntime(20884): 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-19 16:59:38.753 E/AndroidRuntime(20884): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+05-19 16:59:38.753 E/AndroidRuntime(20884): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+05-19 16:59:38.753 E/AndroidRuntime(20884): 	at dalvik.system.NativeStart.main(Native Method)
+--------- beginning of /dev/log/main
+05-19 17:07:18.097 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/3gaod1ioxtti80lrs1kapbfif0.tmp
+05-19 17:07:18.097 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/3gaod1ioxtti80lrs1kapbfif0.tmp
+05-19 17:07:18.097 E/Cataloger( 1207): 重复删除命令
+05-19 17:07:18.097 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/3gaod1ioxtti80lrs1kapbfif0
+05-19 17:07:18.097 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/3gaod1ioxtti80lrs1kapbfif0
+05-19 17:07:18.117 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/4ns997t9eqnq8rlmiwqhcaqw10.tmp
+05-19 17:07:18.117 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/4ns997t9eqnq8rlmiwqhcaqw10.tmp
+05-19 17:07:18.117 E/Cataloger( 1207): 重复删除命令
+05-19 17:07:18.117 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/4ns997t9eqnq8rlmiwqhcaqw10
+05-19 17:07:18.117 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/4ns997t9eqnq8rlmiwqhcaqw10
+05-19 17:07:18.127 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6verwqc6q7raqeyitanuqtb620.tmp
+05-19 17:07:18.127 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6verwqc6q7raqeyitanuqtb620.tmp
+05-19 17:07:18.127 E/Cataloger( 1207): 重复删除命令
+05-19 17:07:18.127 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6verwqc6q7raqeyitanuqtb620
+05-19 17:07:18.127 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6verwqc6q7raqeyitanuqtb620
+05-19 17:07:18.177 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/1rlf43a5amr9tb6i0q8ps25rd0.tmp
+05-19 17:07:18.177 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/1rlf43a5amr9tb6i0q8ps25rd0.tmp
+05-19 17:07:18.187 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/z88le3ms2suqnl85cmnihrm80.tmp
+05-19 17:07:18.187 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/z88le3ms2suqnl85cmnihrm80.tmp
+05-19 17:07:18.217 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6pgqfk1o73i79a3vk30ymp1o50.tmp
+05-19 17:07:18.217 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6pgqfk1o73i79a3vk30ymp1o50.tmp
+05-19 17:07:18.247 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/1rlf43a5amr9tb6i0q8ps25rd0.tmp
+05-19 17:07:18.247 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/1rlf43a5amr9tb6i0q8ps25rd0.tmp
+05-19 17:07:18.247 E/Cataloger( 1207): 重复删除命令
+05-19 17:07:18.247 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/1rlf43a5amr9tb6i0q8ps25rd0
+05-19 17:07:18.247 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/1rlf43a5amr9tb6i0q8ps25rd0
+05-19 17:07:18.287 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6pgqfk1o73i79a3vk30ymp1o50.tmp
+05-19 17:07:18.287 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6pgqfk1o73i79a3vk30ymp1o50.tmp
+05-19 17:07:18.287 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6pgqfk1o73i79a3vk30ymp1o50.tmp
+05-19 17:07:18.297 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6pgqfk1o73i79a3vk30ymp1o50.tmp
+05-19 17:07:18.297 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6pgqfk1o73i79a3vk30ymp1o50
+05-19 17:07:18.297 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6pgqfk1o73i79a3vk30ymp1o50
+05-19 17:07:18.297 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/z88le3ms2suqnl85cmnihrm80.tmp
+05-19 17:07:18.297 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/z88le3ms2suqnl85cmnihrm80.tmp
+05-19 17:07:18.307 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/z88le3ms2suqnl85cmnihrm80.tmp
+05-19 17:07:18.307 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/z88le3ms2suqnl85cmnihrm80.tmp
+05-19 17:07:18.307 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/z88le3ms2suqnl85cmnihrm80
+05-19 17:07:18.307 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/z88le3ms2suqnl85cmnihrm80
+05-19 17:07:18.317 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/4dv84sszatxsr0bmo8217x8el0.tmp
+05-19 17:07:18.317 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/4dv84sszatxsr0bmo8217x8el0.tmp
+05-19 17:07:18.367 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/4dv84sszatxsr0bmo8217x8el0.tmp
+05-19 17:07:18.367 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/4dv84sszatxsr0bmo8217x8el0.tmp
+05-19 17:07:18.377 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/4dv84sszatxsr0bmo8217x8el0.tmp
+05-19 17:07:18.377 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/4dv84sszatxsr0bmo8217x8el0.tmp
+05-19 17:07:18.377 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/4dv84sszatxsr0bmo8217x8el0
+05-19 17:07:18.377 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/4dv84sszatxsr0bmo8217x8el0
+05-19 17:07:18.407 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/2uq7zj9eht24cna7t0399rzc10.tmp
+05-19 17:07:18.407 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/2uq7zj9eht24cna7t0399rzc10.tmp
+05-19 17:07:18.417 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/4mvv4ex12oqujl0ieu0wpah000.tmp
+05-19 17:07:18.417 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/4mvv4ex12oqujl0ieu0wpah000.tmp
+05-19 17:07:18.457 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/43fqf4deyq6gzfryuhk9pm52t0.tmp
+05-19 17:07:18.457 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/43fqf4deyq6gzfryuhk9pm52t0.tmp
+05-19 17:07:18.477 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/2uq7zj9eht24cna7t0399rzc10.tmp
+05-19 17:07:18.477 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/2uq7zj9eht24cna7t0399rzc10.tmp
+05-19 17:07:18.477 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/2uq7zj9eht24cna7t0399rzc10.tmp
+05-19 17:07:18.487 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/2uq7zj9eht24cna7t0399rzc10.tmp
+05-19 17:07:18.487 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/2uq7zj9eht24cna7t0399rzc10
+05-19 17:07:18.487 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/2uq7zj9eht24cna7t0399rzc10
+05-19 17:07:18.507 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/4mvv4ex12oqujl0ieu0wpah000.tmp
+05-19 17:07:18.507 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/4mvv4ex12oqujl0ieu0wpah000.tmp
+05-19 17:07:18.517 E/Cataloger( 1207): 重复删除命令
+05-19 17:07:18.517 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/4mvv4ex12oqujl0ieu0wpah000
+05-19 17:07:18.517 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/4mvv4ex12oqujl0ieu0wpah000
+05-19 17:07:18.517 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/43fqf4deyq6gzfryuhk9pm52t0.tmp
+05-19 17:07:18.517 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/43fqf4deyq6gzfryuhk9pm52t0.tmp
+05-19 17:07:18.527 E/Cataloger( 1207): 重复删除命令
+05-19 17:07:18.527 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/43fqf4deyq6gzfryuhk9pm52t0
+05-19 17:07:18.527 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/43fqf4deyq6gzfryuhk9pm52t0
+05-19 17:07:18.567 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/7df5rwypq960fduywpftb2bpd0.tmp
+05-19 17:07:18.567 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/7df5rwypq960fduywpftb2bpd0.tmp
+05-19 17:07:18.597 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6pbkwva5ijgx9pxg63twkddhy0.tmp
+05-19 17:07:18.597 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6pbkwva5ijgx9pxg63twkddhy0.tmp
+05-19 17:07:18.607 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/12tpa78nesivi7u7kjsyq1zou0.tmp
+05-19 17:07:18.607 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/12tpa78nesivi7u7kjsyq1zou0.tmp
+05-19 17:07:18.667 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/7df5rwypq960fduywpftb2bpd0.tmp
+05-19 17:07:18.667 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/7df5rwypq960fduywpftb2bpd0.tmp
+05-19 17:07:18.667 E/Cataloger( 1207): 重复删除命令
+05-19 17:07:18.667 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/7df5rwypq960fduywpftb2bpd0
+05-19 17:07:18.667 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/7df5rwypq960fduywpftb2bpd0
+05-19 17:07:18.677 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6pbkwva5ijgx9pxg63twkddhy0.tmp
+05-19 17:07:18.677 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6pbkwva5ijgx9pxg63twkddhy0.tmp
+05-19 17:07:18.677 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6pbkwva5ijgx9pxg63twkddhy0.tmp
+05-19 17:07:18.677 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6pbkwva5ijgx9pxg63twkddhy0.tmp
+05-19 17:07:18.677 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6pbkwva5ijgx9pxg63twkddhy0
+05-19 17:07:18.677 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6pbkwva5ijgx9pxg63twkddhy0
+05-19 17:07:18.697 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/12tpa78nesivi7u7kjsyq1zou0.tmp
+05-19 17:07:18.697 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/12tpa78nesivi7u7kjsyq1zou0.tmp
+05-19 17:07:18.697 E/Cataloger( 1207): 重复删除命令
+05-19 17:07:18.697 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/12tpa78nesivi7u7kjsyq1zou0
+05-19 17:07:18.697 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/12tpa78nesivi7u7kjsyq1zou0
+05-19 17:07:18.757 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5454e968y6oqxgclxx1a2zfck0.tmp
+05-19 17:07:18.757 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5454e968y6oqxgclxx1a2zfck0.tmp
+05-19 17:07:18.757 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/29vlahxhm8lhqc987whbj4nf10.tmp
+05-19 17:07:18.757 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/29vlahxhm8lhqc987whbj4nf10.tmp
+05-19 17:07:18.787 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6m2d6r718gus52e8brqd2878d0.tmp
+05-19 17:07:18.787 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6m2d6r718gus52e8brqd2878d0.tmp
+05-19 17:07:18.857 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5454e968y6oqxgclxx1a2zfck0.tmp
+05-19 17:07:18.857 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5454e968y6oqxgclxx1a2zfck0.tmp
+05-19 17:07:18.857 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/29vlahxhm8lhqc987whbj4nf10.tmp
+05-19 17:07:18.857 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/29vlahxhm8lhqc987whbj4nf10.tmp
+05-19 17:07:18.857 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/29vlahxhm8lhqc987whbj4nf10.tmp
+05-19 17:07:18.867 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/29vlahxhm8lhqc987whbj4nf10.tmp
+05-19 17:07:18.867 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/29vlahxhm8lhqc987whbj4nf10
+05-19 17:07:18.867 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/29vlahxhm8lhqc987whbj4nf10
+05-19 17:07:18.867 E/Cataloger( 1207): 重复删除命令
+05-19 17:07:18.867 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5454e968y6oqxgclxx1a2zfck0
+05-19 17:07:18.867 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5454e968y6oqxgclxx1a2zfck0
+05-19 17:07:18.867 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6m2d6r718gus52e8brqd2878d0.tmp
+05-19 17:07:18.867 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6m2d6r718gus52e8brqd2878d0.tmp
+05-19 17:07:18.867 E/Cataloger( 1207): 重复删除命令
+05-19 17:07:18.877 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6m2d6r718gus52e8brqd2878d0
+05-19 17:07:18.877 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6m2d6r718gus52e8brqd2878d0
+05-19 17:07:19.927 E/cutils-trace(23049): Error opening trace file: No such file or directory (2)
+05-19 17:07:28.087 E/Cataloger( 1207): syncFile:/storage/emulated/0/appHall_guangxi_folder/download/1495184847654BocoIntegratedResource_GX2017-5-31417code11.apk
+05-19 17:07:28.087 E/Cataloger( 1207): syncFile:/storage/emulated/0/appHall_guangxi_folder/download/1495184847654BocoIntegratedResource_GX2017-5-31417code11.apk
+05-19 17:07:38.587 E/appium  (22929): Element not found: 
+05-19 17:07:38.587 E/appium  (22929): io.appium.uiautomator2.common.exceptions.ElementNotFoundException: Could not find an element using supplied strategy. 
+05-19 17:07:38.587 E/appium  (22929): 	at io.appium.uiautomator2.handler.FindElement.getXPathUiObject(FindElement.java:80)
+05-19 17:07:38.587 E/appium  (22929): 	at io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:153)
+05-19 17:07:38.587 E/appium  (22929): 	at io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:102)
+05-19 17:07:38.587 E/appium  (22929): 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:56)
+05-19 17:07:38.587 E/appium  (22929): 	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:202)
+05-19 17:07:38.587 E/appium  (22929): 	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:193)
+05-19 17:07:38.587 E/appium  (22929): 	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)
+05-19 17:07:38.587 E/appium  (22929): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 17:07:38.587 E/appium  (22929): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 17:07:38.587 E/appium  (22929): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-19 17:07:38.587 E/appium  (22929): 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+05-19 17:07:38.587 E/appium  (22929): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 17:07:38.587 E/appium  (22929): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 17:07:38.587 E/appium  (22929): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-19 17:07:38.587 E/appium  (22929): 	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+05-19 17:07:38.587 E/appium  (22929): 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+05-19 17:07:38.587 E/appium  (22929): 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+05-19 17:07:38.587 E/appium  (22929): 	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+05-19 17:07:38.587 E/appium  (22929): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 17:07:38.587 E/appium  (22929): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 17:07:38.587 E/appium  (22929): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-19 17:07:38.587 E/appium  (22929): 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+05-19 17:07:38.587 E/appium  (22929): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 17:07:38.587 E/appium  (22929): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 17:07:38.587 E/appium  (22929): 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+05-19 17:07:38.587 E/appium  (22929): 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+05-19 17:07:38.587 E/appium  (22929): 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+05-19 17:07:38.587 E/appium  (22929): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:514)
+05-19 17:07:38.587 E/appium  (22929): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:468)
+05-19 17:07:38.587 E/appium  (22929): 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+05-19 17:07:38.587 E/appium  (22929): 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+05-19 17:07:38.587 E/appium  (22929): 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+05-19 17:07:38.587 E/appium  (22929): 	at java.lang.Thread.run(Thread.java:841)
+05-19 17:07:38.757 E/Cataloger( 1207): syncFile:/storage/emulated/0/appHall_guangxi_folder/download/1495184847654BocoIntegratedResource_GX2017-5-31417code11.apk
+05-19 17:07:39.387 E/QueryController(22929): Got null root node from accessibility - Retrying...
+05-19 17:07:39.637 E/QueryController(22929): Got null root node from accessibility - Retrying...
+05-19 17:07:42.277 E/appium  (22929): Element not found: 
+05-19 17:07:42.277 E/appium  (22929): io.appium.uiautomator2.common.exceptions.ElementNotFoundException: Could not find an element using supplied strategy. 
+05-19 17:07:42.277 E/appium  (22929): 	at io.appium.uiautomator2.handler.FindElement.getXPathUiObject(FindElement.java:80)
+05-19 17:07:42.277 E/appium  (22929): 	at io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:153)
+05-19 17:07:42.277 E/appium  (22929): 	at io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:102)
+05-19 17:07:42.277 E/appium  (22929): 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:56)
+05-19 17:07:42.277 E/appium  (22929): 	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:202)
+05-19 17:07:42.277 E/appium  (22929): 	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:193)
+05-19 17:07:42.277 E/appium  (22929): 	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)
+05-19 17:07:42.277 E/appium  (22929): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 17:07:42.277 E/appium  (22929): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 17:07:42.277 E/appium  (22929): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-19 17:07:42.277 E/appium  (22929): 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+05-19 17:07:42.277 E/appium  (22929): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 17:07:42.277 E/appium  (22929): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 17:07:42.277 E/appium  (22929): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-19 17:07:42.277 E/appium  (22929): 	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+05-19 17:07:42.277 E/appium  (22929): 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+05-19 17:07:42.277 E/appium  (22929): 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+05-19 17:07:42.277 E/appium  (22929): 	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+05-19 17:07:42.277 E/appium  (22929): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 17:07:42.277 E/appium  (22929): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 17:07:42.277 E/appium  (22929): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-19 17:07:42.277 E/appium  (22929): 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+05-19 17:07:42.277 E/appium  (22929): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 17:07:42.277 E/appium  (22929): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 17:07:42.277 E/appium  (22929): 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+05-19 17:07:42.277 E/appium  (22929): 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+05-19 17:07:42.277 E/appium  (22929): 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+05-19 17:07:42.277 E/appium  (22929): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:514)
+05-19 17:07:42.277 E/appium  (22929): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:468)
+05-19 17:07:42.277 E/appium  (22929): 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+05-19 17:07:42.277 E/appium  (22929): 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+05-19 17:07:42.277 E/appium  (22929): 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+05-19 17:07:42.277 E/appium  (22929): 	at java.lang.Thread.run(Thread.java:841)
+05-19 17:07:42.337 E/NetworkScheduler.SR(  703): Invalid parameter app
+05-19 17:07:42.337 E/NetworkScheduler.SR(  703): Invalid package name : Perhaps you didn't include a PendingIntent in the extras?
+05-19 17:07:42.437 E/dalvikvm(23072): Could not find class 'javax.net.ssl.SNIHostName', referenced from method com.google.android.gms.org.conscrypt.Platform.getSSLParameters
+05-19 17:07:42.437 E/dalvikvm(23072): Could not find class 'javax.net.ssl.SNIServerName', referenced from method com.google.android.gms.org.conscrypt.Platform.setSSLParameters
+05-19 17:07:42.447 E/dalvikvm(23072): Could not find class 'com.google.android.gms.org.conscrypt.OpenSSLExtendedSessionImpl', referenced from method com.google.android.gms.org.conscrypt.Platform.wrapSSLSession
+05-19 17:07:42.457 E/dalvikvm(23072): Could not find class 'com.google.android.gms.org.conscrypt.OpenSSLExtendedSessionImpl', referenced from method com.google.android.gms.org.conscrypt.SSLParametersImpl.getSessionToReuse
+05-19 17:07:42.567 E/dalvikvm(23072): Could not find class 'com.google.android.gms.common.permission.PermissionUtils$1', referenced from method com.google.android.gms.chimera.GmsModuleInitializer.initializeModuleV0
+05-19 17:07:42.817 E/dalvikvm(23072): Could not find class 'jgj', referenced from method jgi.a
+05-19 17:07:42.867 E/Icing   (23072): street name for address is empty or is not existed. 
+05-19 17:07:42.867 E/Icing   (23072): Opening file  for read failed: No such file or directory
+05-19 17:07:42.877 E/Icing   (23072): Unable to open file . 
+05-19 17:07:42.877 E/Icing   (23072): WordsMap was not properly initialized
+05-19 17:07:43.087 E/dalvikvm(23072): Could not find class 'android.app.usage.UsageStatsManager', referenced from method rff.a
+05-19 17:07:44.957 E/EGL_emulation(11624): egl: destroying current context refused
+05-19 17:07:46.687 E/QueryController(22929): Got null root node from accessibility - Retrying...
+05-19 17:07:46.947 E/QueryController(22929): Got null root node from accessibility - Retrying...
+05-19 17:07:49.727 E/BaseAppContext(23072): Tried to stop global GMSCore RequestQueue. This is likely unintended, so ignoring.
+05-19 17:07:50.337 E/Finsky  (11759): [1] com.google.android.finsky.wear.bl.a(847): onConnectionFailed: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null}
+05-19 17:07:50.427 E/Cataloger( 1207): syncFile:/storage/emulated/0/appHall_guangxi_folder/download/1495184847654BocoIntegratedResource_GX2017-5-31417code11.apk
+05-19 17:07:50.457 E/NetworkScheduler.SR(  703): Invalid parameter app
+05-19 17:07:50.457 E/NetworkScheduler.SR(  703): Invalid package name : Perhaps you didn't include a PendingIntent in the extras?
+05-19 17:07:50.507 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.estrongs.android.pop/recomm/setting.download.tmp.tmp
+05-19 17:07:50.507 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.estrongs.android.pop/recomm/setting.download.tmp.tmp
+05-19 17:07:50.507 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.estrongs.android.pop/recomm/setting.download.tmp.tmp
+05-19 17:07:50.507 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.estrongs.android.pop/recomm/setting.download.tmp.tmp
+05-19 17:07:50.507 E/Cataloger( 1207): syncFile:/storage/emulated/0/backups/system/.timestamp
+05-19 17:07:50.507 E/Cataloger( 1207): need not sync path:/storage/emulated/0/backups/system/.timestamp
+05-19 17:08:01.887 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.estrongs.android.pop/recomm/setting.download.tmp.tmp
+05-19 17:08:01.887 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.estrongs.android.pop/recomm/setting.download.tmp.tmp
+05-19 17:08:01.977 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.estrongs.android.pop/recomm/setting.download.tmp.tmp
+05-19 17:08:01.987 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.estrongs.android.pop/recomm/setting.download.tmp.tmp
+05-19 17:08:01.987 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.estrongs.android.pop/recomm/setting.download.tmp.tmp
+05-19 17:08:01.987 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.estrongs.android.pop/recomm/setting.download.tmp.tmp
+05-19 17:08:01.987 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.estrongs.android.pop/recomm/setting.download.tmp.tmp
+05-19 17:08:01.987 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.estrongs.android.pop/recomm/setting.download.tmp.tmp
+05-19 17:08:02.067 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.estrongs.android.pop/recomm/setting.download.tmp.tmp
+05-19 17:08:02.067 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.estrongs.android.pop/recomm/setting.download.tmp.tmp
+05-19 17:08:02.067 E/Cataloger( 1207): 重复删除命令
+05-19 17:08:02.067 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.estrongs.android.pop/recomm/setting.download.tmp
+05-19 17:08:02.067 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.estrongs.android.pop/recomm/setting.download.tmp
+05-19 17:08:02.067 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.estrongs.android.pop/recomm/setting.download.tmp
+05-19 17:08:02.067 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.estrongs.android.pop/recomm/setting.download.tmp
+05-19 17:08:12.727 E/cutils-trace(22917): Error opening trace file: No such file or directory (2)
+05-19 17:08:12.797 E/memtrack(23170): Couldn't load memtrack module (No such file or directory)
+05-19 17:08:12.797 E/android.os.Debug(23170): failed to load memtrack module: -2
+05-19 17:08:12.947 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/journal
+05-19 17:08:12.947 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/journal
+05-19 17:08:12.947 E/cutils-trace(23170): Error opening trace file: No such file or directory (2)
+05-19 17:08:14.567 E/memtrack(23186): Couldn't load memtrack module (No such file or directory)
+05-19 17:08:14.567 E/android.os.Debug(23186): failed to load memtrack module: -2
+05-19 17:08:14.587 E/cutils-trace(23186): Error opening trace file: No such file or directory (2)
+05-19 17:08:15.557 E/memtrack(23202): Couldn't load memtrack module (No such file or directory)
+05-19 17:08:15.557 E/android.os.Debug(23202): failed to load memtrack module: -2
+05-19 17:08:15.577 E/cutils-trace(23202): Error opening trace file: No such file or directory (2)
+05-19 17:08:16.737 E/memtrack(23218): Couldn't load memtrack module (No such file or directory)
+05-19 17:08:16.737 E/android.os.Debug(23218): failed to load memtrack module: -2
+05-19 17:08:16.767 E/cutils-trace(23218): Error opening trace file: No such file or directory (2)
+05-19 17:08:17.457 E/memtrack(23230): Couldn't load memtrack module (No such file or directory)
+05-19 17:08:17.457 E/android.os.Debug(23230): failed to load memtrack module: -2
+05-19 17:08:17.477 E/cutils-trace(23230): Error opening trace file: No such file or directory (2)
+05-19 17:08:18.277 E/memtrack(23242): Couldn't load memtrack module (No such file or directory)
+05-19 17:08:18.277 E/android.os.Debug(23242): failed to load memtrack module: -2
+05-19 17:08:18.297 E/cutils-trace(23242): Error opening trace file: No such file or directory (2)
+05-19 17:08:19.107 E/memtrack(23254): Couldn't load memtrack module (No such file or directory)
+05-19 17:08:19.107 E/android.os.Debug(23254): failed to load memtrack module: -2
+05-19 17:08:19.127 E/cutils-trace(23254): Error opening trace file: No such file or directory (2)
+05-19 17:08:19.857 E/memtrack(23266): Couldn't load memtrack module (No such file or directory)
+05-19 17:08:19.857 E/android.os.Debug(23266): failed to load memtrack module: -2
+05-19 17:08:19.877 E/cutils-trace(23266): Error opening trace file: No such file or directory (2)
+05-19 17:08:20.987 E/memtrack(23282): Couldn't load memtrack module (No such file or directory)
+05-19 17:08:20.987 E/android.os.Debug(23282): failed to load memtrack module: -2
+05-19 17:08:21.017 E/cutils-trace(23282): Error opening trace file: No such file or directory (2)
+05-19 17:08:21.697 E/memtrack(23294): Couldn't load memtrack module (No such file or directory)
+05-19 17:08:21.697 E/android.os.Debug(23294): failed to load memtrack module: -2
+05-19 17:08:21.717 E/cutils-trace(23294): Error opening trace file: No such file or directory (2)
+05-19 17:08:25.586 E/memtrack(23313): Couldn't load memtrack module (No such file or directory)
+05-19 17:08:25.586 E/android.os.Debug(23313): failed to load memtrack module: -2
+05-19 17:08:25.616 E/cutils-trace(23313): Error opening trace file: No such file or directory (2)
+05-19 17:08:26.366 E/memtrack(23325): Couldn't load memtrack module (No such file or directory)
+05-19 17:08:26.366 E/android.os.Debug(23325): failed to load memtrack module: -2
+05-19 17:08:26.386 E/cutils-trace(23325): Error opening trace file: No such file or directory (2)
+05-19 17:08:27.066 E/memtrack(23337): Couldn't load memtrack module (No such file or directory)
+05-19 17:08:27.066 E/android.os.Debug(23337): failed to load memtrack module: -2
+05-19 17:08:27.096 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/.nomedia
+05-19 17:08:27.106 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/.nomedia
+05-19 17:08:27.106 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/794wh75p2umlr5ptsxz1oqv530
+05-19 17:08:27.106 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/794wh75p2umlr5ptsxz1oqv530
+05-19 17:08:27.106 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/z88le3ms2suqnl85cmnihrm80
+05-19 17:08:27.106 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/z88le3ms2suqnl85cmnihrm80
+05-19 17:08:27.106 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/4ns997t9eqnq8rlmiwqhcaqw10
+05-19 17:08:27.116 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/4ns997t9eqnq8rlmiwqhcaqw10
+05-19 17:08:27.116 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/7dm8prsiadzpomuq5cn9943hp0
+05-19 17:08:27.116 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/7dm8prsiadzpomuq5cn9943hp0
+05-19 17:08:27.116 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/43fqf4deyq6gzfryuhk9pm52t0
+05-19 17:08:27.116 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/43fqf4deyq6gzfryuhk9pm52t0
+05-19 17:08:27.116 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5454e968y6oqxgclxx1a2zfck0
+05-19 17:08:27.116 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5454e968y6oqxgclxx1a2zfck0
+05-19 17:08:27.126 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/2uq7zj9eht24cna7t0399rzc10
+05-19 17:08:27.126 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/2uq7zj9eht24cna7t0399rzc10
+05-19 17:08:27.126 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/4mvv4ex12oqujl0ieu0wpah000
+05-19 17:08:27.126 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/4mvv4ex12oqujl0ieu0wpah000
+05-19 17:08:27.126 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/15qe4fnftpaahukn7bb51xwxs0
+05-19 17:08:27.136 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/15qe4fnftpaahukn7bb51xwxs0
+05-19 17:08:27.136 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6pgqfk1o73i79a3vk30ymp1o50
+05-19 17:08:27.146 E/cutils-trace(23337): Error opening trace file: No such file or directory (2)
+05-19 17:08:27.156 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6pgqfk1o73i79a3vk30ymp1o50
+05-19 17:08:27.156 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6m2d6r718gus52e8brqd2878d0
+05-19 17:08:27.166 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6m2d6r718gus52e8brqd2878d0
+05-19 17:08:27.166 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/1i1wv4o1u0iph5ouse9122lsp0
+05-19 17:08:27.166 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/1i1wv4o1u0iph5ouse9122lsp0
+05-19 17:08:27.166 E/Cataloger( 1207): 重复删除命令
+05-19 17:08:27.166 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/1rlf43a5amr9tb6i0q8ps25rd0
+05-19 17:08:27.176 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/1rlf43a5amr9tb6i0q8ps25rd0
+05-19 17:08:27.176 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/3gaod1ioxtti80lrs1kapbfif0
+05-19 17:08:27.186 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/3gaod1ioxtti80lrs1kapbfif0
+05-19 17:08:27.186 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/29vlahxhm8lhqc987whbj4nf10
+05-19 17:08:27.186 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/29vlahxhm8lhqc987whbj4nf10
+05-19 17:08:27.186 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6verwqc6q7raqeyitanuqtb620
+05-19 17:08:27.196 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6verwqc6q7raqeyitanuqtb620
+05-19 17:08:27.196 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/1f84kny22yxjmt6wgwfh4unkh0
+05-19 17:08:27.206 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/1f84kny22yxjmt6wgwfh4unkh0
+05-19 17:08:27.206 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/61rnoe860jlyrgneh9jvl1j9h0
+05-19 17:08:27.206 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/61rnoe860jlyrgneh9jvl1j9h0
+05-19 17:08:27.206 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6kwq6ojzuarupost1e3tphqnf0
+05-19 17:08:27.216 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6kwq6ojzuarupost1e3tphqnf0
+05-19 17:08:27.216 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/7df5rwypq960fduywpftb2bpd0
+05-19 17:08:27.226 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/7df5rwypq960fduywpftb2bpd0
+05-19 17:08:27.226 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/4dv84sszatxsr0bmo8217x8el0
+05-19 17:08:27.226 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/4dv84sszatxsr0bmo8217x8el0
+05-19 17:08:27.226 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6pbkwva5ijgx9pxg63twkddhy0
+05-19 17:08:27.236 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6pbkwva5ijgx9pxg63twkddhy0
+05-19 17:08:27.236 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/3qfbho2se3qtgtzn4nan2j1wi0
+05-19 17:08:27.236 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/3qfbho2se3qtgtzn4nan2j1wi0
+05-19 17:08:27.236 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/12tpa78nesivi7u7kjsyq1zou0
+05-19 17:08:27.246 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/12tpa78nesivi7u7kjsyq1zou0
+05-19 17:08:27.246 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5a4gkkyv2sfzmnv0fy7bmiasp0
+05-19 17:08:27.246 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5a4gkkyv2sfzmnv0fy7bmiasp0
+05-19 17:08:27.246 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images
+05-19 17:08:27.256 E/Cataloger( 1207): 重复删除命令
+05-19 17:08:27.256 E/Cataloger( 1207): 重复删除命令
+05-19 17:08:27.886 E/memtrack(23362): Couldn't load memtrack module (No such file or directory)
+05-19 17:08:27.886 E/android.os.Debug(23362): failed to load memtrack module: -2
+05-19 17:08:27.906 E/cutils-trace(23362): Error opening trace file: No such file or directory (2)
+05-19 17:08:28.586 E/memtrack(23374): Couldn't load memtrack module (No such file or directory)
+05-19 17:08:28.586 E/android.os.Debug(23374): failed to load memtrack module: -2
+05-19 17:08:28.606 E/cutils-trace(23374): Error opening trace file: No such file or directory (2)
+05-19 17:08:29.506 E/memtrack(23388): Couldn't load memtrack module (No such file or directory)
+05-19 17:08:29.506 E/android.os.Debug(23388): failed to load memtrack module: -2
+05-19 17:08:29.526 E/cutils-trace(23388): Error opening trace file: No such file or directory (2)
+05-19 17:08:30.066 E/memtrack(23400): Couldn't load memtrack module (No such file or directory)
+05-19 17:08:30.066 E/android.os.Debug(23400): failed to load memtrack module: -2
+05-19 17:08:32.476 E/memtrack(23431): Couldn't load memtrack module (No such file or directory)
+05-19 17:08:32.476 E/android.os.Debug(23431): failed to load memtrack module: -2
+05-19 17:08:32.796 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall
+05-19 17:08:32.796 E/Cataloger( 1207): 创建一个目录:/storage/emulated/0/Android/data/com.boco.apphall
+05-19 17:08:32.796 E/Cataloger( 1207): 扫描新建目录：/storage/emulated/0/Android/data/com.boco.apphall
+05-19 17:08:32.806 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache
+05-19 17:08:32.806 E/Cataloger( 1207): 创建一个目录:/storage/emulated/0/Android/data/com.boco.apphall/cache
+05-19 17:08:32.806 E/Cataloger( 1207): 扫描新建目录：/storage/emulated/0/Android/data/com.boco.apphall/cache
+05-19 17:08:32.806 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/.nomedia
+05-19 17:08:32.806 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/.nomedia
+05-19 17:08:32.806 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/.nomedia
+05-19 17:08:32.806 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/.nomedia
+05-19 17:08:32.806 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images
+05-19 17:08:32.806 E/Cataloger( 1207): 创建一个目录:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images
+05-19 17:08:32.806 E/Cataloger( 1207): 扫描新建目录：/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images
+05-19 17:08:32.826 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/journal.tmp
+05-19 17:08:32.826 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/journal.tmp
+05-19 17:08:32.836 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/journal.tmp
+05-19 17:08:32.836 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/journal.tmp
+05-19 17:08:32.836 E/Cataloger( 1207): 重复删除命令
+05-19 17:08:32.836 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/journal
+05-19 17:08:32.836 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/journal
+05-19 17:08:33.716 E/cutils-trace(23431): Error opening trace file: No such file or directory (2)
+05-19 17:08:34.866 E/EGL_emulation(11624): egl: destroying current context refused
+05-19 17:08:35.846 E/SQLiteDatabase( 1207): Error inserting path=/storage/emulated/0/Android/data/com.boco.apphall/ lastmodified=1495184912000 pathtype=3 _id=375 isLogPath=0 name=com.boco.apphall
+05-19 17:08:35.846 E/SQLiteDatabase( 1207): android.database.sqlite.SQLiteConstraintException: column path is not unique (code 19)
+05-19 17:08:35.846 E/SQLiteDatabase( 1207): 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+05-19 17:08:35.846 E/SQLiteDatabase( 1207): 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+05-19 17:08:35.846 E/SQLiteDatabase( 1207): 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+05-19 17:08:35.846 E/SQLiteDatabase( 1207): 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+05-19 17:08:35.846 E/SQLiteDatabase( 1207): 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1469)
+05-19 17:08:35.846 E/SQLiteDatabase( 1207): 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1339)
+05-19 17:08:35.846 E/SQLiteDatabase( 1207): 	at com.estrongs.android.scanner.d.e.a(Unknown Source)
+05-19 17:08:35.846 E/SQLiteDatabase( 1207): 	at com.estrongs.android.scanner.d.a.a(Unknown Source)
+05-19 17:08:35.846 E/SQLiteDatabase( 1207): 	at com.estrongs.android.scanner.d.a.a(Unknown Source)
+05-19 17:08:35.846 E/SQLiteDatabase( 1207): 	at com.estrongs.android.scanner.d.r.run(Unknown Source)
+05-19 17:08:35.846 E/SQLiteDatabase( 1207): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+05-19 17:08:35.846 E/SQLiteDatabase( 1207): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+05-19 17:08:35.846 E/SQLiteDatabase( 1207): 	at java.lang.Thread.run(Thread.java:841)
+05-19 17:08:36.836 E/memtrack(23461): Couldn't load memtrack module (No such file or directory)
+05-19 17:08:36.836 E/android.os.Debug(23461): failed to load memtrack module: -2
+05-19 17:08:36.906 E/cutils-trace(23461): Error opening trace file: No such file or directory (2)
+05-19 17:08:38.236 E/memtrack(23473): Couldn't load memtrack module (No such file or directory)
+05-19 17:08:38.236 E/android.os.Debug(23473): failed to load memtrack module: -2
+05-19 17:08:39.206 E/cutils-trace(23473): Error opening trace file: No such file or directory (2)
+05-19 17:08:39.436 E/appium  (23412): Exception while handling action in: io.appium.uiautomator2.handler.Clear
+05-19 17:08:39.436 E/appium  (23412): java.lang.NullPointerException
+05-19 17:08:39.436 E/appium  (23412): 	at android.support.test.uiautomator.UiObject2.setText(UiObject2.java:601)
+05-19 17:08:39.436 E/appium  (23412): 	at android.support.test.uiautomator.UiObject2.clear(UiObject2.java:338)
+05-19 17:08:39.436 E/appium  (23412): 	at io.appium.uiautomator2.model.UiObject2Element.clear(UiObject2Element.java:138)
+05-19 17:08:39.436 E/appium  (23412): 	at io.appium.uiautomator2.handler.Clear.safeHandle(Clear.java:51)
+05-19 17:08:39.436 E/appium  (23412): 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:56)
+05-19 17:08:39.436 E/appium  (23412): 	at io.appium.uiautomator2.handler.SendKeysToElement.safeHandle(SendKeysToElement.java:73)
+05-19 17:08:39.436 E/appium  (23412): 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:56)
+05-19 17:08:39.436 E/appium  (23412): 	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:202)
+05-19 17:08:39.436 E/appium  (23412): 	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:193)
+05-19 17:08:39.436 E/appium  (23412): 	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)
+05-19 17:08:39.436 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 17:08:39.436 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 17:08:39.436 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-19 17:08:39.436 E/appium  (23412): 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+05-19 17:08:39.436 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 17:08:39.436 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 17:08:39.436 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-19 17:08:39.436 E/appium  (23412): 	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+05-19 17:08:39.436 E/appium  (23412): 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+05-19 17:08:39.436 E/appium  (23412): 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+05-19 17:08:39.436 E/appium  (23412): 	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+05-19 17:08:39.436 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 17:08:39.436 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 17:08:39.436 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-19 17:08:39.436 E/appium  (23412): 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+05-19 17:08:39.436 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 17:08:39.436 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 17:08:39.436 E/appium  (23412): 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+05-19 17:08:39.436 E/appium  (23412): 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+05-19 17:08:39.436 E/appium  (23412): 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+05-19 17:08:39.436 E/appium  (23412): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:514)
+05-19 17:08:39.436 E/appium  (23412): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:468)
+05-19 17:08:39.436 E/appium  (23412): 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+05-19 17:08:39.436 E/appium  (23412): 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+05-19 17:08:39.436 E/appium  (23412): 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+05-19 17:08:39.436 E/appium  (23412): 	at java.lang.Thread.run(Thread.java:841)
+05-19 17:08:39.446 E/appium  (23412): Exception while handling action in: io.appium.uiautomator2.handler.SendKeysToElement
+05-19 17:08:39.446 E/appium  (23412): java.lang.NullPointerException
+05-19 17:08:39.446 E/appium  (23412): 	at android.support.test.uiautomator.UiObject2.setText(UiObject2.java:601)
+05-19 17:08:39.446 E/appium  (23412): 	at io.appium.uiautomator2.model.UiObject2Element.setText(UiObject2Element.java:129)
+05-19 17:08:39.446 E/appium  (23412): 	at io.appium.uiautomator2.handler.SendKeysToElement.safeHandle(SendKeysToElement.java:83)
+05-19 17:08:39.446 E/appium  (23412): 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:56)
+05-19 17:08:39.446 E/appium  (23412): 	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:202)
+05-19 17:08:39.446 E/appium  (23412): 	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:193)
+05-19 17:08:39.446 E/appium  (23412): 	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)
+05-19 17:08:39.446 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 17:08:39.446 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 17:08:39.446 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-19 17:08:39.446 E/appium  (23412): 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+05-19 17:08:39.446 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 17:08:39.446 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 17:08:39.446 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-19 17:08:39.446 E/appium  (23412): 	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+05-19 17:08:39.446 E/appium  (23412): 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+05-19 17:08:39.446 E/appium  (23412): 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+05-19 17:08:39.446 E/appium  (23412): 	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+05-19 17:08:39.446 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 17:08:39.446 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 17:08:39.446 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-19 17:08:39.446 E/appium  (23412): 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+05-19 17:08:39.446 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 17:08:39.446 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 17:08:39.446 E/appium  (23412): 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+05-19 17:08:39.446 E/appium  (23412): 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+05-19 17:08:39.446 E/appium  (23412): 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+05-19 17:08:39.446 E/appium  (23412): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:514)
+05-19 17:08:39.446 E/appium  (23412): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:468)
+05-19 17:08:39.446 E/appium  (23412): 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+05-19 17:08:39.446 E/appium  (23412): 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+05-19 17:08:39.446 E/appium  (23412): 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+05-19 17:08:39.446 E/appium  (23412): 	at java.lang.Thread.run(Thread.java:841)
+05-19 17:08:39.936 E/memtrack(23487): Couldn't load memtrack module (No such file or directory)
+05-19 17:08:39.936 E/android.os.Debug(23487): failed to load memtrack module: -2
+05-19 17:08:40.056 E/cutils-trace(23487): Error opening trace file: No such file or directory (2)
+05-19 17:08:43.106 E/DemoPushService(23443): Creating service
+05-19 17:08:43.106 E/DemoPushService(23443): Service started with intent=Intent { act=mqtt.START cmp=com.boco.apphall/.guangxi.mix.message.service.modify.PushService_Mq }
+05-19 17:08:43.106 E/DemoPushService(23443): Starting service...
+05-19 17:08:43.106 E/DemoPushService(23443): Connecting...
+05-19 17:08:43.116 E/设备号==========(23443): 867271010580024
+05-19 17:08:43.116 E/clientID==========(23443): 867271010580024131892
+05-19 17:08:43.336 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5a4gkkyv2sfzmnv0fy7bmiasp0.tmp
+05-19 17:08:43.336 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5a4gkkyv2sfzmnv0fy7bmiasp0.tmp
+05-19 17:08:43.336 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/1i1wv4o1u0iph5ouse9122lsp0.tmp
+05-19 17:08:43.336 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/1i1wv4o1u0iph5ouse9122lsp0.tmp
+05-19 17:08:43.416 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/1i1wv4o1u0iph5ouse9122lsp0.tmp
+05-19 17:08:43.416 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/1i1wv4o1u0iph5ouse9122lsp0.tmp
+05-19 17:08:43.416 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/1i1wv4o1u0iph5ouse9122lsp0.tmp
+05-19 17:08:43.416 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/1i1wv4o1u0iph5ouse9122lsp0.tmp
+05-19 17:08:43.416 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/1i1wv4o1u0iph5ouse9122lsp0
+05-19 17:08:43.416 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/1i1wv4o1u0iph5ouse9122lsp0
+05-19 17:08:43.446 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5a4gkkyv2sfzmnv0fy7bmiasp0.tmp
+05-19 17:08:43.446 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5a4gkkyv2sfzmnv0fy7bmiasp0.tmp
+05-19 17:08:43.446 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5a4gkkyv2sfzmnv0fy7bmiasp0.tmp
+05-19 17:08:43.446 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5a4gkkyv2sfzmnv0fy7bmiasp0.tmp
+05-19 17:08:43.446 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5a4gkkyv2sfzmnv0fy7bmiasp0
+05-19 17:08:43.446 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/5a4gkkyv2sfzmnv0fy7bmiasp0
+05-19 17:08:43.506 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/3qfbho2se3qtgtzn4nan2j1wi0.tmp
+05-19 17:08:43.506 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/3qfbho2se3qtgtzn4nan2j1wi0.tmp
+05-19 17:08:43.556 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/3qfbho2se3qtgtzn4nan2j1wi0.tmp
+05-19 17:08:43.556 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/3qfbho2se3qtgtzn4nan2j1wi0.tmp
+05-19 17:08:43.556 E/Cataloger( 1207): 重复删除命令
+05-19 17:08:43.556 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/3qfbho2se3qtgtzn4nan2j1wi0
+05-19 17:08:43.556 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/3qfbho2se3qtgtzn4nan2j1wi0
+05-19 17:08:43.636 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/794wh75p2umlr5ptsxz1oqv530.tmp
+05-19 17:08:43.636 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/794wh75p2umlr5ptsxz1oqv530.tmp
+05-19 17:08:43.666 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/61rnoe860jlyrgneh9jvl1j9h0.tmp
+05-19 17:08:43.666 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/61rnoe860jlyrgneh9jvl1j9h0.tmp
+05-19 17:08:43.676 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/7dm8prsiadzpomuq5cn9943hp0.tmp
+05-19 17:08:43.676 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/7dm8prsiadzpomuq5cn9943hp0.tmp
+05-19 17:08:43.716 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/794wh75p2umlr5ptsxz1oqv530.tmp
+05-19 17:08:43.726 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/794wh75p2umlr5ptsxz1oqv530.tmp
+05-19 17:08:43.726 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/794wh75p2umlr5ptsxz1oqv530.tmp
+05-19 17:08:43.726 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/794wh75p2umlr5ptsxz1oqv530.tmp
+05-19 17:08:43.726 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/794wh75p2umlr5ptsxz1oqv530
+05-19 17:08:43.726 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/794wh75p2umlr5ptsxz1oqv530
+05-19 17:08:43.736 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/61rnoe860jlyrgneh9jvl1j9h0.tmp
+05-19 17:08:43.736 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/61rnoe860jlyrgneh9jvl1j9h0.tmp
+05-19 17:08:43.736 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/61rnoe860jlyrgneh9jvl1j9h0.tmp
+05-19 17:08:43.736 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/61rnoe860jlyrgneh9jvl1j9h0.tmp
+05-19 17:08:43.746 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/61rnoe860jlyrgneh9jvl1j9h0
+05-19 17:08:43.746 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/61rnoe860jlyrgneh9jvl1j9h0
+05-19 17:08:43.756 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/7dm8prsiadzpomuq5cn9943hp0.tmp
+05-19 17:08:43.756 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/7dm8prsiadzpomuq5cn9943hp0.tmp
+05-19 17:08:43.756 E/Cataloger( 1207): 重复删除命令
+05-19 17:08:43.756 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/7dm8prsiadzpomuq5cn9943hp0
+05-19 17:08:43.756 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/7dm8prsiadzpomuq5cn9943hp0
+05-19 17:08:43.786 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/1f84kny22yxjmt6wgwfh4unkh0.tmp
+05-19 17:08:43.786 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/1f84kny22yxjmt6wgwfh4unkh0.tmp
+05-19 17:08:43.806 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/15qe4fnftpaahukn7bb51xwxs0.tmp
+05-19 17:08:43.806 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/15qe4fnftpaahukn7bb51xwxs0.tmp
+05-19 17:08:43.836 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6kwq6ojzuarupost1e3tphqnf0.tmp
+05-19 17:08:43.836 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.boco.apphall/cache/uil-images/6kwq6ojzuarupost1e3tphqnf0.tmp
+05-19 17:08:45.936 E/cutils-trace(23531): Error opening trace file: No such file or directory (2)
+05-19 17:08:54.096 E/Cataloger( 1207): syncFile:/storage/emulated/0/appHall_guangxi_folder/download/1495184933709BocoIntegratedResource_GX2017-5-31417code11.apk
+05-19 17:08:54.096 E/Cataloger( 1207): syncFile:/storage/emulated/0/appHall_guangxi_folder/download/1495184933709BocoIntegratedResource_GX2017-5-31417code11.apk
+05-19 17:09:04.746 E/appium  (23412): Element not found: 
+05-19 17:09:04.746 E/appium  (23412): io.appium.uiautomator2.common.exceptions.ElementNotFoundException: Could not find an element using supplied strategy. 
+05-19 17:09:04.746 E/appium  (23412): 	at io.appium.uiautomator2.handler.FindElement.getXPathUiObject(FindElement.java:80)
+05-19 17:09:04.746 E/appium  (23412): 	at io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:153)
+05-19 17:09:04.746 E/appium  (23412): 	at io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:102)
+05-19 17:09:04.746 E/appium  (23412): 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:56)
+05-19 17:09:04.746 E/appium  (23412): 	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:202)
+05-19 17:09:04.746 E/appium  (23412): 	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:193)
+05-19 17:09:04.746 E/appium  (23412): 	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)
+05-19 17:09:04.746 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 17:09:04.746 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 17:09:04.746 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-19 17:09:04.746 E/appium  (23412): 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+05-19 17:09:04.746 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 17:09:04.746 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 17:09:04.746 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-19 17:09:04.746 E/appium  (23412): 	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+05-19 17:09:04.746 E/appium  (23412): 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+05-19 17:09:04.746 E/appium  (23412): 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+05-19 17:09:04.746 E/appium  (23412): 	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+05-19 17:09:04.746 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 17:09:04.746 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 17:09:04.746 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-19 17:09:04.746 E/appium  (23412): 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+05-19 17:09:04.746 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 17:09:04.746 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 17:09:04.746 E/appium  (23412): 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+05-19 17:09:04.746 E/appium  (23412): 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+05-19 17:09:04.746 E/appium  (23412): 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+05-19 17:09:04.746 E/appium  (23412): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:514)
+05-19 17:09:04.746 E/appium  (23412): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:468)
+05-19 17:09:04.746 E/appium  (23412): 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+05-19 17:09:04.746 E/appium  (23412): 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+05-19 17:09:04.746 E/appium  (23412): 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+05-19 17:09:04.746 E/appium  (23412): 	at java.lang.Thread.run(Thread.java:841)
+05-19 17:09:04.806 E/Cataloger( 1207): syncFile:/storage/emulated/0/appHall_guangxi_folder/download/1495184933709BocoIntegratedResource_GX2017-5-31417code11.apk
+05-19 17:09:05.866 E/appium  (23412): Element not found: 
+05-19 17:09:05.866 E/appium  (23412): io.appium.uiautomator2.common.exceptions.ElementNotFoundException: Could not find an element using supplied strategy. 
+05-19 17:09:05.866 E/appium  (23412): 	at io.appium.uiautomator2.handler.FindElement.getXPathUiObject(FindElement.java:80)
+05-19 17:09:05.866 E/appium  (23412): 	at io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:153)
+05-19 17:09:05.866 E/appium  (23412): 	at io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:102)
+05-19 17:09:05.866 E/appium  (23412): 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:56)
+05-19 17:09:05.866 E/appium  (23412): 	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:202)
+05-19 17:09:05.866 E/appium  (23412): 	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:193)
+05-19 17:09:05.866 E/appium  (23412): 	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)
+05-19 17:09:05.866 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 17:09:05.866 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 17:09:05.866 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-19 17:09:05.866 E/appium  (23412): 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+05-19 17:09:05.866 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 17:09:05.866 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 17:09:05.866 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-19 17:09:05.866 E/appium  (23412): 	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+05-19 17:09:05.866 E/appium  (23412): 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+05-19 17:09:05.866 E/appium  (23412): 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+05-19 17:09:05.866 E/appium  (23412): 	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+05-19 17:09:05.866 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 17:09:05.866 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 17:09:05.866 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-19 17:09:05.866 E/appium  (23412): 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+05-19 17:09:05.866 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 17:09:05.866 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 17:09:05.866 E/appium  (23412): 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+05-19 17:09:05.866 E/appium  (23412): 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+05-19 17:09:05.866 E/appium  (23412): 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+05-19 17:09:05.866 E/appium  (23412): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:514)
+05-19 17:09:05.866 E/appium  (23412): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:468)
+05-19 17:09:05.866 E/appium  (23412): 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+05-19 17:09:05.866 E/appium  (23412): 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+05-19 17:09:05.866 E/appium  (23412): 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+05-19 17:09:05.866 E/appium  (23412): 	at java.lang.Thread.run(Thread.java:841)
+05-19 17:09:09.076 E/appium  (23412): Element not found: 
+05-19 17:09:09.076 E/appium  (23412): io.appium.uiautomator2.common.exceptions.ElementNotFoundException: Could not find an element using supplied strategy. 
+05-19 17:09:09.076 E/appium  (23412): 	at io.appium.uiautomator2.handler.FindElement.getXPathUiObject(FindElement.java:80)
+05-19 17:09:09.076 E/appium  (23412): 	at io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:153)
+05-19 17:09:09.076 E/appium  (23412): 	at io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:102)
+05-19 17:09:09.076 E/appium  (23412): 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:56)
+05-19 17:09:09.076 E/appium  (23412): 	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:202)
+05-19 17:09:09.076 E/appium  (23412): 	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:193)
+05-19 17:09:09.076 E/appium  (23412): 	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)
+05-19 17:09:09.076 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 17:09:09.076 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 17:09:09.076 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-19 17:09:09.076 E/appium  (23412): 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+05-19 17:09:09.076 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 17:09:09.076 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 17:09:09.076 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-19 17:09:09.076 E/appium  (23412): 	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+05-19 17:09:09.076 E/appium  (23412): 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+05-19 17:09:09.076 E/appium  (23412): 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+05-19 17:09:09.076 E/appium  (23412): 	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+05-19 17:09:09.076 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 17:09:09.076 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 17:09:09.076 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+05-19 17:09:09.076 E/appium  (23412): 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+05-19 17:09:09.076 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+05-19 17:09:09.076 E/appium  (23412): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+05-19 17:09:09.076 E/appium  (23412): 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+05-19 17:09:09.076 E/appium  (23412): 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+05-19 17:09:09.076 E/appium  (23412): 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+05-19 17:09:09.076 E/appium  (23412): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:514)
+05-19 17:09:09.076 E/appium  (23412): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:468)
+05-19 17:09:09.076 E/appium  (23412): 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+05-19 17:09:09.076 E/appium  (23412): 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+05-19 17:09:09.076 E/appium  (23412): 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+05-19 17:09:09.076 E/appium  (23412): 	at java.lang.Thread.run(Thread.java:841)
+05-19 17:09:09.156 E/NetworkScheduler.SR(  703): Invalid parameter app
+05-19 17:09:09.156 E/NetworkScheduler.SR(  703): Invalid package name : Perhaps you didn't include a PendingIntent in the extras?
+05-19 17:09:09.176 E/Drive.UninstallOperation(23072): Package still installed com.boco.resource
+05-19 17:09:11.316 E/Finsky  (11759): [1] com.google.android.finsky.wear.bl.a(847): onConnectionFailed: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null}
+05-19 17:09:11.406 E/Cataloger( 1207): syncFile:/storage/emulated/0/appHall_guangxi_folder/download/1495184933709BocoIntegratedResource_GX2017-5-31417code11.apk
+05-19 17:09:11.556 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.estrongs.android.pop/recomm/setting.download.tmp.tmp
+05-19 17:09:11.556 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.estrongs.android.pop/recomm/setting.download.tmp.tmp
+05-19 17:09:11.556 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.estrongs.android.pop/recomm/setting.download.tmp.tmp
+05-19 17:09:11.556 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.estrongs.android.pop/recomm/setting.download.tmp.tmp
+05-19 17:09:11.646 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.estrongs.android.pop/recomm/setting.download.tmp.tmp
+05-19 17:09:11.646 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.estrongs.android.pop/recomm/setting.download.tmp.tmp
+05-19 17:09:11.646 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.estrongs.android.pop/recomm/setting.download.tmp.tmp
+05-19 17:09:11.656 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.estrongs.android.pop/recomm/setting.download.tmp.tmp
+05-19 17:09:11.656 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.estrongs.android.pop/recomm/setting.download.tmp.tmp
+05-19 17:09:11.656 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.estrongs.android.pop/recomm/setting.download.tmp.tmp
+05-19 17:09:11.656 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.estrongs.android.pop/recomm/setting.download.tmp.tmp
+05-19 17:09:11.656 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.estrongs.android.pop/recomm/setting.download.tmp.tmp
+05-19 17:09:11.816 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.estrongs.android.pop/recomm/setting.download.tmp.tmp
+05-19 17:09:11.816 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.estrongs.android.pop/recomm/setting.download.tmp.tmp
+05-19 17:09:11.816 E/Cataloger( 1207): 重复删除命令
+05-19 17:09:11.816 E/Cataloger( 1207): syncFile:/storage/emulated/0/Android/data/com.estrongs.android.pop/recomm/setting.download.tmp
+05-19 17:09:11.816 E/Cataloger( 1207): need not sync path:/storage/emulated/0/Android/data/com.estrongs.android.pop/recomm/setting.download.tmp
+05-19 17:09:11.816 E/Cataloger( 1207): 重复删除命令
+05-19 17:09:12.456 E/NetworkScheduler.SR(  703): Invalid parameter app
+05-19 17:09:12.456 E/NetworkScheduler.SR(  703): Invalid package name : Perhaps you didn't include a PendingIntent in the extras?

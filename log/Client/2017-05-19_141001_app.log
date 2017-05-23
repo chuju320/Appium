@@ -1,0 +1,788 @@
+--------- beginning of /dev/log/system
+05-19 13:36:25.804 E/ConnectivityService(  479): Ignoring protectedNetwork 10
+05-19 13:36:25.804 E/ConnectivityService(  479): Ignoring protectedNetwork 11
+05-19 13:36:25.804 E/ConnectivityService(  479): Ignoring protectedNetwork 12
+05-19 13:36:25.804 E/ConnectivityService(  479): Ignoring protectedNetwork 14
+05-19 13:36:25.804 E/MobileDataStateTracker(  479): default: Ignoring feature request because could not acquire PhoneService
+05-19 13:36:25.804 E/MobileDataStateTracker(  479): default: Could not enable APN type "default"
+05-19 13:36:26.614 E/LocationManagerService(  479): no geocoder provider found
+05-19 13:36:26.674 E/LocationManagerService(  479): No FusedProvider found.
+05-19 13:36:26.674 E/LocationManagerService(  479): no geofence provider found
+05-19 13:36:28.754 E/ConnectivityService(  479): Unexpected mtu value: android.net.wifi.WifiStateTracker@4a868d80
+05-19 13:36:36.724 E/RemotePrintSpooler(  479): Error removing obsolete print jobs .
+05-19 13:36:36.724 E/RemotePrintSpooler(  479): java.util.concurrent.TimeoutException: Cannot get spooler!
+05-19 13:36:36.724 E/RemotePrintSpooler(  479): 	at com.android.server.print.RemotePrintSpooler.bindLocked(RemotePrintSpooler.java:376)
+05-19 13:36:36.724 E/RemotePrintSpooler(  479): 	at com.android.server.print.RemotePrintSpooler.getRemoteInstanceLazy(RemotePrintSpooler.java:352)
+05-19 13:36:36.724 E/RemotePrintSpooler(  479): 	at com.android.server.print.RemotePrintSpooler.removeObsoletePrintJobs(RemotePrintSpooler.java:287)
+05-19 13:36:36.724 E/RemotePrintSpooler(  479): 	at com.android.server.print.UserState.removeObsoletePrintJobs(UserState.java:163)
+05-19 13:36:36.724 E/RemotePrintSpooler(  479): 	at com.android.server.print.PrintManagerService$1.run(PrintManagerService.java:94)
+05-19 13:36:36.724 E/RemotePrintSpooler(  479): 	at android.os.Handler.handleCallback(Handler.java:733)
+05-19 13:36:36.724 E/RemotePrintSpooler(  479): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+05-19 13:36:36.724 E/RemotePrintSpooler(  479): 	at android.os.Looper.loop(Looper.java:136)
+05-19 13:36:36.724 E/RemotePrintSpooler(  479): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+05-19 13:36:37.234 E/local_gps(  163): Can't send RMC command
+05-19 13:36:40.484 E/ActivityThread(  881): Failed to find provider info for com.google.android.wearable.settings
+05-19 13:39:00.954 E/AndroidRuntime( 3223): *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+05-19 13:39:00.954 E/AndroidRuntime( 3223): java.lang.NullPointerException
+05-19 13:39:00.954 E/AndroidRuntime( 3223): 	at com.android.commands.input.Input.sendText(Input.java:173)
+05-19 13:39:00.954 E/AndroidRuntime( 3223): 	at com.android.commands.input.Input.run(Input.java:82)
+05-19 13:39:00.954 E/AndroidRuntime( 3223): 	at com.android.commands.input.Input.main(Input.java:59)
+05-19 13:39:00.954 E/AndroidRuntime( 3223): 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+05-19 13:39:00.954 E/AndroidRuntime( 3223): 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+05-19 13:39:00.954 E/AndroidRuntime( 3223): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 13:39:00.954 E/AndroidRuntime( 3223): Error reporting crash
+05-19 13:39:00.954 E/AndroidRuntime( 3223): java.lang.NullPointerException
+05-19 13:39:00.954 E/AndroidRuntime( 3223): 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:86)
+05-19 13:39:00.954 E/AndroidRuntime( 3223): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-19 13:39:00.954 E/AndroidRuntime( 3223): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-19 13:39:00.954 E/AndroidRuntime( 3223): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 13:39:15.944 E/AndroidRuntime( 3315): *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+05-19 13:39:15.944 E/AndroidRuntime( 3315): java.lang.NullPointerException
+05-19 13:39:15.944 E/AndroidRuntime( 3315): 	at com.android.commands.input.Input.sendText(Input.java:173)
+05-19 13:39:15.944 E/AndroidRuntime( 3315): 	at com.android.commands.input.Input.run(Input.java:82)
+05-19 13:39:15.944 E/AndroidRuntime( 3315): 	at com.android.commands.input.Input.main(Input.java:59)
+05-19 13:39:15.944 E/AndroidRuntime( 3315): 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+05-19 13:39:15.944 E/AndroidRuntime( 3315): 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+05-19 13:39:15.944 E/AndroidRuntime( 3315): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 13:39:15.944 E/AndroidRuntime( 3315): Error reporting crash
+05-19 13:39:15.944 E/AndroidRuntime( 3315): java.lang.NullPointerException
+05-19 13:39:15.944 E/AndroidRuntime( 3315): 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:86)
+05-19 13:39:15.944 E/AndroidRuntime( 3315): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-19 13:39:15.944 E/AndroidRuntime( 3315): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-19 13:39:15.944 E/AndroidRuntime( 3315): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 13:39:36.004 E/AndroidRuntime( 3393): *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+05-19 13:39:36.004 E/AndroidRuntime( 3393): java.lang.IllegalStateException: UiAutomationService android.accessibilityservice.IAccessibilityServiceClient$Stub$Proxy@4aab8818already registered!
+05-19 13:39:36.004 E/AndroidRuntime( 3393): 	at android.os.Parcel.readException(Parcel.java:1473)
+05-19 13:39:36.004 E/AndroidRuntime( 3393): 	at android.os.Parcel.readException(Parcel.java:1419)
+05-19 13:39:36.004 E/AndroidRuntime( 3393): 	at android.view.accessibility.IAccessibilityManager$Stub$Proxy.registerUiTestAutomationService(IAccessibilityManager.java:342)
+05-19 13:39:36.004 E/AndroidRuntime( 3393): 	at android.app.UiAutomationConnection.registerUiTestAutomationServiceLocked(UiAutomationConnection.java:175)
+05-19 13:39:36.004 E/AndroidRuntime( 3393): 	at android.app.UiAutomationConnection.connect(UiAutomationConnection.java:72)
+05-19 13:39:36.004 E/AndroidRuntime( 3393): 	at android.app.UiAutomation.connect(UiAutomation.java:188)
+05-19 13:39:36.004 E/AndroidRuntime( 3393): 	at com.android.uiautomator.core.UiAutomationShellWrapper.connect(UiAutomationShellWrapper.java:32)
+05-19 13:39:36.004 E/AndroidRuntime( 3393): 	at com.android.commands.uiautomator.DumpCommand.run(DumpCommand.java:74)
+05-19 13:39:36.004 E/AndroidRuntime( 3393): 	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+05-19 13:39:36.004 E/AndroidRuntime( 3393): 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+05-19 13:39:36.004 E/AndroidRuntime( 3393): 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+05-19 13:39:36.004 E/AndroidRuntime( 3393): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 13:39:36.014 E/AndroidRuntime( 3393): Error reporting crash
+05-19 13:39:36.014 E/AndroidRuntime( 3393): java.lang.NullPointerException
+05-19 13:39:36.014 E/AndroidRuntime( 3393): 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:86)
+05-19 13:39:36.014 E/AndroidRuntime( 3393): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-19 13:39:36.014 E/AndroidRuntime( 3393): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-19 13:39:36.014 E/AndroidRuntime( 3393): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 13:39:45.064 E/AndroidRuntime( 3444): *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+05-19 13:39:45.064 E/AndroidRuntime( 3444): java.lang.IllegalStateException: UiAutomationService android.accessibilityservice.IAccessibilityServiceClient$Stub$Proxy@4a9e8778already registered!
+05-19 13:39:45.064 E/AndroidRuntime( 3444): 	at android.os.Parcel.readException(Parcel.java:1473)
+05-19 13:39:45.064 E/AndroidRuntime( 3444): 	at android.os.Parcel.readException(Parcel.java:1419)
+05-19 13:39:45.064 E/AndroidRuntime( 3444): 	at android.view.accessibility.IAccessibilityManager$Stub$Proxy.registerUiTestAutomationService(IAccessibilityManager.java:342)
+05-19 13:39:45.064 E/AndroidRuntime( 3444): 	at android.app.UiAutomationConnection.registerUiTestAutomationServiceLocked(UiAutomationConnection.java:175)
+05-19 13:39:45.064 E/AndroidRuntime( 3444): 	at android.app.UiAutomationConnection.connect(UiAutomationConnection.java:72)
+05-19 13:39:45.064 E/AndroidRuntime( 3444): 	at android.app.UiAutomation.connect(UiAutomation.java:188)
+05-19 13:39:45.064 E/AndroidRuntime( 3444): 	at com.android.uiautomator.core.UiAutomationShellWrapper.connect(UiAutomationShellWrapper.java:32)
+05-19 13:39:45.064 E/AndroidRuntime( 3444): 	at com.android.commands.uiautomator.DumpCommand.run(DumpCommand.java:74)
+05-19 13:39:45.064 E/AndroidRuntime( 3444): 	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+05-19 13:39:45.064 E/AndroidRuntime( 3444): 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+05-19 13:39:45.064 E/AndroidRuntime( 3444): 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+05-19 13:39:45.064 E/AndroidRuntime( 3444): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 13:39:45.064 E/AndroidRuntime( 3444): Error reporting crash
+05-19 13:39:45.064 E/AndroidRuntime( 3444): java.lang.NullPointerException
+05-19 13:39:45.064 E/AndroidRuntime( 3444): 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:86)
+05-19 13:39:45.064 E/AndroidRuntime( 3444): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-19 13:39:45.064 E/AndroidRuntime( 3444): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-19 13:39:45.064 E/AndroidRuntime( 3444): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 13:40:00.064 E/AndroidRuntime( 3470): *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+05-19 13:40:00.064 E/AndroidRuntime( 3470): java.lang.NullPointerException
+05-19 13:40:00.064 E/AndroidRuntime( 3470): 	at com.android.commands.input.Input.sendText(Input.java:173)
+05-19 13:40:00.064 E/AndroidRuntime( 3470): 	at com.android.commands.input.Input.run(Input.java:82)
+05-19 13:40:00.064 E/AndroidRuntime( 3470): 	at com.android.commands.input.Input.main(Input.java:59)
+05-19 13:40:00.064 E/AndroidRuntime( 3470): 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+05-19 13:40:00.064 E/AndroidRuntime( 3470): 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+05-19 13:40:00.064 E/AndroidRuntime( 3470): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 13:40:00.064 E/AndroidRuntime( 3470): Error reporting crash
+05-19 13:40:00.064 E/AndroidRuntime( 3470): java.lang.NullPointerException
+05-19 13:40:00.064 E/AndroidRuntime( 3470): 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:86)
+05-19 13:40:00.064 E/AndroidRuntime( 3470): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-19 13:40:00.064 E/AndroidRuntime( 3470): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-19 13:40:00.064 E/AndroidRuntime( 3470): 	at dalvik.system.NativeStart.main(Native Method)
+--------- beginning of /dev/log/main
+05-19 13:43:42.804 E/VMSG    ( 3904): RegisterNatives OnUserCommand1
+05-19 13:43:43.104 E/cutils-trace( 3747): Error opening trace file: No such file or directory (2)
+05-19 13:43:43.324 E/baidumapsdk( 3904): Authentication Error errorcode: 230 uid: -1 appid -1 msg: APP Scode码校验失败
+05-19 13:44:24.924 E/NetworkScheduler.ATC(  727): Trying to release unacquired lock: com.google.android.gms/.clearcut.uploader.UploaderService
+05-19 13:44:24.974 E/GCM     (  727): Missing checkin config file
+05-19 13:44:25.184 E/GCM     (  727): Missing checkin config file
+05-19 13:44:25.184 E/GCM     (  727): Missing checkin config file
+05-19 13:44:25.744 E/GCM     (  727): Missing checkin config file
+05-19 13:44:25.744 E/GCM     (  727): Missing checkin config file
+05-19 13:44:41.404 E/memtrack( 3952): Couldn't load memtrack module (No such file or directory)
+05-19 13:44:41.404 E/android.os.Debug( 3952): failed to load memtrack module: -2
+05-19 13:44:42.524 E/cutils-trace( 3952): Error opening trace file: No such file or directory (2)
+05-19 13:44:42.804 E/cutils-trace( 3967): Error opening trace file: No such file or directory (2)
+05-19 13:47:07.784 E/NetworkScheduler(  727): Received callback from client for task that is already complete. ComponentInfo{com.google.android.gms/com.google.android.gms.clearcut.uploader.UploaderService} upload_periodic
+05-19 13:48:41.464 E/GCM     (  727): Missing checkin config file
+05-19 13:50:19.144 E/CheckinTask(  881): Checkin failed: https://android.clients.google.com/checkin (request #0): java.net.SocketTimeoutException: failed to connect to android.clients.google.com/74.125.204.100 (port 443) after 120000ms: isConnected failed: ETIMEDOUT (Connection timed out)
+05-19 13:51:13.594 E/ActivityThread(  881): Failed to find provider info for com.google.android.wearable.settings
+05-19 13:51:13.714 E/Drm     (  171): Failed to open plugin directory /vendor/lib/mediadrm
+05-19 13:51:13.744 E/GCM     (  727): Missing checkin config file
+05-19 13:51:13.744 E/GCM     (  727): Missing checkin config file
+05-19 13:51:14.334 E/GCM     (  727): Missing checkin config file
+05-19 13:51:14.344 E/GCM     (  727): Missing checkin config file
+05-19 13:56:41.754 E/NetworkScheduler.ATC(  727): Trying to release unacquired lock: com.google.android.gms/.clearcut.uploader.UploaderService
+05-19 13:56:41.754 E/NetworkScheduler(  727): Called closeAndCleanupTask for already completed task [com.google.android.gms/.clearcut.uploader.UploaderService:upload_periodic,u0]' :TIMED_OUT
+05-19 13:56:41.794 E/NetworkScheduler(  727): Task completed but with no record in list of active tasks: [com.google.android.gms/.clearcut.uploader.UploaderService:upload_periodic,u0]
+05-19 13:56:41.834 E/GCM     (  727): Missing checkin config file
+05-19 14:03:52.264 E/CheckinTask(  881): Checkin failed: https://android.clients.google.com/checkin (request #0): java.net.SocketTimeoutException: failed to connect to android.clients.google.com/64.233.189.101 (port 443) after 120000ms: isConnected failed: ETIMEDOUT (Connection timed out)
+05-19 14:04:49.974 E/ActivityThread(  881): Failed to find provider info for com.google.android.wearable.settings
+05-19 14:04:50.104 E/GCM     (  727): Missing checkin config file
+05-19 14:04:50.104 E/GCM     (  727): Missing checkin config file
+05-19 14:04:50.134 E/Drm     (  171): Failed to open plugin directory /vendor/lib/mediadrm
+05-19 14:04:51.264 E/GCM     (  727): Missing checkin config file
+05-19 14:04:51.264 E/GCM     (  727): Missing checkin config file
+05-19 14:06:38.604 E/memtrack( 4093): Couldn't load memtrack module (No such file or directory)
+05-19 14:06:38.604 E/android.os.Debug( 4093): failed to load memtrack module: -2
+05-19 14:06:38.624 E/cutils-trace( 4093): Error opening trace file: No such file or directory (2)
+05-19 14:06:40.484 E/BandwidthController(  164): Updating quota globalAlert failed (No such file or directory)
+05-19 14:07:39.334 E/memtrack( 4117): Couldn't load memtrack module (No such file or directory)
+05-19 14:07:39.334 E/android.os.Debug( 4117): failed to load memtrack module: -2
+05-19 14:07:39.354 E/cutils-trace( 4117): Error opening trace file: No such file or directory (2)
+05-19 14:07:40.294 E/memtrack( 4133): Couldn't load memtrack module (No such file or directory)
+05-19 14:07:40.294 E/android.os.Debug( 4133): failed to load memtrack module: -2
+05-19 14:07:40.314 E/cutils-trace( 4133): Error opening trace file: No such file or directory (2)
+05-19 14:07:41.454 E/memtrack( 4149): Couldn't load memtrack module (No such file or directory)
+05-19 14:07:41.454 E/android.os.Debug( 4149): failed to load memtrack module: -2
+05-19 14:07:41.484 E/cutils-trace( 4149): Error opening trace file: No such file or directory (2)
+05-19 14:07:42.224 E/memtrack( 4161): Couldn't load memtrack module (No such file or directory)
+05-19 14:07:42.224 E/android.os.Debug( 4161): failed to load memtrack module: -2
+05-19 14:07:42.254 E/cutils-trace( 4161): Error opening trace file: No such file or directory (2)
+05-19 14:07:43.674 E/memtrack( 4173): Couldn't load memtrack module (No such file or directory)
+05-19 14:07:43.674 E/android.os.Debug( 4173): failed to load memtrack module: -2
+05-19 14:07:43.694 E/cutils-trace( 4173): Error opening trace file: No such file or directory (2)
+05-19 14:07:44.554 E/memtrack( 4185): Couldn't load memtrack module (No such file or directory)
+05-19 14:07:44.554 E/android.os.Debug( 4185): failed to load memtrack module: -2
+05-19 14:07:44.564 E/cutils-trace( 4185): Error opening trace file: No such file or directory (2)
+05-19 14:07:45.274 E/memtrack( 4197): Couldn't load memtrack module (No such file or directory)
+05-19 14:07:45.274 E/android.os.Debug( 4197): failed to load memtrack module: -2
+05-19 14:07:45.294 E/cutils-trace( 4197): Error opening trace file: No such file or directory (2)
+05-19 14:07:46.354 E/memtrack( 4213): Couldn't load memtrack module (No such file or directory)
+05-19 14:07:46.354 E/android.os.Debug( 4213): failed to load memtrack module: -2
+05-19 14:07:46.384 E/cutils-trace( 4213): Error opening trace file: No such file or directory (2)
+05-19 14:07:47.034 E/memtrack( 4225): Couldn't load memtrack module (No such file or directory)
+05-19 14:07:47.034 E/android.os.Debug( 4225): failed to load memtrack module: -2
+05-19 14:07:47.054 E/cutils-trace( 4225): Error opening trace file: No such file or directory (2)
+05-19 14:07:51.134 E/memtrack( 4244): Couldn't load memtrack module (No such file or directory)
+05-19 14:07:51.134 E/android.os.Debug( 4244): failed to load memtrack module: -2
+05-19 14:07:51.154 E/cutils-trace( 4244): Error opening trace file: No such file or directory (2)
+05-19 14:07:51.934 E/memtrack( 4256): Couldn't load memtrack module (No such file or directory)
+05-19 14:07:51.934 E/android.os.Debug( 4256): failed to load memtrack module: -2
+05-19 14:07:51.954 E/cutils-trace( 4256): Error opening trace file: No such file or directory (2)
+05-19 14:07:52.744 E/memtrack( 4276): Couldn't load memtrack module (No such file or directory)
+05-19 14:07:52.744 E/android.os.Debug( 4276): failed to load memtrack module: -2
+05-19 14:07:52.774 E/cutils-trace( 4276): Error opening trace file: No such file or directory (2)
+05-19 14:07:53.554 E/memtrack( 4300): Couldn't load memtrack module (No such file or directory)
+05-19 14:07:53.554 E/android.os.Debug( 4300): failed to load memtrack module: -2
+05-19 14:07:53.574 E/cutils-trace( 4300): Error opening trace file: No such file or directory (2)
+05-19 14:07:54.294 E/memtrack( 4312): Couldn't load memtrack module (No such file or directory)
+05-19 14:07:54.294 E/android.os.Debug( 4312): failed to load memtrack module: -2
+05-19 14:07:54.324 E/cutils-trace( 4312): Error opening trace file: No such file or directory (2)
+05-19 14:07:55.244 E/memtrack( 4326): Couldn't load memtrack module (No such file or directory)
+05-19 14:07:55.244 E/android.os.Debug( 4326): failed to load memtrack module: -2
+05-19 14:07:55.264 E/cutils-trace( 4326): Error opening trace file: No such file or directory (2)
+05-19 14:07:55.834 E/memtrack( 4338): Couldn't load memtrack module (No such file or directory)
+05-19 14:07:55.834 E/android.os.Debug( 4338): failed to load memtrack module: -2
+05-19 14:07:58.194 E/memtrack( 4369): Couldn't load memtrack module (No such file or directory)
+05-19 14:07:58.194 E/android.os.Debug( 4369): failed to load memtrack module: -2
+05-19 14:07:58.774 E/VMSG    ( 4381): RegisterNatives OnUserCommand1
+05-19 14:07:59.154 E/baidumapsdk( 4381): Authentication Error errorcode: 230 uid: -1 appid -1 msg: APP Scode码校验失败
+05-19 14:07:59.164 E/cutils-trace( 4369): Error opening trace file: No such file or directory (2)
+05-19 14:07:59.844 E/memtrack( 4410): Couldn't load memtrack module (No such file or directory)
+05-19 14:07:59.844 E/android.os.Debug( 4410): failed to load memtrack module: -2
+05-19 14:07:59.854 E/InputDispatcher(  479): channel '4a9c6890 com.boco.sc.mobileom/com.boco.sc.mobileom.start.StartLogin (server)' ~ Channel is unrecoverably broken and will be disposed!
+05-19 14:07:59.884 E/cutils-trace( 4410): Error opening trace file: No such file or directory (2)
+05-19 14:08:00.444 E/cutils-trace( 4338): Error opening trace file: No such file or directory (2)
+05-19 14:08:01.464 E/memtrack( 4432): Couldn't load memtrack module (No such file or directory)
+05-19 14:08:01.464 E/android.os.Debug( 4432): failed to load memtrack module: -2
+05-19 14:08:01.484 E/cutils-trace( 4432): Error opening trace file: No such file or directory (2)
+05-19 14:08:02.484 E/memtrack( 4448): Couldn't load memtrack module (No such file or directory)
+05-19 14:08:02.484 E/android.os.Debug( 4448): failed to load memtrack module: -2
+05-19 14:08:02.504 E/cutils-trace( 4448): Error opening trace file: No such file or directory (2)
+05-19 14:08:03.664 E/memtrack( 4464): Couldn't load memtrack module (No such file or directory)
+05-19 14:08:03.664 E/android.os.Debug( 4464): failed to load memtrack module: -2
+05-19 14:08:03.684 E/cutils-trace( 4464): Error opening trace file: No such file or directory (2)
+05-19 14:08:04.704 E/memtrack( 4476): Couldn't load memtrack module (No such file or directory)
+05-19 14:08:04.704 E/android.os.Debug( 4476): failed to load memtrack module: -2
+05-19 14:08:04.714 E/cutils-trace( 4476): Error opening trace file: No such file or directory (2)
+05-19 14:08:05.544 E/memtrack( 4488): Couldn't load memtrack module (No such file or directory)
+05-19 14:08:05.554 E/android.os.Debug( 4488): failed to load memtrack module: -2
+05-19 14:08:05.574 E/cutils-trace( 4488): Error opening trace file: No such file or directory (2)
+05-19 14:08:06.364 E/memtrack( 4502): Couldn't load memtrack module (No such file or directory)
+05-19 14:08:06.364 E/android.os.Debug( 4502): failed to load memtrack module: -2
+05-19 14:08:06.384 E/cutils-trace( 4502): Error opening trace file: No such file or directory (2)
+05-19 14:08:07.094 E/memtrack( 4514): Couldn't load memtrack module (No such file or directory)
+05-19 14:08:07.094 E/android.os.Debug( 4514): failed to load memtrack module: -2
+05-19 14:08:07.114 E/cutils-trace( 4514): Error opening trace file: No such file or directory (2)
+05-19 14:08:08.144 E/memtrack( 4530): Couldn't load memtrack module (No such file or directory)
+05-19 14:08:08.144 E/android.os.Debug( 4530): failed to load memtrack module: -2
+05-19 14:08:08.164 E/cutils-trace( 4530): Error opening trace file: No such file or directory (2)
+05-19 14:08:08.814 E/memtrack( 4542): Couldn't load memtrack module (No such file or directory)
+05-19 14:08:08.814 E/android.os.Debug( 4542): failed to load memtrack module: -2
+05-19 14:08:08.834 E/cutils-trace( 4542): Error opening trace file: No such file or directory (2)
+05-19 14:08:12.864 E/memtrack( 4561): Couldn't load memtrack module (No such file or directory)
+05-19 14:08:12.864 E/android.os.Debug( 4561): failed to load memtrack module: -2
+05-19 14:08:12.884 E/cutils-trace( 4561): Error opening trace file: No such file or directory (2)
+05-19 14:08:13.594 E/memtrack( 4573): Couldn't load memtrack module (No such file or directory)
+05-19 14:08:13.594 E/android.os.Debug( 4573): failed to load memtrack module: -2
+05-19 14:08:13.604 E/cutils-trace( 4573): Error opening trace file: No such file or directory (2)
+05-19 14:08:14.254 E/memtrack( 4585): Couldn't load memtrack module (No such file or directory)
+05-19 14:08:14.254 E/android.os.Debug( 4585): failed to load memtrack module: -2
+05-19 14:08:14.294 E/cutils-trace( 4585): Error opening trace file: No such file or directory (2)
+05-19 14:08:15.024 E/memtrack( 4609): Couldn't load memtrack module (No such file or directory)
+05-19 14:08:15.024 E/android.os.Debug( 4609): failed to load memtrack module: -2
+05-19 14:08:15.044 E/cutils-trace( 4609): Error opening trace file: No such file or directory (2)
+05-19 14:08:15.694 E/memtrack( 4621): Couldn't load memtrack module (No such file or directory)
+05-19 14:08:15.694 E/android.os.Debug( 4621): failed to load memtrack module: -2
+05-19 14:08:15.714 E/cutils-trace( 4621): Error opening trace file: No such file or directory (2)
+05-19 14:08:16.574 E/memtrack( 4635): Couldn't load memtrack module (No such file or directory)
+05-19 14:08:16.574 E/android.os.Debug( 4635): failed to load memtrack module: -2
+05-19 14:08:16.594 E/cutils-trace( 4635): Error opening trace file: No such file or directory (2)
+05-19 14:08:17.114 E/memtrack( 4647): Couldn't load memtrack module (No such file or directory)
+05-19 14:08:17.114 E/android.os.Debug( 4647): failed to load memtrack module: -2
+05-19 14:08:19.454 E/memtrack( 4678): Couldn't load memtrack module (No such file or directory)
+05-19 14:08:19.454 E/android.os.Debug( 4678): failed to load memtrack module: -2
+05-19 14:08:19.994 E/VMSG    ( 4690): RegisterNatives OnUserCommand1
+05-19 14:08:20.344 E/baidumapsdk( 4690): Authentication Error errorcode: 230 uid: -1 appid -1 msg: APP Scode码校验失败
+05-19 14:08:20.344 E/cutils-trace( 4678): Error opening trace file: No such file or directory (2)
+05-19 14:08:21.034 E/memtrack( 4718): Couldn't load memtrack module (No such file or directory)
+05-19 14:08:21.034 E/android.os.Debug( 4718): failed to load memtrack module: -2
+05-19 14:08:21.054 E/InputDispatcher(  479): channel '4a9d5b6c com.boco.sc.mobileom/com.boco.sc.mobileom.start.StartLogin (server)' ~ Channel is unrecoverably broken and will be disposed!
+05-19 14:08:21.064 E/cutils-trace( 4718): Error opening trace file: No such file or directory (2)
+05-19 14:08:21.754 E/cutils-trace( 4647): Error opening trace file: No such file or directory (2)
+05-19 14:08:22.654 E/memtrack( 4741): Couldn't load memtrack module (No such file or directory)
+05-19 14:08:22.654 E/android.os.Debug( 4741): failed to load memtrack module: -2
+05-19 14:08:22.674 E/cutils-trace( 4741): Error opening trace file: No such file or directory (2)
+05-19 14:08:23.324 E/memtrack( 4753): Couldn't load memtrack module (No such file or directory)
+05-19 14:08:23.324 E/android.os.Debug( 4753): failed to load memtrack module: -2
+05-19 14:08:23.334 E/cutils-trace( 4753): Error opening trace file: No such file or directory (2)
+05-19 14:08:24.154 E/memtrack( 4765): Couldn't load memtrack module (No such file or directory)
+05-19 14:08:24.154 E/android.os.Debug( 4765): failed to load memtrack module: -2
+05-19 14:08:24.174 E/cutils-trace( 4765): Error opening trace file: No such file or directory (2)
+05-19 14:08:24.984 E/memtrack( 4777): Couldn't load memtrack module (No such file or directory)
+05-19 14:08:24.984 E/android.os.Debug( 4777): failed to load memtrack module: -2
+05-19 14:08:25.004 E/cutils-trace( 4777): Error opening trace file: No such file or directory (2)
+05-19 14:08:25.704 E/memtrack( 4789): Couldn't load memtrack module (No such file or directory)
+05-19 14:08:25.704 E/android.os.Debug( 4789): failed to load memtrack module: -2
+05-19 14:08:25.724 E/cutils-trace( 4789): Error opening trace file: No such file or directory (2)
+05-19 14:08:26.794 E/memtrack( 4805): Couldn't load memtrack module (No such file or directory)
+05-19 14:08:26.794 E/android.os.Debug( 4805): failed to load memtrack module: -2
+05-19 14:08:26.824 E/cutils-trace( 4805): Error opening trace file: No such file or directory (2)
+05-19 14:08:27.474 E/memtrack( 4817): Couldn't load memtrack module (No such file or directory)
+05-19 14:08:27.474 E/android.os.Debug( 4817): failed to load memtrack module: -2
+05-19 14:08:27.494 E/cutils-trace( 4817): Error opening trace file: No such file or directory (2)
+05-19 14:08:28.304 E/memtrack( 4831): Couldn't load memtrack module (No such file or directory)
+05-19 14:08:28.304 E/android.os.Debug( 4831): failed to load memtrack module: -2
+05-19 14:08:28.324 E/cutils-trace( 4831): Error opening trace file: No such file or directory (2)
+05-19 14:08:29.514 E/memtrack( 4849): Couldn't load memtrack module (No such file or directory)
+05-19 14:08:29.514 E/android.os.Debug( 4849): failed to load memtrack module: -2
+05-19 14:08:29.534 E/cutils-trace( 4849): Error opening trace file: No such file or directory (2)
+05-19 14:08:30.184 E/memtrack( 4861): Couldn't load memtrack module (No such file or directory)
+05-19 14:08:30.184 E/android.os.Debug( 4861): failed to load memtrack module: -2
+05-19 14:08:30.194 E/cutils-trace( 4861): Error opening trace file: No such file or directory (2)
+05-19 14:08:30.854 E/memtrack( 4873): Couldn't load memtrack module (No such file or directory)
+05-19 14:08:30.854 E/android.os.Debug( 4873): failed to load memtrack module: -2
+05-19 14:08:30.874 E/cutils-trace( 4873): Error opening trace file: No such file or directory (2)
+05-19 14:08:34.354 E/memtrack( 4903): Couldn't load memtrack module (No such file or directory)
+05-19 14:08:34.354 E/android.os.Debug( 4903): failed to load memtrack module: -2
+05-19 14:08:35.184 E/memtrack( 4920): Couldn't load memtrack module (No such file or directory)
+05-19 14:08:35.184 E/android.os.Debug( 4920): failed to load memtrack module: -2
+05-19 14:08:35.594 E/QueryController( 4903): Got null root node from accessibility - Retrying...
+05-19 14:08:35.754 E/VMSG    ( 4933): RegisterNatives OnUserCommand1
+05-19 14:08:35.844 E/QueryController( 4903): Got null root node from accessibility - Retrying...
+05-19 14:08:36.134 E/cutils-trace( 4920): Error opening trace file: No such file or directory (2)
+05-19 14:08:36.134 E/baidumapsdk( 4933): Authentication Error errorcode: 230 uid: -1 appid -1 msg: APP Scode码校验失败
+05-19 14:08:39.314 E/cutils-trace( 4903): Error opening trace file: No such file or directory (2)
+05-19 14:09:59.704 E/memtrack( 4999): Couldn't load memtrack module (No such file or directory)
+05-19 14:09:59.704 E/android.os.Debug( 4999): failed to load memtrack module: -2
+05-19 14:09:59.724 E/cutils-trace( 4999): Error opening trace file: No such file or directory (2)
+05-19 14:10:00.454 E/memtrack( 5011): Couldn't load memtrack module (No such file or directory)
+05-19 14:10:00.454 E/android.os.Debug( 5011): failed to load memtrack module: -2
+05-19 14:10:00.474 E/InputDispatcher(  479): channel '4a9a7420 com.boco.sc.mobileom/com.boco.sc.mobileom.start.StartLogin (server)' ~ Channel is unrecoverably broken and will be disposed!
+05-19 14:10:00.484 E/cutils-trace( 5011): Error opening trace file: No such file or directory (2)
+05-19 14:10:00.514 E/QueryController( 4903): Got null root node from accessibility - Retrying...
+05-19 14:10:01.274 E/memtrack( 5028): Couldn't load memtrack module (No such file or directory)
+05-19 14:10:01.274 E/android.os.Debug( 5028): failed to load memtrack module: -2
+05-19 14:10:01.304 E/cutils-trace( 5028): Error opening trace file: No such file or directory (2)
+05-19 14:10:02.354 E/memtrack( 5044): Couldn't load memtrack module (No such file or directory)
+05-19 14:10:02.354 E/android.os.Debug( 5044): failed to load memtrack module: -2
+05-19 14:10:02.374 E/cutils-trace( 5044): Error opening trace file: No such file or directory (2)
+05-19 14:10:04.004 E/memtrack( 5060): Couldn't load memtrack module (No such file or directory)
+05-19 14:10:04.004 E/android.os.Debug( 5060): failed to load memtrack module: -2
+05-19 14:10:04.034 E/cutils-trace( 5060): Error opening trace file: No such file or directory (2)
+05-19 14:10:04.884 E/memtrack( 5072): Couldn't load memtrack module (No such file or directory)
+05-19 14:10:04.884 E/android.os.Debug( 5072): failed to load memtrack module: -2
+05-19 14:10:04.904 E/cutils-trace( 5072): Error opening trace file: No such file or directory (2)
+05-19 14:10:05.824 E/memtrack( 5084): Couldn't load memtrack module (No such file or directory)
+05-19 14:10:05.824 E/android.os.Debug( 5084): failed to load memtrack module: -2
+05-19 14:10:05.844 E/cutils-trace( 5084): Error opening trace file: No such file or directory (2)
+05-19 14:10:06.764 E/memtrack( 5096): Couldn't load memtrack module (No such file or directory)
+05-19 14:10:06.764 E/android.os.Debug( 5096): failed to load memtrack module: -2
+05-19 14:10:06.784 E/cutils-trace( 5096): Error opening trace file: No such file or directory (2)
+05-19 14:10:07.524 E/memtrack( 5109): Couldn't load memtrack module (No such file or directory)
+05-19 14:10:07.524 E/android.os.Debug( 5109): failed to load memtrack module: -2
+05-19 14:10:07.554 E/cutils-trace( 5109): Error opening trace file: No such file or directory (2)
+05-19 14:10:08.774 E/memtrack( 5125): Couldn't load memtrack module (No such file or directory)
+05-19 14:10:08.774 E/android.os.Debug( 5125): failed to load memtrack module: -2
+05-19 14:10:08.794 E/cutils-trace( 5125): Error opening trace file: No such file or directory (2)
+05-19 14:10:09.494 E/memtrack( 5137): Couldn't load memtrack module (No such file or directory)
+05-19 14:10:09.494 E/android.os.Debug( 5137): failed to load memtrack module: -2
+05-19 14:10:09.514 E/cutils-trace( 5137): Error opening trace file: No such file or directory (2)
+05-19 14:10:10.354 E/memtrack( 5151): Couldn't load memtrack module (No such file or directory)
+05-19 14:10:10.354 E/android.os.Debug( 5151): failed to load memtrack module: -2
+05-19 14:10:10.374 E/cutils-trace( 5151): Error opening trace file: No such file or directory (2)
+05-19 14:10:11.624 E/memtrack( 5169): Couldn't load memtrack module (No such file or directory)
+05-19 14:10:11.624 E/android.os.Debug( 5169): failed to load memtrack module: -2
+05-19 14:10:11.644 E/cutils-trace( 5169): Error opening trace file: No such file or directory (2)
+05-19 14:10:12.334 E/memtrack( 5181): Couldn't load memtrack module (No such file or directory)
+05-19 14:10:12.334 E/android.os.Debug( 5181): failed to load memtrack module: -2
+05-19 14:10:12.364 E/cutils-trace( 5181): Error opening trace file: No such file or directory (2)
+05-19 14:10:13.064 E/memtrack( 5193): Couldn't load memtrack module (No such file or directory)
+05-19 14:10:13.064 E/android.os.Debug( 5193): failed to load memtrack module: -2
+05-19 14:10:13.094 E/cutils-trace( 5193): Error opening trace file: No such file or directory (2)
+05-19 14:10:16.834 E/memtrack( 5223): Couldn't load memtrack module (No such file or directory)
+05-19 14:10:16.834 E/android.os.Debug( 5223): failed to load memtrack module: -2
+05-19 14:10:17.724 E/memtrack( 5240): Couldn't load memtrack module (No such file or directory)
+05-19 14:10:17.724 E/android.os.Debug( 5240): failed to load memtrack module: -2
+05-19 14:10:18.074 E/QueryController( 5223): Got null root node from accessibility - Retrying...
+05-19 14:10:18.324 E/QueryController( 5223): Got null root node from accessibility - Retrying...
+05-19 14:10:18.344 E/VMSG    ( 5252): RegisterNatives OnUserCommand1
+05-19 14:10:18.574 E/QueryController( 5223): Got null root node from accessibility - Retrying...
+05-19 14:10:18.744 E/baidumapsdk( 5252): Authentication Error errorcode: 230 uid: -1 appid -1 msg: APP Scode码校验失败
+05-19 14:10:18.744 E/cutils-trace( 5240): Error opening trace file: No such file or directory (2)
+05-19 14:10:19.184 E/cutils-trace( 5281): Error opening trace file: No such file or directory (2)
+05-19 14:10:20.814 E/cutils-trace( 5223): Error opening trace file: No such file or directory (2)
+05-19 14:10:27.944 E/memtrack( 5287): Couldn't load memtrack module (No such file or directory)
+05-19 14:10:27.944 E/android.os.Debug( 5287): failed to load memtrack module: -2
+05-19 14:10:28.854 E/cutils-trace( 5287): Error opening trace file: No such file or directory (2)
+05-19 14:10:34.754 E/memtrack( 5301): Couldn't load memtrack module (No such file or directory)
+05-19 14:10:34.754 E/android.os.Debug( 5301): failed to load memtrack module: -2
+05-19 14:10:35.724 E/cutils-trace( 5301): Error opening trace file: No such file or directory (2)
+05-19 14:10:43.354 E/memtrack( 5316): Couldn't load memtrack module (No such file or directory)
+05-19 14:10:43.354 E/android.os.Debug( 5316): failed to load memtrack module: -2
+05-19 14:10:43.374 E/JavaBinder(  479): !!! FAILED BINDER TRANSACTION !!!
+05-19 14:10:43.374 E/QueryController( 5223): Got null root node from accessibility - Retrying...
+05-19 14:10:43.384 E/cutils-trace( 5316): Error opening trace file: No such file or directory (2)
+05-19 14:10:45.354 E/memtrack( 5332): Couldn't load memtrack module (No such file or directory)
+05-19 14:10:45.354 E/android.os.Debug( 5332): failed to load memtrack module: -2
+05-19 14:10:45.364 E/cutils-trace( 5332): Error opening trace file: No such file or directory (2)
+05-19 14:10:46.154 E/memtrack( 5343): Couldn't load memtrack module (No such file or directory)
+05-19 14:10:46.154 E/android.os.Debug( 5343): failed to load memtrack module: -2
+05-19 14:10:46.174 E/cutils-trace( 5343): Error opening trace file: No such file or directory (2)
+05-19 14:10:46.974 E/memtrack( 5354): Couldn't load memtrack module (No such file or directory)
+05-19 14:10:46.974 E/android.os.Debug( 5354): failed to load memtrack module: -2
+05-19 14:10:46.994 E/cutils-trace( 5354): Error opening trace file: No such file or directory (2)
+05-19 14:10:47.924 E/memtrack( 5370): Couldn't load memtrack module (No such file or directory)
+05-19 14:10:47.924 E/android.os.Debug( 5370): failed to load memtrack module: -2
+05-19 14:10:47.944 E/cutils-trace( 5370): Error opening trace file: No such file or directory (2)
+05-19 14:10:49.214 E/memtrack( 5385): Couldn't load memtrack module (No such file or directory)
+05-19 14:10:49.214 E/android.os.Debug( 5385): failed to load memtrack module: -2
+05-19 14:10:49.234 E/cutils-trace( 5385): Error opening trace file: No such file or directory (2)
+05-19 14:10:49.884 E/memtrack( 5397): Couldn't load memtrack module (No such file or directory)
+05-19 14:10:49.884 E/android.os.Debug( 5397): failed to load memtrack module: -2
+05-19 14:10:49.904 E/cutils-trace( 5397): Error opening trace file: No such file or directory (2)
+05-19 14:10:50.714 E/memtrack( 5409): Couldn't load memtrack module (No such file or directory)
+05-19 14:10:50.714 E/android.os.Debug( 5409): failed to load memtrack module: -2
+05-19 14:10:50.734 E/cutils-trace( 5409): Error opening trace file: No such file or directory (2)
+05-19 14:10:51.554 E/memtrack( 5421): Couldn't load memtrack module (No such file or directory)
+05-19 14:10:51.554 E/android.os.Debug( 5421): failed to load memtrack module: -2
+05-19 14:10:51.574 E/cutils-trace( 5421): Error opening trace file: No such file or directory (2)
+05-19 14:10:52.604 E/memtrack( 5433): Couldn't load memtrack module (No such file or directory)
+05-19 14:10:52.604 E/android.os.Debug( 5433): failed to load memtrack module: -2
+05-19 14:10:52.624 E/cutils-trace( 5433): Error opening trace file: No such file or directory (2)
+05-19 14:10:53.654 E/memtrack( 5449): Couldn't load memtrack module (No such file or directory)
+05-19 14:10:53.654 E/android.os.Debug( 5449): failed to load memtrack module: -2
+05-19 14:10:53.674 E/cutils-trace( 5449): Error opening trace file: No such file or directory (2)
+05-19 14:10:54.324 E/memtrack( 5461): Couldn't load memtrack module (No such file or directory)
+05-19 14:10:54.324 E/android.os.Debug( 5461): failed to load memtrack module: -2
+05-19 14:10:54.354 E/cutils-trace( 5461): Error opening trace file: No such file or directory (2)
+05-19 14:10:55.154 E/memtrack( 5475): Couldn't load memtrack module (No such file or directory)
+05-19 14:10:55.154 E/android.os.Debug( 5475): failed to load memtrack module: -2
+05-19 14:10:55.174 E/cutils-trace( 5475): Error opening trace file: No such file or directory (2)
+05-19 14:10:56.354 E/memtrack( 5493): Couldn't load memtrack module (No such file or directory)
+05-19 14:10:56.354 E/android.os.Debug( 5493): failed to load memtrack module: -2
+05-19 14:10:56.384 E/cutils-trace( 5493): Error opening trace file: No such file or directory (2)
+05-19 14:10:57.034 E/memtrack( 5505): Couldn't load memtrack module (No such file or directory)
+05-19 14:10:57.034 E/android.os.Debug( 5505): failed to load memtrack module: -2
+05-19 14:10:57.044 E/cutils-trace( 5505): Error opening trace file: No such file or directory (2)
+05-19 14:10:57.694 E/memtrack( 5517): Couldn't load memtrack module (No such file or directory)
+05-19 14:10:57.694 E/android.os.Debug( 5517): failed to load memtrack module: -2
+05-19 14:10:57.724 E/cutils-trace( 5517): Error opening trace file: No such file or directory (2)
+05-19 14:11:01.214 E/memtrack( 5547): Couldn't load memtrack module (No such file or directory)
+05-19 14:11:01.214 E/android.os.Debug( 5547): failed to load memtrack module: -2
+05-19 14:11:02.054 E/memtrack( 5564): Couldn't load memtrack module (No such file or directory)
+05-19 14:11:02.054 E/android.os.Debug( 5564): failed to load memtrack module: -2
+05-19 14:11:02.404 E/QueryController( 5547): Got null root node from accessibility - Retrying...
+05-19 14:11:02.614 E/VMSG    ( 5576): RegisterNatives OnUserCommand1
+05-19 14:11:02.654 E/QueryController( 5547): Got null root node from accessibility - Retrying...
+05-19 14:11:02.974 E/baidumapsdk( 5576): Authentication Error errorcode: 230 uid: -1 appid -1 msg: APP Scode码校验失败
+05-19 14:11:02.984 E/cutils-trace( 5564): Error opening trace file: No such file or directory (2)
+05-19 14:11:05.164 E/cutils-trace( 5547): Error opening trace file: No such file or directory (2)
+05-19 14:11:07.104 E/memtrack( 5603): Couldn't load memtrack module (No such file or directory)
+05-19 14:11:07.104 E/android.os.Debug( 5603): failed to load memtrack module: -2
+05-19 14:11:08.004 E/cutils-trace( 5603): Error opening trace file: No such file or directory (2)
+05-19 14:11:13.924 E/memtrack( 5617): Couldn't load memtrack module (No such file or directory)
+05-19 14:11:13.924 E/android.os.Debug( 5617): failed to load memtrack module: -2
+05-19 14:11:14.914 E/cutils-trace( 5617): Error opening trace file: No such file or directory (2)
+05-19 14:11:23.014 E/cutils-trace( 5635): Error opening trace file: No such file or directory (2)
+05-19 14:11:33.224 E/memtrack( 5643): Couldn't load memtrack module (No such file or directory)
+05-19 14:11:33.224 E/android.os.Debug( 5643): failed to load memtrack module: -2
+05-19 14:11:33.264 E/cutils-trace( 5643): Error opening trace file: No such file or directory (2)
+05-19 14:11:35.114 E/memtrack( 5659): Couldn't load memtrack module (No such file or directory)
+05-19 14:11:35.114 E/android.os.Debug( 5659): failed to load memtrack module: -2
+05-19 14:11:35.134 E/cutils-trace( 5659): Error opening trace file: No such file or directory (2)
+05-19 14:11:35.844 E/memtrack( 5671): Couldn't load memtrack module (No such file or directory)
+05-19 14:11:35.844 E/android.os.Debug( 5671): failed to load memtrack module: -2
+05-19 14:11:35.854 E/cutils-trace( 5671): Error opening trace file: No such file or directory (2)
+05-19 14:11:36.524 E/memtrack( 5683): Couldn't load memtrack module (No such file or directory)
+05-19 14:11:36.524 E/android.os.Debug( 5683): failed to load memtrack module: -2
+05-19 14:11:36.544 E/cutils-trace( 5683): Error opening trace file: No such file or directory (2)
+05-19 14:11:37.514 E/memtrack( 5699): Couldn't load memtrack module (No such file or directory)
+05-19 14:11:37.514 E/android.os.Debug( 5699): failed to load memtrack module: -2
+05-19 14:11:37.534 E/cutils-trace( 5699): Error opening trace file: No such file or directory (2)
+05-19 14:11:38.804 E/memtrack( 5716): Couldn't load memtrack module (No such file or directory)
+05-19 14:11:38.804 E/android.os.Debug( 5716): failed to load memtrack module: -2
+05-19 14:11:38.824 E/cutils-trace( 5716): Error opening trace file: No such file or directory (2)
+05-19 14:11:39.484 E/memtrack( 5728): Couldn't load memtrack module (No such file or directory)
+05-19 14:11:39.484 E/android.os.Debug( 5728): failed to load memtrack module: -2
+05-19 14:11:39.494 E/cutils-trace( 5728): Error opening trace file: No such file or directory (2)
+05-19 14:11:40.314 E/memtrack( 5740): Couldn't load memtrack module (No such file or directory)
+05-19 14:11:40.314 E/android.os.Debug( 5740): failed to load memtrack module: -2
+05-19 14:11:40.334 E/cutils-trace( 5740): Error opening trace file: No such file or directory (2)
+05-19 14:11:41.154 E/memtrack( 5752): Couldn't load memtrack module (No such file or directory)
+05-19 14:11:41.154 E/android.os.Debug( 5752): failed to load memtrack module: -2
+05-19 14:11:41.174 E/cutils-trace( 5752): Error opening trace file: No such file or directory (2)
+05-19 14:11:41.874 E/memtrack( 5764): Couldn't load memtrack module (No such file or directory)
+05-19 14:11:41.874 E/android.os.Debug( 5764): failed to load memtrack module: -2
+05-19 14:11:41.904 E/cutils-trace( 5764): Error opening trace file: No such file or directory (2)
+05-19 14:11:42.954 E/memtrack( 5780): Couldn't load memtrack module (No such file or directory)
+05-19 14:11:42.954 E/android.os.Debug( 5780): failed to load memtrack module: -2
+05-19 14:11:42.984 E/cutils-trace( 5780): Error opening trace file: No such file or directory (2)
+05-19 14:11:43.624 E/memtrack( 5792): Couldn't load memtrack module (No such file or directory)
+05-19 14:11:43.624 E/android.os.Debug( 5792): failed to load memtrack module: -2
+05-19 14:11:43.654 E/cutils-trace( 5792): Error opening trace file: No such file or directory (2)
+05-19 14:11:44.444 E/memtrack( 5806): Couldn't load memtrack module (No such file or directory)
+05-19 14:11:44.444 E/android.os.Debug( 5806): failed to load memtrack module: -2
+05-19 14:11:44.464 E/cutils-trace( 5806): Error opening trace file: No such file or directory (2)
+05-19 14:11:45.644 E/memtrack( 5824): Couldn't load memtrack module (No such file or directory)
+05-19 14:11:45.644 E/android.os.Debug( 5824): failed to load memtrack module: -2
+05-19 14:11:45.664 E/cutils-trace( 5824): Error opening trace file: No such file or directory (2)
+05-19 14:11:46.304 E/memtrack( 5836): Couldn't load memtrack module (No such file or directory)
+05-19 14:11:46.304 E/android.os.Debug( 5836): failed to load memtrack module: -2
+05-19 14:11:46.324 E/cutils-trace( 5836): Error opening trace file: No such file or directory (2)
+05-19 14:11:46.974 E/memtrack( 5848): Couldn't load memtrack module (No such file or directory)
+05-19 14:11:46.974 E/android.os.Debug( 5848): failed to load memtrack module: -2
+05-19 14:11:46.994 E/cutils-trace( 5848): Error opening trace file: No such file or directory (2)
+05-19 14:11:50.584 E/memtrack( 5877): Couldn't load memtrack module (No such file or directory)
+05-19 14:11:50.584 E/android.os.Debug( 5877): failed to load memtrack module: -2
+05-19 14:11:51.444 E/memtrack( 5894): Couldn't load memtrack module (No such file or directory)
+05-19 14:11:51.444 E/android.os.Debug( 5894): failed to load memtrack module: -2
+05-19 14:11:51.764 E/QueryController( 5877): Got null root node from accessibility - Retrying...
+05-19 14:11:52.004 E/VMSG    ( 5907): RegisterNatives OnUserCommand1
+05-19 14:11:52.014 E/QueryController( 5877): Got null root node from accessibility - Retrying...
+05-19 14:11:52.264 E/QueryController( 5877): Got null root node from accessibility - Retrying...
+05-19 14:11:52.334 E/baidumapsdk( 5907): Authentication Error errorcode: 230 uid: -1 appid -1 msg: APP Scode码校验失败
+05-19 14:11:52.344 E/cutils-trace( 5894): Error opening trace file: No such file or directory (2)
+05-19 14:11:54.554 E/cutils-trace( 5877): Error opening trace file: No such file or directory (2)
+05-19 14:11:56.634 E/memtrack( 5933): Couldn't load memtrack module (No such file or directory)
+05-19 14:11:56.634 E/android.os.Debug( 5933): failed to load memtrack module: -2
+05-19 14:11:57.514 E/cutils-trace( 5933): Error opening trace file: No such file or directory (2)
+05-19 14:12:03.424 E/memtrack( 5946): Couldn't load memtrack module (No such file or directory)
+05-19 14:12:03.424 E/android.os.Debug( 5946): failed to load memtrack module: -2
+05-19 14:12:04.414 E/cutils-trace( 5946): Error opening trace file: No such file or directory (2)
+05-19 14:12:24.954 E/memtrack( 5969): Couldn't load memtrack module (No such file or directory)
+05-19 14:12:24.954 E/android.os.Debug( 5969): failed to load memtrack module: -2
+05-19 14:12:26.344 E/cutils-trace( 5969): Error opening trace file: No such file or directory (2)
+05-19 14:12:32.884 E/memtrack( 5981): Couldn't load memtrack module (No such file or directory)
+05-19 14:12:32.884 E/android.os.Debug( 5981): failed to load memtrack module: -2
+05-19 14:12:34.264 E/cutils-trace( 5981): Error opening trace file: No such file or directory (2)
+05-19 14:12:47.824 E/QueryController( 5877): Got null root node from accessibility - Retrying...
+05-19 14:12:53.544 E/QueryController( 5877): Got null root node from accessibility - Retrying...
+05-19 14:13:58.864 E/cutils-trace( 6003): Error opening trace file: No such file or directory (2)
+05-19 14:14:01.904 E/memtrack( 6009): Couldn't load memtrack module (No such file or directory)
+05-19 14:14:01.904 E/android.os.Debug( 6009): failed to load memtrack module: -2
+05-19 14:14:03.334 E/cutils-trace( 6009): Error opening trace file: No such file or directory (2)
+05-19 14:14:10.424 E/memtrack( 6021): Couldn't load memtrack module (No such file or directory)
+05-19 14:14:10.424 E/android.os.Debug( 6021): failed to load memtrack module: -2
+05-19 14:14:10.444 E/InputDispatcher(  479): channel '4a9d6504 com.boco.sc.mobileom/com.boco.sc.mobileom.worksheet.search.activity.Comm_WSDetail (server)' ~ Channel is unrecoverably broken and will be disposed!
+05-19 14:14:10.444 E/InputDispatcher(  479): channel '4aa06b34 com.boco.sc.mobileom/com.boco.sc.mobileom.worksheet.fault.activity.FWSOction_relay (server)' ~ Channel is unrecoverably broken and will be disposed!
+05-19 14:14:10.454 E/cutils-trace( 6021): Error opening trace file: No such file or directory (2)
+05-19 14:14:10.484 E/VMSG    ( 6033): RegisterNatives OnUserCommand1
+05-19 14:14:10.904 E/baidumapsdk( 6033): Authentication Error errorcode: 230 uid: -1 appid -1 msg: APP Scode码校验失败
+05-19 14:14:12.304 E/memtrack( 6057): Couldn't load memtrack module (No such file or directory)
+05-19 14:14:12.304 E/android.os.Debug( 6057): failed to load memtrack module: -2
+05-19 14:14:12.314 E/cutils-trace( 6057): Error opening trace file: No such file or directory (2)
+05-19 14:14:13.024 E/memtrack( 6069): Couldn't load memtrack module (No such file or directory)
+05-19 14:14:13.024 E/android.os.Debug( 6069): failed to load memtrack module: -2
+05-19 14:14:13.034 E/cutils-trace( 6069): Error opening trace file: No such file or directory (2)
+05-19 14:14:13.704 E/memtrack( 6081): Couldn't load memtrack module (No such file or directory)
+05-19 14:14:13.704 E/android.os.Debug( 6081): failed to load memtrack module: -2
+05-19 14:14:13.724 E/cutils-trace( 6081): Error opening trace file: No such file or directory (2)
+05-19 14:14:14.644 E/memtrack( 6097): Couldn't load memtrack module (No such file or directory)
+05-19 14:14:14.644 E/android.os.Debug( 6097): failed to load memtrack module: -2
+05-19 14:14:14.654 E/cutils-trace( 6097): Error opening trace file: No such file or directory (2)
+05-19 14:14:15.954 E/memtrack( 6112): Couldn't load memtrack module (No such file or directory)
+05-19 14:14:15.954 E/android.os.Debug( 6112): failed to load memtrack module: -2
+05-19 14:14:15.974 E/cutils-trace( 6112): Error opening trace file: No such file or directory (2)
+05-19 14:14:16.624 E/memtrack( 6124): Couldn't load memtrack module (No such file or directory)
+05-19 14:14:16.624 E/android.os.Debug( 6124): failed to load memtrack module: -2
+05-19 14:14:16.644 E/cutils-trace( 6124): Error opening trace file: No such file or directory (2)
+05-19 14:14:17.444 E/memtrack( 6136): Couldn't load memtrack module (No such file or directory)
+05-19 14:14:17.444 E/android.os.Debug( 6136): failed to load memtrack module: -2
+05-19 14:14:17.464 E/cutils-trace( 6136): Error opening trace file: No such file or directory (2)
+05-19 14:14:18.284 E/memtrack( 6148): Couldn't load memtrack module (No such file or directory)
+05-19 14:14:18.284 E/android.os.Debug( 6148): failed to load memtrack module: -2
+05-19 14:14:18.294 E/cutils-trace( 6148): Error opening trace file: No such file or directory (2)
+05-19 14:14:19.014 E/memtrack( 6160): Couldn't load memtrack module (No such file or directory)
+05-19 14:14:19.014 E/android.os.Debug( 6160): failed to load memtrack module: -2
+05-19 14:14:19.034 E/cutils-trace( 6160): Error opening trace file: No such file or directory (2)
+05-19 14:14:20.054 E/memtrack( 6177): Couldn't load memtrack module (No such file or directory)
+05-19 14:14:20.054 E/android.os.Debug( 6177): failed to load memtrack module: -2
+05-19 14:14:20.074 E/cutils-trace( 6177): Error opening trace file: No such file or directory (2)
+05-19 14:14:20.714 E/memtrack( 6189): Couldn't load memtrack module (No such file or directory)
+05-19 14:14:20.714 E/android.os.Debug( 6189): failed to load memtrack module: -2
+05-19 14:14:20.734 E/cutils-trace( 6189): Error opening trace file: No such file or directory (2)
+05-19 14:14:21.524 E/memtrack( 6203): Couldn't load memtrack module (No such file or directory)
+05-19 14:14:21.524 E/android.os.Debug( 6203): failed to load memtrack module: -2
+05-19 14:14:21.544 E/cutils-trace( 6203): Error opening trace file: No such file or directory (2)
+05-19 14:14:22.704 E/memtrack( 6221): Couldn't load memtrack module (No such file or directory)
+05-19 14:14:22.704 E/android.os.Debug( 6221): failed to load memtrack module: -2
+05-19 14:14:22.724 E/cutils-trace( 6221): Error opening trace file: No such file or directory (2)
+05-19 14:14:23.374 E/memtrack( 6233): Couldn't load memtrack module (No such file or directory)
+05-19 14:14:23.374 E/android.os.Debug( 6233): failed to load memtrack module: -2
+05-19 14:14:23.384 E/cutils-trace( 6233): Error opening trace file: No such file or directory (2)
+05-19 14:14:24.034 E/memtrack( 6245): Couldn't load memtrack module (No such file or directory)
+05-19 14:14:24.034 E/android.os.Debug( 6245): failed to load memtrack module: -2
+05-19 14:14:24.064 E/cutils-trace( 6245): Error opening trace file: No such file or directory (2)
+05-19 14:14:27.494 E/memtrack( 6275): Couldn't load memtrack module (No such file or directory)
+05-19 14:14:27.494 E/android.os.Debug( 6275): failed to load memtrack module: -2
+05-19 14:14:28.324 E/memtrack( 6292): Couldn't load memtrack module (No such file or directory)
+05-19 14:14:28.324 E/android.os.Debug( 6292): failed to load memtrack module: -2
+05-19 14:14:28.684 E/QueryController( 6275): Got null root node from accessibility - Retrying...
+05-19 14:14:28.894 E/VMSG    ( 6304): RegisterNatives OnUserCommand1
+05-19 14:14:28.934 E/QueryController( 6275): Got null root node from accessibility - Retrying...
+05-19 14:14:29.244 E/baidumapsdk( 6304): Authentication Error errorcode: 230 uid: -1 appid -1 msg: APP Scode码校验失败
+05-19 14:14:29.244 E/cutils-trace( 6292): Error opening trace file: No such file or directory (2)
+05-19 14:14:31.454 E/cutils-trace( 6275): Error opening trace file: No such file or directory (2)
+05-19 14:14:33.444 E/memtrack( 6330): Couldn't load memtrack module (No such file or directory)
+05-19 14:14:33.444 E/android.os.Debug( 6330): failed to load memtrack module: -2
+05-19 14:14:34.334 E/cutils-trace( 6330): Error opening trace file: No such file or directory (2)
+05-19 14:14:40.254 E/memtrack( 6344): Couldn't load memtrack module (No such file or directory)
+05-19 14:14:40.254 E/android.os.Debug( 6344): failed to load memtrack module: -2
+05-19 14:14:41.204 E/cutils-trace( 6344): Error opening trace file: No such file or directory (2)
+05-19 14:14:52.404 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@32b1b; boundsInParent: Rect(0, 0 - 900, 244); boundsInScreen: Rect(0, 927 - 900, 1171); packageName: com.boco.sc.mobileom; className: android.widget.RelativeLayout; text: null; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: true; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_CLICK, ACTION_LONG_CLICK, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.404 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@350a5; boundsInParent: Rect(0, 0 - 448, 41); boundsInScreen: Rect(40, 927 - 488, 968); packageName: com.boco.sc.mobileom; className: android.widget.RelativeLayout; text: null; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_sffd1; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.404 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@35466; boundsInParent: Rect(0, 0 - 850, 199); boundsInScreen: Rect(40, 968 - 890, 1167); packageName: com.boco.sc.mobileom; className: android.widget.RelativeLayout; text: null; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.404 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@35827; boundsInParent: Rect(0, 0 - 64, 64); boundsInScreen: Rect(826, 1017 - 890, 1081); packageName: com.boco.sc.mobileom; className: android.widget.ImageView; text: null; contentDescription: 跳转详细; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_goto; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS, ACTION_NEXT_AT_MOVEMENT_GRANULARITY, ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY, ACTION_SET_SELECTION]
+05-19 14:14:52.404 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@35be8; boundsInParent: Rect(0, 0 - 40, 40); boundsInScreen: Rect(40, 927 - 80, 967); packageName: com.boco.sc.mobileom; className: android.widget.ImageView; text: null; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_sffd; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.404 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@35fa9; boundsInParent: Rect(0, 0 - 408, 41); boundsInScreen: Rect(80, 927 - 488, 968); packageName: com.boco.sc.mobileom; className: android.widget.TextView; text: SC-051-170515-00005T2处理; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_sheet_id; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS, ACTION_NEXT_AT_MOVEMENT_GRANULARITY, ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY, ACTION_SET_SELECTION]
+05-19 14:14:52.404 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@3636a; boundsInParent: Rect(0, 0 - 830, 55); boundsInScreen: Rect(40, 968 - 870, 1023); packageName: com.boco.sc.mobileom; className: android.widget.TextView; text: [传输]四川省成都市(州)：72-93-胜利-验收(3-EG2-1)上报LOS告警；对端故障网元76-69-龙泉牛王坡上报脱管告警(链)(动环停电问题)(两网跨专业); contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_title; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS, ACTION_NEXT_AT_MOVEMENT_GRANULARITY, ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY, ACTION_SET_SELECTION]
+05-19 14:14:52.404 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@3672b; boundsInParent: Rect(0, 0 - 352, 36); boundsInScreen: Rect(40, 1023 - 392, 1059); packageName: com.boco.sc.mobileom; className: android.widget.TextView; text: 派单时间:2017-05-15 14:43:27; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_send_time; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS, ACTION_NEXT_AT_MOVEMENT_GRANULARITY, ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY, ACTION_SET_SELECTION]
+05-19 14:14:52.404 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@36aec; boundsInParent: Rect(0, 0 - 352, 36); boundsInScreen: Rect(40, 1059 - 392, 1095); packageName: com.boco.sc.mobileom; className: android.widget.TextView; text: 完成时限:2017-05-16 14:43:27; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_limit_time; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS, ACTION_NEXT_AT_MOVEMENT_GRANULARITY, ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY, ACTION_SET_SELECTION]
+05-19 14:14:52.404 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@36ead; boundsInParent: Rect(0, 0 - 90, 40); boundsInScreen: Rect(800, 1023 - 890, 1063); packageName: com.boco.sc.mobileom; className: android.widget.RelativeLayout; text: null; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.404 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@3726e; boundsInParent: Rect(0, 0 - 162, 36); boundsInScreen: Rect(40, 1095 - 202, 1131); packageName: com.boco.sc.mobileom; className: android.widget.TextView; text: 告警清除时间:; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_gd_alarmcleartime; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS, ACTION_NEXT_AT_MOVEMENT_GRANULARITY, ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY, ACTION_SET_SELECTION]
+05-19 14:14:52.404 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@3762f; boundsInParent: Rect(0, 0 - 0, 36); boundsInScreen: Rect(40, 1131 - 40, 1167); packageName: com.boco.sc.mobileom; className: android.widget.TextView; text: null; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_gd_curr_node; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.404 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@379f0; boundsInParent: Rect(0, 0 - 40, 40); boundsInScreen: Rect(800, 1023 - 840, 1063); packageName: com.boco.sc.mobileom; className: android.widget.ImageView; text: null; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_state; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.404 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@37db1; boundsInParent: Rect(0, 0 - 40, 40); boundsInScreen: Rect(804, 1023 - 844, 1063); packageName: com.boco.sc.mobileom; className: android.widget.ImageView; text: null; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_hjcsstate; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.404 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@32b1b; boundsInParent: Rect(0, 0 - 900, 244); boundsInScreen: Rect(0, 927 - 900, 1171); packageName: com.boco.sc.mobileom; className: android.widget.RelativeLayout; text: null; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: true; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_CLICK, ACTION_LONG_CLICK, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.404 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@350a5; boundsInParent: Rect(0, 0 - 448, 41); boundsInScreen: Rect(40, 927 - 488, 968); packageName: com.boco.sc.mobileom; className: android.widget.RelativeLayout; text: null; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_sffd1; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.404 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@35466; boundsInParent: Rect(0, 0 - 850, 199); boundsInScreen: Rect(40, 968 - 890, 1167); packageName: com.boco.sc.mobileom; className: android.widget.RelativeLayout; text: null; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.404 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@35827; boundsInParent: Rect(0, 0 - 64, 64); boundsInScreen: Rect(826, 1017 - 890, 1081); packageName: com.boco.sc.mobileom; className: android.widget.ImageView; text: null; contentDescription: 跳转详细; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_goto; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS, ACTION_NEXT_AT_MOVEMENT_GRANULARITY, ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY, ACTION_SET_SELECTION]
+05-19 14:14:52.404 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@35be8; boundsInParent: Rect(0, 0 - 40, 40); boundsInScreen: Rect(40, 927 - 80, 967); packageName: com.boco.sc.mobileom; className: android.widget.ImageView; text: null; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_sffd; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.404 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@35fa9; boundsInParent: Rect(0, 0 - 408, 41); boundsInScreen: Rect(80, 927 - 488, 968); packageName: com.boco.sc.mobileom; className: android.widget.TextView; text: SC-051-170515-00005T2处理; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_sheet_id; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS, ACTION_NEXT_AT_MOVEMENT_GRANULARITY, ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY, ACTION_SET_SELECTION]
+05-19 14:14:52.404 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@3636a; boundsInParent: Rect(0, 0 - 830, 55); boundsInScreen: Rect(40, 968 - 870, 1023); packageName: com.boco.sc.mobileom; className: android.widget.TextView; text: [传输]四川省成都市(州)：72-93-胜利-验收(3-EG2-1)上报LOS告警；对端故障网元76-69-龙泉牛王坡上报脱管告警(链)(动环停电问题)(两网跨专业); contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_title; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS, ACTION_NEXT_AT_MOVEMENT_GRANULARITY, ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY, ACTION_SET_SELECTION]
+05-19 14:14:52.404 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@3672b; boundsInParent: Rect(0, 0 - 352, 36); boundsInScreen: Rect(40, 1023 - 392, 1059); packageName: com.boco.sc.mobileom; className: android.widget.TextView; text: 派单时间:2017-05-15 14:43:27; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_send_time; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS, ACTION_NEXT_AT_MOVEMENT_GRANULARITY, ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY, ACTION_SET_SELECTION]
+05-19 14:14:52.404 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@36aec; boundsInParent: Rect(0, 0 - 352, 36); boundsInScreen: Rect(40, 1059 - 392, 1095); packageName: com.boco.sc.mobileom; className: android.widget.TextView; text: 完成时限:2017-05-16 14:43:27; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_limit_time; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS, ACTION_NEXT_AT_MOVEMENT_GRANULARITY, ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY, ACTION_SET_SELECTION]
+05-19 14:14:52.404 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@36ead; boundsInParent: Rect(0, 0 - 90, 40); boundsInScreen: Rect(800, 1023 - 890, 1063); packageName: com.boco.sc.mobileom; className: android.widget.RelativeLayout; text: null; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.404 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@3726e; boundsInParent: Rect(0, 0 - 162, 36); boundsInScreen: Rect(40, 1095 - 202, 1131); packageName: com.boco.sc.mobileom; className: android.widget.TextView; text: 告警清除时间:; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_gd_alarmcleartime; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS, ACTION_NEXT_AT_MOVEMENT_GRANULARITY, ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY, ACTION_SET_SELECTION]
+05-19 14:14:52.404 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@3762f; boundsInParent: Rect(0, 0 - 0, 36); boundsInScreen: Rect(40, 1131 - 40, 1167); packageName: com.boco.sc.mobileom; className: android.widget.TextView; text: null; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_gd_curr_node; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.404 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@379f0; boundsInParent: Rect(0, 0 - 40, 40); boundsInScreen: Rect(800, 1023 - 840, 1063); packageName: com.boco.sc.mobileom; className: android.widget.ImageView; text: null; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_state; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.404 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@37db1; boundsInParent: Rect(0, 0 - 40, 40); boundsInScreen: Rect(804, 1023 - 844, 1063); packageName: com.boco.sc.mobileom; className: android.widget.ImageView; text: null; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_hjcsstate; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.404 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@32b1b; boundsInParent: Rect(0, 0 - 900, 244); boundsInScreen: Rect(0, 927 - 900, 1171); packageName: com.boco.sc.mobileom; className: android.widget.RelativeLayout; text: null; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: true; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_CLICK, ACTION_LONG_CLICK, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.404 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@350a5; boundsInParent: Rect(0, 0 - 448, 41); boundsInScreen: Rect(40, 927 - 488, 968); packageName: com.boco.sc.mobileom; className: android.widget.RelativeLayout; text: null; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_sffd1; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.404 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@35466; boundsInParent: Rect(0, 0 - 850, 199); boundsInScreen: Rect(40, 968 - 890, 1167); packageName: com.boco.sc.mobileom; className: android.widget.RelativeLayout; text: null; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.404 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@35827; boundsInParent: Rect(0, 0 - 64, 64); boundsInScreen: Rect(826, 1017 - 890, 1081); packageName: com.boco.sc.mobileom; className: android.widget.ImageView; text: null; contentDescription: 跳转详细; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_goto; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS, ACTION_NEXT_AT_MOVEMENT_GRANULARITY, ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY, ACTION_SET_SELECTION]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@35be8; boundsInParent: Rect(0, 0 - 40, 40); boundsInScreen: Rect(40, 927 - 80, 967); packageName: com.boco.sc.mobileom; className: android.widget.ImageView; text: null; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_sffd; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@35fa9; boundsInParent: Rect(0, 0 - 408, 41); boundsInScreen: Rect(80, 927 - 488, 968); packageName: com.boco.sc.mobileom; className: android.widget.TextView; text: SC-051-170515-00005T2处理; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_sheet_id; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS, ACTION_NEXT_AT_MOVEMENT_GRANULARITY, ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY, ACTION_SET_SELECTION]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@3636a; boundsInParent: Rect(0, 0 - 830, 55); boundsInScreen: Rect(40, 968 - 870, 1023); packageName: com.boco.sc.mobileom; className: android.widget.TextView; text: [传输]四川省成都市(州)：72-93-胜利-验收(3-EG2-1)上报LOS告警；对端故障网元76-69-龙泉牛王坡上报脱管告警(链)(动环停电问题)(两网跨专业); contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_title; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS, ACTION_NEXT_AT_MOVEMENT_GRANULARITY, ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY, ACTION_SET_SELECTION]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@3672b; boundsInParent: Rect(0, 0 - 352, 36); boundsInScreen: Rect(40, 1023 - 392, 1059); packageName: com.boco.sc.mobileom; className: android.widget.TextView; text: 派单时间:2017-05-15 14:43:27; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_send_time; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS, ACTION_NEXT_AT_MOVEMENT_GRANULARITY, ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY, ACTION_SET_SELECTION]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@36aec; boundsInParent: Rect(0, 0 - 352, 36); boundsInScreen: Rect(40, 1059 - 392, 1095); packageName: com.boco.sc.mobileom; className: android.widget.TextView; text: 完成时限:2017-05-16 14:43:27; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_limit_time; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS, ACTION_NEXT_AT_MOVEMENT_GRANULARITY, ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY, ACTION_SET_SELECTION]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@36ead; boundsInParent: Rect(0, 0 - 90, 40); boundsInScreen: Rect(800, 1023 - 890, 1063); packageName: com.boco.sc.mobileom; className: android.widget.RelativeLayout; text: null; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@3726e; boundsInParent: Rect(0, 0 - 162, 36); boundsInScreen: Rect(40, 1095 - 202, 1131); packageName: com.boco.sc.mobileom; className: android.widget.TextView; text: 告警清除时间:; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_gd_alarmcleartime; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS, ACTION_NEXT_AT_MOVEMENT_GRANULARITY, ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY, ACTION_SET_SELECTION]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@3762f; boundsInParent: Rect(0, 0 - 0, 36); boundsInScreen: Rect(40, 1131 - 40, 1167); packageName: com.boco.sc.mobileom; className: android.widget.TextView; text: null; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_gd_curr_node; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@379f0; boundsInParent: Rect(0, 0 - 40, 40); boundsInScreen: Rect(800, 1023 - 840, 1063); packageName: com.boco.sc.mobileom; className: android.widget.ImageView; text: null; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_state; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@37db1; boundsInParent: Rect(0, 0 - 40, 40); boundsInScreen: Rect(804, 1023 - 844, 1063); packageName: com.boco.sc.mobileom; className: android.widget.ImageView; text: null; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_hjcsstate; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@32b1b; boundsInParent: Rect(0, 0 - 900, 244); boundsInScreen: Rect(0, 927 - 900, 1171); packageName: com.boco.sc.mobileom; className: android.widget.RelativeLayout; text: null; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: true; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_CLICK, ACTION_LONG_CLICK, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@350a5; boundsInParent: Rect(0, 0 - 448, 41); boundsInScreen: Rect(40, 927 - 488, 968); packageName: com.boco.sc.mobileom; className: android.widget.RelativeLayout; text: null; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_sffd1; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@35466; boundsInParent: Rect(0, 0 - 850, 199); boundsInScreen: Rect(40, 968 - 890, 1167); packageName: com.boco.sc.mobileom; className: android.widget.RelativeLayout; text: null; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@35827; boundsInParent: Rect(0, 0 - 64, 64); boundsInScreen: Rect(826, 1017 - 890, 1081); packageName: com.boco.sc.mobileom; className: android.widget.ImageView; text: null; contentDescription: 跳转详细; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_goto; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS, ACTION_NEXT_AT_MOVEMENT_GRANULARITY, ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY, ACTION_SET_SELECTION]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@35be8; boundsInParent: Rect(0, 0 - 40, 40); boundsInScreen: Rect(40, 927 - 80, 967); packageName: com.boco.sc.mobileom; className: android.widget.ImageView; text: null; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_sffd; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@35fa9; boundsInParent: Rect(0, 0 - 408, 41); boundsInScreen: Rect(80, 927 - 488, 968); packageName: com.boco.sc.mobileom; className: android.widget.TextView; text: SC-051-170515-00005T2处理; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_sheet_id; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS, ACTION_NEXT_AT_MOVEMENT_GRANULARITY, ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY, ACTION_SET_SELECTION]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@3636a; boundsInParent: Rect(0, 0 - 830, 55); boundsInScreen: Rect(40, 968 - 870, 1023); packageName: com.boco.sc.mobileom; className: android.widget.TextView; text: [传输]四川省成都市(州)：72-93-胜利-验收(3-EG2-1)上报LOS告警；对端故障网元76-69-龙泉牛王坡上报脱管告警(链)(动环停电问题)(两网跨专业); contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_title; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS, ACTION_NEXT_AT_MOVEMENT_GRANULARITY, ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY, ACTION_SET_SELECTION]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@3672b; boundsInParent: Rect(0, 0 - 352, 36); boundsInScreen: Rect(40, 1023 - 392, 1059); packageName: com.boco.sc.mobileom; className: android.widget.TextView; text: 派单时间:2017-05-15 14:43:27; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_send_time; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS, ACTION_NEXT_AT_MOVEMENT_GRANULARITY, ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY, ACTION_SET_SELECTION]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@36aec; boundsInParent: Rect(0, 0 - 352, 36); boundsInScreen: Rect(40, 1059 - 392, 1095); packageName: com.boco.sc.mobileom; className: android.widget.TextView; text: 完成时限:2017-05-16 14:43:27; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_limit_time; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS, ACTION_NEXT_AT_MOVEMENT_GRANULARITY, ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY, ACTION_SET_SELECTION]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@36ead; boundsInParent: Rect(0, 0 - 90, 40); boundsInScreen: Rect(800, 1023 - 890, 1063); packageName: com.boco.sc.mobileom; className: android.widget.RelativeLayout; text: null; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@3726e; boundsInParent: Rect(0, 0 - 162, 36); boundsInScreen: Rect(40, 1095 - 202, 1131); packageName: com.boco.sc.mobileom; className: android.widget.TextView; text: 告警清除时间:; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_gd_alarmcleartime; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS, ACTION_NEXT_AT_MOVEMENT_GRANULARITY, ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY, ACTION_SET_SELECTION]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@3762f; boundsInParent: Rect(0, 0 - 0, 36); boundsInScreen: Rect(40, 1131 - 40, 1167); packageName: com.boco.sc.mobileom; className: android.widget.TextView; text: null; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_gd_curr_node; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@379f0; boundsInParent: Rect(0, 0 - 40, 40); boundsInScreen: Rect(800, 1023 - 840, 1063); packageName: com.boco.sc.mobileom; className: android.widget.ImageView; text: null; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_state; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@37db1; boundsInParent: Rect(0, 0 - 40, 40); boundsInScreen: Rect(804, 1023 - 844, 1063); packageName: com.boco.sc.mobileom; className: android.widget.ImageView; text: null; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_hjcsstate; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@32b1b; boundsInParent: Rect(0, 0 - 900, 244); boundsInScreen: Rect(0, 927 - 900, 1171); packageName: com.boco.sc.mobileom; className: android.widget.RelativeLayout; text: null; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: true; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_CLICK, ACTION_LONG_CLICK, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@350a5; boundsInParent: Rect(0, 0 - 448, 41); boundsInScreen: Rect(40, 927 - 488, 968); packageName: com.boco.sc.mobileom; className: android.widget.RelativeLayout; text: null; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_sffd1; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@35466; boundsInParent: Rect(0, 0 - 850, 199); boundsInScreen: Rect(40, 968 - 890, 1167); packageName: com.boco.sc.mobileom; className: android.widget.RelativeLayout; text: null; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@35827; boundsInParent: Rect(0, 0 - 64, 64); boundsInScreen: Rect(826, 1017 - 890, 1081); packageName: com.boco.sc.mobileom; className: android.widget.ImageView; text: null; contentDescription: 跳转详细; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_goto; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS, ACTION_NEXT_AT_MOVEMENT_GRANULARITY, ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY, ACTION_SET_SELECTION]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@35be8; boundsInParent: Rect(0, 0 - 40, 40); boundsInScreen: Rect(40, 927 - 80, 967); packageName: com.boco.sc.mobileom; className: android.widget.ImageView; text: null; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_sffd; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@35fa9; boundsInParent: Rect(0, 0 - 408, 41); boundsInScreen: Rect(80, 927 - 488, 968); packageName: com.boco.sc.mobileom; className: android.widget.TextView; text: SC-051-170515-00005T2处理; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_sheet_id; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS, ACTION_NEXT_AT_MOVEMENT_GRANULARITY, ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY, ACTION_SET_SELECTION]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@3636a; boundsInParent: Rect(0, 0 - 830, 55); boundsInScreen: Rect(40, 968 - 870, 1023); packageName: com.boco.sc.mobileom; className: android.widget.TextView; text: [传输]四川省成都市(州)：72-93-胜利-验收(3-EG2-1)上报LOS告警；对端故障网元76-69-龙泉牛王坡上报脱管告警(链)(动环停电问题)(两网跨专业); contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_title; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS, ACTION_NEXT_AT_MOVEMENT_GRANULARITY, ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY, ACTION_SET_SELECTION]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@3672b; boundsInParent: Rect(0, 0 - 352, 36); boundsInScreen: Rect(40, 1023 - 392, 1059); packageName: com.boco.sc.mobileom; className: android.widget.TextView; text: 派单时间:2017-05-15 14:43:27; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_send_time; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS, ACTION_NEXT_AT_MOVEMENT_GRANULARITY, ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY, ACTION_SET_SELECTION]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@36aec; boundsInParent: Rect(0, 0 - 352, 36); boundsInScreen: Rect(40, 1059 - 392, 1095); packageName: com.boco.sc.mobileom; className: android.widget.TextView; text: 完成时限:2017-05-16 14:43:27; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_limit_time; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS, ACTION_NEXT_AT_MOVEMENT_GRANULARITY, ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY, ACTION_SET_SELECTION]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@36ead; boundsInParent: Rect(0, 0 - 90, 40); boundsInScreen: Rect(800, 1023 - 890, 1063); packageName: com.boco.sc.mobileom; className: android.widget.RelativeLayout; text: null; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@3726e; boundsInParent: Rect(0, 0 - 162, 36); boundsInScreen: Rect(40, 1095 - 202, 1131); packageName: com.boco.sc.mobileom; className: android.widget.TextView; text: 告警清除时间:; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_gd_alarmcleartime; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS, ACTION_NEXT_AT_MOVEMENT_GRANULARITY, ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY, ACTION_SET_SELECTION]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@3762f; boundsInParent: Rect(0, 0 - 0, 36); boundsInScreen: Rect(40, 1131 - 40, 1167); packageName: com.boco.sc.mobileom; className: android.widget.TextView; text: null; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_gd_curr_node; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@379f0; boundsInParent: Rect(0, 0 - 40, 40); boundsInScreen: Rect(800, 1023 - 840, 1063); packageName: com.boco.sc.mobileom; className: android.widget.ImageView; text: null; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_state; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@37db1; boundsInParent: Rect(0, 0 - 40, 40); boundsInScreen: Rect(804, 1023 - 844, 1063); packageName: com.boco.sc.mobileom; className: android.widget.ImageView; text: null; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_hjcsstate; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@32b1b; boundsInParent: Rect(0, 0 - 900, 244); boundsInScreen: Rect(0, 927 - 900, 1171); packageName: com.boco.sc.mobileom; className: android.widget.RelativeLayout; text: null; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: true; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_CLICK, ACTION_LONG_CLICK, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@350a5; boundsInParent: Rect(0, 0 - 448, 41); boundsInScreen: Rect(40, 927 - 488, 968); packageName: com.boco.sc.mobileom; className: android.widget.RelativeLayout; text: null; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_sffd1; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@35466; boundsInParent: Rect(0, 0 - 850, 199); boundsInScreen: Rect(40, 968 - 890, 1167); packageName: com.boco.sc.mobileom; className: android.widget.RelativeLayout; text: null; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@35827; boundsInParent: Rect(0, 0 - 64, 64); boundsInScreen: Rect(826, 1017 - 890, 1081); packageName: com.boco.sc.mobileom; className: android.widget.ImageView; text: null; contentDescription: 跳转详细; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_goto; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS, ACTION_NEXT_AT_MOVEMENT_GRANULARITY, ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY, ACTION_SET_SELECTION]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@35be8; boundsInParent: Rect(0, 0 - 40, 40); boundsInScreen: Rect(40, 927 - 80, 967); packageName: com.boco.sc.mobileom; className: android.widget.ImageView; text: null; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_sffd; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@35fa9; boundsInParent: Rect(0, 0 - 408, 41); boundsInScreen: Rect(80, 927 - 488, 968); packageName: com.boco.sc.mobileom; className: android.widget.TextView; text: SC-051-170515-00005T2处理; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_sheet_id; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS, ACTION_NEXT_AT_MOVEMENT_GRANULARITY, ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY, ACTION_SET_SELECTION]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@3636a; boundsInParent: Rect(0, 0 - 830, 55); boundsInScreen: Rect(40, 968 - 870, 1023); packageName: com.boco.sc.mobileom; className: android.widget.TextView; text: [传输]四川省成都市(州)：72-93-胜利-验收(3-EG2-1)上报LOS告警；对端故障网元76-69-龙泉牛王坡上报脱管告警(链)(动环停电问题)(两网跨专业); contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_title; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS, ACTION_NEXT_AT_MOVEMENT_GRANULARITY, ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY, ACTION_SET_SELECTION]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@3672b; boundsInParent: Rect(0, 0 - 352, 36); boundsInScreen: Rect(40, 1023 - 392, 1059); packageName: com.boco.sc.mobileom; className: android.widget.TextView; text: 派单时间:2017-05-15 14:43:27; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_send_time; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS, ACTION_NEXT_AT_MOVEMENT_GRANULARITY, ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY, ACTION_SET_SELECTION]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@36aec; boundsInParent: Rect(0, 0 - 352, 36); boundsInScreen: Rect(40, 1059 - 392, 1095); packageName: com.boco.sc.mobileom; className: android.widget.TextView; text: 完成时限:2017-05-16 14:43:27; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_limit_time; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS, ACTION_NEXT_AT_MOVEMENT_GRANULARITY, ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY, ACTION_SET_SELECTION]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@36ead; boundsInParent: Rect(0, 0 - 90, 40); boundsInScreen: Rect(800, 1023 - 890, 1063); packageName: com.boco.sc.mobileom; className: android.widget.RelativeLayout; text: null; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@3726e; boundsInParent: Rect(0, 0 - 162, 36); boundsInScreen: Rect(40, 1095 - 202, 1131); packageName: com.boco.sc.mobileom; className: android.widget.TextView; text: 告警清除时间:; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_gd_alarmcleartime; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS, ACTION_NEXT_AT_MOVEMENT_GRANULARITY, ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY, ACTION_SET_SELECTION]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@3762f; boundsInParent: Rect(0, 0 - 0, 36); boundsInScreen: Rect(40, 1131 - 40, 1167); packageName: com.boco.sc.mobileom; className: android.widget.TextView; text: null; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_gd_curr_node; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@379f0; boundsInParent: Rect(0, 0 - 40, 40); boundsInScreen: Rect(800, 1023 - 840, 1063); packageName: com.boco.sc.mobileom; className: android.widget.ImageView; text: null; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_state; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:52.414 E/AccessibilityNodeInfoCache( 6275): Disconneced node: android.view.accessibility.AccessibilityNodeInfo@37db1; boundsInParent: Rect(0, 0 - 40, 40); boundsInScreen: Rect(804, 1023 - 844, 1063); packageName: com.boco.sc.mobileom; className: android.widget.ImageView; text: null; contentDescription: null; viewIdResName: com.boco.sc.mobileom:id/mobileom_ws_list_item_hjcsstate; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:14:59.304 E/AndroidRuntime( 6304): FATAL EXCEPTION: main
+05-19 14:14:59.304 E/AndroidRuntime( 6304): Process: com.boco.sc.mobileom, PID: 6304
+05-19 14:14:59.304 E/AndroidRuntime( 6304): java.lang.ClassCastException: android.text.SpannableString cannot be cast to java.lang.String
+05-19 14:14:59.304 E/AndroidRuntime( 6304): 	at com.boco.sc.mobileom.base.BaseActivity.openTimeWheelView(BaseActivity.java:556)
+05-19 14:14:59.304 E/AndroidRuntime( 6304): 	at com.boco.sc.mobileom.base.BaseActivity$13.onClick(BaseActivity.java:909)
+05-19 14:14:59.304 E/AndroidRuntime( 6304): 	at android.view.View.performClick(View.java:4438)
+05-19 14:14:59.304 E/AndroidRuntime( 6304): 	at android.view.View$PerformClick.run(View.java:18422)
+05-19 14:14:59.304 E/AndroidRuntime( 6304): 	at android.os.Handler.handleCallback(Handler.java:733)
+05-19 14:14:59.304 E/AndroidRuntime( 6304): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+05-19 14:14:59.304 E/AndroidRuntime( 6304): 	at android.os.Looper.loop(Looper.java:136)
+05-19 14:14:59.304 E/AndroidRuntime( 6304): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+05-19 14:14:59.304 E/AndroidRuntime( 6304): 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-19 14:14:59.304 E/AndroidRuntime( 6304): 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-19 14:14:59.304 E/AndroidRuntime( 6304): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+05-19 14:14:59.304 E/AndroidRuntime( 6304): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+05-19 14:14:59.304 E/AndroidRuntime( 6304): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 14:15:52.284 E/GCM     (  727): Missing checkin config file
+05-19 14:15:52.344 E/Herrevad(  881): [331] RemoteReportsRefreshChimeraService.a: want to send authenticated request, but no Google account on device
+05-19 14:15:57.204 E/InputDispatcher(  479): channel '4aa91368 com.boco.sc.mobileom/com.boco.sc.mobileom.worksheet.search.activity.Comm_WSDetail (server)' ~ Channel is unrecoverably broken and will be disposed!
+05-19 14:15:57.264 E/VMSG    ( 6377): RegisterNatives OnUserCommand1
+05-19 14:15:57.694 E/baidumapsdk( 6377): Authentication Error errorcode: 230 uid: -1 appid -1 msg: APP Scode码校验失败
+05-19 14:16:00.894 E/cutils-trace( 6401): Error opening trace file: No such file or directory (2)
+05-19 14:16:05.074 E/memtrack( 6407): Couldn't load memtrack module (No such file or directory)
+05-19 14:16:05.074 E/android.os.Debug( 6407): failed to load memtrack module: -2
+05-19 14:16:05.094 E/cutils-trace( 6407): Error opening trace file: No such file or directory (2)
+05-19 14:16:06.004 E/memtrack( 6419): Couldn't load memtrack module (No such file or directory)
+05-19 14:16:06.004 E/android.os.Debug( 6419): failed to load memtrack module: -2
+05-19 14:16:06.054 E/cutils-trace( 6419): Error opening trace file: No such file or directory (2)
+05-19 14:16:06.074 E/VMSG    ( 6431): RegisterNatives OnUserCommand1
+05-19 14:16:06.344 E/baidumapsdk( 6431): Authentication Error errorcode: 230 uid: -1 appid -1 msg: APP Scode码校验失败
+05-19 14:16:06.844 E/memtrack( 6455): Couldn't load memtrack module (No such file or directory)
+05-19 14:16:06.844 E/android.os.Debug( 6455): failed to load memtrack module: -2
+05-19 14:16:06.864 E/cutils-trace( 6455): Error opening trace file: No such file or directory (2)
+05-19 14:16:08.034 E/memtrack( 6471): Couldn't load memtrack module (No such file or directory)
+05-19 14:16:08.034 E/android.os.Debug( 6471): failed to load memtrack module: -2
+05-19 14:16:08.054 E/cutils-trace( 6471): Error opening trace file: No such file or directory (2)
+05-19 14:16:09.504 E/memtrack( 6487): Couldn't load memtrack module (No such file or directory)
+05-19 14:16:09.504 E/android.os.Debug( 6487): failed to load memtrack module: -2
+05-19 14:16:09.524 E/cutils-trace( 6487): Error opening trace file: No such file or directory (2)
+05-19 14:16:10.174 E/memtrack( 6499): Couldn't load memtrack module (No such file or directory)
+05-19 14:16:10.174 E/android.os.Debug( 6499): failed to load memtrack module: -2
+05-19 14:16:10.194 E/cutils-trace( 6499): Error opening trace file: No such file or directory (2)
+05-19 14:16:10.994 E/memtrack( 6511): Couldn't load memtrack module (No such file or directory)
+05-19 14:16:10.994 E/android.os.Debug( 6511): failed to load memtrack module: -2
+05-19 14:16:11.004 E/cutils-trace( 6511): Error opening trace file: No such file or directory (2)
+05-19 14:16:11.924 E/memtrack( 6523): Couldn't load memtrack module (No such file or directory)
+05-19 14:16:11.924 E/android.os.Debug( 6523): failed to load memtrack module: -2
+05-19 14:16:11.934 E/cutils-trace( 6523): Error opening trace file: No such file or directory (2)
+05-19 14:16:12.644 E/memtrack( 6535): Couldn't load memtrack module (No such file or directory)
+05-19 14:16:12.654 E/android.os.Debug( 6535): failed to load memtrack module: -2
+05-19 14:16:12.674 E/cutils-trace( 6535): Error opening trace file: No such file or directory (2)
+05-19 14:16:13.704 E/memtrack( 6551): Couldn't load memtrack module (No such file or directory)
+05-19 14:16:13.704 E/android.os.Debug( 6551): failed to load memtrack module: -2
+05-19 14:16:13.724 E/cutils-trace( 6551): Error opening trace file: No such file or directory (2)
+05-19 14:16:14.374 E/memtrack( 6563): Couldn't load memtrack module (No such file or directory)
+05-19 14:16:14.374 E/android.os.Debug( 6563): failed to load memtrack module: -2
+05-19 14:16:14.394 E/cutils-trace( 6563): Error opening trace file: No such file or directory (2)
+05-19 14:16:15.194 E/memtrack( 6577): Couldn't load memtrack module (No such file or directory)
+05-19 14:16:15.194 E/android.os.Debug( 6577): failed to load memtrack module: -2
+05-19 14:16:15.214 E/cutils-trace( 6577): Error opening trace file: No such file or directory (2)
+05-19 14:16:16.414 E/memtrack( 6595): Couldn't load memtrack module (No such file or directory)
+05-19 14:16:16.414 E/android.os.Debug( 6595): failed to load memtrack module: -2
+05-19 14:16:16.434 E/cutils-trace( 6595): Error opening trace file: No such file or directory (2)
+05-19 14:16:17.084 E/memtrack( 6607): Couldn't load memtrack module (No such file or directory)
+05-19 14:16:17.084 E/android.os.Debug( 6607): failed to load memtrack module: -2
+05-19 14:16:17.114 E/cutils-trace( 6607): Error opening trace file: No such file or directory (2)
+05-19 14:16:17.764 E/memtrack( 6619): Couldn't load memtrack module (No such file or directory)
+05-19 14:16:17.764 E/android.os.Debug( 6619): failed to load memtrack module: -2
+05-19 14:16:17.794 E/cutils-trace( 6619): Error opening trace file: No such file or directory (2)
+05-19 14:16:21.254 E/memtrack( 6649): Couldn't load memtrack module (No such file or directory)
+05-19 14:16:21.254 E/android.os.Debug( 6649): failed to load memtrack module: -2
+05-19 14:16:22.124 E/memtrack( 6666): Couldn't load memtrack module (No such file or directory)
+05-19 14:16:22.124 E/android.os.Debug( 6666): failed to load memtrack module: -2
+05-19 14:16:22.464 E/QueryController( 6649): Got null root node from accessibility - Retrying...
+05-19 14:16:22.694 E/VMSG    ( 6680): RegisterNatives OnUserCommand1
+05-19 14:16:22.714 E/QueryController( 6649): Got null root node from accessibility - Retrying...
+05-19 14:16:23.044 E/baidumapsdk( 6680): Authentication Error errorcode: 230 uid: -1 appid -1 msg: APP Scode码校验失败
+05-19 14:16:23.044 E/cutils-trace( 6666): Error opening trace file: No such file or directory (2)
+05-19 14:16:25.214 E/cutils-trace( 6649): Error opening trace file: No such file or directory (2)
+05-19 14:16:27.254 E/memtrack( 6708): Couldn't load memtrack module (No such file or directory)
+05-19 14:16:27.254 E/android.os.Debug( 6708): failed to load memtrack module: -2
+05-19 14:16:28.144 E/cutils-trace( 6708): Error opening trace file: No such file or directory (2)
+05-19 14:16:34.064 E/memtrack( 6722): Couldn't load memtrack module (No such file or directory)
+05-19 14:16:34.064 E/android.os.Debug( 6722): failed to load memtrack module: -2
+05-19 14:16:35.034 E/cutils-trace( 6722): Error opening trace file: No such file or directory (2)
+05-19 14:17:28.914 E/CheckinTask(  881): Checkin failed: https://android.clients.google.com/checkin (request #0): java.net.SocketTimeoutException: failed to connect to android.clients.google.com/64.233.189.113 (port 443) after 120000ms: isConnected failed: ETIMEDOUT (Connection timed out)
+05-19 14:18:19.854 E/cutils-trace( 6757): Error opening trace file: No such file or directory (2)
+05-19 14:19:51.304 E/ActivityThread(  881): Failed to find provider info for com.google.android.wearable.settings
+05-19 14:19:51.464 E/Drm     (  171): Failed to open plugin directory /vendor/lib/mediadrm
+05-19 14:19:51.494 E/GCM     (  727): Missing checkin config file
+05-19 14:19:51.504 E/GCM     (  727): Missing checkin config file
+05-19 14:19:52.084 E/GCM     (  727): Missing checkin config file
+05-19 14:19:52.084 E/GCM     (  727): Missing checkin config file
+05-19 14:19:54.984 E/cutils-trace( 6785): Error opening trace file: No such file or directory (2)
+05-19 14:19:58.594 E/cutils-trace( 6794): Error opening trace file: No such file or directory (2)
+05-19 14:20:01.304 E/memtrack( 6800): Couldn't load memtrack module (No such file or directory)
+05-19 14:20:01.304 E/android.os.Debug( 6800): failed to load memtrack module: -2
+05-19 14:20:01.374 E/cutils-trace( 6800): Error opening trace file: No such file or directory (2)
+05-19 14:20:02.314 E/memtrack( 6823): Couldn't load memtrack module (No such file or directory)
+05-19 14:20:02.314 E/android.os.Debug( 6823): failed to load memtrack module: -2
+05-19 14:20:02.404 E/cutils-trace( 6823): Error opening trace file: No such file or directory (2)
+05-19 14:20:02.914 E/QueryController( 6649): Got null root node from accessibility - Retrying...
+05-19 14:20:03.254 E/QueryController( 6649): Got null root node from accessibility - Retrying...
+05-19 14:20:05.474 E/memtrack( 6853): Couldn't load memtrack module (No such file or directory)
+05-19 14:20:05.484 E/android.os.Debug( 6853): failed to load memtrack module: -2
+05-19 14:20:05.514 E/cutils-trace( 6853): Error opening trace file: No such file or directory (2)
+05-19 14:20:05.514 E/AccessibilityNodeInfoCache( 6649): Duplicate input focus: android.view.accessibility.AccessibilityNodeInfo@7c33; boundsInParent: Rect(0, 0 - 900, 1294); boundsInScreen: Rect(0, 146 - 900, 1440); packageName: com.android.settings; className: android.widget.ListView; text: null; contentDescription: null; viewIdResName: android:id/list; checkable: false; checked: false; focusable: true; focused: true; selected: false; clickable: true; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_CLEAR_FOCUS, ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_CLICK, ACTION_ACCESSIBILITY_FOCUS]
+05-19 14:20:08.194 E/memtrack( 6867): Couldn't load memtrack module (No such file or directory)
+05-19 14:20:08.194 E/android.os.Debug( 6867): failed to load memtrack module: -2
+05-19 14:20:08.224 E/cutils-trace( 6867): Error opening trace file: No such file or directory (2)
+05-19 14:20:10.914 E/memtrack( 6879): Couldn't load memtrack module (No such file or directory)
+05-19 14:20:10.914 E/android.os.Debug( 6879): failed to load memtrack module: -2
+05-19 14:20:10.944 E/cutils-trace( 6879): Error opening trace file: No such file or directory (2)
+05-19 14:20:13.774 E/memtrack( 6893): Couldn't load memtrack module (No such file or directory)
+05-19 14:20:13.774 E/android.os.Debug( 6893): failed to load memtrack module: -2
+05-19 14:20:13.804 E/cutils-trace( 6893): Error opening trace file: No such file or directory (2)
+05-19 14:20:13.854 E/dalvikvm( 6905): Could not find class 'javax.net.ssl.SNIHostName', referenced from method com.google.android.gms.org.conscrypt.Platform.getSSLParameters
+05-19 14:20:13.854 E/dalvikvm( 6905): Could not find class 'javax.net.ssl.SNIServerName', referenced from method com.google.android.gms.org.conscrypt.Platform.setSSLParameters
+05-19 14:20:13.864 E/dalvikvm( 6905): Could not find class 'com.google.android.gms.org.conscrypt.OpenSSLExtendedSessionImpl', referenced from method com.google.android.gms.org.conscrypt.Platform.wrapSSLSession
+05-19 14:20:13.874 E/dalvikvm( 6905): Could not find class 'com.google.android.gms.org.conscrypt.OpenSSLExtendedSessionImpl', referenced from method com.google.android.gms.org.conscrypt.SSLParametersImpl.getSessionToReuse
+05-19 14:20:13.924 E/local_gps(  163): Can't send RMC command
+05-19 14:20:13.964 E/BluetoothInputDevice( 6835): Could not bind to Bluetooth HID Service with Intent { act=android.bluetooth.IBluetoothInputDevice }
+05-19 14:20:13.964 E/BluetoothPan( 6835): Could not bind to Bluetooth Pan Service with Intent { act=android.bluetooth.IBluetoothPan }
+05-19 14:20:13.964 E/BluetoothMap( 6835): Could not bind to Bluetooth MAP Service with Intent { act=android.bluetooth.IBluetoothMap }
+05-19 14:20:13.964 E/BluetoothPbap( 6835): Could not bind to Bluetooth Pbap Service with Intent { act=android.bluetooth.IBluetoothPbap }
+05-19 14:20:14.084 E/GCoreUlr(  693): Bad errorId configuring silent feedback

@@ -1,0 +1,367 @@
+--------- beginning of /dev/log/system
+05-19 14:55:08.651 E/ConnectivityService(  478): Ignoring protectedNetwork 10
+05-19 14:55:08.651 E/ConnectivityService(  478): Ignoring protectedNetwork 11
+05-19 14:55:08.651 E/ConnectivityService(  478): Ignoring protectedNetwork 12
+05-19 14:55:08.651 E/ConnectivityService(  478): Ignoring protectedNetwork 14
+05-19 14:55:08.661 E/MobileDataStateTracker(  478): default: Ignoring feature request because could not acquire PhoneService
+05-19 14:55:08.661 E/MobileDataStateTracker(  478): default: Could not enable APN type "default"
+05-19 14:55:09.581 E/LocationManagerService(  478): no geocoder provider found
+05-19 14:55:09.591 E/LocationManagerService(  478): No FusedProvider found.
+05-19 14:55:09.591 E/LocationManagerService(  478): no geofence provider found
+05-19 14:55:11.691 E/ConnectivityService(  478): Unexpected mtu value: android.net.wifi.WifiStateTracker@4a9014c4
+05-19 14:55:20.281 E/RemotePrintSpooler(  478): Error removing obsolete print jobs .
+05-19 14:55:20.281 E/RemotePrintSpooler(  478): java.util.concurrent.TimeoutException: Cannot get spooler!
+05-19 14:55:20.281 E/RemotePrintSpooler(  478): 	at com.android.server.print.RemotePrintSpooler.bindLocked(RemotePrintSpooler.java:376)
+05-19 14:55:20.281 E/RemotePrintSpooler(  478): 	at com.android.server.print.RemotePrintSpooler.getRemoteInstanceLazy(RemotePrintSpooler.java:352)
+05-19 14:55:20.281 E/RemotePrintSpooler(  478): 	at com.android.server.print.RemotePrintSpooler.removeObsoletePrintJobs(RemotePrintSpooler.java:287)
+05-19 14:55:20.281 E/RemotePrintSpooler(  478): 	at com.android.server.print.UserState.removeObsoletePrintJobs(UserState.java:163)
+05-19 14:55:20.281 E/RemotePrintSpooler(  478): 	at com.android.server.print.PrintManagerService$1.run(PrintManagerService.java:94)
+05-19 14:55:20.281 E/RemotePrintSpooler(  478): 	at android.os.Handler.handleCallback(Handler.java:733)
+05-19 14:55:20.281 E/RemotePrintSpooler(  478): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+05-19 14:55:20.281 E/RemotePrintSpooler(  478): 	at android.os.Looper.loop(Looper.java:136)
+05-19 14:55:20.281 E/RemotePrintSpooler(  478): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+05-19 14:55:20.751 E/local_gps(  155): Can't send RMC command
+05-19 14:55:23.741 E/ActivityThread(  933): Failed to find provider info for com.google.android.wearable.settings
+--------- beginning of /dev/log/main
+05-19 14:56:42.181 E/GCM     (  703): Missing checkin config file
+05-19 14:56:44.601 E/memtrack( 2305): Couldn't load memtrack module (No such file or directory)
+05-19 14:56:44.601 E/android.os.Debug( 2305): failed to load memtrack module: -2
+05-19 14:56:44.621 E/JavaBinder( 2305): Unknown binder error code. 0xfffffff7
+05-19 14:56:44.621 E/AndroidRuntime( 2305): *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+05-19 14:56:44.621 E/AndroidRuntime( 2305): java.lang.IllegalStateException: UiAutomationService android.accessibilityservice.IAccessibilityServiceClient$Stub$Proxy@4aa99ed0already registered!
+05-19 14:56:44.621 E/AndroidRuntime( 2305): 	at android.os.Parcel.readException(Parcel.java:1473)
+05-19 14:56:44.621 E/AndroidRuntime( 2305): 	at android.os.Parcel.readException(Parcel.java:1419)
+05-19 14:56:44.621 E/AndroidRuntime( 2305): 	at android.view.accessibility.IAccessibilityManager$Stub$Proxy.registerUiTestAutomationService(IAccessibilityManager.java:342)
+05-19 14:56:44.621 E/AndroidRuntime( 2305): 	at android.app.UiAutomationConnection.registerUiTestAutomationServiceLocked(UiAutomationConnection.java:175)
+05-19 14:56:44.621 E/AndroidRuntime( 2305): 	at android.app.UiAutomationConnection.connect(UiAutomationConnection.java:72)
+05-19 14:56:44.621 E/AndroidRuntime( 2305): 	at android.app.UiAutomation.connect(UiAutomation.java:188)
+05-19 14:56:44.621 E/AndroidRuntime( 2305): 	at com.android.uiautomator.core.UiAutomationShellWrapper.connect(UiAutomationShellWrapper.java:32)
+05-19 14:56:44.621 E/AndroidRuntime( 2305): 	at com.android.commands.uiautomator.DumpCommand.run(DumpCommand.java:74)
+05-19 14:56:44.621 E/AndroidRuntime( 2305): 	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+05-19 14:56:44.621 E/AndroidRuntime( 2305): 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+05-19 14:56:44.621 E/AndroidRuntime( 2305): 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+05-19 14:56:44.621 E/AndroidRuntime( 2305): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 14:56:44.631 E/ServiceManager( 2305): error in getService
+05-19 14:56:44.631 E/ServiceManager( 2305): android.os.RemoteException: Unknown binder error code. 0xfffffff7
+05-19 14:56:44.631 E/ServiceManager( 2305): 	at android.os.BinderProxy.transact(Native Method)
+05-19 14:56:44.631 E/ServiceManager( 2305): 	at android.os.ServiceManagerProxy.getService(ServiceManagerNative.java:123)
+05-19 14:56:44.631 E/ServiceManager( 2305): 	at android.os.ServiceManager.getService(ServiceManager.java:55)
+05-19 14:56:44.631 E/ServiceManager( 2305): 	at android.app.ActivityManagerNative$1.create(ActivityManagerNative.java:2042)
+05-19 14:56:44.631 E/ServiceManager( 2305): 	at android.app.ActivityManagerNative$1.create(ActivityManagerNative.java:2040)
+05-19 14:56:44.631 E/ServiceManager( 2305): 	at android.util.Singleton.get(Singleton.java:34)
+05-19 14:56:44.631 E/ServiceManager( 2305): 	at android.app.ActivityManagerNative.getDefault(ActivityManagerNative.java:76)
+05-19 14:56:44.631 E/ServiceManager( 2305): 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:86)
+05-19 14:56:44.631 E/ServiceManager( 2305): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-19 14:56:44.631 E/ServiceManager( 2305): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-19 14:56:44.631 E/ServiceManager( 2305): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 14:56:44.631 E/AndroidRuntime( 2305): Error reporting crash
+05-19 14:56:44.631 E/AndroidRuntime( 2305): java.lang.NullPointerException
+05-19 14:56:44.631 E/AndroidRuntime( 2305): 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:86)
+05-19 14:56:44.631 E/AndroidRuntime( 2305): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-19 14:56:44.631 E/AndroidRuntime( 2305): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-19 14:56:44.631 E/AndroidRuntime( 2305): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 14:56:52.921 E/memtrack( 2321): Couldn't load memtrack module (No such file or directory)
+05-19 14:56:52.921 E/android.os.Debug( 2321): failed to load memtrack module: -2
+05-19 14:56:52.931 E/JavaBinder( 2321): Unknown binder error code. 0xfffffff7
+05-19 14:56:52.931 E/ServiceManager( 2321): error in getService
+05-19 14:56:52.931 E/ServiceManager( 2321): android.os.RemoteException: Unknown binder error code. 0xfffffff7
+05-19 14:56:52.931 E/ServiceManager( 2321): 	at android.os.BinderProxy.transact(Native Method)
+05-19 14:56:52.931 E/ServiceManager( 2321): 	at android.os.ServiceManagerProxy.getService(ServiceManagerNative.java:123)
+05-19 14:56:52.931 E/ServiceManager( 2321): 	at android.os.ServiceManager.getService(ServiceManager.java:55)
+05-19 14:56:52.931 E/ServiceManager( 2321): 	at android.app.ActivityManagerNative$1.create(ActivityManagerNative.java:2042)
+05-19 14:56:52.931 E/ServiceManager( 2321): 	at android.app.ActivityManagerNative$1.create(ActivityManagerNative.java:2040)
+05-19 14:56:52.931 E/ServiceManager( 2321): 	at android.util.Singleton.get(Singleton.java:34)
+05-19 14:56:52.931 E/ServiceManager( 2321): 	at android.app.ActivityManagerNative.getDefault(ActivityManagerNative.java:76)
+05-19 14:56:52.931 E/ServiceManager( 2321): 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:86)
+05-19 14:56:52.931 E/ServiceManager( 2321): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-19 14:56:52.931 E/ServiceManager( 2321): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-19 14:56:52.931 E/ServiceManager( 2321): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 14:56:52.931 E/AndroidRuntime( 2321): *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+05-19 14:56:52.931 E/AndroidRuntime( 2321): java.lang.IllegalStateException: UiAutomationService android.accessibilityservice.IAccessibilityServiceClient$Stub$Proxy@4aa9d3d4already registered!
+05-19 14:56:52.931 E/AndroidRuntime( 2321): 	at android.os.Parcel.readException(Parcel.java:1473)
+05-19 14:56:52.931 E/AndroidRuntime( 2321): 	at android.os.Parcel.readException(Parcel.java:1419)
+05-19 14:56:52.931 E/AndroidRuntime( 2321): 	at android.view.accessibility.IAccessibilityManager$Stub$Proxy.registerUiTestAutomationService(IAccessibilityManager.java:342)
+05-19 14:56:52.931 E/AndroidRuntime( 2321): 	at android.app.UiAutomationConnection.registerUiTestAutomationServiceLocked(UiAutomationConnection.java:175)
+05-19 14:56:52.931 E/AndroidRuntime( 2321): 	at android.app.UiAutomationConnection.connect(UiAutomationConnection.java:72)
+05-19 14:56:52.931 E/AndroidRuntime( 2321): 	at android.app.UiAutomation.connect(UiAutomation.java:188)
+05-19 14:56:52.931 E/AndroidRuntime( 2321): 	at com.android.uiautomator.core.UiAutomationShellWrapper.connect(UiAutomationShellWrapper.java:32)
+05-19 14:56:52.931 E/AndroidRuntime( 2321): 	at com.android.commands.uiautomator.DumpCommand.run(DumpCommand.java:74)
+05-19 14:56:52.931 E/AndroidRuntime( 2321): 	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+05-19 14:56:52.931 E/AndroidRuntime( 2321): 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+05-19 14:56:52.931 E/AndroidRuntime( 2321): 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+05-19 14:56:52.931 E/AndroidRuntime( 2321): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 14:56:52.931 E/AndroidRuntime( 2321): Error reporting crash
+05-19 14:56:52.931 E/AndroidRuntime( 2321): java.lang.NullPointerException
+05-19 14:56:52.931 E/AndroidRuntime( 2321): 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:86)
+05-19 14:56:52.931 E/AndroidRuntime( 2321): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-19 14:56:52.931 E/AndroidRuntime( 2321): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-19 14:56:52.931 E/AndroidRuntime( 2321): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 14:56:54.771 E/memtrack( 2337): Couldn't load memtrack module (No such file or directory)
+05-19 14:56:54.771 E/android.os.Debug( 2337): failed to load memtrack module: -2
+05-19 14:56:54.791 E/JavaBinder( 2337): Unknown binder error code. 0xfffffff7
+05-19 14:56:54.791 E/ServiceManager( 2337): error in getService
+05-19 14:56:54.791 E/ServiceManager( 2337): android.os.RemoteException: Unknown binder error code. 0xfffffff7
+05-19 14:56:54.791 E/ServiceManager( 2337): 	at android.os.BinderProxy.transact(Native Method)
+05-19 14:56:54.791 E/ServiceManager( 2337): 	at android.os.ServiceManagerProxy.getService(ServiceManagerNative.java:123)
+05-19 14:56:54.791 E/ServiceManager( 2337): 	at android.os.ServiceManager.getService(ServiceManager.java:55)
+05-19 14:56:54.791 E/ServiceManager( 2337): 	at android.app.ActivityManagerNative$1.create(ActivityManagerNative.java:2042)
+05-19 14:56:54.791 E/ServiceManager( 2337): 	at android.app.ActivityManagerNative$1.create(ActivityManagerNative.java:2040)
+05-19 14:56:54.791 E/ServiceManager( 2337): 	at android.util.Singleton.get(Singleton.java:34)
+05-19 14:56:54.791 E/ServiceManager( 2337): 	at android.app.ActivityManagerNative.getDefault(ActivityManagerNative.java:76)
+05-19 14:56:54.791 E/ServiceManager( 2337): 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:86)
+05-19 14:56:54.791 E/ServiceManager( 2337): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-19 14:56:54.791 E/ServiceManager( 2337): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-19 14:56:54.791 E/ServiceManager( 2337): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 14:56:54.791 E/AndroidRuntime( 2337): *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+05-19 14:56:54.791 E/AndroidRuntime( 2337): java.lang.IllegalStateException: UiAutomationService android.accessibilityservice.IAccessibilityServiceClient$Stub$Proxy@4aa9e098already registered!
+05-19 14:56:54.791 E/AndroidRuntime( 2337): 	at android.os.Parcel.readException(Parcel.java:1473)
+05-19 14:56:54.791 E/AndroidRuntime( 2337): 	at android.os.Parcel.readException(Parcel.java:1419)
+05-19 14:56:54.791 E/AndroidRuntime( 2337): 	at android.view.accessibility.IAccessibilityManager$Stub$Proxy.registerUiTestAutomationService(IAccessibilityManager.java:342)
+05-19 14:56:54.791 E/AndroidRuntime( 2337): 	at android.app.UiAutomationConnection.registerUiTestAutomationServiceLocked(UiAutomationConnection.java:175)
+05-19 14:56:54.791 E/AndroidRuntime( 2337): 	at android.app.UiAutomationConnection.connect(UiAutomationConnection.java:72)
+05-19 14:56:54.791 E/AndroidRuntime( 2337): 	at android.app.UiAutomation.connect(UiAutomation.java:188)
+05-19 14:56:54.791 E/AndroidRuntime( 2337): 	at com.android.uiautomator.core.UiAutomationShellWrapper.connect(UiAutomationShellWrapper.java:32)
+05-19 14:56:54.791 E/AndroidRuntime( 2337): 	at com.android.commands.uiautomator.DumpCommand.run(DumpCommand.java:74)
+05-19 14:56:54.791 E/AndroidRuntime( 2337): 	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+05-19 14:56:54.791 E/AndroidRuntime( 2337): 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+05-19 14:56:54.791 E/AndroidRuntime( 2337): 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+05-19 14:56:54.791 E/AndroidRuntime( 2337): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 14:56:54.791 E/AndroidRuntime( 2337): Error reporting crash
+05-19 14:56:54.791 E/AndroidRuntime( 2337): java.lang.NullPointerException
+05-19 14:56:54.791 E/AndroidRuntime( 2337): 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:86)
+05-19 14:56:54.791 E/AndroidRuntime( 2337): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-19 14:56:54.791 E/AndroidRuntime( 2337): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-19 14:56:54.791 E/AndroidRuntime( 2337): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 14:56:56.951 E/memtrack( 2353): Couldn't load memtrack module (No such file or directory)
+05-19 14:56:56.951 E/android.os.Debug( 2353): failed to load memtrack module: -2
+05-19 14:56:56.971 E/JavaBinder( 2353): Unknown binder error code. 0xfffffff7
+05-19 14:56:56.971 E/ServiceManager( 2353): error in getService
+05-19 14:56:56.971 E/ServiceManager( 2353): android.os.RemoteException: Unknown binder error code. 0xfffffff7
+05-19 14:56:56.971 E/ServiceManager( 2353): 	at android.os.BinderProxy.transact(Native Method)
+05-19 14:56:56.971 E/ServiceManager( 2353): 	at android.os.ServiceManagerProxy.getService(ServiceManagerNative.java:123)
+05-19 14:56:56.971 E/ServiceManager( 2353): 	at android.os.ServiceManager.getService(ServiceManager.java:55)
+05-19 14:56:56.971 E/ServiceManager( 2353): 	at android.app.ActivityManagerNative$1.create(ActivityManagerNative.java:2042)
+05-19 14:56:56.971 E/ServiceManager( 2353): 	at android.app.ActivityManagerNative$1.create(ActivityManagerNative.java:2040)
+05-19 14:56:56.971 E/ServiceManager( 2353): 	at android.util.Singleton.get(Singleton.java:34)
+05-19 14:56:56.971 E/ServiceManager( 2353): 	at android.app.ActivityManagerNative.getDefault(ActivityManagerNative.java:76)
+05-19 14:56:56.971 E/ServiceManager( 2353): 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:86)
+05-19 14:56:56.971 E/ServiceManager( 2353): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-19 14:56:56.971 E/ServiceManager( 2353): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-19 14:56:56.971 E/ServiceManager( 2353): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 14:56:56.971 E/AndroidRuntime( 2353): *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+05-19 14:56:56.971 E/AndroidRuntime( 2353): java.lang.IllegalStateException: UiAutomationService android.accessibilityservice.IAccessibilityServiceClient$Stub$Proxy@4aa9f254already registered!
+05-19 14:56:56.971 E/AndroidRuntime( 2353): 	at android.os.Parcel.readException(Parcel.java:1473)
+05-19 14:56:56.971 E/AndroidRuntime( 2353): 	at android.os.Parcel.readException(Parcel.java:1419)
+05-19 14:56:56.971 E/AndroidRuntime( 2353): 	at android.view.accessibility.IAccessibilityManager$Stub$Proxy.registerUiTestAutomationService(IAccessibilityManager.java:342)
+05-19 14:56:56.971 E/AndroidRuntime( 2353): 	at android.app.UiAutomationConnection.registerUiTestAutomationServiceLocked(UiAutomationConnection.java:175)
+05-19 14:56:56.971 E/AndroidRuntime( 2353): 	at android.app.UiAutomationConnection.connect(UiAutomationConnection.java:72)
+05-19 14:56:56.971 E/AndroidRuntime( 2353): 	at android.app.UiAutomation.connect(UiAutomation.java:188)
+05-19 14:56:56.971 E/AndroidRuntime( 2353): 	at com.android.uiautomator.core.UiAutomationShellWrapper.connect(UiAutomationShellWrapper.java:32)
+05-19 14:56:56.971 E/AndroidRuntime( 2353): 	at com.android.commands.uiautomator.DumpCommand.run(DumpCommand.java:74)
+05-19 14:56:56.971 E/AndroidRuntime( 2353): 	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+05-19 14:56:56.971 E/AndroidRuntime( 2353): 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+05-19 14:56:56.971 E/AndroidRuntime( 2353): 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+05-19 14:56:56.971 E/AndroidRuntime( 2353): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 14:56:56.971 E/AndroidRuntime( 2353): Error reporting crash
+05-19 14:56:56.971 E/AndroidRuntime( 2353): java.lang.NullPointerException
+05-19 14:56:56.971 E/AndroidRuntime( 2353): 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:86)
+05-19 14:56:56.971 E/AndroidRuntime( 2353): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-19 14:56:56.971 E/AndroidRuntime( 2353): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-19 14:56:56.971 E/AndroidRuntime( 2353): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 14:56:58.441 E/memtrack( 2369): Couldn't load memtrack module (No such file or directory)
+05-19 14:56:58.441 E/android.os.Debug( 2369): failed to load memtrack module: -2
+05-19 14:56:58.461 E/JavaBinder( 2369): Unknown binder error code. 0xfffffff7
+05-19 14:56:58.461 E/ServiceManager( 2369): error in getService
+05-19 14:56:58.461 E/ServiceManager( 2369): android.os.RemoteException: Unknown binder error code. 0xfffffff7
+05-19 14:56:58.461 E/ServiceManager( 2369): 	at android.os.BinderProxy.transact(Native Method)
+05-19 14:56:58.461 E/ServiceManager( 2369): 	at android.os.ServiceManagerProxy.getService(ServiceManagerNative.java:123)
+05-19 14:56:58.461 E/ServiceManager( 2369): 	at android.os.ServiceManager.getService(ServiceManager.java:55)
+05-19 14:56:58.461 E/ServiceManager( 2369): 	at android.app.ActivityManagerNative$1.create(ActivityManagerNative.java:2042)
+05-19 14:56:58.461 E/ServiceManager( 2369): 	at android.app.ActivityManagerNative$1.create(ActivityManagerNative.java:2040)
+05-19 14:56:58.461 E/ServiceManager( 2369): 	at android.util.Singleton.get(Singleton.java:34)
+05-19 14:56:58.461 E/ServiceManager( 2369): 	at android.app.ActivityManagerNative.getDefault(ActivityManagerNative.java:76)
+05-19 14:56:58.461 E/ServiceManager( 2369): 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:86)
+05-19 14:56:58.461 E/ServiceManager( 2369): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-19 14:56:58.461 E/ServiceManager( 2369): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-19 14:56:58.461 E/ServiceManager( 2369): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 14:56:58.461 E/AndroidRuntime( 2369): *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+05-19 14:56:58.461 E/AndroidRuntime( 2369): java.lang.IllegalStateException: UiAutomationService android.accessibilityservice.IAccessibilityServiceClient$Stub$Proxy@4aaa59d4already registered!
+05-19 14:56:58.461 E/AndroidRuntime( 2369): 	at android.os.Parcel.readException(Parcel.java:1473)
+05-19 14:56:58.461 E/AndroidRuntime( 2369): 	at android.os.Parcel.readException(Parcel.java:1419)
+05-19 14:56:58.461 E/AndroidRuntime( 2369): 	at android.view.accessibility.IAccessibilityManager$Stub$Proxy.registerUiTestAutomationService(IAccessibilityManager.java:342)
+05-19 14:56:58.461 E/AndroidRuntime( 2369): 	at android.app.UiAutomationConnection.registerUiTestAutomationServiceLocked(UiAutomationConnection.java:175)
+05-19 14:56:58.461 E/AndroidRuntime( 2369): 	at android.app.UiAutomationConnection.connect(UiAutomationConnection.java:72)
+05-19 14:56:58.461 E/AndroidRuntime( 2369): 	at android.app.UiAutomation.connect(UiAutomation.java:188)
+05-19 14:56:58.461 E/AndroidRuntime( 2369): 	at com.android.uiautomator.core.UiAutomationShellWrapper.connect(UiAutomationShellWrapper.java:32)
+05-19 14:56:58.461 E/AndroidRuntime( 2369): 	at com.android.commands.uiautomator.DumpCommand.run(DumpCommand.java:74)
+05-19 14:56:58.461 E/AndroidRuntime( 2369): 	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+05-19 14:56:58.461 E/AndroidRuntime( 2369): 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+05-19 14:56:58.461 E/AndroidRuntime( 2369): 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+05-19 14:56:58.461 E/AndroidRuntime( 2369): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 14:56:58.461 E/AndroidRuntime( 2369): Error reporting crash
+05-19 14:56:58.461 E/AndroidRuntime( 2369): java.lang.NullPointerException
+05-19 14:56:58.461 E/AndroidRuntime( 2369): 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:86)
+05-19 14:56:58.461 E/AndroidRuntime( 2369): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-19 14:56:58.461 E/AndroidRuntime( 2369): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-19 14:56:58.461 E/AndroidRuntime( 2369): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 14:57:02.701 E/GCM     (  703): Missing checkin config file
+05-19 14:57:02.701 E/GCM     (  703): Missing checkin config file
+05-19 14:57:12.251 E/NetworkScheduler.ATC(  703): Provided calling package not found: com.google.android.apps.photos
+05-19 14:57:22.681 E/memtrack( 2561): Couldn't load memtrack module (No such file or directory)
+05-19 14:57:22.681 E/android.os.Debug( 2561): failed to load memtrack module: -2
+05-19 14:57:22.711 E/JavaBinder( 2561): Unknown binder error code. 0xfffffff7
+05-19 14:57:22.711 E/ServiceManager( 2561): error in getService
+05-19 14:57:22.711 E/ServiceManager( 2561): android.os.RemoteException: Unknown binder error code. 0xfffffff7
+05-19 14:57:22.711 E/ServiceManager( 2561): 	at android.os.BinderProxy.transact(Native Method)
+05-19 14:57:22.711 E/ServiceManager( 2561): 	at android.os.ServiceManagerProxy.getService(ServiceManagerNative.java:123)
+05-19 14:57:22.711 E/ServiceManager( 2561): 	at android.os.ServiceManager.getService(ServiceManager.java:55)
+05-19 14:57:22.711 E/ServiceManager( 2561): 	at android.app.ActivityManagerNative$1.create(ActivityManagerNative.java:2042)
+05-19 14:57:22.711 E/ServiceManager( 2561): 	at android.app.ActivityManagerNative$1.create(ActivityManagerNative.java:2040)
+05-19 14:57:22.711 E/ServiceManager( 2561): 	at android.util.Singleton.get(Singleton.java:34)
+05-19 14:57:22.711 E/ServiceManager( 2561): 	at android.app.ActivityManagerNative.getDefault(ActivityManagerNative.java:76)
+05-19 14:57:22.711 E/ServiceManager( 2561): 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:86)
+05-19 14:57:22.711 E/ServiceManager( 2561): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-19 14:57:22.711 E/ServiceManager( 2561): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-19 14:57:22.711 E/ServiceManager( 2561): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 14:57:22.711 E/AndroidRuntime( 2561): *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+05-19 14:57:22.711 E/AndroidRuntime( 2561): java.lang.IllegalStateException: UiAutomationService android.accessibilityservice.IAccessibilityServiceClient$Stub$Proxy@4a99f9b0already registered!
+05-19 14:57:22.711 E/AndroidRuntime( 2561): 	at android.os.Parcel.readException(Parcel.java:1473)
+05-19 14:57:22.711 E/AndroidRuntime( 2561): 	at android.os.Parcel.readException(Parcel.java:1419)
+05-19 14:57:22.711 E/AndroidRuntime( 2561): 	at android.view.accessibility.IAccessibilityManager$Stub$Proxy.registerUiTestAutomationService(IAccessibilityManager.java:342)
+05-19 14:57:22.711 E/AndroidRuntime( 2561): 	at android.app.UiAutomationConnection.registerUiTestAutomationServiceLocked(UiAutomationConnection.java:175)
+05-19 14:57:22.711 E/AndroidRuntime( 2561): 	at android.app.UiAutomationConnection.connect(UiAutomationConnection.java:72)
+05-19 14:57:22.711 E/AndroidRuntime( 2561): 	at android.app.UiAutomation.connect(UiAutomation.java:188)
+05-19 14:57:22.711 E/AndroidRuntime( 2561): 	at com.android.uiautomator.core.UiAutomationShellWrapper.connect(UiAutomationShellWrapper.java:32)
+05-19 14:57:22.711 E/AndroidRuntime( 2561): 	at com.android.commands.uiautomator.DumpCommand.run(DumpCommand.java:74)
+05-19 14:57:22.711 E/AndroidRuntime( 2561): 	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+05-19 14:57:22.711 E/AndroidRuntime( 2561): 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+05-19 14:57:22.711 E/AndroidRuntime( 2561): 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+05-19 14:57:22.711 E/AndroidRuntime( 2561): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 14:57:22.711 E/AndroidRuntime( 2561): Error reporting crash
+05-19 14:57:22.711 E/AndroidRuntime( 2561): java.lang.NullPointerException
+05-19 14:57:22.711 E/AndroidRuntime( 2561): 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:86)
+05-19 14:57:22.711 E/AndroidRuntime( 2561): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-19 14:57:22.711 E/AndroidRuntime( 2561): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-19 14:57:22.711 E/AndroidRuntime( 2561): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 14:57:32.571 E/memtrack( 2579): Couldn't load memtrack module (No such file or directory)
+05-19 14:57:32.571 E/android.os.Debug( 2579): failed to load memtrack module: -2
+05-19 14:57:32.601 E/JavaBinder( 2579): Unknown binder error code. 0xfffffff7
+05-19 14:57:32.601 E/ServiceManager( 2579): error in getService
+05-19 14:57:32.601 E/ServiceManager( 2579): android.os.RemoteException: Unknown binder error code. 0xfffffff7
+05-19 14:57:32.601 E/ServiceManager( 2579): 	at android.os.BinderProxy.transact(Native Method)
+05-19 14:57:32.601 E/ServiceManager( 2579): 	at android.os.ServiceManagerProxy.getService(ServiceManagerNative.java:123)
+05-19 14:57:32.601 E/ServiceManager( 2579): 	at android.os.ServiceManager.getService(ServiceManager.java:55)
+05-19 14:57:32.601 E/ServiceManager( 2579): 	at android.app.ActivityManagerNative$1.create(ActivityManagerNative.java:2042)
+05-19 14:57:32.601 E/ServiceManager( 2579): 	at android.app.ActivityManagerNative$1.create(ActivityManagerNative.java:2040)
+05-19 14:57:32.601 E/ServiceManager( 2579): 	at android.util.Singleton.get(Singleton.java:34)
+05-19 14:57:32.601 E/ServiceManager( 2579): 	at android.app.ActivityManagerNative.getDefault(ActivityManagerNative.java:76)
+05-19 14:57:32.601 E/ServiceManager( 2579): 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:86)
+05-19 14:57:32.601 E/ServiceManager( 2579): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-19 14:57:32.601 E/ServiceManager( 2579): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-19 14:57:32.601 E/ServiceManager( 2579): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 14:57:32.601 E/AndroidRuntime( 2579): *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+05-19 14:57:32.601 E/AndroidRuntime( 2579): java.lang.IllegalStateException: UiAutomationService android.accessibilityservice.IAccessibilityServiceClient$Stub$Proxy@4a962200already registered!
+05-19 14:57:32.601 E/AndroidRuntime( 2579): 	at android.os.Parcel.readException(Parcel.java:1473)
+05-19 14:57:32.601 E/AndroidRuntime( 2579): 	at android.os.Parcel.readException(Parcel.java:1419)
+05-19 14:57:32.601 E/AndroidRuntime( 2579): 	at android.view.accessibility.IAccessibilityManager$Stub$Proxy.registerUiTestAutomationService(IAccessibilityManager.java:342)
+05-19 14:57:32.601 E/AndroidRuntime( 2579): 	at android.app.UiAutomationConnection.registerUiTestAutomationServiceLocked(UiAutomationConnection.java:175)
+05-19 14:57:32.601 E/AndroidRuntime( 2579): 	at android.app.UiAutomationConnection.connect(UiAutomationConnection.java:72)
+05-19 14:57:32.601 E/AndroidRuntime( 2579): 	at android.app.UiAutomation.connect(UiAutomation.java:188)
+05-19 14:57:32.601 E/AndroidRuntime( 2579): 	at com.android.uiautomator.core.UiAutomationShellWrapper.connect(UiAutomationShellWrapper.java:32)
+05-19 14:57:32.601 E/AndroidRuntime( 2579): 	at com.android.commands.uiautomator.DumpCommand.run(DumpCommand.java:74)
+05-19 14:57:32.601 E/AndroidRuntime( 2579): 	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+05-19 14:57:32.601 E/AndroidRuntime( 2579): 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+05-19 14:57:32.601 E/AndroidRuntime( 2579): 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+05-19 14:57:32.601 E/AndroidRuntime( 2579): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 14:57:32.601 E/AndroidRuntime( 2579): Error reporting crash
+05-19 14:57:32.601 E/AndroidRuntime( 2579): java.lang.NullPointerException
+05-19 14:57:32.601 E/AndroidRuntime( 2579): 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:86)
+05-19 14:57:32.601 E/AndroidRuntime( 2579): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+05-19 14:57:32.601 E/AndroidRuntime( 2579): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+05-19 14:57:32.601 E/AndroidRuntime( 2579): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 14:57:35.671 E/PlayCommon(  797): [43] com.google.android.play.a.g.a(1054): Failed to connect to server: java.net.SocketTimeoutException: failed to connect to play.googleapis.com/172.217.24.10 (port 443) after 10000ms
+05-19 14:57:37.121 E/memtrack( 2596): Couldn't load memtrack module (No such file or directory)
+05-19 14:57:37.121 E/android.os.Debug( 2596): failed to load memtrack module: -2
+05-19 14:57:38.211 E/cutils-trace( 2596): Error opening trace file: No such file or directory (2)
+05-19 14:57:38.531 E/cutils-trace( 2611): Error opening trace file: No such file or directory (2)
+05-19 14:57:46.321 E/GCM     (  703): Missing checkin config file
+05-19 14:57:46.511 E/GCM     (  703): Missing checkin config file
+05-19 14:57:46.511 E/GCM     (  703): Missing checkin config file
+05-19 14:57:47.201 E/GCM     (  703): Missing checkin config file
+05-19 14:57:47.201 E/GCM     (  703): Missing checkin config file
+05-19 14:58:36.021 E/memtrack( 2639): Couldn't load memtrack module (No such file or directory)
+05-19 14:58:36.021 E/android.os.Debug( 2639): failed to load memtrack module: -2
+05-19 14:58:36.041 E/cutils-trace( 2639): Error opening trace file: No such file or directory (2)
+05-19 14:58:36.661 E/memtrack( 2651): Couldn't load memtrack module (No such file or directory)
+05-19 14:58:36.661 E/android.os.Debug( 2651): failed to load memtrack module: -2
+05-19 14:58:36.681 E/cutils-trace( 2651): Error opening trace file: No such file or directory (2)
+05-19 14:58:37.451 E/memtrack( 2663): Couldn't load memtrack module (No such file or directory)
+05-19 14:58:37.451 E/android.os.Debug( 2663): failed to load memtrack module: -2
+05-19 14:58:37.471 E/cutils-trace( 2663): Error opening trace file: No such file or directory (2)
+05-19 14:58:43.301 E/memtrack( 2675): Couldn't load memtrack module (No such file or directory)
+05-19 14:58:43.301 E/android.os.Debug( 2675): failed to load memtrack module: -2
+05-19 14:58:43.321 E/cutils-trace( 2675): Error opening trace file: No such file or directory (2)
+05-19 14:58:43.981 E/memtrack( 2687): Couldn't load memtrack module (No such file or directory)
+05-19 14:58:43.981 E/android.os.Debug( 2687): failed to load memtrack module: -2
+05-19 14:58:44.001 E/cutils-trace( 2687): Error opening trace file: No such file or directory (2)
+05-19 14:58:44.881 E/memtrack( 2703): Couldn't load memtrack module (No such file or directory)
+05-19 14:58:44.881 E/android.os.Debug( 2703): failed to load memtrack module: -2
+05-19 14:58:44.901 E/cutils-trace( 2703): Error opening trace file: No such file or directory (2)
+05-19 14:58:45.521 E/memtrack( 2715): Couldn't load memtrack module (No such file or directory)
+05-19 14:58:45.521 E/android.os.Debug( 2715): failed to load memtrack module: -2
+05-19 14:58:45.541 E/cutils-trace( 2715): Error opening trace file: No such file or directory (2)
+05-19 14:58:46.291 E/memtrack( 2729): Couldn't load memtrack module (No such file or directory)
+05-19 14:58:46.291 E/android.os.Debug( 2729): failed to load memtrack module: -2
+05-19 14:58:46.301 E/cutils-trace( 2729): Error opening trace file: No such file or directory (2)
+05-19 14:58:47.401 E/memtrack( 2747): Couldn't load memtrack module (No such file or directory)
+05-19 14:58:47.401 E/android.os.Debug( 2747): failed to load memtrack module: -2
+05-19 14:58:47.421 E/cutils-trace( 2747): Error opening trace file: No such file or directory (2)
+05-19 14:58:48.061 E/memtrack( 2759): Couldn't load memtrack module (No such file or directory)
+05-19 14:58:48.061 E/android.os.Debug( 2759): failed to load memtrack module: -2
+05-19 14:58:48.081 E/InputDispatcher(  478): channel '4a9c9b14 com.boco.sc.mobileom/com.boco.sc.mobileom.start.WorkSheetModuleList2 (server)' ~ Channel is unrecoverably broken and will be disposed!
+05-19 14:58:48.081 E/cutils-trace( 2759): Error opening trace file: No such file or directory (2)
+05-19 14:58:48.761 E/memtrack( 2776): Couldn't load memtrack module (No such file or directory)
+05-19 14:58:48.761 E/android.os.Debug( 2776): failed to load memtrack module: -2
+05-19 14:58:48.791 E/cutils-trace( 2776): Error opening trace file: No such file or directory (2)
+05-19 14:58:51.941 E/memtrack( 2805): Couldn't load memtrack module (No such file or directory)
+05-19 14:58:51.941 E/android.os.Debug( 2805): failed to load memtrack module: -2
+05-19 14:58:52.711 E/memtrack( 2822): Couldn't load memtrack module (No such file or directory)
+05-19 14:58:52.711 E/android.os.Debug( 2822): failed to load memtrack module: -2
+05-19 14:58:53.031 E/QueryController( 2805): Got null root node from accessibility - Retrying...
+05-19 14:58:53.271 E/VMSG    ( 2834): RegisterNatives OnUserCommand1
+05-19 14:58:53.281 E/QueryController( 2805): Got null root node from accessibility - Retrying...
+05-19 14:58:53.571 E/cutils-trace( 2822): Error opening trace file: No such file or directory (2)
+05-19 14:58:53.621 E/baidumapsdk( 2834): Authentication Error errorcode: 230 uid: -1 appid -1 msg: APP Scode码校验失败
+05-19 14:58:55.901 E/cutils-trace( 2805): Error opening trace file: No such file or directory (2)
+05-19 14:58:57.741 E/memtrack( 2860): Couldn't load memtrack module (No such file or directory)
+05-19 14:58:57.741 E/android.os.Debug( 2860): failed to load memtrack module: -2
+05-19 14:58:58.521 E/cutils-trace( 2860): Error opening trace file: No such file or directory (2)
+05-19 14:59:04.581 E/memtrack( 2873): Couldn't load memtrack module (No such file or directory)
+05-19 14:59:04.581 E/android.os.Debug( 2873): failed to load memtrack module: -2
+05-19 14:59:05.461 E/cutils-trace( 2873): Error opening trace file: No such file or directory (2)
+05-19 14:59:14.571 E/GCM     (  703): Missing checkin config file
+05-19 14:59:14.571 E/GCM     (  703): Missing checkin config file
+05-19 14:59:15.461 E/GCM     (  703): Missing checkin config file
+05-19 14:59:15.471 E/GCM     (  703): Missing checkin config file
+05-19 14:59:16.341 E/GCM     (  703): Missing checkin config file
+05-19 14:59:20.451 E/memtrack( 2909): Couldn't load memtrack module (No such file or directory)
+05-19 14:59:20.451 E/android.os.Debug( 2909): failed to load memtrack module: -2
+05-19 14:59:20.461 E/cutils-trace( 2909): Error opening trace file: No such file or directory (2)
+05-19 14:59:21.311 E/memtrack( 2923): Couldn't load memtrack module (No such file or directory)
+05-19 14:59:21.311 E/android.os.Debug( 2923): failed to load memtrack module: -2
+05-19 14:59:21.371 E/cutils-trace( 2923): Error opening trace file: No such file or directory (2)
+05-19 14:59:21.661 E/QueryController( 2805): Got null root node from accessibility - Retrying...
+05-19 14:59:24.411 E/memtrack( 2941): Couldn't load memtrack module (No such file or directory)
+05-19 14:59:24.411 E/android.os.Debug( 2941): failed to load memtrack module: -2
+05-19 14:59:24.441 E/cutils-trace( 2941): Error opening trace file: No such file or directory (2)
+05-19 14:59:27.131 E/memtrack( 2954): Couldn't load memtrack module (No such file or directory)
+05-19 14:59:27.131 E/android.os.Debug( 2954): failed to load memtrack module: -2
+05-19 14:59:27.151 E/cutils-trace( 2954): Error opening trace file: No such file or directory (2)
+05-19 14:59:29.801 E/memtrack( 2966): Couldn't load memtrack module (No such file or directory)
+05-19 14:59:29.801 E/android.os.Debug( 2966): failed to load memtrack module: -2
+05-19 14:59:29.831 E/cutils-trace( 2966): Error opening trace file: No such file or directory (2)
+05-19 14:59:32.651 E/memtrack( 2980): Couldn't load memtrack module (No such file or directory)
+05-19 14:59:32.651 E/android.os.Debug( 2980): failed to load memtrack module: -2
+05-19 14:59:32.681 E/cutils-trace( 2980): Error opening trace file: No such file or directory (2)
+05-19 14:59:32.691 E/local_gps(  155): Can't send RMC command
+05-19 14:59:32.771 E/GCoreUlr(  658): Bad errorId configuring silent feedback

@@ -1,0 +1,340 @@
+--------- beginning of /dev/log/system
+--------- beginning of /dev/log/main
+05-19 14:55:08.541 E/ConsumerIrService(  478): Can't open consumer IR HW Module, error: -2
+05-19 14:55:08.541 E/libsuspend(  478): Error opening /sys/power/autosleep: No such file or directory
+05-19 14:55:08.541 E/libsuspend(  478): Error opening /sys/power/wakeup_count: Permission denied
+05-19 14:55:08.541 E/libsuspend(  478): failed to initialize autosuspend
+05-19 14:55:08.581 E/EventHub(  478): could not get driver version for /dev/input/mouse4, Not a typewriter
+05-19 14:55:08.611 E/EventHub(  478): could not get driver version for /dev/input/mouse3, Not a typewriter
+05-19 14:55:08.631 E/EventHub(  478): could not get driver version for /dev/input/mouse2, Not a typewriter
+05-19 14:55:08.651 E/ConnectivityService(  478): Ignoring protectedNetwork 10
+05-19 14:55:08.651 E/ConnectivityService(  478): Ignoring protectedNetwork 11
+05-19 14:55:08.651 E/ConnectivityService(  478): Ignoring protectedNetwork 12
+05-19 14:55:08.651 E/ConnectivityService(  478): Ignoring protectedNetwork 14
+05-19 14:55:08.661 E/MobileDataStateTracker(  478): default: Ignoring feature request because could not acquire PhoneService
+05-19 14:55:08.661 E/MobileDataStateTracker(  478): default: Could not enable APN type "default"
+05-19 14:55:08.691 E/EventHub(  478): could not get driver version for /dev/input/mouse0, Not a typewriter
+05-19 14:55:08.751 E/EventHub(  478): could not get driver version for /dev/input/mice, Not a typewriter
+05-19 14:55:08.911 E/EGL_emulation(  478): egl: destroying current context refused
+05-19 14:55:08.941 E/EventHub(  478): could not get driver version for /dev/input/mouse1, Not a typewriter
+05-19 14:55:08.981 E/libsuspend(  478): Error opening /sys/power/autosleep: No such file or directory
+05-19 14:55:08.981 E/libsuspend(  478): Error opening /sys/power/wakeup_count: Permission denied
+05-19 14:55:08.981 E/libsuspend(  478): failed to initialize autosuspend
+05-19 14:55:09.041 E/WVMExtractor(  163): Failed to open libwvm.so
+05-19 14:55:09.041 E/cutils-trace(  163): Error opening trace file: No such file or directory (2)
+05-19 14:55:09.281 E/WifiStateMachine(  478): Failed to reload STA firmware java.lang.IllegalArgumentException: command '2 softap fwreload eth1 STA' failed with '501 2 SoftAP command has failed'
+05-19 14:55:09.361 E/Netd    (  156): Failed to open /proc/sys/net/ipv6/conf/eth1/use_tempaddr: No such file or directory
+05-19 14:55:09.361 E/WifiStateMachine(  478): Unable to change interface settings: java.lang.IllegalStateException: command '6 interface ipv6privacyextensions eth1 enable' failed with '400 6 Failed to set ipv6 privacy extensions (No such file or directory)'
+05-19 14:55:09.451 E/WifiHW  (  478): Unable to open connection to supplicant on "@android:wpa_eth1": No such file or directory
+05-19 14:55:09.461 E/BandwidthController(  156): runIptablesCmd(): res=1 status=256 failed /system/bin/iptables -I bw_INPUT -m quota2 ! --quota 2097152 --name globalAlert
+05-19 14:55:09.471 E/BandwidthController(  156): runIptablesCmd(): res=1 status=256 failed /system/bin/ip6tables -I bw_INPUT -m quota2 ! --quota 2097152 --name globalAlert
+05-19 14:55:09.471 E/BandwidthController(  156): runIptablesCmd(): res=1 status=256 failed /system/bin/iptables -I bw_OUTPUT -m quota2 ! --quota 2097152 --name globalAlert
+05-19 14:55:09.481 E/BandwidthController(  156): runIptablesCmd(): res=1 status=256 failed /system/bin/ip6tables -I bw_OUTPUT -m quota2 ! --quota 2097152 --name globalAlert
+05-19 14:55:09.511 E/BluetoothInputDevice(  611): Could not bind to Bluetooth HID Service with Intent { act=android.bluetooth.IBluetoothInputDevice }
+05-19 14:55:09.511 E/BluetoothPan(  611): Could not bind to Bluetooth Pan Service with Intent { act=android.bluetooth.IBluetoothPan }
+05-19 14:55:09.511 E/BluetoothMap(  611): Could not bind to Bluetooth MAP Service with Intent { act=android.bluetooth.IBluetoothMap }
+05-19 14:55:09.511 E/BluetoothPbap(  611): Could not bind to Bluetooth Pbap Service with Intent { act=android.bluetooth.IBluetoothPbap }
+05-19 14:55:09.581 E/LocationManagerService(  478): no geocoder provider found
+05-19 14:55:09.591 E/FlpHardwareProvider(  478): Error hw_get_module 'flp': -2
+05-19 14:55:09.591 E/FlpHardwareProvider(  478): Error hw_get_module 'flp': -2
+05-19 14:55:09.591 E/GpsLocationProvider(  478): no AGPS interface in set_agps_server
+05-19 14:55:09.591 E/LocationManagerService(  478): No FusedProvider found.
+05-19 14:55:09.591 E/LocationManagerService(  478): no geofence provider found
+05-19 14:55:09.981 E/BluetoothHeadset(  673): Could not bind to Bluetooth Headset Service with Intent { act=android.bluetooth.IBluetoothHeadset }
+05-19 14:55:09.991 E/BluetoothHeadset(  673): Could not bind to Bluetooth Headset Service with Intent { act=android.bluetooth.IBluetoothHeadset }
+05-19 14:55:10.121 E/BluetoothHeadset(  673): Could not bind to Bluetooth Headset Service with Intent { act=android.bluetooth.IBluetoothHeadset }
+05-19 14:55:10.121 E/BluetoothPhoneService(  673): Could not get a handle on Connection object for the call
+05-19 14:55:10.131 E/dalvikvm(  658): Could not find class 'javax.net.ssl.SNIHostName', referenced from method com.google.android.gms.org.conscrypt.Platform.getSSLParameters
+05-19 14:55:10.131 E/dalvikvm(  658): Could not find class 'javax.net.ssl.SNIServerName', referenced from method com.google.android.gms.org.conscrypt.Platform.setSSLParameters
+05-19 14:55:10.161 E/dalvikvm(  658): Could not find class 'com.google.android.gms.org.conscrypt.OpenSSLExtendedSessionImpl', referenced from method com.google.android.gms.org.conscrypt.Platform.wrapSSLSession
+05-19 14:55:10.241 E/SA.AnalyticsMessages(  685): Failed to get vtrack configure from SensorsAnalaytics.
+05-19 14:55:10.261 E/dalvikvm(  658): Could not find class 'com.google.android.gms.org.conscrypt.OpenSSLExtendedSessionImpl', referenced from method com.google.android.gms.org.conscrypt.SSLParametersImpl.getSessionToReuse
+05-19 14:55:10.711 E/dalvikvm(  658): Could not find class 'android.app.ActivityManager$TaskDescription', referenced from method txi.a
+05-19 14:55:10.741 E/WifiConfigStore(  478): Error parsing configurationjava.io.FileNotFoundException: /data/misc/wifi/ipconfig.txt: open failed: ENOENT (No such file or directory)
+05-19 14:55:10.761 E/WifiStateMachine(  478): Failed to set country code CN
+05-19 14:55:10.761 E/WifiStateMachine(  478): Failed to set frequency band 0
+05-19 14:55:10.801 E/WifiStateMachine(  478): Unexpected BatchedScanResults :null
+05-19 14:55:11.691 E/ConnectivityService(  478): Unexpected mtu value: android.net.wifi.WifiStateTracker@4a9014c4
+05-19 14:55:11.701 E/dalvikvm(  658): Could not find class 'jgj', referenced from method jgi.a
+05-19 14:55:11.771 E/memtrack(  736): Couldn't load memtrack module (No such file or directory)
+05-19 14:55:11.771 E/android.os.Debug(  736): failed to load memtrack module: -2
+05-19 14:55:11.831 E/memtrack(  760): Couldn't load memtrack module (No such file or directory)
+05-19 14:55:11.831 E/android.os.Debug(  760): failed to load memtrack module: -2
+05-19 14:55:11.871 E/cutils-trace(  736): Error opening trace file: No such file or directory (2)
+05-19 14:55:11.901 E/cutils-trace(  760): Error opening trace file: No such file or directory (2)
+05-19 14:55:11.931 E/BandwidthController(  156): Updating quota globalAlert failed (No such file or directory)
+05-19 14:55:12.181 E/memtrack(  803): Couldn't load memtrack module (No such file or directory)
+05-19 14:55:12.181 E/android.os.Debug(  803): failed to load memtrack module: -2
+05-19 14:55:12.191 E/memtrack(  775): Couldn't load memtrack module (No such file or directory)
+05-19 14:55:12.191 E/android.os.Debug(  775): failed to load memtrack module: -2
+05-19 14:55:12.281 E/cutils-trace(  775): Error opening trace file: No such file or directory (2)
+05-19 14:55:12.281 E/cutils-trace(  803): Error opening trace file: No such file or directory (2)
+05-19 14:55:12.291 E/dalvikvm(  658): Could not find class 'jqk', referenced from method jqi.a
+05-19 14:55:12.341 E/dalvikvm(  658): Could not find class 'aiem', referenced from method aita.<init>
+05-19 14:55:12.421 E/dalvikvm(  658): Could not find class 'aiqs', referenced from method aiqu.a
+05-19 14:55:12.421 E/dalvikvm(  658): Could not find class 'android.app.AlarmManager$OnAlarmListener', referenced from method aiqu.a
+05-19 14:55:12.511 E/dalvikvm(  933): Could not find class 'javax.net.ssl.SNIHostName', referenced from method com.google.android.gms.org.conscrypt.Platform.getSSLParameters
+05-19 14:55:12.511 E/dalvikvm(  933): Could not find class 'javax.net.ssl.SNIServerName', referenced from method com.google.android.gms.org.conscrypt.Platform.setSSLParameters
+05-19 14:55:12.511 E/dalvikvm(  933): Could not find class 'com.google.android.gms.org.conscrypt.OpenSSLExtendedSessionImpl', referenced from method com.google.android.gms.org.conscrypt.Platform.wrapSSLSession
+05-19 14:55:12.571 E/dalvikvm(  933): Could not find class 'com.google.android.gms.org.conscrypt.OpenSSLExtendedSessionImpl', referenced from method com.google.android.gms.org.conscrypt.SSLParametersImpl.getSessionToReuse
+05-19 14:55:12.591 E/memtrack(  816): Couldn't load memtrack module (No such file or directory)
+05-19 14:55:12.591 E/android.os.Debug(  816): failed to load memtrack module: -2
+05-19 14:55:12.681 E/cutils-trace(  816): Error opening trace file: No such file or directory (2)
+05-19 14:55:12.811 E/dalvikvm(  658): Could not find class 'android.bluetooth.le.AdvertiseSettings$Builder', referenced from method aqrk.a
+05-19 14:55:13.101 E/dalvikvm(  658): Could not find class 'android.app.usage.UsageStatsManager', referenced from method ugw.a
+05-19 14:55:13.181 E/memtrack(  976): Couldn't load memtrack module (No such file or directory)
+05-19 14:55:13.181 E/android.os.Debug(  976): failed to load memtrack module: -2
+05-19 14:55:13.261 E/dalvikvm(  797): Could not find class 'com.google.android.finsky.hygiene.HygieneJobService', referenced from method com.google.android.finsky.dailyhygiene.DailyHygiene.a
+05-19 14:55:13.291 E/dalvikvm(  797): Could not find class 'com.google.android.finsky.services.MaintenanceWindowJobService', referenced from method com.google.android.finsky.dailyhygiene.DailyHygiene.g
+05-19 14:55:13.301 E/cutils-trace(  976): Error opening trace file: No such file or directory (2)
+05-19 14:55:13.561 E/dalvikvm(  658): Could not find class 'android.app.usage.UsageStatsManager', referenced from method com.google.android.gms.wearable.service.WearableChimeraService.onCreate
+05-19 14:55:13.621 E/dalvikvm(  658): Could not find class 'android.telecom.TelecomManager', referenced from method afwv.a
+05-19 14:55:13.681 E/Finsky  (  797): [1] com.google.android.finsky.wear.bl.a(847): onConnectionFailed: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null}
+05-19 14:55:13.731 E/GCoreUlr(  658): Bad errorId configuring silent feedback
+05-19 14:55:13.901 E/BaseAppContext(  933): Tried to stop global GMSCore RequestQueue. This is likely unintended, so ignoring.
+05-19 14:55:13.941 E/GCoreUlr(  658): Bad errorId configuring silent feedback
+05-19 14:55:14.001 E/GCoreUlr(  658): Bad errorId configuring silent feedback
+05-19 14:55:16.090 E/WifiStateMachine(  478): Failed to set country code CN
+05-19 14:55:16.941 E/WifiStateMachine(  478): Failed to set country code CN
+05-19 14:55:17.381 E/TelephonyProvider(  673): Failed setting numeric '460075' to the current operator
+05-19 14:55:20.281 E/RemotePrintSpooler(  478): Error removing obsolete print jobs .
+05-19 14:55:20.281 E/RemotePrintSpooler(  478): java.util.concurrent.TimeoutException: Cannot get spooler!
+05-19 14:55:20.281 E/RemotePrintSpooler(  478): 	at com.android.server.print.RemotePrintSpooler.bindLocked(RemotePrintSpooler.java:376)
+05-19 14:55:20.281 E/RemotePrintSpooler(  478): 	at com.android.server.print.RemotePrintSpooler.getRemoteInstanceLazy(RemotePrintSpooler.java:352)
+05-19 14:55:20.281 E/RemotePrintSpooler(  478): 	at com.android.server.print.RemotePrintSpooler.removeObsoletePrintJobs(RemotePrintSpooler.java:287)
+05-19 14:55:20.281 E/RemotePrintSpooler(  478): 	at com.android.server.print.UserState.removeObsoletePrintJobs(UserState.java:163)
+05-19 14:55:20.281 E/RemotePrintSpooler(  478): 	at com.android.server.print.PrintManagerService$1.run(PrintManagerService.java:94)
+05-19 14:55:20.281 E/RemotePrintSpooler(  478): 	at android.os.Handler.handleCallback(Handler.java:733)
+05-19 14:55:20.281 E/RemotePrintSpooler(  478): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+05-19 14:55:20.281 E/RemotePrintSpooler(  478): 	at android.os.Looper.loop(Looper.java:136)
+05-19 14:55:20.281 E/RemotePrintSpooler(  478): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+05-19 14:55:20.291 E/GpsLocationProvider(  478): no AGPS interface in set_agps_server
+05-19 14:55:20.321 E/dalvikvm(  703): Could not find class 'javax.net.ssl.SNIHostName', referenced from method com.google.android.gms.org.conscrypt.Platform.getSSLParameters
+05-19 14:55:20.321 E/dalvikvm(  703): Could not find class 'javax.net.ssl.SNIServerName', referenced from method com.google.android.gms.org.conscrypt.Platform.setSSLParameters
+05-19 14:55:20.321 E/dalvikvm(  703): Could not find class 'com.google.android.gms.org.conscrypt.OpenSSLExtendedSessionImpl', referenced from method com.google.android.gms.org.conscrypt.Platform.wrapSSLSession
+05-19 14:55:20.331 E/dalvikvm(  703): Could not find class 'com.google.android.gms.org.conscrypt.OpenSSLExtendedSessionImpl', referenced from method com.google.android.gms.org.conscrypt.SSLParametersImpl.getSessionToReuse
+05-19 14:55:20.751 E/local_gps(  155): Can't send RMC command
+05-19 14:55:21.761 E/BluetoothManagerService(  478): Fail to bind to: Intent { act=android.bluetooth.IBluetooth }
+05-19 14:55:21.761 E/WifiStateMachine(  478): Failed to set country code CN
+05-19 14:55:21.771 E/BluetoothHeadset(  478): Could not bind to Bluetooth Headset Service with Intent { act=android.bluetooth.IBluetoothHeadset }
+05-19 14:55:21.771 E/BluetoothA2dp(  478): Could not bind to Bluetooth A2DP Service with Intent { act=android.bluetooth.IBluetoothA2dp }
+05-19 14:55:21.931 E/UpdateRequestReceiver( 1226): ignoring update request
+05-19 14:55:22.941 E/FileScannerService( 1136): binding file scanner
+05-19 14:55:22.941 E/UpdateRequestReceiver( 1226): ignoring update request
+05-19 14:55:22.941 E/UpdateRequestReceiver( 1226): ignoring update request
+05-19 14:55:22.951 E/UpdateRequestReceiver( 1226): ignoring update request
+05-19 14:55:22.951 E/UpdateRequestReceiver( 1226): ignoring update request
+05-19 14:55:22.951 E/UpdateRequestReceiver( 1226): ignoring update request
+05-19 14:55:23.121 E/dalvikvm(  933): Could not find class 'android.service.persistentdata.PersistentDataBlockManager', referenced from method dzw.a
+05-19 14:55:23.161 E/dalvikvm(  933): Could not find class 'android.telephony.SubscriptionManager', referenced from method com.google.android.gms.checkin.CheckinChimeraService.c
+05-19 14:55:23.181 E/dalvikvm(  933): Could not find class 'android.net.NetworkRequest$Builder', referenced from method com.google.android.gms.common.stats.GmsCoreStatsChimeraService.onCreate
+05-19 14:55:23.181 E/dalvikvm(  658): Could not find class 'android.net.NetworkRequest$Builder', referenced from method com.google.android.gms.common.stats.GmsCoreStatsChimeraService.onCreate
+05-19 14:55:23.281 E/dalvikvm(  703): Could not find class 'android.app.job.JobScheduler', referenced from method pqd.a
+05-19 14:55:23.311 E/dalvikvm(  703): Could not find class 'android.app.usage.UsageStatsManager', referenced from method ppl.a
+05-19 14:55:23.621 E/dalvikvm(  933): Could not find class 'jgj', referenced from method jgi.a
+05-19 14:55:23.651 E/dalvikvm(  933): Could not find class 'android.telephony.SubscriptionManager', referenced from method hgi.a
+05-19 14:55:23.651 E/Ads     (  933): Error while retrieving parental controls.
+05-19 14:55:23.651 E/Ads     (  933): java.lang.NullPointerException
+05-19 14:55:23.651 E/Ads     (  933): 	at android.os.Parcel.readException(Parcel.java:1471)
+05-19 14:55:23.651 E/Ads     (  933): 	at android.os.Parcel.readException(Parcel.java:1419)
+05-19 14:55:23.651 E/Ads     (  933): 	at bbb.a(:com.google.android.gms:139)
+05-19 14:55:23.651 E/Ads     (  933): 	at com.google.android.gms.ads.play.c.onServiceConnected(:com.google.android.gms:175)
+05-19 14:55:23.651 E/Ads     (  933): 	at android.app.LoadedApk$ServiceDispatcher.doConnected(LoadedApk.java:1110)
+05-19 14:55:23.651 E/Ads     (  933): 	at android.app.LoadedApk$ServiceDispatcher$RunConnection.run(LoadedApk.java:1127)
+05-19 14:55:23.651 E/Ads     (  933): 	at android.os.Handler.handleCallback(Handler.java:733)
+05-19 14:55:23.651 E/Ads     (  933): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+05-19 14:55:23.651 E/Ads     (  933): 	at android.os.Looper.loop(Looper.java:136)
+05-19 14:55:23.651 E/Ads     (  933): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+05-19 14:55:23.651 E/Ads     (  933): 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-19 14:55:23.651 E/Ads     (  933): 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-19 14:55:23.651 E/Ads     (  933): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+05-19 14:55:23.651 E/Ads     (  933): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+05-19 14:55:23.651 E/Ads     (  933): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 14:55:23.741 E/ActivityThread(  933): Failed to find provider info for com.google.android.wearable.settings
+05-19 14:55:23.921 E/dalvikvm(  933): Could not find class 'android.net.NetworkRequest$Builder', referenced from method addo.b
+05-19 14:55:23.971 E/MDM     (  933): [121] tdv.a: Couldn't connect to Google API client: hvk{statusCode=API_UNAVAILABLE, resolution=null, message=null}
+05-19 14:55:23.981 E/Icing   (  933): street name for address is empty or is not existed. 
+05-19 14:55:23.991 E/Icing   (  933): Opening file  for read failed: No such file or directory
+05-19 14:55:23.991 E/Icing   (  933): Unable to open file . 
+05-19 14:55:23.991 E/Icing   (  933): WordsMap was not properly initialized
+05-19 14:55:24.111 E/GCoreUlr(  658): Bad errorId configuring silent feedback
+05-19 14:55:24.151 E/GCM     (  703): Missing checkin config file
+05-19 14:55:24.151 E/MS_RegisterService(  933): Exception getting GCM token
+05-19 14:55:24.151 E/MS_RegisterService(  933): java.io.IOException: AUTHENTICATION_FAILED
+05-19 14:55:24.151 E/MS_RegisterService(  933): 	at rie.b(:com.google.android.gms:816)
+05-19 14:55:24.151 E/MS_RegisterService(  933): 	at rie.a(:com.google.android.gms:787)
+05-19 14:55:24.151 E/MS_RegisterService(  933): 	at ria.c(:com.google.android.gms:524)
+05-19 14:55:24.151 E/MS_RegisterService(  933): 	at ria.b(:com.google.android.gms:487)
+05-19 14:55:24.151 E/MS_RegisterService(  933): 	at agry.a(:com.google.android.gms:1439)
+05-19 14:55:24.151 E/MS_RegisterService(  933): 	at com.google.android.libraries.matchstick.net.SilentRegisterIntentOperation.a(:com.google.android.gms:1021)
+05-19 14:55:24.151 E/MS_RegisterService(  933): 	at com.google.android.libraries.matchstick.net.SilentRegisterIntentOperation.onHandleIntent(:com.google.android.gms:467)
+05-19 14:55:24.151 E/MS_RegisterService(  933): 	at com.google.android.chimera.IntentOperation.onHandleIntent(:com.google.android.gms:118)
+05-19 14:55:24.151 E/MS_RegisterService(  933): 	at bwq.run(:com.google.android.gms:1864)
+05-19 14:55:24.151 E/MS_RegisterService(  933): 	at bwn.run(:com.google.android.gms:1143)
+05-19 14:55:24.151 E/MS_RegisterService(  933): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+05-19 14:55:24.151 E/MS_RegisterService(  933): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+05-19 14:55:24.151 E/MS_RegisterService(  933): 	at java.lang.Thread.run(Thread.java:841)
+05-19 14:55:24.221 E/dalvikvm( 1491): Could not find class 'javax.net.ssl.SNIHostName', referenced from method com.google.android.gms.org.conscrypt.Platform.getSSLParameters
+05-19 14:55:24.221 E/dalvikvm( 1491): Could not find class 'javax.net.ssl.SNIServerName', referenced from method com.google.android.gms.org.conscrypt.Platform.setSSLParameters
+05-19 14:55:24.231 E/dalvikvm( 1491): Could not find class 'com.google.android.gms.org.conscrypt.OpenSSLExtendedSessionImpl', referenced from method com.google.android.gms.org.conscrypt.Platform.wrapSSLSession
+05-19 14:55:24.251 E/dalvikvm( 1491): Could not find class 'com.google.android.gms.org.conscrypt.OpenSSLExtendedSessionImpl', referenced from method com.google.android.gms.org.conscrypt.SSLParametersImpl.getSessionToReuse
+05-19 14:55:24.401 E/dalvikvm( 1491): Could not find class 'jgj', referenced from method jgi.a
+05-19 14:55:24.501 E/dalvikvm(  933): Could not find class 'android.app.usage.UsageStatsManager', referenced from method rff.a
+05-19 14:55:24.891 E/Drm     (  163): Failed to open plugin directory /vendor/lib/mediadrm
+05-19 14:55:25.711 E/memtrack( 1539): Couldn't load memtrack module (No such file or directory)
+05-19 14:55:25.711 E/android.os.Debug( 1539): failed to load memtrack module: -2
+05-19 14:55:25.731 E/cutils-trace( 1539): Error opening trace file: No such file or directory (2)
+05-19 14:55:26.381 E/memtrack( 1551): Couldn't load memtrack module (No such file or directory)
+05-19 14:55:26.381 E/android.os.Debug( 1551): failed to load memtrack module: -2
+05-19 14:55:26.401 E/cutils-trace( 1551): Error opening trace file: No such file or directory (2)
+05-19 14:55:32.251 E/memtrack( 1640): Couldn't load memtrack module (No such file or directory)
+05-19 14:55:32.251 E/android.os.Debug( 1640): failed to load memtrack module: -2
+05-19 14:55:32.261 E/cutils-trace( 1640): Error opening trace file: No such file or directory (2)
+05-19 14:55:33.031 E/memtrack( 1652): Couldn't load memtrack module (No such file or directory)
+05-19 14:55:33.031 E/android.os.Debug( 1652): failed to load memtrack module: -2
+05-19 14:55:33.041 E/cutils-trace( 1652): Error opening trace file: No such file or directory (2)
+05-19 14:55:33.731 E/memtrack( 1664): Couldn't load memtrack module (No such file or directory)
+05-19 14:55:33.731 E/android.os.Debug( 1664): failed to load memtrack module: -2
+05-19 14:55:33.751 E/cutils-trace( 1664): Error opening trace file: No such file or directory (2)
+05-19 14:55:34.721 E/memtrack( 1680): Couldn't load memtrack module (No such file or directory)
+05-19 14:55:34.721 E/android.os.Debug( 1680): failed to load memtrack module: -2
+05-19 14:55:34.741 E/cutils-trace( 1680): Error opening trace file: No such file or directory (2)
+05-19 14:55:35.391 E/memtrack( 1692): Couldn't load memtrack module (No such file or directory)
+05-19 14:55:35.391 E/android.os.Debug( 1692): failed to load memtrack module: -2
+05-19 14:55:35.411 E/cutils-trace( 1692): Error opening trace file: No such file or directory (2)
+05-19 14:55:36.211 E/memtrack( 1706): Couldn't load memtrack module (No such file or directory)
+05-19 14:55:36.211 E/android.os.Debug( 1706): failed to load memtrack module: -2
+05-19 14:55:36.231 E/cutils-trace( 1706): Error opening trace file: No such file or directory (2)
+05-19 14:55:37.401 E/memtrack( 1724): Couldn't load memtrack module (No such file or directory)
+05-19 14:55:37.401 E/android.os.Debug( 1724): failed to load memtrack module: -2
+05-19 14:55:37.421 E/cutils-trace( 1724): Error opening trace file: No such file or directory (2)
+05-19 14:55:38.091 E/memtrack( 1736): Couldn't load memtrack module (No such file or directory)
+05-19 14:55:38.091 E/android.os.Debug( 1736): failed to load memtrack module: -2
+05-19 14:55:38.101 E/cutils-trace( 1736): Error opening trace file: No such file or directory (2)
+05-19 14:55:38.321 E/dalvikvm( 1748): Could not find class 'javax.net.ssl.SNIHostName', referenced from method com.google.android.gms.org.conscrypt.Platform.getSSLParameters
+05-19 14:55:38.321 E/dalvikvm( 1748): Could not find class 'javax.net.ssl.SNIServerName', referenced from method com.google.android.gms.org.conscrypt.Platform.setSSLParameters
+05-19 14:55:38.331 E/dalvikvm( 1748): Could not find class 'com.google.android.gms.org.conscrypt.OpenSSLExtendedSessionImpl', referenced from method com.google.android.gms.org.conscrypt.Platform.wrapSSLSession
+05-19 14:55:38.341 E/dalvikvm( 1748): Could not find class 'com.google.android.gms.org.conscrypt.OpenSSLExtendedSessionImpl', referenced from method com.google.android.gms.org.conscrypt.SSLParametersImpl.getSessionToReuse
+05-19 14:55:38.601 E/dalvikvm(  933): Could not find class 'com.google.android.gms.common.permission.PermissionUtils$1', referenced from method com.google.android.gms.chimera.GmsModuleInitializer.initializeModuleV0
+05-19 14:55:38.811 E/memtrack( 1774): Couldn't load memtrack module (No such file or directory)
+05-19 14:55:38.811 E/android.os.Debug( 1774): failed to load memtrack module: -2
+05-19 14:55:38.841 E/cutils-trace( 1774): Error opening trace file: No such file or directory (2)
+05-19 14:55:39.021 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.19
+05-19 14:55:39.041 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.19
+05-19 14:55:39.041 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.18
+05-19 14:55:39.041 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.18
+05-19 14:55:39.041 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.19
+05-19 14:55:39.041 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.19
+05-19 14:55:39.041 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.17
+05-19 14:55:39.041 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.17
+05-19 14:55:39.041 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.18
+05-19 14:55:39.041 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.18
+05-19 14:55:39.041 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.16
+05-19 14:55:39.051 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.16
+05-19 14:55:39.051 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.17
+05-19 14:55:39.051 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.17
+05-19 14:55:39.051 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.15
+05-19 14:55:39.051 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.15
+05-19 14:55:39.051 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.16
+05-19 14:55:39.061 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.16
+05-19 14:55:39.061 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.14
+05-19 14:55:39.061 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.14
+05-19 14:55:39.061 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.15
+05-19 14:55:39.061 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.15
+05-19 14:55:39.061 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.13
+05-19 14:55:39.071 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.13
+05-19 14:55:39.071 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.14
+05-19 14:55:39.071 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.14
+05-19 14:55:39.081 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.12
+05-19 14:55:39.081 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.12
+05-19 14:55:39.081 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.13
+05-19 14:55:39.081 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.13
+05-19 14:55:39.081 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.11
+05-19 14:55:39.091 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.11
+05-19 14:55:39.091 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.12
+05-19 14:55:39.091 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.12
+05-19 14:55:39.091 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.10
+05-19 14:55:39.091 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.10
+05-19 14:55:39.091 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.11
+05-19 14:55:39.091 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.11
+05-19 14:55:39.091 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.9
+05-19 14:55:39.101 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.9
+05-19 14:55:39.101 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.10
+05-19 14:55:39.101 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.10
+05-19 14:55:39.101 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.8
+05-19 14:55:39.101 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.8
+05-19 14:55:39.101 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.9
+05-19 14:55:39.101 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.9
+05-19 14:55:39.101 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.7
+05-19 14:55:39.111 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.7
+05-19 14:55:39.111 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.8
+05-19 14:55:39.111 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.8
+05-19 14:55:39.111 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.6
+05-19 14:55:39.121 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.6
+05-19 14:55:39.121 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.7
+05-19 14:55:39.121 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.7
+05-19 14:55:39.121 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.5
+05-19 14:55:39.131 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.5
+05-19 14:55:39.131 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.6
+05-19 14:55:39.131 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.6
+05-19 14:55:39.131 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.4
+05-19 14:55:39.131 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.4
+05-19 14:55:39.131 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.5
+05-19 14:55:39.131 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.5
+05-19 14:55:39.131 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.3
+05-19 14:55:39.141 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.3
+05-19 14:55:39.141 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.4
+05-19 14:55:39.141 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.4
+05-19 14:55:39.141 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.2
+05-19 14:55:39.151 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.2
+05-19 14:55:39.151 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.3
+05-19 14:55:39.151 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.3
+05-19 14:55:39.151 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.1
+05-19 14:55:39.151 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.1
+05-19 14:55:39.151 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.2
+05-19 14:55:39.151 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.2
+05-19 14:55:39.151 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log
+05-19 14:55:39.151 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log
+05-19 14:55:39.151 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log.1
+05-19 14:55:39.151 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log.1
+05-19 14:55:39.151 E/Cataloger( 1136): syncFile:/storage/emulated/0/server.log
+05-19 14:55:39.151 E/Cataloger( 1136): need not sync path:/storage/emulated/0/server.log
+05-19 14:55:39.151 E/Cataloger( 1136): syncFile:/storage/emulated/0/.UTSystemConfig/Global/Alvin2.xml
+05-19 14:55:39.161 E/Cataloger( 1136): syncFile:/storage/emulated/0/.UTSystemConfig/Global/Alvin2.xml.bak
+05-19 14:55:39.161 E/Cataloger( 1136): need not sync path:/storage/emulated/0/.UTSystemConfig/Global/Alvin2.xml.bak
+05-19 14:55:39.161 E/Cataloger( 1136): syncFile:/storage/emulated/0/.UTSystemConfig/Global/Alvin2.xml
+05-19 14:55:39.161 E/Cataloger( 1136): syncFile:/storage/emulated/0/.UTSystemConfig/Global/Alvin2.xml
+05-19 14:55:39.161 E/Cataloger( 1136): syncFile:/storage/emulated/0/.UTSystemConfig/Global/Alvin2.xml.bak
+05-19 14:55:39.161 E/Cataloger( 1136): need not sync path:/storage/emulated/0/.UTSystemConfig/Global/Alvin2.xml.bak
+05-19 14:55:39.181 E/Cataloger( 1136): syncFile:/storage/emulated/0/.DataStorage/ContextData.xml
+05-19 14:55:39.191 E/Cataloger( 1136): syncFile:/storage/emulated/0/.DataStorage/ContextData.xml.bak
+05-19 14:55:39.191 E/Cataloger( 1136): need not sync path:/storage/emulated/0/.DataStorage/ContextData.xml.bak
+05-19 14:55:39.191 E/Cataloger( 1136): syncFile:/storage/emulated/0/.DataStorage/ContextData.xml
+05-19 14:55:39.191 E/Cataloger( 1136): syncFile:/storage/emulated/0/.DataStorage/ContextData.xml
+05-19 14:55:39.191 E/Cataloger( 1136): syncFile:/storage/emulated/0/.DataStorage/ContextData.xml.bak
+05-19 14:55:39.201 E/Cataloger( 1136): need not sync path:/storage/emulated/0/.DataStorage/ContextData.xml.bak
+05-19 14:55:39.501 E/Cataloger( 1136): syncFile:/storage/emulated/0/BigNoxHD/cache/com_bignox_app_store_hd_96x96.png
+05-19 14:55:39.571 E/GCoreUlr(  658): Bad errorId configuring silent feedback
+05-19 14:55:42.201 E/memtrack( 1917): Couldn't load memtrack module (No such file or directory)
+05-19 14:55:42.201 E/android.os.Debug( 1917): failed to load memtrack module: -2
+05-19 14:55:42.981 E/memtrack( 1934): Couldn't load memtrack module (No such file or directory)
+05-19 14:55:42.981 E/android.os.Debug( 1934): failed to load memtrack module: -2
+05-19 14:55:43.371 E/QueryController( 1917): Got null root node from accessibility - Retrying...
+05-19 14:55:43.621 E/QueryController( 1917): Got null root node from accessibility - Retrying...
+05-19 14:55:43.671 E/VMSG    ( 1946): RegisterNatives OnUserCommand1
+05-19 14:55:43.871 E/QueryController( 1917): Got null root node from accessibility - Retrying...
+05-19 14:55:44.021 E/cutils-trace( 1934): Error opening trace file: No such file or directory (2)
+05-19 14:55:44.041 E/GCM     (  703): Missing checkin config file
+05-19 14:55:44.041 E/GCM     (  703): Missing checkin config file
+05-19 14:55:44.061 E/baidumapsdk( 1946): Authentication Error errorcode: 230 uid: -1 appid -1 msg: APP Scode码校验失败
+05-19 14:55:47.081 E/cutils-trace( 1917): Error opening trace file: No such file or directory (2)
+05-19 14:55:48.251 E/memtrack( 1982): Couldn't load memtrack module (No such file or directory)
+05-19 14:55:48.251 E/android.os.Debug( 1982): failed to load memtrack module: -2
+05-19 14:55:49.131 E/cutils-trace( 1982): Error opening trace file: No such file or directory (2)
+05-19 14:55:55.191 E/memtrack( 2040): Couldn't load memtrack module (No such file or directory)
+05-19 14:55:55.191 E/android.os.Debug( 2040): failed to load memtrack module: -2
+05-19 14:55:56.211 E/cutils-trace( 2040): Error opening trace file: No such file or directory (2)
+05-19 14:55:58.461 E/BandwidthController(  156): Updating quota globalAlert failed (No such file or directory)
+05-19 14:56:04.641 E/cutils-trace( 2113): Error opening trace file: No such file or directory (2)
+05-19 14:56:20.331 E/GCM     (  703): Missing checkin config file
+05-19 14:56:20.331 E/GCM     (  703): Missing checkin config file

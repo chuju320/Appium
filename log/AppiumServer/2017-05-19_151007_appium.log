@@ -1,0 +1,7 @@
+2017-05-19 15:10:10:410 - [Appium] Welcome to Appium v1.6.3
+2017-05-19 15:10:10:412 - [Appium] Non-default server args:
+2017-05-19 15:10:10:413 - [Appium]   address: '127.0.0.1'
+2017-05-19 15:10:10:413 - [Appium]   sessionOverride: true
+2017-05-19 15:10:10:414 - [Appium]   logTimestamp: true
+2017-05-19 15:10:10:415 - [Appium]   localTimezone: true
+2017-05-19 15:10:10:446 - [Appium] Appium REST http interface listener started on 127.0.0.1:4723

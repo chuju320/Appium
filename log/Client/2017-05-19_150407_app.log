@@ -1,0 +1,1528 @@
+--------- beginning of system
+05-19 15:02:40.945 E/MtpServer( 1268): void android::MtpServer::sendEvent(android::MtpEventCode, uint32_t): Without OpenSession to send event code = 0x4004, 
+05-19 15:02:40.946 E/MtpServer( 1268): void android::MtpServer::sendEvent(android::MtpEventCode, uint32_t): Without OpenSession to send event code = 0x4006, 
+05-19 15:02:40.946 E/MtpServer( 1268): MtpServer::run mFD: 60
+05-19 15:02:41.003 E/MtpServer( 1268): MtpServer::run mFD: 60
+05-19 15:02:41.003 E/MtpServer( 1268): MtpServer::run mFD: 60
+05-19 15:02:41.005 E/MtpServer( 1268): MtpServer::run mFD: 60
+05-19 15:02:41.005 E/MtpServer( 1268): MtpServer::run mFD: 60
+05-19 15:02:41.010 E/MtpServer( 1268): MtpServer::run mFD: 60
+--------- beginning of main
+05-19 15:02:42.246 E/NativeCrypto( 9361): Unknown error during handshake
+05-19 15:02:42.344 E/NativeCrypto( 9361): Unknown error during handshake
+05-19 15:02:42.373 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:02:42.374 E/WifiTrafficPoller(  851):  packet count Tx=2028380 Rx=6688894
+05-19 15:02:42.378 E/WifiStateMachine(  851):  ConnectedState (when=-2ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=135 tx=5.2, 0.0, 0.0  rx=75.9 bcn=0 [on:0 tx:0 rx:0 period:3001] from screen [on:0 period:715921450] gl rssi=-49 ag=0 hr ticks 28,286,43 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-19 15:02:42.380 E/WifiStateMachine(  851):  L2ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-49 f=5785 sc=80 link=135 tx=5.2, 0.0, 0.0  rx=75.9 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:715921452] gl rssi=-49 ag=0 hr ticks 28,286,43 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-19 15:02:42.380 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:02:42.384 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:02:43.375 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:02:43.377 E/WifiTrafficPoller(  851):  packet count Tx=2028384 Rx=6688921
+05-19 15:02:44.378 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:02:44.379 E/WifiTrafficPoller(  851):  packet count Tx=2028386 Rx=6688941
+05-19 15:02:45.268 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:02:45.286 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:02:45.302 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:02:45.318 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:02:45.335 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:02:45.351 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:02:45.368 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:02:45.379 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:02:45.380 E/WifiTrafficPoller(  851):  packet count Tx=2028386 Rx=6688955
+05-19 15:02:45.380 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-19 15:02:45.387 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=135 tx=5.6, 0.0, 0.0  rx=77.5 bcn=0 [on:0 tx:0 rx:0 period:3001] from screen [on:0 period:715924459] gl rssi=-48 ag=0 hr ticks 28,286,43 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-19 15:02:45.388 E/WifiStateMachine(  851):  L2ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=135 tx=5.6, 0.0, 0.0  rx=77.5 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:715924460] gl rssi=-48 ag=0 hr ticks 28,286,43 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-19 15:02:45.388 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:02:45.408 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:02:45.704 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:02:45.721 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:02:45.740 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:02:45.755 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:02:45.772 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:02:45.788 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:02:45.805 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:02:45.822 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:02:45.839 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:02:46.380 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:02:46.381 E/WifiTrafficPoller(  851):  packet count Tx=2028386 Rx=6688978
+05-19 15:02:47.382 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:02:47.384 E/WifiTrafficPoller(  851):  packet count Tx=2028387 Rx=6688999
+05-19 15:02:47.384 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-19 15:02:48.392 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:02:48.393 E/WifiTrafficPoller(  851):  packet count Tx=2028387 Rx=6689012
+05-19 15:02:48.393 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-19 15:02:48.422 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-46 f=5785 sc=80 link=135 tx=5.8, 0.0, 0.0  rx=69.2 bcn=0 [on:0 tx:0 rx:0 period:3013] from screen [on:0 period:715927494] gl rssi=-46 ag=0 hr ticks 28,286,43 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-19 15:02:48.424 E/WifiStateMachine(  851):  L2ConnectedState (when=-15ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-46 f=5785 sc=80 link=135 tx=5.8, 0.0, 0.0  rx=69.2 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:715927496] gl rssi=-46 ag=0 hr ticks 28,286,43 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-19 15:02:48.424 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:02:48.450 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:02:49.404 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:02:49.406 E/WifiTrafficPoller(  851):  packet count Tx=2028388 Rx=6689034
+05-19 15:02:49.406 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-19 15:02:50.411 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:02:50.412 E/WifiTrafficPoller(  851):  packet count Tx=2028388 Rx=6689054
+05-19 15:02:50.412 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-19 15:02:51.414 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:02:51.415 E/WifiTrafficPoller(  851):  packet count Tx=2028388 Rx=6689082
+05-19 15:02:51.454 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-53 f=5785 sc=80 link=135 tx=3.4, 0.0, 0.0  rx=63.6 bcn=0 [on:0 tx:0 rx:0 period:2996] from screen [on:0 period:715930526] gl rssi=-53 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:02:51.454 E/WifiStateMachine(  851):  L2ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-53 f=5785 sc=80 link=135 tx=3.4, 0.0, 0.0  rx=63.6 bcn=0 [on:0 tx:0 rx:0 period:0] from screen [on:0 period:715930526] gl rssi=-53 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:02:51.454 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:02:51.468 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:02:52.415 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:02:52.416 E/WifiTrafficPoller(  851):  packet count Tx=2028388 Rx=6689102
+05-19 15:02:53.417 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:02:53.418 E/WifiTrafficPoller(  851):  packet count Tx=2028388 Rx=6689119
+05-19 15:02:54.370 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:02:54.386 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:02:54.404 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:02:54.419 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:02:54.419 E/WifiTrafficPoller(  851):  packet count Tx=2028388 Rx=6689133
+05-19 15:02:54.421 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:02:54.437 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:02:54.453 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:02:54.470 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:02:54.472 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=2.2, 0.0, 0.0  rx=66.3 bcn=0 [on:0 tx:0 rx:0 period:3002] from screen [on:0 period:715933544] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:02:54.473 E/WifiStateMachine(  851):  L2ConnectedState (when=-5ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=2.2, 0.0, 0.0  rx=66.3 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:715933545] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:02:54.473 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:02:54.489 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:02:55.420 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:02:55.421 E/WifiTrafficPoller(  851):  packet count Tx=2028389 Rx=6689149
+05-19 15:02:55.421 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-19 15:02:56.424 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:02:56.425 E/WifiTrafficPoller(  851):  packet count Tx=2028389 Rx=6689164
+05-19 15:02:56.425 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-19 15:02:57.428 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:02:57.429 E/WifiTrafficPoller(  851):  packet count Tx=2028395 Rx=6689185
+05-19 15:02:57.429 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-19 15:02:57.491 E/WifiStateMachine(  851):  ConnectedState (when=-1ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=1.1, 0.0, 0.0  rx=58.7 bcn=0 [on:0 tx:0 rx:0 period:3001] from screen [on:0 period:715936563] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:02:57.493 E/WifiStateMachine(  851):  L2ConnectedState (when=-3ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=1.1, 0.0, 0.0  rx=58.7 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:715936565] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:02:57.493 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:02:57.498 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:02:58.433 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:02:58.435 E/WifiTrafficPoller(  851):  packet count Tx=2028395 Rx=6689200
+05-19 15:02:58.435 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-19 15:02:58.951 E/NativeCrypto( 9361): ssl=0xeec3ee00 cert_verify_callback x509_store_ctx=0xddbff300 arg=0x0
+05-19 15:02:58.951 E/NativeCrypto( 9361): ssl=0xeec3ee00 cert_verify_callback calling verifyCertificateChain authMethod=ECDHE_RSA
+05-19 15:02:59.438 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:02:59.439 E/WifiTrafficPoller(  851):  packet count Tx=2028405 Rx=6689228
+05-19 15:02:59.439 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-19 15:03:00.450 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:00.451 E/WifiTrafficPoller(  851):  packet count Tx=2028405 Rx=6689242
+05-19 15:03:00.451 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-19 15:03:00.502 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=4.1, 0.0, 0.0  rx=56.3 bcn=0 [on:0 tx:0 rx:0 period:3002] from screen [on:0 period:715939574] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:00.504 E/WifiStateMachine(  851):  L2ConnectedState (when=-5ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=4.1, 0.0, 0.0  rx=56.3 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:715939576] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:00.504 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:03:00.509 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:03:01.463 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:01.464 E/WifiTrafficPoller(  851):  packet count Tx=2028407 Rx=6689266
+05-19 15:03:01.464 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-19 15:03:02.466 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:02.467 E/WifiTrafficPoller(  851):  packet count Tx=2028407 Rx=6689282
+05-19 15:03:02.467 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-19 15:03:03.478 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:03.479 E/WifiTrafficPoller(  851):  packet count Tx=2028407 Rx=6689297
+05-19 15:03:03.514 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=7.0, 0.0, 0.0  rx=56.7 bcn=0 [on:0 tx:0 rx:0 period:2997] from screen [on:0 period:715942586] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-19 15:03:03.515 E/WifiStateMachine(  851):  L2ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=7.0, 0.0, 0.0  rx=56.7 bcn=0 [on:0 tx:0 rx:0 period:0] from screen [on:0 period:715942586] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-19 15:03:03.515 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:03:03.528 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:03:04.480 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:04.482 E/WifiTrafficPoller(  851):  packet count Tx=2028407 Rx=6689311
+05-19 15:03:05.483 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:05.484 E/WifiTrafficPoller(  851):  packet count Tx=2028407 Rx=6689321
+05-19 15:03:06.485 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:06.486 E/WifiTrafficPoller(  851):  packet count Tx=2028407 Rx=6689334
+05-19 15:03:06.533 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=4.5, 0.0, 0.0  rx=54.8 bcn=0 [on:0 tx:0 rx:0 period:3004] from screen [on:0 period:715945605] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:06.536 E/WifiStateMachine(  851):  L2ConnectedState (when=-7ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=4.5, 0.0, 0.0  rx=54.8 bcn=0 [on:0 tx:0 rx:0 period:3] from screen [on:0 period:715945608] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:06.536 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:03:06.563 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:03:07.486 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:07.487 E/WifiTrafficPoller(  851):  packet count Tx=2028407 Rx=6689353
+05-19 15:03:08.489 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:08.490 E/WifiTrafficPoller(  851):  packet count Tx=2028407 Rx=6689362
+05-19 15:03:09.491 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:09.492 E/WifiTrafficPoller(  851):  packet count Tx=2028407 Rx=6689376
+05-19 15:03:09.568 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=2.3, 0.0, 0.0  rx=46.4 bcn=0 [on:0 tx:0 rx:0 period:2995] from screen [on:0 period:715948640] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:09.571 E/WifiStateMachine(  851):  L2ConnectedState (when=-7ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=2.3, 0.0, 0.0  rx=46.4 bcn=0 [on:0 tx:0 rx:0 period:3] from screen [on:0 period:715948643] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:09.583 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:03:09.601 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:03:10.494 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:10.495 E/WifiTrafficPoller(  851):  packet count Tx=2028407 Rx=6689386
+05-19 15:03:11.495 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:11.495 E/WifiTrafficPoller(  851):  packet count Tx=2028408 Rx=6689412
+05-19 15:03:11.495 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-19 15:03:12.497 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:12.498 E/WifiTrafficPoller(  851):  packet count Tx=2028408 Rx=6689435
+05-19 15:03:12.498 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-19 15:03:12.607 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=1.1, 0.0, 0.0  rx=43.7 bcn=0 [on:0 tx:0 rx:0 period:3000] from screen [on:0 period:715951679] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:12.609 E/WifiStateMachine(  851):  L2ConnectedState (when=-6ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=1.1, 0.0, 0.0  rx=43.7 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:715951681] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:12.609 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:03:12.630 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:03:13.512 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:13.513 E/WifiTrafficPoller(  851):  packet count Tx=2028408 Rx=6689459
+05-19 15:03:14.513 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:14.514 E/WifiTrafficPoller(  851):  packet count Tx=2028408 Rx=6689475
+05-19 15:03:15.515 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:15.517 E/WifiTrafficPoller(  851):  packet count Tx=2028408 Rx=6689492
+05-19 15:03:15.636 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=1.1, 0.0, 0.0  rx=51.4 bcn=0 [on:0 tx:0 rx:0 period:2998] from screen [on:0 period:715954708] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:15.638 E/WifiStateMachine(  851):  L2ConnectedState (when=-7ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=1.1, 0.0, 0.0  rx=51.4 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:715954710] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:15.639 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:03:15.645 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:03:16.518 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:16.518 E/WifiTrafficPoller(  851):  packet count Tx=2028408 Rx=6689513
+05-19 15:03:17.519 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:17.520 E/WifiTrafficPoller(  851):  packet count Tx=2028408 Rx=6689532
+05-19 15:03:18.521 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:18.522 E/WifiTrafficPoller(  851):  packet count Tx=2028408 Rx=6689551
+05-19 15:03:18.648 E/WifiStateMachine(  851):  ConnectedState (when=-1ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=0.5, 0.0, 0.0  rx=58.2 bcn=0 [on:0 tx:0 rx:0 period:2996] from screen [on:0 period:715957720] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:18.649 E/WifiStateMachine(  851):  L2ConnectedState (when=-3ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=0.5, 0.0, 0.0  rx=58.2 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:715957721] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:18.650 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:03:18.669 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:03:19.523 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:19.524 E/WifiTrafficPoller(  851):  packet count Tx=2028408 Rx=6689569
+05-19 15:03:20.524 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:20.525 E/WifiTrafficPoller(  851):  packet count Tx=2028408 Rx=6689583
+05-19 15:03:21.526 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:21.527 E/WifiTrafficPoller(  851):  packet count Tx=2028408 Rx=6689609
+05-19 15:03:21.673 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=0.3, 0.0, 0.0  rx=56.6 bcn=0 [on:0 tx:0 rx:0 period:2996] from screen [on:0 period:715960745] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:21.675 E/WifiStateMachine(  851):  L2ConnectedState (when=-5ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=0.3, 0.0, 0.0  rx=56.6 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:715960747] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:21.675 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:03:21.700 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:03:22.528 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:22.528 E/WifiTrafficPoller(  851):  packet count Tx=2028408 Rx=6689627
+05-19 15:03:22.673 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:03:22.690 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:03:22.708 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:03:22.725 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:03:22.741 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:03:22.758 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:03:22.775 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:03:22.792 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:03:22.809 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:03:23.529 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:23.530 E/WifiTrafficPoller(  851):  packet count Tx=2028408 Rx=6689642
+05-19 15:03:24.531 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:24.532 E/WifiTrafficPoller(  851):  packet count Tx=2028408 Rx=6689652
+05-19 15:03:24.705 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=0.1, 0.0, 0.0  rx=55.3 bcn=0 [on:0 tx:0 rx:0 period:2999] from screen [on:0 period:715963777] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:24.706 E/WifiStateMachine(  851):  L2ConnectedState (when=-6ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=0.1, 0.0, 0.0  rx=55.3 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:715963778] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:24.706 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:03:24.732 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:03:25.533 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:25.534 E/WifiTrafficPoller(  851):  packet count Tx=2028408 Rx=6689668
+05-19 15:03:26.534 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:26.535 E/WifiTrafficPoller(  851):  packet count Tx=2028408 Rx=6689694
+05-19 15:03:27.048 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:03:27.065 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:03:27.081 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:03:27.098 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:03:27.115 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:03:27.131 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:03:27.148 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:03:27.535 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:27.536 E/WifiTrafficPoller(  851):  packet count Tx=2028408 Rx=6689717
+05-19 15:03:27.737 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=0.1, 0.0, 0.0  rx=49.6 bcn=0 [on:0 tx:0 rx:0 period:2999] from screen [on:0 period:715966809] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:27.739 E/WifiStateMachine(  851):  L2ConnectedState (when=-6ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=0.1, 0.0, 0.0  rx=49.6 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:715966811] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:27.739 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:03:27.758 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:03:28.537 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:28.538 E/WifiTrafficPoller(  851):  packet count Tx=2028408 Rx=6689732
+05-19 15:03:29.538 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:29.539 E/WifiTrafficPoller(  851):  packet count Tx=2028408 Rx=6689750
+05-19 15:03:30.541 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:30.542 E/WifiTrafficPoller(  851):  packet count Tx=2028408 Rx=6689779
+05-19 15:03:30.763 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=0.0, 0.0, 0.0  rx=57.8 bcn=0 [on:0 tx:0 rx:0 period:3002] from screen [on:0 period:715969835] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:30.765 E/WifiStateMachine(  851):  L2ConnectedState (when=-6ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=0.0, 0.0, 0.0  rx=57.8 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:715969836] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:30.765 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:03:30.790 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:03:31.542 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:31.543 E/WifiTrafficPoller(  851):  packet count Tx=2028408 Rx=6689809
+05-19 15:03:32.544 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:32.545 E/WifiTrafficPoller(  851):  packet count Tx=2028408 Rx=6689828
+05-19 15:03:33.546 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:33.547 E/WifiTrafficPoller(  851):  packet count Tx=2028408 Rx=6689850
+05-19 15:03:33.795 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=0.0, 0.0, 0.0  rx=61.9 bcn=0 [on:0 tx:0 rx:0 period:2998] from screen [on:0 period:715972867] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:33.798 E/WifiStateMachine(  851):  L2ConnectedState (when=-7ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=0.0, 0.0, 0.0  rx=61.9 bcn=0 [on:0 tx:0 rx:0 period:3] from screen [on:0 period:715972870] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:33.798 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:03:33.820 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:03:34.549 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:34.550 E/WifiTrafficPoller(  851):  packet count Tx=2028408 Rx=6689869
+05-19 15:03:35.550 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:35.551 E/WifiTrafficPoller(  851):  packet count Tx=2028408 Rx=6689887
+05-19 15:03:36.552 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:36.553 E/WifiTrafficPoller(  851):  packet count Tx=2028408 Rx=6689916
+05-19 15:03:36.826 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=0.0, 0.0, 0.0  rx=66.0 bcn=0 [on:0 tx:0 rx:0 period:2998] from screen [on:0 period:715975898] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:36.828 E/WifiStateMachine(  851):  L2ConnectedState (when=-6ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=0.0, 0.0, 0.0  rx=66.0 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:715975900] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:36.828 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:03:36.834 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:03:37.553 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:37.554 E/WifiTrafficPoller(  851):  packet count Tx=2028408 Rx=6689947
+05-19 15:03:38.555 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:38.556 E/WifiTrafficPoller(  851):  packet count Tx=2028412 Rx=6689960
+05-19 15:03:38.556 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-19 15:03:39.097 E/SQLiteLog( 9361): (1802) os_unix.c:27974: (9) fstat(/data/data/com.baidu.searchbox/databases/pushstat_5.6.1.db) - 
+05-19 15:03:39.097 E/SQLiteLog( 9361): (1802) statement aborts at 2: [CREATE TABLE IF NOT EXISTS android_metadata (locale TEXT)] disk I/O error
+05-19 15:03:39.097 E/SQLiteLog( 9361): (28) cannot fstat db file /data/data/com.baidu.searchbox/databases/pushstat_5.6.1.db
+05-19 15:03:39.097 E/SQLiteLog( 9361): (4106) os_unix.c:26218: (9) close(/data/data/com.baidu.searchbox/databases/pushstat_5.6.1.db) - 
+05-19 15:03:39.098 E/SQLiteDatabase( 9361): Failed to open database '/data/data/com.baidu.searchbox/databases/pushstat_5.6.1.db'.
+05-19 15:03:39.098 E/SQLiteDatabase( 9361): android.database.sqlite.SQLiteException: Failed to change locale for db '/data/data/com.baidu.searchbox/databases/pushstat_5.6.1.db' to 'zh_CN'.
+05-19 15:03:39.098 E/SQLiteDatabase( 9361): 	at android.database.sqlite.SQLiteConnection.setLocaleFromConfiguration(SQLiteConnection.java:402)
+05-19 15:03:39.098 E/SQLiteDatabase( 9361): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:223)
+05-19 15:03:39.098 E/SQLiteDatabase( 9361): 	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:198)
+05-19 15:03:39.098 E/SQLiteDatabase( 9361): 	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:463)
+05-19 15:03:39.098 E/SQLiteDatabase( 9361): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:185)
+05-19 15:03:39.098 E/SQLiteDatabase( 9361): 	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:177)
+05-19 15:03:39.098 E/SQLiteDatabase( 9361): 	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:836)
+05-19 15:03:39.098 E/SQLiteDatabase( 9361): 	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:821)
+05-19 15:03:39.098 E/SQLiteDatabase( 9361): 	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:714)
+05-19 15:03:39.098 E/SQLiteDatabase( 9361): 	at android.app.ContextImpl.openOrCreateDatabase(ContextImpl.java:1309)
+05-19 15:03:39.098 E/SQLiteDatabase( 9361): 	at android.content.ContextWrapper.openOrCreateDatabase(ContextWrapper.java:268)
+05-19 15:03:39.098 E/SQLiteDatabase( 9361): 	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:223)
+05-19 15:03:39.098 E/SQLiteDatabase( 9361): 	at android.database.sqlite.SQLiteOpenHelper.getWritableDatabase(SQLiteOpenHelper.java:163)
+05-19 15:03:39.098 E/SQLiteDatabase( 9361): 	at com.baidu.android.pushservice.i.o.e(Unknown Source)
+05-19 15:03:39.098 E/SQLiteDatabase( 9361): 	at com.baidu.android.pushservice.i.o.b(Unknown Source)
+05-19 15:03:39.098 E/SQLiteDatabase( 9361): 	at com.baidu.android.pushservice.g.p.b(Unknown Source)
+05-19 15:03:39.098 E/SQLiteDatabase( 9361): 	at com.baidu.android.pushservice.e$5.a(Unknown Source)
+05-19 15:03:39.098 E/SQLiteDatabase( 9361): 	at com.baidu.android.pushservice.h.c.run(Unknown Source)
+05-19 15:03:39.098 E/SQLiteDatabase( 9361): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+05-19 15:03:39.098 E/SQLiteDatabase( 9361): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+05-19 15:03:39.098 E/SQLiteDatabase( 9361): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+05-19 15:03:39.098 E/SQLiteDatabase( 9361): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+05-19 15:03:39.098 E/SQLiteDatabase( 9361): 	at java.lang.Thread.run(Thread.java:818)
+05-19 15:03:39.098 E/SQLiteDatabase( 9361): Caused by: android.database.sqlite.SQLiteDiskIOException: disk I/O error (code 1802)
+05-19 15:03:39.098 E/SQLiteDatabase( 9361): 	at android.database.sqlite.SQLiteConnection.nativeExecute(Native Method)
+05-19 15:03:39.098 E/SQLiteDatabase( 9361): 	at android.database.sqlite.SQLiteConnection.execute(SQLiteConnection.java:564)
+05-19 15:03:39.098 E/SQLiteDatabase( 9361): 	at android.database.sqlite.SQLiteConnection.setLocaleFromConfiguration(SQLiteConnection.java:376)
+05-19 15:03:39.098 E/SQLiteDatabase( 9361): 	... 22 more
+05-19 15:03:39.569 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:39.570 E/WifiTrafficPoller(  851):  packet count Tx=2028414 Rx=6689981
+05-19 15:03:39.838 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=0.0, 0.0, 0.0  rx=67.5 bcn=0 [on:0 tx:0 rx:0 period:2998] from screen [on:0 period:715978910] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:39.839 E/WifiStateMachine(  851):  L2ConnectedState (when=-5ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=0.0, 0.0, 0.0  rx=67.5 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:715978911] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:39.840 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:03:39.844 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:03:40.571 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:40.572 E/WifiTrafficPoller(  851):  packet count Tx=2028415 Rx=6690000
+05-19 15:03:41.572 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:41.573 E/WifiTrafficPoller(  851):  packet count Tx=2028416 Rx=6690015
+05-19 15:03:42.574 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:42.575 E/WifiTrafficPoller(  851):  packet count Tx=2028416 Rx=6690025
+05-19 15:03:42.575 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-19 15:03:42.847 E/WifiStateMachine(  851):  ConnectedState (when=-2ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-53 f=5785 sc=80 link=135 tx=3.5, 0.0, 0.0  rx=64.7 bcn=0 [on:0 tx:0 rx:0 period:2997] from screen [on:0 period:715981919] gl rssi=-53 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:42.849 E/WifiStateMachine(  851):  L2ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-53 f=5785 sc=80 link=135 tx=3.5, 0.0, 0.0  rx=64.7 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:715981921] gl rssi=-53 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:42.849 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:03:42.871 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:03:43.586 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:43.587 E/WifiTrafficPoller(  851):  packet count Tx=2028417 Rx=6690043
+05-19 15:03:43.587 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-19 15:03:44.597 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:44.598 E/WifiTrafficPoller(  851):  packet count Tx=2028417 Rx=6690054
+05-19 15:03:44.598 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-19 15:03:45.611 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:45.612 E/WifiTrafficPoller(  851):  packet count Tx=2028418 Rx=6690072
+05-19 15:03:45.612 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-19 15:03:45.876 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=2.3, 0.0, 0.0  rx=52.9 bcn=0 [on:0 tx:0 rx:0 period:2999] from screen [on:0 period:715984948] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:45.877 E/WifiStateMachine(  851):  L2ConnectedState (when=-5ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=2.3, 0.0, 0.0  rx=52.9 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:715984949] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:45.877 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:03:45.898 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:03:46.621 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:46.623 E/WifiTrafficPoller(  851):  packet count Tx=2028418 Rx=6690085
+05-19 15:03:46.623 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-19 15:03:47.626 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:47.627 E/WifiTrafficPoller(  851):  packet count Tx=2028418 Rx=6690098
+05-19 15:03:48.628 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:48.629 E/WifiTrafficPoller(  851):  packet count Tx=2028418 Rx=6690107
+05-19 15:03:48.903 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=2.1, 0.0, 0.0  rx=51.4 bcn=0 [on:0 tx:0 rx:0 period:3004] from screen [on:0 period:715987975] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:48.905 E/WifiStateMachine(  851):  L2ConnectedState (when=-6ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=2.1, 0.0, 0.0  rx=51.4 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:715987977] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:48.905 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:03:48.920 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:03:49.631 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:49.632 E/WifiTrafficPoller(  851):  packet count Tx=2028418 Rx=6690120
+05-19 15:03:50.632 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:50.633 E/WifiTrafficPoller(  851):  packet count Tx=2028418 Rx=6690131
+05-19 15:03:51.634 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:51.636 E/WifiTrafficPoller(  851):  packet count Tx=2028418 Rx=6690148
+05-19 15:03:51.922 E/WifiStateMachine(  851):  ConnectedState (when=-1ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=1.1, 0.0, 0.0  rx=40.7 bcn=0 [on:0 tx:0 rx:0 period:2995] from screen [on:0 period:715990994] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:51.924 E/WifiStateMachine(  851):  L2ConnectedState (when=-3ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=1.1, 0.0, 0.0  rx=40.7 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:715990996] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:51.924 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:03:51.950 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:03:52.637 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:52.638 E/WifiTrafficPoller(  851):  packet count Tx=2028419 Rx=6690167
+05-19 15:03:52.638 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-19 15:03:53.650 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:53.651 E/WifiTrafficPoller(  851):  packet count Tx=2028419 Rx=6690177
+05-19 15:03:53.651 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-19 15:03:54.056 E/SyncManager(  851): Bind attempt failed - target: ComponentInfo{com.ss.android.article.news/com.ss.android.account.AccountSyncService}
+05-19 15:03:54.661 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:54.662 E/WifiTrafficPoller(  851):  packet count Tx=2028419 Rx=6690187
+05-19 15:03:54.955 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=0.5, 0.0, 0.0  rx=42.9 bcn=0 [on:0 tx:0 rx:0 period:2999] from screen [on:0 period:715994027] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:54.957 E/WifiStateMachine(  851):  L2ConnectedState (when=-7ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=0.5, 0.0, 0.0  rx=42.9 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:715994029] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:54.957 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:03:54.963 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:03:55.662 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:55.663 E/WifiTrafficPoller(  851):  packet count Tx=2028419 Rx=6690210
+05-19 15:03:56.663 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:56.664 E/WifiTrafficPoller(  851):  packet count Tx=2028419 Rx=6690230
+05-19 15:03:57.666 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:57.667 E/WifiTrafficPoller(  851):  packet count Tx=2028419 Rx=6690250
+05-19 15:03:57.967 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=0.8, 0.0, 0.0  rx=41.4 bcn=0 [on:0 tx:0 rx:0 period:2998] from screen [on:0 period:715997039] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:57.969 E/WifiStateMachine(  851):  L2ConnectedState (when=-5ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=0.8, 0.0, 0.0  rx=41.4 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:715997040] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:03:57.969 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:03:57.990 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:03:58.667 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:58.668 E/WifiTrafficPoller(  851):  packet count Tx=2028419 Rx=6690266
+05-19 15:03:59.669 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:03:59.670 E/WifiTrafficPoller(  851):  packet count Tx=2028419 Rx=6690291
+05-19 15:04:00.670 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:04:00.671 E/WifiTrafficPoller(  851):  packet count Tx=2028419 Rx=6690322
+05-19 15:04:00.993 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=0.4, 0.0, 0.0  rx=52.2 bcn=0 [on:0 tx:0 rx:0 period:2998] from screen [on:0 period:716000065] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:04:00.994 E/WifiStateMachine(  851):  L2ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=0.4, 0.0, 0.0  rx=52.2 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:716000066] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:04:00.994 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:04:01.000 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:04:01.671 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:04:01.672 E/WifiTrafficPoller(  851):  packet count Tx=2028419 Rx=6690346
+05-19 15:04:02.672 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:04:02.673 E/WifiTrafficPoller(  851):  packet count Tx=2028419 Rx=6690366
+05-19 15:04:03.675 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:04:03.676 E/WifiTrafficPoller(  851):  packet count Tx=2028419 Rx=6690387
+05-19 15:04:04.005 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=0.2, 0.0, 0.0  rx=64.1 bcn=0 [on:0 tx:0 rx:0 period:2999] from screen [on:0 period:716003077] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:04:04.007 E/WifiStateMachine(  851):  L2ConnectedState (when=-5ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=0.2, 0.0, 0.0  rx=64.1 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:716003079] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:04:04.007 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:04:04.030 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:04:04.677 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:04:04.677 E/WifiTrafficPoller(  851):  packet count Tx=2028419 Rx=6690404
+05-19 15:04:05.679 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:04:05.679 E/WifiTrafficPoller(  851):  packet count Tx=2028419 Rx=6690431
+05-19 15:04:05.977 E/memtrack(13481): Couldn't load memtrack module (No such file or directory)
+05-19 15:04:05.977 E/android.os.Debug(13481): failed to load memtrack module: -2
+05-19 15:04:06.640 E/memtrack(13498): Couldn't load memtrack module (No such file or directory)
+05-19 15:04:06.640 E/android.os.Debug(13498): failed to load memtrack module: -2
+05-19 15:04:06.680 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:04:06.680 E/WifiTrafficPoller(  851):  packet count Tx=2028419 Rx=6690446
+05-19 15:04:07.035 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=0.1, 0.0, 0.0  rx=62.6 bcn=0 [on:0 tx:0 rx:0 period:2998] from screen [on:0 period:716006107] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:04:07.037 E/WifiStateMachine(  851):  L2ConnectedState (when=-6ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=0.1, 0.0, 0.0  rx=62.6 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:716006109] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:04:07.038 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:04:07.044 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:04:07.528 E/memtrack(13514): Couldn't load memtrack module (No such file or directory)
+05-19 15:04:07.528 E/android.os.Debug(13514): failed to load memtrack module: -2
+05-19 15:04:07.681 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:04:07.682 E/WifiTrafficPoller(  851):  packet count Tx=2028419 Rx=6690468
+05-19 15:04:08.529 E/memtrack(13530): Couldn't load memtrack module (No such file or directory)
+05-19 15:04:08.529 E/android.os.Debug(13530): failed to load memtrack module: -2
+05-19 15:04:08.682 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:04:08.683 E/WifiTrafficPoller(  851):  packet count Tx=2028419 Rx=6690485
+05-19 15:04:09.486 E/memtrack(13568): Couldn't load memtrack module (No such file or directory)
+05-19 15:04:09.486 E/android.os.Debug(13568): failed to load memtrack module: -2
+05-19 15:04:09.684 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:04:09.686 E/WifiTrafficPoller(  851):  packet count Tx=2028423 Rx=6690505
+05-19 15:04:09.686 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-19 15:04:10.046 E/WifiStateMachine(  851):  ConnectedState (when=-2ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=0.0, 0.0, 0.0  rx=60.8 bcn=0 [on:0 tx:0 rx:0 period:2999] from screen [on:0 period:716009118] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:04:10.047 E/WifiStateMachine(  851):  L2ConnectedState (when=-3ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=0.0, 0.0, 0.0  rx=60.8 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:716009119] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:04:10.047 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:04:10.050 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:04:10.457 E/memtrack(13591): Couldn't load memtrack module (No such file or directory)
+05-19 15:04:10.457 E/android.os.Debug(13591): failed to load memtrack module: -2
+05-19 15:04:10.690 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:04:10.692 E/WifiTrafficPoller(  851):  packet count Tx=2028436 Rx=6690527
+05-19 15:04:11.114 E/memtrack(13615): Couldn't load memtrack module (No such file or directory)
+05-19 15:04:11.114 E/android.os.Debug(13615): failed to load memtrack module: -2
+05-19 15:04:11.692 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:04:11.693 E/WifiTrafficPoller(  851):  packet count Tx=2028437 Rx=6690547
+05-19 15:04:12.106 E/memtrack(13632): Couldn't load memtrack module (No such file or directory)
+05-19 15:04:12.106 E/android.os.Debug(13632): failed to load memtrack module: -2
+05-19 15:04:12.692 E/GpsXtraDownloader(  851): No XTRA servers were specified in the GPS configuration
+05-19 15:04:12.695 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:04:12.695 E/WifiTrafficPoller(  851):  packet count Tx=2028437 Rx=6690563
+05-19 15:04:12.695 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-19 15:04:13.055 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=2.0, 0.0, 0.0  rx=58.4 bcn=0 [on:0 tx:0 rx:0 period:3001] from screen [on:0 period:716012127] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:04:13.057 E/WifiStateMachine(  851):  L2ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=2.0, 0.0, 0.0  rx=58.4 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:716012129] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:04:13.058 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:04:13.079 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:04:13.538 E/memtrack(13651): Couldn't load memtrack module (No such file or directory)
+05-19 15:04:13.539 E/android.os.Debug(13651): failed to load memtrack module: -2
+05-19 15:04:13.699 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:04:13.700 E/WifiTrafficPoller(  851):  packet count Tx=2028437 Rx=6690575
+05-19 15:04:14.700 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:04:14.701 E/WifiTrafficPoller(  851):  packet count Tx=2028437 Rx=6690583
+05-19 15:04:15.703 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:04:15.703 E/WifiTrafficPoller(  851):  packet count Tx=2028437 Rx=6690606
+05-19 15:04:16.084 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=8.0, 0.0, 0.0  rx=58.2 bcn=0 [on:0 tx:0 rx:0 period:2999] from screen [on:0 period:716015156] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-19 15:04:16.085 E/WifiStateMachine(  851):  L2ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=8.0, 0.0, 0.0  rx=58.2 bcn=0 [on:0 tx:0 rx:0 period:0] from screen [on:0 period:716015156] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-19 15:04:16.085 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:04:16.108 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:04:16.703 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:04:16.704 E/WifiTrafficPoller(  851):  packet count Tx=2028437 Rx=6690623
+05-19 15:04:17.037 E/memtrack(13673): Couldn't load memtrack module (No such file or directory)
+05-19 15:04:17.037 E/android.os.Debug(13673): failed to load memtrack module: -2
+05-19 15:04:17.704 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:04:17.705 E/WifiTrafficPoller(  851):  packet count Tx=2028437 Rx=6690644
+05-19 15:04:17.825 E/memtrack(13690): Couldn't load memtrack module (No such file or directory)
+05-19 15:04:17.825 E/android.os.Debug(13690): failed to load memtrack module: -2
+05-19 15:04:18.231 E/NotificationService(  851): Suppressing notification from package com.qihoo.appstore by user request.
+05-19 15:04:18.681 E/NotificationService(  851): Suppressing notification from package com.qihoo.appstore by user request.
+05-19 15:04:18.705 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:04:18.705 E/WifiTrafficPoller(  851):  packet count Tx=2028437 Rx=6690652
+05-19 15:04:18.917 E/AppStore.AppstoreProvider(13792): AppstoreProvider:delete:160128-358=>delete failed PACKAGE_REPLACE
+05-19 15:04:19.112 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=4.0, 0.0, 0.0  rx=53.1 bcn=0 [on:0 tx:0 rx:0 period:3003] from screen [on:0 period:716018184] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:04:19.112 E/WifiStateMachine(  851):  L2ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=4.0, 0.0, 0.0  rx=53.1 bcn=0 [on:0 tx:0 rx:0 period:0] from screen [on:0 period:716018184] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:04:19.112 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:04:19.128 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:04:19.202 E/memtrack(13873): Couldn't load memtrack module (No such file or directory)
+05-19 15:04:19.202 E/android.os.Debug(13873): failed to load memtrack module: -2
+05-19 15:04:19.224 E/MPlugin (13761): Unsupported class: com.mediatek.common.telephony.IOnlyOwnerSimSupport
+05-19 15:04:19.443 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:19.460 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:19.477 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:19.494 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:19.511 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:19.528 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:19.544 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:19.561 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:19.705 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:04:19.705 E/WifiTrafficPoller(  851):  packet count Tx=2028449 Rx=6690675
+05-19 15:04:19.705 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-19 15:04:19.738 E/NativeCrypto( 2186): ssl=0x7f9ea88980 cert_verify_callback x509_store_ctx=0x7f8cdfece8 arg=0x0
+05-19 15:04:19.738 E/NativeCrypto( 2186): ssl=0x7f9ea88980 cert_verify_callback calling verifyCertificateChain authMethod=ECDHE_RSA
+05-19 15:04:19.748 E/NativeCrypto( 2186): ssl=0x7f8ddd5b00 cert_verify_callback x509_store_ctx=0x7f89eface8 arg=0x0
+05-19 15:04:19.748 E/NativeCrypto( 2186): ssl=0x7f8ddd5b00 cert_verify_callback calling verifyCertificateChain authMethod=ECDHE_RSA
+05-19 15:04:19.767 E/NativeCrypto( 2186): ssl=0x7f9ea8cc00 cert_verify_callback x509_store_ctx=0x7f89df6c78 arg=0x0
+05-19 15:04:19.767 E/NativeCrypto( 2186): ssl=0x7f9ea8cc00 cert_verify_callback calling verifyCertificateChain authMethod=ECDHE_RSA
+05-19 15:04:19.769 E/NativeCrypto( 2186): ssl=0x7f8ddd7000 cert_verify_callback x509_store_ctx=0x7f89ffec78 arg=0x0
+05-19 15:04:19.769 E/NativeCrypto( 2186): ssl=0x7f8ddd7000 cert_verify_callback calling verifyCertificateChain authMethod=ECDHE_RSA
+05-19 15:04:20.017 E/PluginFramework(13761): Didn't find class "com.qihoo360.mobilesafe.api.IPC" on path: DexPathList[[zip file "/data/data/com.qihoo.appstore/Plugin/com.qihoo360.mobilesafe.clean/apk/base-1.apk"],nativeLibraryDirectories=[/data/data/com.qihoo.appstore/Plugin/com.qihoo360.mobilesafe.clean/lib, /vendor/lib, /system/lib]]
+05-19 15:04:20.017 E/PluginFramework(13761): java.lang.ClassNotFoundException: Didn't find class "com.qihoo360.mobilesafe.api.IPC" on path: DexPathList[[zip file "/data/data/com.qihoo.appstore/Plugin/com.qihoo360.mobilesafe.clean/apk/base-1.apk"],nativeLibraryDirectories=[/data/data/com.qihoo.appstore/Plugin/com.qihoo360.mobilesafe.clean/lib, /vendor/lib, /system/lib]]
+05-19 15:04:20.017 E/PluginFramework(13761): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+05-19 15:04:20.017 E/PluginFramework(13761): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:511)
+05-19 15:04:20.017 E/PluginFramework(13761): 	at com.morgoo.droidplugin.b.a.loadClass(AppStore:74)
+05-19 15:04:20.017 E/PluginFramework(13761): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:469)
+05-19 15:04:20.017 E/PluginFramework(13761): 	at com.qihoo360.i.PluginFramework.a(Clean:71)
+05-19 15:04:20.017 E/PluginFramework(13761): 	at com.qihoo360.i.PluginFramework.init(Clean:49)
+05-19 15:04:20.017 E/PluginFramework(13761): 	at clean.jj.<init>(Clean:500)
+05-19 15:04:20.017 E/PluginFramework(13761): 	at com.qihoo360.mobilesafe.clean.rely.PluginService.onBind(Clean:63)
+05-19 15:04:20.017 E/PluginFramework(13761): 	at com.morgoo.droidplugin.stub.h.c(AppStore:207)
+05-19 15:04:20.017 E/PluginFramework(13761): 	at com.morgoo.droidplugin.stub.h.b(AppStore:275)
+05-19 15:04:20.017 E/PluginFramework(13761): 	at com.morgoo.droidplugin.stub.AbstractServiceStub.onBind(AppStore:145)
+05-19 15:04:20.017 E/PluginFramework(13761): 	at android.app.ActivityThread.handleBindService(ActivityThread.java:3073)
+05-19 15:04:20.017 E/PluginFramework(13761): 	at android.app.ActivityThread.access$2000(ActivityThread.java:188)
+05-19 15:04:20.017 E/PluginFramework(13761): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1609)
+05-19 15:04:20.017 E/PluginFramework(13761): 	at android.os.Handler.dispatchMessage(Handler.java:111)
+05-19 15:04:20.017 E/PluginFramework(13761): 	at android.os.Looper.loop(Looper.java:194)
+05-19 15:04:20.017 E/PluginFramework(13761): 	at android.app.ActivityThread.main(ActivityThread.java:5714)
+05-19 15:04:20.017 E/PluginFramework(13761): 	at java.lang.reflect.Method.invoke(Native Method)
+05-19 15:04:20.017 E/PluginFramework(13761): 	at java.lang.reflect.Method.invoke(Method.java:372)
+05-19 15:04:20.017 E/PluginFramework(13761): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:984)
+05-19 15:04:20.017 E/PluginFramework(13761): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:779)
+05-19 15:04:20.017 E/PluginFramework(13761): 	Suppressed: java.lang.ClassNotFoundException: Didn't find class "com.qihoo360.mobilesafe.api.IPC" on path: DexPathList[[directory "."],nativeLibraryDirectories=[/vendor/lib, /system/lib]]
+05-19 15:04:20.017 E/PluginFramework(13761): 		at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+05-19 15:04:20.017 E/PluginFramework(13761): 		at java.lang.ClassLoader.loadClass(ClassLoader.java:511)
+05-19 15:04:20.017 E/PluginFramework(13761): 		at java.lang.ClassLoader.loadClass(ClassLoader.java:504)
+05-19 15:04:20.017 E/PluginFramework(13761): 		... 19 more
+05-19 15:04:20.017 E/PluginFramework(13761): 		Suppressed: java.lang.ClassNotFoundException: com.qihoo360.mobilesafe.api.IPC
+05-19 15:04:20.017 E/PluginFramework(13761): 			at java.lang.Class.classForName(Native Method)
+05-19 15:04:20.017 E/PluginFramework(13761): 			at java.lang.BootClassLoader.findClass(ClassLoader.java:781)
+05-19 15:04:20.017 E/PluginFramework(13761): 			at java.lang.BootClassLoader.loadClass(ClassLoader.java:841)
+05-19 15:04:20.017 E/PluginFramework(13761): 			at java.lang.ClassLoader.loadClass(ClassLoader.java:504)
+05-19 15:04:20.017 E/PluginFramework(13761): 			... 20 more
+05-19 15:04:20.017 E/PluginFramework(13761): 		Caused by: java.lang.NoClassDefFoundError: Class not found using the boot class loader; no stack available
+05-19 15:04:20.098 E/NativeCrypto( 2186): ssl=0x7f8ddd7000 cert_verify_callback x509_store_ctx=0x7f89ffec78 arg=0x0
+05-19 15:04:20.098 E/NativeCrypto( 2186): ssl=0x7f8ddd7000 cert_verify_callback calling verifyCertificateChain authMethod=ECDHE_RSA
+05-19 15:04:20.163 E/UpdateManager( 2186): onFinish() null == resp
+05-19 15:04:20.168 E/NativeCrypto( 2186): ssl=0x7f9ea8cc00 cert_verify_callback x509_store_ctx=0x7f89df6c78 arg=0x0
+05-19 15:04:20.168 E/NativeCrypto( 2186): ssl=0x7f9ea8cc00 cert_verify_callback calling verifyCertificateChain authMethod=ECDHE_RSA
+05-19 15:04:20.189 E/AppFeature(14080): gyroscope_check2_delay_game_support--false
+05-19 15:04:20.189 E/AppFeature(14080): ktv_sound_support--true
+05-19 15:04:20.189 E/AppFeature(14080): flashlight_calibration_support--true
+05-19 15:04:20.189 E/AppFeature(14080): flashlight_support--false
+05-19 15:04:20.189 E/AppFeature(14080): fm_support--true
+05-19 15:04:20.189 E/AppFeature(14080): hardware_adc_version_support--true
+05-19 15:04:20.189 E/AppFeature(14080): camera_noi_red_support--false
+05-19 15:04:20.189 E/AppFeature(14080): new_camera_support--false
+05-19 15:04:20.189 E/AppFeature(14080): new_hand_write_test_support--true
+05-19 15:04:20.189 E/AppFeature(14080): smart_amprifier_support--true
+05-19 15:04:20.189 E/AppFeature(14080): udisk_cali_support--false
+05-19 15:04:20.189 E/AppFeature(14080): electronic_compass_support--true
+05-19 15:04:20.189 E/AppFeature(14080): gyroscope_support--false
+05-19 15:04:20.189 E/AppFeature(14080): camera_and_focus_key_test_support--false
+05-19 15:04:20.189 E/AppFeature(14080): gesture_cali_support--false
+05-19 15:04:20.189 E/AppFeature(14080): dual_speaker_support--false
+05-19 15:04:20.189 E/AppFeature(14080): smart_spearker_amplifier_cali_support--true
+05-19 15:04:20.189 E/AppFeature(14080): right_speaker_support--false
+05-19 15:04:20.189 E/AppFeature(14080): sub_echo_support--false
+05-19 15:04:20.189 E/AppFeature(14080): fingercoverage_support--true
+05-19 15:04:20.189 E/AppFeature(14080): speaker_resdetect_support--true
+05-19 15:04:20.189 E/AppFeature(14080): hifi_support--true
+05-19 15:04:20.189 E/AppFeature(14080): phone_type_support--false
+05-19 15:04:20.189 E/AppFeature(14080): sdcard_hot_plug_support--true
+05-19 15:04:20.189 E/AppFeature(14080): flash_light_cali_support--true
+05-19 15:04:20.189 E/AppFeature(14080): fingerprint_support--true
+05-19 15:04:20.189 E/AppFeature(14080): qcom_modem_version_support--false
+05-19 15:04:20.189 E/AppFeature(14080): charger_test_support--true
+05-19 15:04:20.189 E/AppFeature(14080): battery_info_support--true
+05-19 15:04:20.189 E/AppFeature(14080): 3g_test_support--false
+05-19 15:04:20.189 E/AppFeature(14080): dual_light_support--false
+05-19 15:04:20.189 E/AppFeature(14080): button_light_support--false
+05-19 15:04:20.189 E/AppFeature(14080): virtual_sim--true
+05-19 15:04:20.189 E/AppFeature(14080): camera_pdaf--true
+05-19 15:04:20.189 E/AppFeature(14080): gsensor_lis3dh_support--false
+05-19 15:04:20.189 E/AppFeature(14080): touch_panel_devices_support--true
+05-19 15:04:20.189 E/AppFeature(14080): em_proximity_gesture_support--false
+05-19 15:04:20.189 E/AppFeature(14080): double_flashlight_verify_support--false
+05-19 15:04:20.189 E/AppFeature(14080): lcd_color_cali_support--false
+05-19 15:04:20.189 E/AppFeature(14080): double_hifi_support--false
+05-19 15:04:20.189 E/AppFeature(14080): music_test_rom1_0_ex_support--false
+05-19 15:04:20.189 E/AppFeature(14080): version_info_support--false
+05-19 15:04:20.189 E/AppFeature(14080): net_banding_set_support--false
+05-19 15:04:20.189 E/AppFeature(14080): kernel_accelerometer_support--
+05-19 15:04:20.189 E/AppFeature(14080): lcm_chroma_adjust_support--false
+05-19 15:04:20.189 E/AppFeature(14080): left_speaker_support--false
+05-19 15:04:20.325 E/NativeCrypto( 2186): ssl=0x7f8ddd6900 cert_verify_callback x509_store_ctx=0x7f89efad68 arg=0x0
+05-19 15:04:20.325 E/NativeCrypto( 2186): ssl=0x7f8ddd6900 cert_verify_callback calling verifyCertificateChain authMethod=ECDHE_RSA
+05-19 15:04:20.328 E/NativeCrypto( 2186): ssl=0x7f9ea8c500 cert_verify_callback x509_store_ctx=0x7f8cdfecc8 arg=0x0
+05-19 15:04:20.328 E/NativeCrypto( 2186): ssl=0x7f9ea8c500 cert_verify_callback calling verifyCertificateChain authMethod=ECDHE_RSA
+05-19 15:04:20.340 E/NativeCrypto( 2186): ssl=0x7f9ea8e100 cert_verify_callback x509_store_ctx=0x7f899e6de8 arg=0x0
+05-19 15:04:20.340 E/NativeCrypto( 2186): ssl=0x7f9ea8e100 cert_verify_callback calling verifyCertificateChain authMethod=ECDHE_RSA
+05-19 15:04:20.511 E/NativeCrypto( 2186): ssl=0x7f9ea8cc00 cert_verify_callback x509_store_ctx=0x7f89df6c78 arg=0x0
+05-19 15:04:20.511 E/NativeCrypto( 2186): ssl=0x7f9ea8cc00 cert_verify_callback calling verifyCertificateChain authMethod=ECDHE_RSA
+05-19 15:04:20.722 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:04:20.722 E/WifiTrafficPoller(  851):  packet count Tx=2028618 Rx=6690914
+05-19 15:04:21.327 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:21.345 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:21.361 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:21.378 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:21.395 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:21.412 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:21.635 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:21.649 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:21.666 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:21.681 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:21.699 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:21.715 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:21.723 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:04:21.725 E/WifiTrafficPoller(  851):  packet count Tx=2028629 Rx=6690961
+05-19 15:04:21.733 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:21.751 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:21.767 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:21.784 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:21.802 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:22.132 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=2.0, 0.0, 0.0  rx=48.0 bcn=0 [on:0 tx:0 rx:0 period:3003] from screen [on:0 period:716021204] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:04:22.133 E/WifiStateMachine(  851):  L2ConnectedState (when=-5ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=2.0, 0.0, 0.0  rx=48.0 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:716021205] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:04:22.133 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:04:22.136 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:04:22.700 E/MPlugin (14158): Unsupported class: com.mediatek.common.telephony.IOnlyOwnerSimSupport
+05-19 15:04:22.741 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:04:22.741 E/WifiTrafficPoller(  851):  packet count Tx=2028629 Rx=6690980
+05-19 15:04:22.741 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-19 15:04:22.840 E/VivoGame.GameProvider(14158): update table game_item failed
+05-19 15:04:22.867 E/VivoGame.GameProvider(14158): update table game_item failed
+05-19 15:04:22.896 E/VivoGame.GameProvider(14158): update table game_item failed
+05-19 15:04:23.312 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:23.329 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:23.346 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:23.362 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:23.379 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:23.398 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:23.413 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:23.430 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:23.447 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:23.464 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:23.481 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:23.742 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:04:23.743 E/WifiTrafficPoller(  851):  packet count Tx=2028650 Rx=6691024
+05-19 15:04:23.743 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-19 15:04:23.916 E/fpc_jni ( 1924): abortNative()
+05-19 15:04:24.744 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:04:24.745 E/WifiTrafficPoller(  851):  packet count Tx=2028650 Rx=6691040
+05-19 15:04:24.745 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-19 15:04:25.140 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-53 f=5785 sc=80 link=135 tx=97.0, 0.0, 0.0  rx=181.0 bcn=0 [on:0 tx:0 rx:0 period:2953] from screen [on:0 period:716024212] gl rssi=-53 ag=0 hr ticks 28,286,43 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-19 15:04:25.141 E/WifiStateMachine(  851):  L2ConnectedState (when=-5ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-53 f=5785 sc=80 link=135 tx=97.0, 0.0, 0.0  rx=181.0 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:716024213] gl rssi=-53 ag=0 hr ticks 28,286,43 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-19 15:04:25.141 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:04:25.158 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:04:25.745 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:04:25.746 E/WifiTrafficPoller(  851):  packet count Tx=2028650 Rx=6691060
+05-19 15:04:26.746 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:04:26.747 E/WifiTrafficPoller(  851):  packet count Tx=2028650 Rx=6691078
+05-19 15:04:27.748 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:04:27.748 E/WifiTrafficPoller(  851):  packet count Tx=2028650 Rx=6691099
+05-19 15:04:28.162 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=59.0, 0.0, 0.0  rx=128.0 bcn=0 [on:0 tx:0 rx:0 period:3002] from screen [on:0 period:716027234] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-19 15:04:28.163 E/WifiStateMachine(  851):  L2ConnectedState (when=-5ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=59.0, 0.0, 0.0  rx=128.0 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:716027235] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-19 15:04:28.163 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:04:28.167 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:04:28.748 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:04:28.749 E/WifiTrafficPoller(  851):  packet count Tx=2028650 Rx=6691118
+05-19 15:04:29.696 E/NotificationService(  851): Suppressing notification from package com.qihoo.appstore by user request.
+05-19 15:04:29.696 E/NotificationService(  851): Suppressing notification from package com.qihoo.appstore by user request.
+05-19 15:04:29.749 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 17
+05-19 15:04:29.750 E/WifiTrafficPoller(  851):  packet count Tx=2028650 Rx=6691140
+05-19 15:04:30.388 E/MPlugin (13850): Unsupported class: com.mediatek.common.telephony.IOnlyOwnerSimSupport
+05-19 15:04:30.411 E/WifiTrafficPoller(  851): ADD_CLIENT: 18
+05-19 15:04:30.750 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 18
+05-19 15:04:30.750 E/WifiTrafficPoller(  851):  packet count Tx=2028650 Rx=6691168
+05-19 15:04:31.171 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=29.5, 0.0, 0.0  rx=95.0 bcn=0 [on:0 tx:0 rx:0 period:3003] from screen [on:0 period:716030243] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-19 15:04:31.172 E/WifiStateMachine(  851):  L2ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=29.5, 0.0, 0.0  rx=95.0 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:716030244] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-19 15:04:31.172 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:04:31.188 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:04:31.750 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 18
+05-19 15:04:31.750 E/WifiTrafficPoller(  851):  packet count Tx=2028658 Rx=6691198
+05-19 15:04:31.750 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-19 15:04:32.752 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 18
+05-19 15:04:32.753 E/WifiTrafficPoller(  851):  packet count Tx=2028662 Rx=6691221
+05-19 15:04:33.146 E/memtrack(14385): Couldn't load memtrack module (No such file or directory)
+05-19 15:04:33.146 E/android.os.Debug(14385): failed to load memtrack module: -2
+05-19 15:04:33.753 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 18
+05-19 15:04:33.754 E/WifiTrafficPoller(  851):  packet count Tx=2028662 Rx=6691238
+05-19 15:04:33.754 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-19 15:04:34.180 E/memtrack(14405): Couldn't load memtrack module (No such file or directory)
+05-19 15:04:34.180 E/android.os.Debug(14405): failed to load memtrack module: -2
+05-19 15:04:34.191 E/WifiStateMachine(  851):  ConnectedState (when=-1ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=14.8, 0.0, 0.0  rx=80.5 bcn=0 [on:0 tx:0 rx:0 period:3001] from screen [on:0 period:716033263] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-19 15:04:34.192 E/WifiStateMachine(  851):  L2ConnectedState (when=-2ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=14.8, 0.0, 0.0  rx=80.5 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:716033264] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-19 15:04:34.192 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:04:34.195 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:04:34.624 E/VMSG    (14451): RegisterNatives OnUserCommand1
+05-19 15:04:34.761 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 18
+05-19 15:04:34.762 E/WifiTrafficPoller(  851):  packet count Tx=2028662 Rx=6691258
+05-19 15:04:34.800 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:34.817 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:34.834 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:34.851 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:34.869 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:34.886 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:34.902 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:34.918 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:35.762 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 18
+05-19 15:04:35.764 E/WifiTrafficPoller(  851):  packet count Tx=2028665 Rx=6691290
+05-19 15:04:35.764 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-19 15:04:36.606 E/QueryController(14385): Got null root node from accessibility - Retrying...
+05-19 15:04:36.667 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:36.670 E/WifiTrafficPoller(  851): ADD_CLIENT: 19
+05-19 15:04:36.684 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:36.701 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:36.718 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:36.734 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:36.752 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:36.766 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:04:36.766 E/WifiTrafficPoller(  851):  packet count Tx=2028669 Rx=6691321
+05-19 15:04:36.768 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:36.788 E/NativeCrypto(14451): ssl=0x7faa202e00 cert_verify_callback x509_store_ctx=0x7f9e5f6e88 arg=0x0
+05-19 15:04:36.788 E/NativeCrypto(14451): ssl=0x7faa202e00 cert_verify_callback calling verifyCertificateChain authMethod=ECDHE_RSA
+05-19 15:04:36.857 E/QueryController(14385): Got null root node from accessibility - Retrying...
+05-19 15:04:36.937 E/[PropSet](14451): connect fail
+05-19 15:04:36.937 E/[PropSet](14451): send_prop_msg return err -1
+05-19 15:04:37.017 E/baidumapsdk(14451): Authentication Error errorcode: 230 uid: -1 appid -1 msg: APP Scodeç æ ¡éªŒå¤±è´¥
+05-19 15:04:37.070 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:37.087 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:37.104 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:37.121 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:37.187 E/NativeCrypto( 9026): ssl=0xdb7e0c00 cert_verify_callback x509_store_ctx=0xd9838fe0 arg=0x0
+05-19 15:04:37.187 E/NativeCrypto( 9026): ssl=0xdb7e0c00 cert_verify_callback calling verifyCertificateChain authMethod=ECDHE_RSA
+05-19 15:04:37.197 E/WifiStateMachine(  851):  ConnectedState (when=-1ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=13.4, 0.0, 0.0  rx=77.3 bcn=0 [on:0 tx:0 rx:0 period:3000] from screen [on:0 period:716036269] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-19 15:04:37.198 E/WifiStateMachine(  851):  L2ConnectedState (when=-2ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=13.4, 0.0, 0.0  rx=77.3 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:716036270] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-19 15:04:37.198 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:04:37.200 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:04:37.242 E/NativeCrypto( 9026): ssl=0xdb7e3a00 cert_verify_callback x509_store_ctx=0xd74f5ee0 arg=0x0
+05-19 15:04:37.242 E/NativeCrypto( 9026): ssl=0xdb7e3a00 cert_verify_callback calling verifyCertificateChain authMethod=ECDHE_RSA
+05-19 15:04:37.440 E/CellLocation( 9026): create GsmCellLocation
+05-19 15:04:37.539 E/CellLocation( 9026): create GsmCellLocation
+05-19 15:04:37.767 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:04:37.768 E/WifiTrafficPoller(  851):  packet count Tx=2028724 Rx=6691389
+05-19 15:04:38.768 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:04:38.769 E/WifiTrafficPoller(  851):  packet count Tx=2028724 Rx=6691405
+05-19 15:04:38.769 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-19 15:04:39.770 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:04:39.770 E/WifiTrafficPoller(  851):  packet count Tx=2028724 Rx=6691437
+05-19 15:04:40.204 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=135 tx=22.2, 0.0, 0.0  rx=89.6 bcn=0 [on:0 tx:0 rx:0 period:3002] from screen [on:0 period:716039276] gl rssi=-50 ag=0 hr ticks 28,286,43 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-19 15:04:40.204 E/WifiStateMachine(  851):  L2ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=135 tx=22.2, 0.0, 0.0  rx=89.6 bcn=0 [on:0 tx:0 rx:0 period:0] from screen [on:0 period:716039276] gl rssi=-50 ag=0 hr ticks 28,286,43 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-19 15:04:40.205 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:04:40.218 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:04:40.770 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:04:40.771 E/WifiTrafficPoller(  851):  packet count Tx=2028724 Rx=6691460
+05-19 15:04:41.264 E/memtrack(14519): Couldn't load memtrack module (No such file or directory)
+05-19 15:04:41.264 E/android.os.Debug(14519): failed to load memtrack module: -2
+05-19 15:04:41.771 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:04:41.772 E/WifiTrafficPoller(  851):  packet count Tx=2028724 Rx=6691480
+05-19 15:04:42.772 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:04:42.773 E/WifiTrafficPoller(  851):  packet count Tx=2028726 Rx=6691498
+05-19 15:04:42.773 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-19 15:04:43.222 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=26.6, 0.0, 0.0  rx=92.3 bcn=0 [on:0 tx:0 rx:0 period:3003] from screen [on:0 period:716042294] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-19 15:04:43.223 E/WifiStateMachine(  851):  L2ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=26.6, 0.0, 0.0  rx=92.3 bcn=0 [on:0 tx:0 rx:0 period:0] from screen [on:0 period:716042294] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-19 15:04:43.223 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:04:43.225 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:04:43.773 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:04:43.774 E/WifiTrafficPoller(  851):  packet count Tx=2028726 Rx=6691510
+05-19 15:04:43.775 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-19 15:04:44.777 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:04:44.777 E/WifiTrafficPoller(  851):  packet count Tx=2028726 Rx=6691527
+05-19 15:04:45.778 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:04:45.779 E/WifiTrafficPoller(  851):  packet count Tx=2028726 Rx=6691553
+05-19 15:04:46.227 E/WifiStateMachine(  851):  ConnectedState (when=-1ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=14.3, 0.0, 0.0  rx=74.2 bcn=0 [on:0 tx:0 rx:0 period:3001] from screen [on:0 period:716045299] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-19 15:04:46.230 E/WifiStateMachine(  851):  L2ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=14.3, 0.0, 0.0  rx=74.2 bcn=0 [on:0 tx:0 rx:0 period:3] from screen [on:0 period:716045302] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-19 15:04:46.230 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:04:46.250 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:04:46.779 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:04:46.780 E/WifiTrafficPoller(  851):  packet count Tx=2028726 Rx=6691571
+05-19 15:04:47.780 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:04:47.780 E/WifiTrafficPoller(  851):  packet count Tx=2028726 Rx=6691592
+05-19 15:04:48.781 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:04:48.782 E/WifiTrafficPoller(  851):  packet count Tx=2028726 Rx=6691608
+05-19 15:04:49.053 E/memtrack(14547): Couldn't load memtrack module (No such file or directory)
+05-19 15:04:49.053 E/android.os.Debug(14547): failed to load memtrack module: -2
+05-19 15:04:49.254 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=135 tx=7.1, 0.0, 0.0  rx=65.6 bcn=0 [on:0 tx:0 rx:0 period:3001] from screen [on:0 period:716048326] gl rssi=-50 ag=0 hr ticks 28,286,43 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-19 15:04:49.254 E/WifiStateMachine(  851):  L2ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=135 tx=7.1, 0.0, 0.0  rx=65.6 bcn=0 [on:0 tx:0 rx:0 period:0] from screen [on:0 period:716048326] gl rssi=-50 ag=0 hr ticks 28,286,43 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-19 15:04:49.255 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:04:49.279 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:04:49.782 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:04:49.783 E/WifiTrafficPoller(  851):  packet count Tx=2028726 Rx=6691623
+05-19 15:04:50.783 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:04:50.784 E/WifiTrafficPoller(  851):  packet count Tx=2028726 Rx=6691640
+05-19 15:04:51.784 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:04:51.785 E/WifiTrafficPoller(  851):  packet count Tx=2028726 Rx=6691664
+05-19 15:04:52.284 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=3.6, 0.0, 0.0  rx=63.8 bcn=0 [on:0 tx:0 rx:0 period:3003] from screen [on:0 period:716051356] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:04:52.286 E/WifiStateMachine(  851):  L2ConnectedState (when=-6ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=3.6, 0.0, 0.0  rx=63.8 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:716051358] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:04:52.286 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:04:52.292 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:04:52.785 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:04:52.786 E/WifiTrafficPoller(  851):  packet count Tx=2028728 Rx=6691680
+05-19 15:04:52.786 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-19 15:04:53.787 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:04:53.788 E/WifiTrafficPoller(  851):  packet count Tx=2028729 Rx=6691694
+05-19 15:04:54.788 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:04:54.788 E/WifiTrafficPoller(  851):  packet count Tx=2028729 Rx=6691709
+05-19 15:04:54.788 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-19 15:04:55.294 E/WifiStateMachine(  851):  ConnectedState (when=-1ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=2.8, 0.0, 0.0  rx=59.9 bcn=0 [on:0 tx:0 rx:0 period:2998] from screen [on:0 period:716054365] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:04:55.295 E/WifiStateMachine(  851):  L2ConnectedState (when=-2ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=2.8, 0.0, 0.0  rx=59.9 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:716054366] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:04:55.295 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:04:55.318 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:04:55.789 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:04:55.789 E/WifiTrafficPoller(  851):  packet count Tx=2028729 Rx=6691729
+05-19 15:04:56.009 E/VoLTE SOC(10481): send len: 522 (vendor/mediatek/proprietary/protect-app/external/volte/volte_stack/src/soc/soc_api.c:827)
+05-19 15:04:56.009 E/VoLTE SOC(10481): send ret: 522 (vendor/mediatek/proprietary/protect-app/external/volte/volte_stack/src/soc/soc_api.c:835)
+05-19 15:04:56.059 E/VoLTE SOC(10481): sendto len: 857 (vendor/mediatek/proprietary/protect-app/external/volte/volte_stack/src/soc/soc_api.c:780)
+05-19 15:04:56.059 E/VoLTE SOC(10481): sendto ret: 857 (vendor/mediatek/proprietary/protect-app/external/volte/volte_stack/src/soc/soc_api.c:788)
+05-19 15:04:56.237 E/VoLTE SMS(10482): Can't get the sms object, id = 8323073 (vendor/mediatek/proprietary/protect-app/external/volte/volte_ua/src/sms/sms.c:1003)
+05-19 15:04:56.750 E/VoLTE SOC(10481): send len: 521 (vendor/mediatek/proprietary/protect-app/external/volte/volte_stack/src/soc/soc_api.c:827)
+05-19 15:04:56.750 E/VoLTE SOC(10481): send ret: 521 (vendor/mediatek/proprietary/protect-app/external/volte/volte_stack/src/soc/soc_api.c:835)
+05-19 15:04:56.781 E/VoLTE SOC(10481): sendto len: 857 (vendor/mediatek/proprietary/protect-app/external/volte/volte_stack/src/soc/soc_api.c:780)
+05-19 15:04:56.781 E/VoLTE SOC(10481): sendto ret: 857 (vendor/mediatek/proprietary/protect-app/external/volte/volte_stack/src/soc/soc_api.c:788)
+05-19 15:04:56.790 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:04:56.791 E/WifiTrafficPoller(  851):  packet count Tx=2028729 Rx=6691755
+05-19 15:04:56.958 E/VoLTE SMS(10482): Can't get the sms object, id = 8454145 (vendor/mediatek/proprietary/protect-app/external/volte/volte_ua/src/sms/sms.c:1003)
+05-19 15:04:57.561 E/VoLTE SOC(10481): send len: 521 (vendor/mediatek/proprietary/protect-app/external/volte/volte_stack/src/soc/soc_api.c:827)
+05-19 15:04:57.562 E/VoLTE SOC(10481): send ret: 521 (vendor/mediatek/proprietary/protect-app/external/volte/volte_stack/src/soc/soc_api.c:835)
+05-19 15:04:57.585 E/VoLTE SOC(10481): sendto len: 857 (vendor/mediatek/proprietary/protect-app/external/volte/volte_stack/src/soc/soc_api.c:780)
+05-19 15:04:57.585 E/VoLTE SOC(10481): sendto ret: 857 (vendor/mediatek/proprietary/protect-app/external/volte/volte_stack/src/soc/soc_api.c:788)
+05-19 15:04:57.689 E/VoLTE SMS(10482): Can't get the sms object, id = 8585217 (vendor/mediatek/proprietary/protect-app/external/volte/volte_ua/src/sms/sms.c:1003)
+05-19 15:04:57.791 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:04:57.791 E/WifiTrafficPoller(  851):  packet count Tx=2028729 Rx=6691777
+05-19 15:04:58.031 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:58.049 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:58.066 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:58.081 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:58.099 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:58.115 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:58.132 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:58.149 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:58.321 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=1.9, 0.0, 0.0  rx=50.9 bcn=0 [on:0 tx:0 rx:0 period:3002] from screen [on:0 period:716057393] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:04:58.322 E/WifiStateMachine(  851):  L2ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=1.9, 0.0, 0.0  rx=50.9 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:716057394] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:04:58.322 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:04:58.325 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:04:58.334 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:58.351 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:58.351 E/VoLTE SOC(10481): send len: 521 (vendor/mediatek/proprietary/protect-app/external/volte/volte_stack/src/soc/soc_api.c:827)
+05-19 15:04:58.356 E/VoLTE SOC(10481): send ret: 521 (vendor/mediatek/proprietary/protect-app/external/volte/volte_stack/src/soc/soc_api.c:835)
+05-19 15:04:58.368 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:58.380 E/VoLTE SOC(10481): sendto len: 857 (vendor/mediatek/proprietary/protect-app/external/volte/volte_stack/src/soc/soc_api.c:780)
+05-19 15:04:58.380 E/VoLTE SOC(10481): sendto ret: 857 (vendor/mediatek/proprietary/protect-app/external/volte/volte_stack/src/soc/soc_api.c:788)
+05-19 15:04:58.384 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:58.401 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:58.418 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:58.435 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:58.545 E/VoLTE SMS(10482): Can't get the sms object, id = 8716289 (vendor/mediatek/proprietary/protect-app/external/volte/volte_ua/src/sms/sms.c:1003)
+05-19 15:04:58.754 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:58.770 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:58.787 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:58.792 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:04:58.792 E/WifiTrafficPoller(  851):  packet count Tx=2028736 Rx=6691796
+05-19 15:04:58.792 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-19 15:04:58.804 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:58.822 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:59.167 E/QueryController(14385): Got null root node from accessibility - Retrying...
+05-19 15:04:59.225 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:59.242 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:59.258 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:59.275 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:59.292 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:59.309 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:59.326 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:04:59.535 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E6600(raw_contact_id)
+05-19 15:04:59.548 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5F00(raw_contact_id)
+05-19 15:04:59.593 E/MmsService( 1945): MmsServiceSmsReceiverService subId ========================1
+05-19 15:04:59.613 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E6E00(raw_contact_id)
+05-19 15:04:59.626 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E6D00(raw_contact_id)
+05-19 15:04:59.795 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:04:59.796 E/WifiTrafficPoller(  851):  packet count Tx=2028738 Rx=6691814
+05-19 15:04:59.837 E/DrmMtkUtil/DrmUtil(  323): checkDcf: not dcf type, dcf version value [79]
+05-19 15:04:59.837 E/Cta5File(  323): Cta5File::isCta5NormalFile false, bad magic:OggS
+05-19 15:04:59.837 E/Cta5File(  323): Cta5File::isCta5MultimediaFile false, bad magic:CÝ9¥9
+05-19 15:04:59.838 E/DrmMtkUtil/DrmUtil(  323): checkDcf: not dcf type, dcf version value [79]
+05-19 15:04:59.838 E/Cta5File(  323): Cta5File::isCta5NormalFile false, bad magic:OggS
+05-19 15:04:59.838 E/Cta5File(  323): Cta5File::isCta5MultimediaFile false, bad magic:CÝ9¥9
+05-19 15:04:59.838 E/DrmMtkUtil/DrmUtil(  323): checkDcf: not dcf type, dcf version value [79]
+05-19 15:04:59.841 E/DrmCtaPlugIn(  322): [ERROR]onOpenDecryptSession - The key is not set by user
+05-19 15:04:59.841 E/DrmMtkUtil/DrmUtil(  322): parseDcf: not dcf type, dcf version value [79]
+05-19 15:04:59.841 E/DrmMtkPlugIn(  322): onOpenDecryptSession() : failed to parse dcf file.
+05-19 15:04:59.851 E/AsfParser(  323): unknown object: 5367674f-200-0-0000000000001862, 0 bytes
+05-19 15:04:59.851 E/AsfParser(  323): error parsing header: -6
+05-19 15:04:59.854 E/MediaPlayer( 1945): Should have subtitle controller already set
+05-19 15:04:59.892 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39180(raw_contact_id)
+05-19 15:04:59.894 E/DrmMtkUtil/DrmUtil(  323): checkDcf: not dcf type, dcf version value [79]
+05-19 15:04:59.894 E/Cta5File(  323): Cta5File::isCta5NormalFile false, bad magic:OggS
+05-19 15:04:59.894 E/Cta5File(  323): Cta5File::isCta5MultimediaFile false, bad magic:CÝ9¥9
+05-19 15:04:59.894 E/DrmMtkUtil/DrmUtil(  323): checkDcf: not dcf type, dcf version value [79]
+05-19 15:04:59.894 E/Cta5File(  323): Cta5File::isCta5NormalFile false, bad magic:OggS
+05-19 15:04:59.894 E/Cta5File(  323): Cta5File::isCta5MultimediaFile false, bad magic:CÝ9¥9
+05-19 15:04:59.894 E/DrmMtkUtil/DrmUtil(  323): checkDcf: not dcf type, dcf version value [79]
+05-19 15:04:59.898 E/DrmCtaPlugIn(  322): [ERROR]onOpenDecryptSession - The key is not set by user
+05-19 15:04:59.898 E/DrmMtkUtil/DrmUtil(  322): parseDcf: not dcf type, dcf version value [79]
+05-19 15:04:59.898 E/DrmMtkPlugIn(  322): onOpenDecryptSession() : failed to parse dcf file.
+05-19 15:04:59.900 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C09F00(raw_contact_id)
+05-19 15:04:59.906 E/MediaPlayer( 1945): Should have subtitle controller already set
+05-19 15:04:59.907 E/AsfParser(  323): unknown object: 5367674f-200-0-0000000000001862, 0 bytes
+05-19 15:04:59.907 E/AsfParser(  323): error parsing header: -6
+05-19 15:04:59.911 E/MediaPlayer( 1205): Should have subtitle controller already set
+05-19 15:04:59.914 E/MediaPlayer( 1205): Should have subtitle controller already set
+05-19 15:04:59.919 E/OMXNodeInstance(  323): getParameter(b3f:google.vorbis.decoder, ??(0x7f200406)) ERROR: UnsupportedIndex(0x8000101a)
+05-19 15:04:59.946 E/AudioALSAPlaybackHandlerBase(  323): openPcmDriver(), pcm_start(0xe745a440) fail due to cannot start channel: Broken pipe
+05-19 15:04:59.986 E/TFA9890 (  323): [tfa9890_SpeakerOn: 869]valu=0x0003 
+05-19 15:04:59.986 E/TFA9890 (  323): [tfa9890_SpeakerOn: 922]TFA9890 i2s input route valu = 0x8265
+05-19 15:04:59.987 E/TFA9890 (  323): [tfa9890_SpeakerOn: 929]after-TFA9890 i2s input route valu = 0x8265
+05-19 15:04:59.987 E/TFA9890 (  323): [tfa9890_SpeakerOn: 953]SampleRate = 44100,rout=1 valu=0x789b 
+05-19 15:05:00.013 E/TFA9890 (  323): [Tfa98xx_SetMode: 797]SampleRate = 44100
+05-19 15:05:00.017 E/AudioALSAPlaybackHandlerBase(  323): -getHardwareBufferInfo pcm_get_htimestamp fail, ret = -1, pcm_get_error = cannot start channel: Broken pipe
+05-19 15:05:00.020 E/AudioALSAPlaybackHandlerBase(  323): -getHardwareBufferInfo pcm_get_htimestamp fail, ret = -1, pcm_get_error = cannot start channel: Broken pipe
+05-19 15:05:00.034 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:00.050 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:00.066 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:00.083 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:00.100 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:00.117 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:00.133 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:00.151 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:00.167 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:00.184 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:00.201 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:00.796 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:05:00.796 E/WifiTrafficPoller(  851):  packet count Tx=2028738 Rx=6691830
+05-19 15:05:00.796 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-19 15:05:01.329 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=135 tx=3.9, 0.0, 0.0  rx=62.0 bcn=0 [on:0 tx:0 rx:0 period:3002] from screen [on:0 period:716060401] gl rssi=-50 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:05:01.330 E/WifiStateMachine(  851):  L2ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-50 f=5785 sc=80 link=135 tx=3.9, 0.0, 0.0  rx=62.0 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:716060402] gl rssi=-50 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:05:01.330 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:05:01.333 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:05:01.485 E/AudioFlinger(  323): getNextBuffer, get null buffer
+05-19 15:05:01.797 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:05:01.798 E/WifiTrafficPoller(  851):  packet count Tx=2028738 Rx=6691857
+05-19 15:05:02.798 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:05:02.798 E/WifiTrafficPoller(  851):  packet count Tx=2028738 Rx=6691900
+05-19 15:05:03.555 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:03.583 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:03.599 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:03.616 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:03.632 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:03.649 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:03.666 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:03.683 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:03.701 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:03.717 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:03.718 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:03.718 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:03.719 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:03.733 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:03.752 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:03.767 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:03.784 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:03.798 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:05:03.799 E/WifiTrafficPoller(  851):  packet count Tx=2028738 Rx=6691937
+05-19 15:05:03.801 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:03.817 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:03.829 E/DrmMtkUtil/DrmUtil(  323): checkDcf: not dcf type, dcf version value [79]
+05-19 15:05:03.829 E/Cta5File(  323): Cta5File::isCta5NormalFile false, bad magic:OggS
+05-19 15:05:03.829 E/Cta5File(  323): Cta5File::isCta5MultimediaFile false, bad magic:1Rðâ
+05-19 15:05:03.829 E/DrmMtkUtil/DrmUtil(  323): checkDcf: not dcf type, dcf version value [79]
+05-19 15:05:03.831 E/DrmCtaPlugIn(  322): [ERROR]onOpenDecryptSession - The key is not set by user
+05-19 15:05:03.831 E/DrmMtkUtil/DrmUtil(  322): parseDcf: not dcf type, dcf version value [79]
+05-19 15:05:03.831 E/DrmMtkPlugIn(  322): onOpenDecryptSession() : failed to parse dcf file.
+05-19 15:05:03.834 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:03.840 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C38E00(raw_contact_id)
+05-19 15:05:03.841 E/AsfParser(  323): unknown object: 5367674f-200-0-0000000000009c7e, 22240 bytes
+05-19 15:05:03.841 E/AsfParser(  323): error parsing header: -6
+05-19 15:05:03.847 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C38A80(raw_contact_id)
+05-19 15:05:03.850 E/OMXNodeInstance(  323): getParameter(b40:google.vorbis.decoder, ??(0x7f200406)) ERROR: UnsupportedIndex(0x8000101a)
+05-19 15:05:03.851 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:03.863 E/MPlugin (14613): Unsupported class: com.mediatek.common.telephony.IOnlyOwnerSimSupport
+05-19 15:05:03.865 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E6D00(raw_contact_id)
+05-19 15:05:03.868 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:03.875 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E6700(raw_contact_id)
+05-19 15:05:03.885 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:03.895 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E6E00(raw_contact_id)
+05-19 15:05:03.902 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:03.902 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5380(raw_contact_id)
+05-19 15:05:03.916 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39400(raw_contact_id)
+05-19 15:05:03.918 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:03.923 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39180(raw_contact_id)
+05-19 15:05:03.935 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:03.936 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9C080(raw_contact_id)
+05-19 15:05:03.944 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39200(raw_contact_id)
+05-19 15:05:03.958 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7A00(raw_contact_id)
+05-19 15:05:03.964 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7180(raw_contact_id)
+05-19 15:05:03.976 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9C580(raw_contact_id)
+05-19 15:05:03.983 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9C300(raw_contact_id)
+05-19 15:05:03.995 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5200(raw_contact_id)
+05-19 15:05:04.002 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E6B00(raw_contact_id)
+05-19 15:05:04.013 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5480(raw_contact_id)
+05-19 15:05:04.014 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9C880(raw_contact_id)
+05-19 15:05:04.024 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5480(raw_contact_id)
+05-19 15:05:04.025 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9C300(raw_contact_id)
+05-19 15:05:04.036 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5A00(raw_contact_id)
+05-19 15:05:04.043 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9CE80(raw_contact_id)
+05-19 15:05:04.044 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5500(raw_contact_id)
+05-19 15:05:04.052 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9D180(raw_contact_id)
+05-19 15:05:04.058 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5D00(raw_contact_id)
+05-19 15:05:04.065 E/MPlugin (14613): Unsupported class: com.mediatek.common.telephony.IOnlyOwnerSimSupport
+05-19 15:05:04.081 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9CB80(raw_contact_id)
+05-19 15:05:04.088 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9C800(raw_contact_id)
+05-19 15:05:04.100 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5B00(raw_contact_id)
+05-19 15:05:04.101 E/SQLiteLog( 1945): (284) automatic index on pending_msgs(msg_id)
+05-19 15:05:04.107 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5600(raw_contact_id)
+05-19 15:05:04.109 E/SQLiteLog( 1945): (284) automatic index on pending_msgs(msg_id)
+05-19 15:05:04.121 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5D00(raw_contact_id)
+05-19 15:05:04.129 E/QueryController(14385): Got null root node from accessibility - Retrying...
+05-19 15:05:04.132 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5300(raw_contact_id)
+05-19 15:05:04.144 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B6100(raw_contact_id)
+05-19 15:05:04.151 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5F00(raw_contact_id)
+05-19 15:05:04.162 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9CE80(raw_contact_id)
+05-19 15:05:04.169 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9CC00(raw_contact_id)
+05-19 15:05:04.181 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B6480(raw_contact_id)
+05-19 15:05:04.188 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5F00(raw_contact_id)
+05-19 15:05:04.199 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B6780(raw_contact_id)
+05-19 15:05:04.206 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B6380(raw_contact_id)
+05-19 15:05:04.217 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9D180(raw_contact_id)
+05-19 15:05:04.224 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9CA00(raw_contact_id)
+05-19 15:05:04.238 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B6980(raw_contact_id)
+05-19 15:05:04.239 E/[PropSet](14613): connect fail
+05-19 15:05:04.239 E/[PropSet](14613): send_prop_msg return err -1
+05-19 15:05:04.246 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B6400(raw_contact_id)
+05-19 15:05:04.258 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9D900(raw_contact_id)
+05-19 15:05:04.265 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9D580(raw_contact_id)
+05-19 15:05:04.276 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B6C80(raw_contact_id)
+05-19 15:05:04.283 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B6680(raw_contact_id)
+05-19 15:05:04.293 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7FA301A680(raw_contact_id)
+05-19 15:05:04.300 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B6C00(raw_contact_id)
+05-19 15:05:04.312 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9DC80(raw_contact_id)
+05-19 15:05:04.318 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9D800(raw_contact_id)
+05-19 15:05:04.329 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7FA3215880(raw_contact_id)
+05-19 15:05:04.336 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B6200(raw_contact_id)
+05-19 15:05:04.336 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=135 tx=3.5, 0.0, 0.0  rx=56.5 bcn=0 [on:0 tx:0 rx:0 period:3001] from screen [on:0 period:716063408] gl rssi=-48 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:05:04.337 E/WifiStateMachine(  851):  L2ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-48 f=5785 sc=80 link=135 tx=3.5, 0.0, 0.0  rx=56.5 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:716063409] gl rssi=-48 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:05:04.337 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:05:04.348 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7FA3226B00(raw_contact_id)
+05-19 15:05:04.354 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B6F80(raw_contact_id)
+05-19 15:05:04.358 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:05:04.380 E/QueryController(14385): Got null root node from accessibility - Retrying...
+05-19 15:05:04.399 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9DA80(raw_contact_id)
+05-19 15:05:04.405 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C08B80(raw_contact_id)
+05-19 15:05:04.409 E/[PropSet](14613): connect fail
+05-19 15:05:04.409 E/[PropSet](14613): send_prop_msg return err -1
+05-19 15:05:04.417 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5200(raw_contact_id)
+05-19 15:05:04.423 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5200(raw_contact_id)
+05-19 15:05:04.435 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C09A00(raw_contact_id)
+05-19 15:05:04.442 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C09D80(raw_contact_id)
+05-19 15:05:04.453 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5300(raw_contact_id)
+05-19 15:05:04.507 E/MessageListAdapter(14613): exception in getCachedMessageItem
+05-19 15:05:04.658 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:04.669 E/MessageListAdapter(14613): exception in MessageListAdapter cacheItem .....
+05-19 15:05:04.675 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:04.692 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:04.709 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:04.800 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:05:04.800 E/WifiTrafficPoller(  851):  packet count Tx=2028738 Rx=6691968
+05-19 15:05:04.807 E/MessageListAdapter(14613): exception in MessageListAdapter cacheItem .....
+05-19 15:05:04.810 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5E00(raw_contact_id)
+05-19 15:05:04.826 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5980(raw_contact_id)
+05-19 15:05:04.833 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5380(raw_contact_id)
+05-19 15:05:04.836 E/Mms/CacheDelay(14613): -->preferences is not null, slotId = 0, retval = true
+05-19 15:05:04.836 E/Mms/CacheDelay(14613): -->sim1 ready state : true
+05-19 15:05:04.846 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B4900(STAT_DATA_ID)
+05-19 15:05:04.847 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5000(STAT_DATA_ID)
+05-19 15:05:04.849 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5580(STAT_DATA_ID)
+05-19 15:05:04.850 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B4C00(STAT_DATA_ID)
+05-19 15:05:04.851 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C38200(raw_contact_id)
+05-19 15:05:04.860 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C38500(raw_contact_id)
+05-19 15:05:04.861 E/MessageListAdapter(14613): exception in getCachedMessageItem
+05-19 15:05:04.870 E/MessageListAdapter(14613): exception in MessageListAdapter cacheItem .....
+05-19 15:05:04.871 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C38780(raw_contact_id)
+05-19 15:05:04.878 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C38A80(raw_contact_id)
+05-19 15:05:04.893 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E6C00(raw_contact_id)
+05-19 15:05:04.899 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5F00(raw_contact_id)
+05-19 15:05:04.914 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E6F80(raw_contact_id)
+05-19 15:05:04.920 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E6580(raw_contact_id)
+05-19 15:05:04.935 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39000(raw_contact_id)
+05-19 15:05:04.941 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C38980(raw_contact_id)
+05-19 15:05:04.958 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39180(raw_contact_id)
+05-19 15:05:04.964 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C38E00(raw_contact_id)
+05-19 15:05:04.980 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7300(raw_contact_id)
+05-19 15:05:04.987 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7080(raw_contact_id)
+05-19 15:05:05.002 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7400(raw_contact_id)
+05-19 15:05:05.009 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E6580(raw_contact_id)
+05-19 15:05:05.028 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39200(raw_contact_id)
+05-19 15:05:05.034 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C38880(raw_contact_id)
+05-19 15:05:05.049 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39980(raw_contact_id)
+05-19 15:05:05.055 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39480(raw_contact_id)
+05-19 15:05:05.070 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7780(raw_contact_id)
+05-19 15:05:05.076 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7200(raw_contact_id)
+05-19 15:05:05.091 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7A00(raw_contact_id)
+05-19 15:05:05.097 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7800(raw_contact_id)
+05-19 15:05:05.113 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39B80(raw_contact_id)
+05-19 15:05:05.136 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7D00(raw_contact_id)
+05-19 15:05:05.142 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7A80(raw_contact_id)
+05-19 15:05:05.160 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39E80(raw_contact_id)
+05-19 15:05:05.185 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39E80(raw_contact_id)
+05-19 15:05:05.187 E/MessageListAdapter(14613): exception in getCachedMessageItem
+05-19 15:05:05.192 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39E80(raw_contact_id)
+05-19 15:05:05.200 E/MessageListAdapter(14613): exception in MessageListAdapter cacheItem .....
+05-19 15:05:05.206 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7E80(raw_contact_id)
+05-19 15:05:05.212 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7180(raw_contact_id)
+05-19 15:05:05.229 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9C600(raw_contact_id)
+05-19 15:05:05.235 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39900(raw_contact_id)
+05-19 15:05:05.250 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5400(raw_contact_id)
+05-19 15:05:05.256 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5180(raw_contact_id)
+05-19 15:05:05.271 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9C900(raw_contact_id)
+05-19 15:05:05.277 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9C680(raw_contact_id)
+05-19 15:05:05.292 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5480(raw_contact_id)
+05-19 15:05:05.299 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7080(raw_contact_id)
+05-19 15:05:05.316 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9CC00(raw_contact_id)
+05-19 15:05:05.322 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9C300(raw_contact_id)
+05-19 15:05:05.337 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5980(raw_contact_id)
+05-19 15:05:05.344 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5600(raw_contact_id)
+05-19 15:05:05.358 E/MessageListAdapter(14613): exception in MessageListAdapter cacheItem .....
+05-19 15:05:05.358 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9CF80(raw_contact_id)
+05-19 15:05:05.365 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9CB80(raw_contact_id)
+05-19 15:05:05.379 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5A80(raw_contact_id)
+05-19 15:05:05.385 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5800(raw_contact_id)
+05-19 15:05:05.396 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9D280(raw_contact_id)
+05-19 15:05:05.402 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9C980(raw_contact_id)
+05-19 15:05:05.414 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9D380(raw_contact_id)
+05-19 15:05:05.420 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9CE80(raw_contact_id)
+05-19 15:05:05.432 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5B00(raw_contact_id)
+05-19 15:05:05.439 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5A00(raw_contact_id)
+05-19 15:05:05.451 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5E00(raw_contact_id)
+05-19 15:05:05.458 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5600(raw_contact_id)
+05-19 15:05:05.469 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B6180(raw_contact_id)
+05-19 15:05:05.476 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5D80(raw_contact_id)
+05-19 15:05:05.488 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9D480(raw_contact_id)
+05-19 15:05:05.495 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9CB00(raw_contact_id)
+05-19 15:05:05.507 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9D800(raw_contact_id)
+05-19 15:05:05.558 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9C500(raw_contact_id)
+05-19 15:05:05.564 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C08B80(raw_contact_id)
+05-19 15:05:05.577 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C09F00(raw_contact_id)
+05-19 15:05:05.585 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C09D00(raw_contact_id)
+05-19 15:05:05.596 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B4C80(raw_contact_id)
+05-19 15:05:05.800 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:05:05.800 E/WifiTrafficPoller(  851):  packet count Tx=2028738 Rx=6691988
+05-19 15:05:05.905 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B4C80(raw_contact_id)
+05-19 15:05:05.920 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B4F00(raw_contact_id)
+05-19 15:05:05.926 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B4D80(raw_contact_id)
+05-19 15:05:05.941 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5800(raw_contact_id)
+05-19 15:05:05.948 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5000(raw_contact_id)
+05-19 15:05:05.963 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5980(raw_contact_id)
+05-19 15:05:05.969 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5D00(raw_contact_id)
+05-19 15:05:05.985 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5D00(raw_contact_id)
+05-19 15:05:05.991 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5580(raw_contact_id)
+05-19 15:05:06.006 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E6500(raw_contact_id)
+05-19 15:05:06.012 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5000(raw_contact_id)
+05-19 15:05:06.027 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E6700(raw_contact_id)
+05-19 15:05:06.033 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5580(raw_contact_id)
+05-19 15:05:06.048 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E6F80(raw_contact_id)
+05-19 15:05:06.054 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E6680(raw_contact_id)
+05-19 15:05:06.069 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7200(raw_contact_id)
+05-19 15:05:06.076 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5F80(raw_contact_id)
+05-19 15:05:06.091 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7400(raw_contact_id)
+05-19 15:05:06.097 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E6E80(raw_contact_id)
+05-19 15:05:06.112 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7180(raw_contact_id)
+05-19 15:05:06.118 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5C00(raw_contact_id)
+05-19 15:05:06.133 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7500(raw_contact_id)
+05-19 15:05:06.140 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E6580(raw_contact_id)
+05-19 15:05:06.155 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7A80(raw_contact_id)
+05-19 15:05:06.161 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5C00(raw_contact_id)
+05-19 15:05:06.177 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5200(raw_contact_id)
+05-19 15:05:06.184 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7780(raw_contact_id)
+05-19 15:05:06.200 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5400(raw_contact_id)
+05-19 15:05:06.208 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7C00(raw_contact_id)
+05-19 15:05:06.220 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5500(raw_contact_id)
+05-19 15:05:06.227 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5500(raw_contact_id)
+05-19 15:05:06.242 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5B80(raw_contact_id)
+05-19 15:05:06.249 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7F80(raw_contact_id)
+05-19 15:05:06.261 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C38500(raw_contact_id)
+05-19 15:05:06.268 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C09F80(raw_contact_id)
+05-19 15:05:06.280 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B6080(raw_contact_id)
+05-19 15:05:06.287 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5600(raw_contact_id)
+05-19 15:05:06.300 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B6300(raw_contact_id)
+05-19 15:05:06.307 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5600(raw_contact_id)
+05-19 15:05:06.319 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B6480(raw_contact_id)
+05-19 15:05:06.328 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7F80(raw_contact_id)
+05-19 15:05:06.344 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C38E00(raw_contact_id)
+05-19 15:05:06.351 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C38B00(raw_contact_id)
+05-19 15:05:06.366 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B6680(raw_contact_id)
+05-19 15:05:06.373 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5600(raw_contact_id)
+05-19 15:05:06.386 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B6880(raw_contact_id)
+05-19 15:05:06.395 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5600(raw_contact_id)
+05-19 15:05:06.411 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39180(raw_contact_id)
+05-19 15:05:06.419 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C38B80(raw_contact_id)
+05-19 15:05:06.433 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39480(raw_contact_id)
+05-19 15:05:06.440 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39000(raw_contact_id)
+05-19 15:05:06.452 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39600(raw_contact_id)
+05-19 15:05:06.459 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39280(raw_contact_id)
+05-19 15:05:06.473 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B6C00(raw_contact_id)
+05-19 15:05:06.483 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B6800(raw_contact_id)
+05-19 15:05:06.564 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B6F00(raw_contact_id)
+05-19 15:05:06.572 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B6900(raw_contact_id)
+05-19 15:05:06.600 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B6F80(raw_contact_id)
+05-19 15:05:06.611 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B6900(raw_contact_id)
+05-19 15:05:06.629 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39680(raw_contact_id)
+05-19 15:05:06.635 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C38F00(raw_contact_id)
+05-19 15:05:06.651 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7FA301A680(raw_contact_id)
+05-19 15:05:06.658 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B6600(raw_contact_id)
+05-19 15:05:06.673 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7FA3226980(raw_contact_id)
+05-19 15:05:06.680 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B6900(raw_contact_id)
+05-19 15:05:06.697 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7FA3226C80(raw_contact_id)
+05-19 15:05:06.703 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7FA3215880(raw_contact_id)
+05-19 15:05:06.720 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39800(raw_contact_id)
+05-19 15:05:06.727 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39280(raw_contact_id)
+05-19 15:05:06.743 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7FA3226D80(raw_contact_id)
+05-19 15:05:06.750 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B6900(raw_contact_id)
+05-19 15:05:06.766 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7FA3226F80(raw_contact_id)
+05-19 15:05:06.772 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7FA3215880(raw_contact_id)
+05-19 15:05:06.788 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7FA3227380(raw_contact_id)
+05-19 15:05:06.795 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7FA3226E00(raw_contact_id)
+05-19 15:05:06.800 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:05:06.801 E/WifiTrafficPoller(  851):  packet count Tx=2028738 Rx=6692009
+05-19 15:05:06.811 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9C180(raw_contact_id)
+05-19 15:05:06.818 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39100(raw_contact_id)
+05-19 15:05:06.864 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B4C00(raw_contact_id)
+05-19 15:05:06.870 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B4A00(raw_contact_id)
+05-19 15:05:06.886 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B4E80(raw_contact_id)
+05-19 15:05:06.892 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B4E80(raw_contact_id)
+05-19 15:05:07.229 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C09800(raw_contact_id)
+05-19 15:05:07.235 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C09F80(raw_contact_id)
+05-19 15:05:07.249 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5800(raw_contact_id)
+05-19 15:05:07.256 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5180(raw_contact_id)
+05-19 15:05:07.271 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5C80(raw_contact_id)
+05-19 15:05:07.278 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5080(raw_contact_id)
+05-19 15:05:07.295 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5F80(raw_contact_id)
+05-19 15:05:07.302 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5F80(raw_contact_id)
+05-19 15:05:07.321 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E6580(raw_contact_id)
+05-19 15:05:07.328 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E6580(raw_contact_id)
+05-19 15:05:07.346 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E6C00(raw_contact_id)
+05-19 15:05:07.353 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5C00(raw_contact_id)
+05-19 15:05:07.362 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=1.7, 0.0, 0.0  rx=84.2 bcn=0 [on:0 tx:0 rx:0 period:3003] from screen [on:0 period:716066434] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:05:07.363 E/WifiStateMachine(  851):  L2ConnectedState (when=-5ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=1.7, 0.0, 0.0  rx=84.2 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:716066435] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:05:07.363 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:05:07.366 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:05:07.374 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C09F00(raw_contact_id)
+05-19 15:05:07.382 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C09F00(raw_contact_id)
+05-19 15:05:07.397 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C38300(raw_contact_id)
+05-19 15:05:07.405 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C09B80(raw_contact_id)
+05-19 15:05:07.422 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C38600(raw_contact_id)
+05-19 15:05:07.429 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C09B80(raw_contact_id)
+05-19 15:05:07.445 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7480(raw_contact_id)
+05-19 15:05:07.452 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E6D80(raw_contact_id)
+05-19 15:05:07.469 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7780(raw_contact_id)
+05-19 15:05:07.493 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7C00(raw_contact_id)
+05-19 15:05:07.500 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E6E80(raw_contact_id)
+05-19 15:05:07.518 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7D00(raw_contact_id)
+05-19 15:05:07.525 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5380(raw_contact_id)
+05-19 15:05:07.542 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C38B00(raw_contact_id)
+05-19 15:05:07.549 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C09D00(raw_contact_id)
+05-19 15:05:07.567 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39380(raw_contact_id)
+05-19 15:05:07.574 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C38900(raw_contact_id)
+05-19 15:05:07.599 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39700(raw_contact_id)
+05-19 15:05:07.607 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39100(raw_contact_id)
+05-19 15:05:07.626 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5100(raw_contact_id)
+05-19 15:05:07.633 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7100(raw_contact_id)
+05-19 15:05:07.658 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5500(raw_contact_id)
+05-19 15:05:07.666 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7E80(raw_contact_id)
+05-19 15:05:07.683 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5600(raw_contact_id)
+05-19 15:05:07.691 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7500(raw_contact_id)
+05-19 15:05:07.709 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5900(raw_contact_id)
+05-19 15:05:07.717 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5400(raw_contact_id)
+05-19 15:05:07.740 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5A80(raw_contact_id)
+05-19 15:05:07.748 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5700(raw_contact_id)
+05-19 15:05:07.766 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39800(raw_contact_id)
+05-19 15:05:07.773 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39480(raw_contact_id)
+05-19 15:05:07.801 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:05:07.802 E/WifiTrafficPoller(  851):  packet count Tx=2028741 Rx=6692036
+05-19 15:05:07.802 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-19 15:05:07.806 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39680(raw_contact_id)
+05-19 15:05:07.817 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C38F80(raw_contact_id)
+05-19 15:05:07.863 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39980(raw_contact_id)
+05-19 15:05:07.874 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39000(raw_contact_id)
+05-19 15:05:07.898 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5880(raw_contact_id)
+05-19 15:05:07.906 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7780(raw_contact_id)
+05-19 15:05:07.936 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5C80(raw_contact_id)
+05-19 15:05:07.944 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7D80(raw_contact_id)
+05-19 15:05:07.963 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B6080(raw_contact_id)
+05-19 15:05:07.974 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7780(raw_contact_id)
+05-19 15:05:07.997 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B6380(raw_contact_id)
+05-19 15:05:08.004 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5180(raw_contact_id)
+05-19 15:05:08.021 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B6880(raw_contact_id)
+05-19 15:05:08.029 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B6200(raw_contact_id)
+05-19 15:05:08.052 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9C200(raw_contact_id)
+05-19 15:05:08.067 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39780(raw_contact_id)
+05-19 15:05:08.088 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9C400(raw_contact_id)
+05-19 15:05:08.100 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39D00(raw_contact_id)
+05-19 15:05:08.117 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9C480(raw_contact_id)
+05-19 15:05:08.124 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39D00(raw_contact_id)
+05-19 15:05:08.140 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B6B80(raw_contact_id)
+05-19 15:05:08.147 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B6480(raw_contact_id)
+05-19 15:05:08.163 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B6C80(raw_contact_id)
+05-19 15:05:08.169 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5380(raw_contact_id)
+05-19 15:05:08.183 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7FA301A580(raw_contact_id)
+05-19 15:05:08.190 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B6480(raw_contact_id)
+05-19 15:05:08.204 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7FA3226980(raw_contact_id)
+05-19 15:05:08.211 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B6F00(raw_contact_id)
+05-19 15:05:08.225 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7FA3226C80(raw_contact_id)
+05-19 15:05:08.232 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B6480(raw_contact_id)
+05-19 15:05:08.247 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9C680(raw_contact_id)
+05-19 15:05:08.254 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9C300(raw_contact_id)
+05-19 15:05:08.307 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C09780(raw_contact_id)
+05-19 15:05:08.314 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C08D00(raw_contact_id)
+05-19 15:05:08.629 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C38080(raw_contact_id)
+05-19 15:05:08.637 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C09D00(raw_contact_id)
+05-19 15:05:08.657 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C38100(raw_contact_id)
+05-19 15:05:08.665 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C09800(raw_contact_id)
+05-19 15:05:08.689 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C09F00(raw_contact_id)
+05-19 15:05:08.697 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C09F00(raw_contact_id)
+05-19 15:05:08.715 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C38180(raw_contact_id)
+05-19 15:05:08.724 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C38880(raw_contact_id)
+05-19 15:05:08.751 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C38D80(raw_contact_id)
+05-19 15:05:08.761 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C38980(raw_contact_id)
+05-19 15:05:08.779 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B4D00(raw_contact_id)
+05-19 15:05:08.787 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B4F80(raw_contact_id)
+05-19 15:05:08.803 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:05:08.804 E/WifiTrafficPoller(  851):  packet count Tx=2028742 Rx=6692048
+05-19 15:05:08.810 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5500(raw_contact_id)
+05-19 15:05:08.820 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B4D80(raw_contact_id)
+05-19 15:05:08.839 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5800(raw_contact_id)
+05-19 15:05:08.848 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5A80(raw_contact_id)
+05-19 15:05:08.866 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39080(raw_contact_id)
+05-19 15:05:08.874 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C38700(raw_contact_id)
+05-19 15:05:08.896 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39400(raw_contact_id)
+05-19 15:05:08.905 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C38F80(raw_contact_id)
+05-19 15:05:09.007 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5F80(raw_contact_id)
+05-19 15:05:09.015 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5A80(raw_contact_id)
+05-19 15:05:09.039 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39680(raw_contact_id)
+05-19 15:05:09.047 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C38400(raw_contact_id)
+05-19 15:05:09.064 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E6680(raw_contact_id)
+05-19 15:05:09.072 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E6680(raw_contact_id)
+05-19 15:05:09.092 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E6B00(raw_contact_id)
+05-19 15:05:09.099 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5A80(raw_contact_id)
+05-19 15:05:09.124 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39D00(raw_contact_id)
+05-19 15:05:09.136 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39580(raw_contact_id)
+05-19 15:05:09.157 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39F00(raw_contact_id)
+05-19 15:05:09.164 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39180(raw_contact_id)
+05-19 15:05:09.181 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9C780(raw_contact_id)
+05-19 15:05:09.193 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C39E00(raw_contact_id)
+05-19 15:05:09.211 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7080(raw_contact_id)
+05-19 15:05:09.220 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E6600(raw_contact_id)
+05-19 15:05:09.238 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7480(raw_contact_id)
+05-19 15:05:09.247 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5A80(raw_contact_id)
+05-19 15:05:09.270 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7700(raw_contact_id)
+05-19 15:05:09.278 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7300(raw_contact_id)
+05-19 15:05:09.297 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9C900(raw_contact_id)
+05-19 15:05:09.305 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9C580(raw_contact_id)
+05-19 15:05:09.327 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7A80(raw_contact_id)
+05-19 15:05:09.336 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7580(raw_contact_id)
+05-19 15:05:09.358 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9CB80(raw_contact_id)
+05-19 15:05:09.369 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9C300(raw_contact_id)
+05-19 15:05:09.393 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9CE00(raw_contact_id)
+05-19 15:05:09.403 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9C800(raw_contact_id)
+05-19 15:05:09.424 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9CF80(raw_contact_id)
+05-19 15:05:09.432 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9CD00(raw_contact_id)
+05-19 15:05:09.449 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7C80(raw_contact_id)
+05-19 15:05:09.459 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7200(raw_contact_id)
+05-19 15:05:09.478 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7D00(raw_contact_id)
+05-19 15:05:09.487 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7200(raw_contact_id)
+05-19 15:05:09.511 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7F80(raw_contact_id)
+05-19 15:05:09.520 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7200(raw_contact_id)
+05-19 15:05:09.540 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9D300(raw_contact_id)
+05-19 15:05:09.549 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9CD00(raw_contact_id)
+05-19 15:05:09.570 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5500(raw_contact_id)
+05-19 15:05:09.580 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7E00(raw_contact_id)
+05-19 15:05:09.602 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9D400(raw_contact_id)
+05-19 15:05:09.613 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9D180(raw_contact_id)
+05-19 15:05:09.634 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9D280(raw_contact_id)
+05-19 15:05:09.646 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9CA00(raw_contact_id)
+05-19 15:05:09.682 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9D600(raw_contact_id)
+05-19 15:05:09.698 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9CA80(raw_contact_id)
+05-19 15:05:09.717 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5780(raw_contact_id)
+05-19 15:05:09.725 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5200(raw_contact_id)
+05-19 15:05:09.748 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5A00(raw_contact_id)
+05-19 15:05:09.758 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5600(raw_contact_id)
+05-19 15:05:09.779 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5C00(raw_contact_id)
+05-19 15:05:09.789 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5200(raw_contact_id)
+05-19 15:05:09.804 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:05:09.804 E/WifiTrafficPoller(  851):  packet count Tx=2028742 Rx=6692071
+05-19 15:05:09.804 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-19 15:05:09.812 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9D700(raw_contact_id)
+05-19 15:05:09.820 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9CB00(raw_contact_id)
+05-19 15:05:09.847 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5D80(raw_contact_id)
+05-19 15:05:09.855 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F931B5200(raw_contact_id)
+05-19 15:05:09.871 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9DA00(raw_contact_id)
+05-19 15:05:09.878 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9D680(raw_contact_id)
+05-19 15:05:09.923 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9DC00(raw_contact_id)
+05-19 15:05:09.930 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F9EA9D780(raw_contact_id)
+05-19 15:05:10.244 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B4D80(raw_contact_id)
+05-19 15:05:10.252 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B4D80(raw_contact_id)
+05-19 15:05:10.268 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5580(raw_contact_id)
+05-19 15:05:10.275 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5100(raw_contact_id)
+05-19 15:05:10.290 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5C80(raw_contact_id)
+05-19 15:05:10.297 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5800(raw_contact_id)
+05-19 15:05:10.310 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C09100(raw_contact_id)
+05-19 15:05:10.317 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C09B80(raw_contact_id)
+05-19 15:05:10.330 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5900(raw_contact_id)
+05-19 15:05:10.336 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E6600(raw_contact_id)
+05-19 15:05:10.350 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C09A00(raw_contact_id)
+05-19 15:05:10.356 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C09A00(raw_contact_id)
+05-19 15:05:10.370 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C38400(raw_contact_id)
+05-19 15:05:10.370 E/WifiStateMachine(  851):  ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-53 f=5785 sc=80 link=135 tx=0.9, 0.0, 0.0  rx=78.6 bcn=0 [on:0 tx:0 rx:0 period:3002] from screen [on:0 period:716069442] gl rssi=-53 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:05:10.371 E/WifiStateMachine(  851):  L2ConnectedState (when=-5ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-53 f=5785 sc=80 link=135 tx=0.9, 0.0, 0.0  rx=78.6 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:716069443] gl rssi=-53 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:05:10.371 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:05:10.374 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:05:10.377 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C38400(raw_contact_id)
+05-19 15:05:10.391 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C38980(raw_contact_id)
+05-19 15:05:10.397 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F92C38980(raw_contact_id)
+05-19 15:05:10.411 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5E80(raw_contact_id)
+05-19 15:05:10.418 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B4980(raw_contact_id)
+05-19 15:05:10.431 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7080(raw_contact_id)
+05-19 15:05:10.437 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5E00(raw_contact_id)
+05-19 15:05:10.451 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930E7400(raw_contact_id)
+05-19 15:05:10.457 E/SQLiteLog( 2161): (284) automatic index on sqlite_sq_7F930B5F00(raw_contact_id)
+05-19 15:05:10.805 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:05:10.806 E/WifiTrafficPoller(  851):  packet count Tx=2028761 Rx=6692111
+05-19 15:05:10.806 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-19 15:05:11.807 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:05:11.807 E/WifiTrafficPoller(  851):  packet count Tx=2028761 Rx=6692135
+05-19 15:05:11.807 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-19 15:05:12.808 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:05:12.808 E/WifiTrafficPoller(  851):  packet count Tx=2028761 Rx=6692157
+05-19 15:05:13.238 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:13.255 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:13.271 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:13.288 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:13.305 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:13.322 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:13.339 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:13.356 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:13.377 E/WifiStateMachine(  851):  ConnectedState (when=-2ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-54 f=5785 sc=80 link=135 tx=11.4, 0.0, 0.0  rx=74.3 bcn=0 [on:0 tx:0 rx:0 period:3001] from screen [on:0 period:716072448] gl rssi=-54 ag=0 hr ticks 28,286,43 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-19 15:05:13.377 E/WifiStateMachine(  851):  L2ConnectedState (when=-3ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-54 f=5785 sc=80 link=135 tx=11.4, 0.0, 0.0  rx=74.3 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:716072449] gl rssi=-54 ag=0 hr ticks 28,286,43 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-19 15:05:13.378 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:05:13.381 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:05:13.742 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:13.759 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:13.777 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:13.793 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:13.809 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:05:13.809 E/WifiTrafficPoller(  851):  packet count Tx=2028764 Rx=6692177
+05-19 15:05:13.809 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-19 15:05:13.809 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:13.826 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:13.844 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:14.811 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:05:14.812 E/WifiTrafficPoller(  851):  packet count Tx=2028764 Rx=6692190
+05-19 15:05:14.812 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-19 15:05:15.812 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:05:15.814 E/WifiTrafficPoller(  851):  packet count Tx=2028765 Rx=6692214
+05-19 15:05:15.814 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-19 15:05:16.386 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=6.7, 0.0, 0.0  rx=73.7 bcn=0 [on:0 tx:0 rx:0 period:3003] from screen [on:0 period:716075457] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-19 15:05:16.387 E/WifiStateMachine(  851):  L2ConnectedState (when=-5ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-51 f=5785 sc=80 link=135 tx=6.7, 0.0, 0.0  rx=73.7 bcn=0 [on:0 tx:0 rx:0 period:2] from screen [on:0 period:716075459] gl rssi=-51 ag=0 hr ticks 28,286,43 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-19 15:05:16.387 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:05:16.391 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:05:16.817 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:05:16.818 E/WifiTrafficPoller(  851):  packet count Tx=2028773 Rx=6692234
+05-19 15:05:17.745 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:17.818 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:05:17.819 E/WifiTrafficPoller(  851):  packet count Tx=2028774 Rx=6692250
+05-19 15:05:18.340 E/memtrack(14721): Couldn't load memtrack module (No such file or directory)
+05-19 15:05:18.340 E/android.os.Debug(14721): failed to load memtrack module: -2
+05-19 15:05:18.819 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:05:18.820 E/WifiTrafficPoller(  851):  packet count Tx=2028782 Rx=6692270
+05-19 15:05:19.366 E/memtrack(14738): Couldn't load memtrack module (No such file or directory)
+05-19 15:05:19.366 E/android.os.Debug(14738): failed to load memtrack module: -2
+05-19 15:05:19.395 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=8.9, 0.0, 0.0  rx=67.8 bcn=0 [on:0 tx:0 rx:0 period:3001] from screen [on:0 period:716078467] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-19 15:05:19.397 E/WifiStateMachine(  851):  L2ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=8.9, 0.0, 0.0  rx=67.8 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:716078468] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-19 15:05:19.397 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:05:19.400 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:05:19.820 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:05:19.820 E/WifiTrafficPoller(  851):  packet count Tx=2028782 Rx=6692283
+05-19 15:05:19.820 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-19 15:05:20.016 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:20.034 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:20.051 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:20.066 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:20.083 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:20.100 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:20.103 E/QueryController(14385): Got null root node from accessibility - Retrying...
+05-19 15:05:20.117 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:20.133 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:20.150 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:20.167 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:20.184 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:20.201 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:20.218 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:20.234 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:20.251 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:20.370 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:20.386 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:20.402 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:20.419 E/SurfaceFlinger(  285): onDraw: bindTextureImage test
+05-19 15:05:20.822 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:05:20.822 E/WifiTrafficPoller(  851):  packet count Tx=2028782 Rx=6692290
+05-19 15:05:21.822 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:05:21.823 E/WifiTrafficPoller(  851):  packet count Tx=2028782 Rx=6692310
+05-19 15:05:22.404 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-53 f=5785 sc=80 link=135 tx=8.9, 0.0, 0.0  rx=56.9 bcn=0 [on:0 tx:0 rx:0 period:2999] from screen [on:0 period:716081476] gl rssi=-53 ag=0 hr ticks 28,286,43 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-19 15:05:22.405 E/WifiStateMachine(  851):  L2ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-53 f=5785 sc=80 link=135 tx=8.9, 0.0, 0.0  rx=56.9 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:716081477] gl rssi=-53 ag=0 hr ticks 28,286,43 ls-=0 [56,56,60,60,65] brc=0 lrc=0
+05-19 15:05:22.405 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:05:22.428 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:05:22.470 E/memtrack(14777): Couldn't load memtrack module (No such file or directory)
+05-19 15:05:22.470 E/android.os.Debug(14777): failed to load memtrack module: -2
+05-19 15:05:22.823 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:05:22.823 E/WifiTrafficPoller(  851):  packet count Tx=2028782 Rx=6692320
+05-19 15:05:23.824 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:05:23.825 E/WifiTrafficPoller(  851):  packet count Tx=2028783 Rx=6692335
+05-19 15:05:23.825 E/WifiTrafficPoller(  851): notifying of data activity 3
+05-19 15:05:24.825 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:05:24.826 E/WifiTrafficPoller(  851):  packet count Tx=2028783 Rx=6692348
+05-19 15:05:24.826 E/WifiTrafficPoller(  851): notifying of data activity 1
+05-19 15:05:25.357 E/memtrack(14794): Couldn't load memtrack module (No such file or directory)
+05-19 15:05:25.357 E/android.os.Debug(14794): failed to load memtrack module: -2
+05-19 15:05:25.431 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=4.5, 0.0, 0.0  rx=49.0 bcn=0 [on:0 tx:0 rx:0 period:3002] from screen [on:0 period:716084503] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:05:25.432 E/WifiStateMachine(  851):  L2ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-52 f=5785 sc=80 link=135 tx=4.5, 0.0, 0.0  rx=49.0 bcn=0 [on:0 tx:0 rx:0 period:1] from screen [on:0 period:716084504] gl rssi=-52 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:05:25.432 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:05:25.448 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:05:25.827 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:05:25.828 E/WifiTrafficPoller(  851):  packet count Tx=2028783 Rx=6692364
+05-19 15:05:26.828 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:05:26.829 E/WifiTrafficPoller(  851):  packet count Tx=2028783 Rx=6692374
+05-19 15:05:27.829 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:05:27.829 E/WifiTrafficPoller(  851):  packet count Tx=2028783 Rx=6692388
+05-19 15:05:28.184 E/memtrack(14810): Couldn't load memtrack module (No such file or directory)
+05-19 15:05:28.184 E/android.os.Debug(14810): failed to load memtrack module: -2
+05-19 15:05:28.452 E/WifiStateMachine(  851):  ConnectedState (when=-3ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-54 f=5785 sc=80 link=135 tx=2.7, 0.0, 0.0  rx=44.0 bcn=0 [on:0 tx:0 rx:0 period:3002] from screen [on:0 period:716087524] gl rssi=-54 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:05:28.452 E/WifiStateMachine(  851):  L2ConnectedState (when=-4ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-54 f=5785 sc=80 link=135 tx=2.7, 0.0, 0.0  rx=44.0 bcn=0 [on:0 tx:0 rx:0 period:0] from screen [on:0 period:716087524] gl rssi=-54 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:05:28.452 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:05:28.468 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.
+05-19 15:05:28.829 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:05:28.829 E/WifiTrafficPoller(  851):  packet count Tx=2028783 Rx=6692401
+05-19 15:05:29.829 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:05:29.829 E/WifiTrafficPoller(  851):  packet count Tx=2028783 Rx=6692417
+05-19 15:05:30.829 E/WifiTrafficPoller(  851): TRAFFIC_STATS_POLL true Token 3077 num clients 19
+05-19 15:05:30.830 E/WifiTrafficPoller(  851):  packet count Tx=2028783 Rx=6692441
+05-19 15:05:31.193 E/memtrack(14827): Couldn't load memtrack module (No such file or directory)
+05-19 15:05:31.193 E/android.os.Debug(14827): failed to load memtrack module: -2
+05-19 15:05:31.476 E/WifiStateMachine(  851):  ConnectedState (when=-7ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-56 f=5785 sc=80 link=135 tx=1.4, 0.0, 0.0  rx=41.5 bcn=0 [on:0 tx:0 rx:0 period:3007] from screen [on:0 period:716090548] gl rssi=-56 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:05:31.481 E/WifiStateMachine(  851):  L2ConnectedState (when=-12ms what=131155 arg1=671!CMD_RSSI_POLL 671 0 "BOCO-office" 94:b4:0f:68:a4:b1 rssi=-56 f=5785 sc=80 link=135 tx=1.4, 0.0, 0.0  rx=41.5 bcn=0 [on:0 tx:0 rx:0 period:5] from screen [on:0 period:716090553] gl rssi=-56 ag=0 hr ticks 28,286,43 ls-=0 [56,56,56,56,61] brc=0 lrc=0
+05-19 15:05:31.481 E/WifiStateMachine(  851):  get link layer stats 0
+05-19 15:05:31.485 E/WifiStateMachine(  851): calculateWifiScore() we set wifi's score to 1000, so will always set wifi as a default network.

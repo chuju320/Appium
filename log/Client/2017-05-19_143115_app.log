@@ -1,0 +1,322 @@
+--------- beginning of /dev/log/system
+05-19 14:29:20.470 E/ConnectivityService(  423): Ignoring protectedNetwork 10
+05-19 14:29:20.470 E/ConnectivityService(  423): Ignoring protectedNetwork 11
+05-19 14:29:20.470 E/ConnectivityService(  423): Ignoring protectedNetwork 12
+05-19 14:29:20.470 E/ConnectivityService(  423): Ignoring protectedNetwork 14
+05-19 14:29:20.470 E/MobileDataStateTracker(  423): default: Ignoring feature request because could not acquire PhoneService
+05-19 14:29:20.470 E/MobileDataStateTracker(  423): default: Could not enable APN type "default"
+05-19 14:29:21.640 E/LocationManagerService(  423): no geocoder provider found
+05-19 14:29:21.640 E/LocationManagerService(  423): No FusedProvider found.
+05-19 14:29:21.640 E/LocationManagerService(  423): no geofence provider found
+05-19 14:29:23.240 E/ConnectivityService(  423): Unexpected mtu value: android.net.wifi.WifiStateTracker@4a8ef3fc
+--------- beginning of /dev/log/main
+05-19 14:29:23.410 E/BandwidthController(  158): Updating quota globalAlert failed (No such file or directory)
+05-19 14:29:23.410 E/cutils-trace(  745): Error opening trace file: No such file or directory (2)
+05-19 14:29:23.460 E/dalvikvm(  655): Could not find class 'jgj', referenced from method jgi.a
+05-19 14:29:23.540 E/memtrack(  759): Couldn't load memtrack module (No such file or directory)
+05-19 14:29:23.540 E/android.os.Debug(  759): failed to load memtrack module: -2
+05-19 14:29:23.570 E/cutils-trace(  759): Error opening trace file: No such file or directory (2)
+05-19 14:29:23.630 E/memtrack(  791): Couldn't load memtrack module (No such file or directory)
+05-19 14:29:23.630 E/android.os.Debug(  791): failed to load memtrack module: -2
+05-19 14:29:23.680 E/cutils-trace(  791): Error opening trace file: No such file or directory (2)
+05-19 14:29:23.710 E/memtrack(  787): Couldn't load memtrack module (No such file or directory)
+05-19 14:29:23.710 E/android.os.Debug(  787): failed to load memtrack module: -2
+05-19 14:29:23.770 E/cutils-trace(  787): Error opening trace file: No such file or directory (2)
+05-19 14:29:23.850 E/WifiStateMachine(  423): Failed to set country code CN
+05-19 14:29:23.900 E/dalvikvm(  655): Could not find class 'jqk', referenced from method jqi.a
+05-19 14:29:23.960 E/dalvikvm(  655): Could not find class 'aiem', referenced from method aita.<init>
+05-19 14:29:23.970 E/dalvikvm(  655): Could not find class 'aiqs', referenced from method aiqu.a
+05-19 14:29:23.970 E/dalvikvm(  655): Could not find class 'android.app.AlarmManager$OnAlarmListener', referenced from method aiqu.a
+05-19 14:29:23.980 E/memtrack(  820): Couldn't load memtrack module (No such file or directory)
+05-19 14:29:23.980 E/android.os.Debug(  820): failed to load memtrack module: -2
+05-19 14:29:24.020 E/cutils-trace(  820): Error opening trace file: No such file or directory (2)
+05-19 14:29:24.140 E/dalvikvm(  655): Could not find class 'android.bluetooth.le.AdvertiseSettings$Builder', referenced from method aqrk.a
+05-19 14:29:24.190 E/dalvikvm(  978): Could not find class 'javax.net.ssl.SNIHostName', referenced from method com.google.android.gms.org.conscrypt.Platform.getSSLParameters
+05-19 14:29:24.190 E/dalvikvm(  978): Could not find class 'javax.net.ssl.SNIServerName', referenced from method com.google.android.gms.org.conscrypt.Platform.setSSLParameters
+05-19 14:29:24.190 E/dalvikvm(  978): Could not find class 'com.google.android.gms.org.conscrypt.OpenSSLExtendedSessionImpl', referenced from method com.google.android.gms.org.conscrypt.Platform.wrapSSLSession
+05-19 14:29:24.240 E/dalvikvm(  978): Could not find class 'com.google.android.gms.org.conscrypt.OpenSSLExtendedSessionImpl', referenced from method com.google.android.gms.org.conscrypt.SSLParametersImpl.getSessionToReuse
+05-19 14:29:24.340 E/TelephonyProvider(  670): Failed setting numeric '460075' to the current operator
+05-19 14:29:24.440 E/dalvikvm(  655): Could not find class 'android.app.usage.UsageStatsManager', referenced from method ugw.a
+05-19 14:29:24.660 E/memtrack(  959): Couldn't load memtrack module (No such file or directory)
+05-19 14:29:24.660 E/android.os.Debug(  959): failed to load memtrack module: -2
+05-19 14:29:24.700 E/cutils-trace(  959): Error opening trace file: No such file or directory (2)
+05-19 14:29:24.750 E/dalvikvm(  804): Could not find class 'com.google.android.finsky.hygiene.HygieneJobService', referenced from method com.google.android.finsky.dailyhygiene.DailyHygiene.a
+05-19 14:29:24.750 E/dalvikvm(  804): Could not find class 'com.google.android.finsky.services.MaintenanceWindowJobService', referenced from method com.google.android.finsky.dailyhygiene.DailyHygiene.g
+05-19 14:29:24.810 E/GCoreUlr(  655): Bad errorId configuring silent feedback
+05-19 14:29:24.880 E/dalvikvm(  655): Could not find class 'android.app.usage.UsageStatsManager', referenced from method com.google.android.gms.wearable.service.WearableChimeraService.onCreate
+05-19 14:29:24.890 E/dalvikvm(  655): Could not find class 'android.telecom.TelecomManager', referenced from method afwv.a
+05-19 14:29:24.910 E/Finsky  (  804): [1] com.google.android.finsky.wear.bl.a(847): onConnectionFailed: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null}
+05-19 14:29:24.920 E/GCoreUlr(  655): Bad errorId configuring silent feedback
+05-19 14:29:25.030 E/BaseAppContext(  978): Tried to stop global GMSCore RequestQueue. This is likely unintended, so ignoring.
+05-19 14:29:27.955 E/VMSG    ( 1124): RegisterNatives OnUserCommand1
+05-19 14:29:28.405 E/baidumapsdk( 1124): Authentication Error errorcode: 230 uid: -1 appid -1 msg: APP Scode码校验失败
+05-19 14:29:31.695 E/RemotePrintSpooler(  423): Error removing obsolete print jobs .
+05-19 14:29:31.695 E/RemotePrintSpooler(  423): java.util.concurrent.TimeoutException: Cannot get spooler!
+05-19 14:29:31.695 E/RemotePrintSpooler(  423): 	at com.android.server.print.RemotePrintSpooler.bindLocked(RemotePrintSpooler.java:376)
+05-19 14:29:31.695 E/RemotePrintSpooler(  423): 	at com.android.server.print.RemotePrintSpooler.getRemoteInstanceLazy(RemotePrintSpooler.java:352)
+05-19 14:29:31.695 E/RemotePrintSpooler(  423): 	at com.android.server.print.RemotePrintSpooler.removeObsoletePrintJobs(RemotePrintSpooler.java:287)
+05-19 14:29:31.695 E/RemotePrintSpooler(  423): 	at com.android.server.print.UserState.removeObsoletePrintJobs(UserState.java:163)
+05-19 14:29:31.695 E/RemotePrintSpooler(  423): 	at com.android.server.print.PrintManagerService$1.run(PrintManagerService.java:94)
+05-19 14:29:31.695 E/RemotePrintSpooler(  423): 	at android.os.Handler.handleCallback(Handler.java:733)
+05-19 14:29:31.695 E/RemotePrintSpooler(  423): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+05-19 14:29:31.695 E/RemotePrintSpooler(  423): 	at android.os.Looper.loop(Looper.java:136)
+05-19 14:29:31.695 E/RemotePrintSpooler(  423): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+05-19 14:29:31.705 E/GpsLocationProvider(  423): no AGPS interface in set_agps_server
+05-19 14:29:31.725 E/dalvikvm(  713): Could not find class 'javax.net.ssl.SNIHostName', referenced from method com.google.android.gms.org.conscrypt.Platform.getSSLParameters
+05-19 14:29:31.725 E/dalvikvm(  713): Could not find class 'javax.net.ssl.SNIServerName', referenced from method com.google.android.gms.org.conscrypt.Platform.setSSLParameters
+05-19 14:29:31.725 E/dalvikvm(  713): Could not find class 'com.google.android.gms.org.conscrypt.OpenSSLExtendedSessionImpl', referenced from method com.google.android.gms.org.conscrypt.Platform.wrapSSLSession
+05-19 14:29:31.745 E/dalvikvm(  713): Could not find class 'com.google.android.gms.org.conscrypt.OpenSSLExtendedSessionImpl', referenced from method com.google.android.gms.org.conscrypt.SSLParametersImpl.getSessionToReuse
+05-19 14:29:32.185 E/local_gps(  157): Can't send RMC command
+05-19 14:29:32.325 E/BluetoothManagerService(  423): Fail to bind to: Intent { act=android.bluetooth.IBluetooth }
+05-19 14:29:32.325 E/WifiStateMachine(  423): Failed to set country code CN
+05-19 14:29:32.335 E/BluetoothHeadset(  423): Could not bind to Bluetooth Headset Service with Intent { act=android.bluetooth.IBluetoothHeadset }
+05-19 14:29:32.335 E/BluetoothA2dp(  423): Could not bind to Bluetooth A2DP Service with Intent { act=android.bluetooth.IBluetoothA2dp }
+05-19 14:29:32.505 E/UpdateRequestReceiver( 1321): ignoring update request
+05-19 14:29:33.555 E/FileScannerService( 1233): binding file scanner
+05-19 14:29:33.555 E/UpdateRequestReceiver( 1321): ignoring update request
+05-19 14:29:33.555 E/UpdateRequestReceiver( 1321): ignoring update request
+05-19 14:29:33.565 E/UpdateRequestReceiver( 1321): ignoring update request
+05-19 14:29:33.565 E/UpdateRequestReceiver( 1321): ignoring update request
+05-19 14:29:33.565 E/UpdateRequestReceiver( 1321): ignoring update request
+05-19 14:29:33.715 E/dalvikvm(  978): Could not find class 'android.service.persistentdata.PersistentDataBlockManager', referenced from method dzw.a
+05-19 14:29:33.765 E/dalvikvm(  978): Could not find class 'android.telephony.SubscriptionManager', referenced from method com.google.android.gms.checkin.CheckinChimeraService.c
+05-19 14:29:33.775 E/dalvikvm(  978): Could not find class 'android.net.NetworkRequest$Builder', referenced from method com.google.android.gms.common.stats.GmsCoreStatsChimeraService.onCreate
+05-19 14:29:33.795 E/dalvikvm(  655): Could not find class 'android.net.NetworkRequest$Builder', referenced from method com.google.android.gms.common.stats.GmsCoreStatsChimeraService.onCreate
+05-19 14:29:33.905 E/dalvikvm(  713): Could not find class 'android.app.job.JobScheduler', referenced from method pqd.a
+05-19 14:29:34.005 E/dalvikvm(  713): Could not find class 'android.app.usage.UsageStatsManager', referenced from method ppl.a
+05-19 14:29:34.065 E/dalvikvm(  978): Could not find class 'jgj', referenced from method jgi.a
+05-19 14:29:34.075 E/Ads     (  978): Error while retrieving parental controls.
+05-19 14:29:34.075 E/Ads     (  978): java.lang.NullPointerException
+05-19 14:29:34.075 E/Ads     (  978): 	at android.os.Parcel.readException(Parcel.java:1471)
+05-19 14:29:34.075 E/Ads     (  978): 	at android.os.Parcel.readException(Parcel.java:1419)
+05-19 14:29:34.075 E/Ads     (  978): 	at bbb.a(:com.google.android.gms:139)
+05-19 14:29:34.075 E/Ads     (  978): 	at com.google.android.gms.ads.play.c.onServiceConnected(:com.google.android.gms:175)
+05-19 14:29:34.075 E/Ads     (  978): 	at android.app.LoadedApk$ServiceDispatcher.doConnected(LoadedApk.java:1110)
+05-19 14:29:34.075 E/Ads     (  978): 	at android.app.LoadedApk$ServiceDispatcher$RunConnection.run(LoadedApk.java:1127)
+05-19 14:29:34.075 E/Ads     (  978): 	at android.os.Handler.handleCallback(Handler.java:733)
+05-19 14:29:34.075 E/Ads     (  978): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+05-19 14:29:34.075 E/Ads     (  978): 	at android.os.Looper.loop(Looper.java:136)
+05-19 14:29:34.075 E/Ads     (  978): 	at android.app.ActivityThread.main(ActivityThread.java:5019)
+05-19 14:29:34.075 E/Ads     (  978): 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-19 14:29:34.075 E/Ads     (  978): 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-19 14:29:34.075 E/Ads     (  978): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+05-19 14:29:34.075 E/Ads     (  978): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+05-19 14:29:34.075 E/Ads     (  978): 	at dalvik.system.NativeStart.main(Native Method)
+05-19 14:29:34.325 E/GCM     (  713): Missing checkin config file
+05-19 14:29:34.325 E/GCM     (  713): Missing checkin config file
+05-19 14:29:34.385 E/dalvikvm(  978): Could not find class 'android.telephony.SubscriptionManager', referenced from method hgi.a
+05-19 14:29:34.485 E/dalvikvm(  978): Could not find class 'android.net.NetworkRequest$Builder', referenced from method addo.b
+05-19 14:29:34.485 E/ActivityThread(  978): Failed to find provider info for com.google.android.wearable.settings
+05-19 14:29:34.515 E/MDM     (  978): [129] tdv.a: Couldn't connect to Google API client: hvk{statusCode=API_UNAVAILABLE, resolution=null, message=null}
+05-19 14:29:34.615 E/Icing   (  978): street name for address is empty or is not existed. 
+05-19 14:29:34.625 E/Icing   (  978): Opening file  for read failed: No such file or directory
+05-19 14:29:34.625 E/Icing   (  978): Unable to open file . 
+05-19 14:29:34.625 E/Icing   (  978): WordsMap was not properly initialized
+05-19 14:29:34.715 E/GCoreUlr(  655): Bad errorId configuring silent feedback
+05-19 14:29:34.735 E/GCM     (  713): Missing checkin config file
+05-19 14:29:34.745 E/MS_RegisterService(  978): Exception getting GCM token
+05-19 14:29:34.745 E/MS_RegisterService(  978): java.io.IOException: AUTHENTICATION_FAILED
+05-19 14:29:34.745 E/MS_RegisterService(  978): 	at rie.b(:com.google.android.gms:816)
+05-19 14:29:34.745 E/MS_RegisterService(  978): 	at rie.a(:com.google.android.gms:787)
+05-19 14:29:34.745 E/MS_RegisterService(  978): 	at ria.c(:com.google.android.gms:524)
+05-19 14:29:34.745 E/MS_RegisterService(  978): 	at ria.b(:com.google.android.gms:487)
+05-19 14:29:34.745 E/MS_RegisterService(  978): 	at agry.a(:com.google.android.gms:1439)
+05-19 14:29:34.745 E/MS_RegisterService(  978): 	at com.google.android.libraries.matchstick.net.SilentRegisterIntentOperation.a(:com.google.android.gms:1021)
+05-19 14:29:34.745 E/MS_RegisterService(  978): 	at com.google.android.libraries.matchstick.net.SilentRegisterIntentOperation.onHandleIntent(:com.google.android.gms:467)
+05-19 14:29:34.745 E/MS_RegisterService(  978): 	at com.google.android.chimera.IntentOperation.onHandleIntent(:com.google.android.gms:118)
+05-19 14:29:34.745 E/MS_RegisterService(  978): 	at bwq.run(:com.google.android.gms:1864)
+05-19 14:29:34.745 E/MS_RegisterService(  978): 	at bwn.run(:com.google.android.gms:1143)
+05-19 14:29:34.745 E/MS_RegisterService(  978): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+05-19 14:29:34.745 E/MS_RegisterService(  978): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+05-19 14:29:34.745 E/MS_RegisterService(  978): 	at java.lang.Thread.run(Thread.java:841)
+05-19 14:29:34.815 E/dalvikvm( 1526): Could not find class 'javax.net.ssl.SNIHostName', referenced from method com.google.android.gms.org.conscrypt.Platform.getSSLParameters
+05-19 14:29:34.815 E/dalvikvm( 1526): Could not find class 'javax.net.ssl.SNIServerName', referenced from method com.google.android.gms.org.conscrypt.Platform.setSSLParameters
+05-19 14:29:34.815 E/dalvikvm( 1526): Could not find class 'com.google.android.gms.org.conscrypt.OpenSSLExtendedSessionImpl', referenced from method com.google.android.gms.org.conscrypt.Platform.wrapSSLSession
+05-19 14:29:34.825 E/dalvikvm( 1526): Could not find class 'com.google.android.gms.org.conscrypt.OpenSSLExtendedSessionImpl', referenced from method com.google.android.gms.org.conscrypt.SSLParametersImpl.getSessionToReuse
+05-19 14:29:34.905 E/GCM     (  713): Missing checkin config file
+05-19 14:29:34.905 E/GCM     (  713): Missing checkin config file
+05-19 14:29:34.945 E/dalvikvm( 1526): Could not find class 'jgj', referenced from method jgi.a
+05-19 14:29:34.975 E/dalvikvm(  978): Could not find class 'android.app.usage.UsageStatsManager', referenced from method rff.a
+05-19 14:29:35.275 E/Drm     (  165): Failed to open plugin directory /vendor/lib/mediadrm
+05-19 14:29:48.945 E/dalvikvm( 1618): Could not find class 'javax.net.ssl.SNIHostName', referenced from method com.google.android.gms.org.conscrypt.Platform.getSSLParameters
+05-19 14:29:48.945 E/dalvikvm( 1618): Could not find class 'javax.net.ssl.SNIServerName', referenced from method com.google.android.gms.org.conscrypt.Platform.setSSLParameters
+05-19 14:29:48.945 E/dalvikvm( 1618): Could not find class 'com.google.android.gms.org.conscrypt.OpenSSLExtendedSessionImpl', referenced from method com.google.android.gms.org.conscrypt.Platform.wrapSSLSession
+05-19 14:29:48.965 E/dalvikvm( 1618): Could not find class 'com.google.android.gms.org.conscrypt.OpenSSLExtendedSessionImpl', referenced from method com.google.android.gms.org.conscrypt.SSLParametersImpl.getSessionToReuse
+05-19 14:29:49.255 E/dalvikvm(  978): Could not find class 'com.google.android.gms.common.permission.PermissionUtils$1', referenced from method com.google.android.gms.chimera.GmsModuleInitializer.initializeModuleV0
+05-19 14:29:49.585 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.19
+05-19 14:29:49.605 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.19
+05-19 14:29:49.605 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.18
+05-19 14:29:49.605 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.18
+05-19 14:29:49.605 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.19
+05-19 14:29:49.605 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.19
+05-19 14:29:49.605 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.17
+05-19 14:29:49.605 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.17
+05-19 14:29:49.605 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.18
+05-19 14:29:49.605 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.18
+05-19 14:29:49.605 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.16
+05-19 14:29:49.605 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.16
+05-19 14:29:49.605 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.17
+05-19 14:29:49.605 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.17
+05-19 14:29:49.605 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.15
+05-19 14:29:49.615 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.15
+05-19 14:29:49.615 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.16
+05-19 14:29:49.615 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.16
+05-19 14:29:49.615 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.14
+05-19 14:29:49.615 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.14
+05-19 14:29:49.615 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.15
+05-19 14:29:49.615 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.15
+05-19 14:29:49.615 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.13
+05-19 14:29:49.625 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.13
+05-19 14:29:49.625 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.14
+05-19 14:29:49.625 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.14
+05-19 14:29:49.625 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.12
+05-19 14:29:49.625 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.12
+05-19 14:29:49.625 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.13
+05-19 14:29:49.625 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.13
+05-19 14:29:49.625 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.11
+05-19 14:29:49.625 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.11
+05-19 14:29:49.625 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.12
+05-19 14:29:49.625 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.12
+05-19 14:29:49.625 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.10
+05-19 14:29:49.635 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.10
+05-19 14:29:49.635 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.11
+05-19 14:29:49.635 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.11
+05-19 14:29:49.635 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.9
+05-19 14:29:49.635 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.9
+05-19 14:29:49.635 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.10
+05-19 14:29:49.635 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.10
+05-19 14:29:49.635 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.8
+05-19 14:29:49.635 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.8
+05-19 14:29:49.635 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.9
+05-19 14:29:49.635 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.9
+05-19 14:29:49.635 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.7
+05-19 14:29:49.645 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.7
+05-19 14:29:49.645 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.8
+05-19 14:29:49.645 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.8
+05-19 14:29:49.645 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.6
+05-19 14:29:49.645 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.6
+05-19 14:29:49.645 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.7
+05-19 14:29:49.645 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.7
+05-19 14:29:49.645 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.5
+05-19 14:29:49.645 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.5
+05-19 14:29:49.645 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.6
+05-19 14:29:49.645 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.6
+05-19 14:29:49.645 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.4
+05-19 14:29:49.645 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.4
+05-19 14:29:49.645 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.5
+05-19 14:29:49.645 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.5
+05-19 14:29:49.645 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.3
+05-19 14:29:49.655 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.3
+05-19 14:29:49.655 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.4
+05-19 14:29:49.655 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.4
+05-19 14:29:49.655 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.2
+05-19 14:29:49.655 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.2
+05-19 14:29:49.655 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.3
+05-19 14:29:49.655 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.3
+05-19 14:29:49.655 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.1
+05-19 14:29:49.655 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.1
+05-19 14:29:49.655 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.2
+05-19 14:29:49.655 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.2
+05-19 14:29:49.655 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log
+05-19 14:29:49.665 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log
+05-19 14:29:49.665 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log.1
+05-19 14:29:49.665 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log.1
+05-19 14:29:49.665 E/Cataloger( 1233): syncFile:/storage/emulated/0/server.log
+05-19 14:29:49.665 E/Cataloger( 1233): need not sync path:/storage/emulated/0/server.log
+05-19 14:29:49.705 E/Cataloger( 1233): syncFile:/storage/emulated/0/.UTSystemConfig/Global/Alvin2.xml
+05-19 14:29:49.715 E/Cataloger( 1233): syncFile:/storage/emulated/0/.UTSystemConfig/Global/Alvin2.xml.bak
+05-19 14:29:49.715 E/Cataloger( 1233): need not sync path:/storage/emulated/0/.UTSystemConfig/Global/Alvin2.xml.bak
+05-19 14:29:49.715 E/Cataloger( 1233): syncFile:/storage/emulated/0/.UTSystemConfig/Global/Alvin2.xml
+05-19 14:29:49.715 E/Cataloger( 1233): syncFile:/storage/emulated/0/.UTSystemConfig/Global/Alvin2.xml
+05-19 14:29:49.715 E/Cataloger( 1233): syncFile:/storage/emulated/0/.UTSystemConfig/Global/Alvin2.xml.bak
+05-19 14:29:49.715 E/Cataloger( 1233): need not sync path:/storage/emulated/0/.UTSystemConfig/Global/Alvin2.xml.bak
+05-19 14:29:49.715 E/Cataloger( 1233): syncFile:/storage/emulated/0/.DataStorage/ContextData.xml
+05-19 14:29:49.725 E/Cataloger( 1233): syncFile:/storage/emulated/0/.DataStorage/ContextData.xml.bak
+05-19 14:29:49.725 E/Cataloger( 1233): need not sync path:/storage/emulated/0/.DataStorage/ContextData.xml.bak
+05-19 14:29:49.725 E/Cataloger( 1233): syncFile:/storage/emulated/0/.DataStorage/ContextData.xml
+05-19 14:29:49.725 E/Cataloger( 1233): syncFile:/storage/emulated/0/.DataStorage/ContextData.xml
+05-19 14:29:49.725 E/Cataloger( 1233): syncFile:/storage/emulated/0/.DataStorage/ContextData.xml.bak
+05-19 14:29:49.725 E/Cataloger( 1233): need not sync path:/storage/emulated/0/.DataStorage/ContextData.xml.bak
+05-19 14:29:49.865 E/MDM     (  978): [1] SitrepChimeraService.a: No Google accounts; deferring server state update.
+05-19 14:29:49.975 E/Cataloger( 1233): syncFile:/storage/emulated/0/BigNoxHD/cache/com_boco_sc_mobileom_96x96.png
+05-19 14:29:50.015 E/GCoreUlr(  655): Bad errorId configuring silent feedback
+05-19 14:29:50.235 E/Cataloger( 1233): syncFile:/storage/emulated/0/BigNoxHD/cache/com_bignox_app_store_hd_96x96.png
+05-19 14:30:09.035 E/BandwidthController(  158): Updating quota globalAlert failed (No such file or directory)
+05-19 14:30:09.265 E/GCM     (  713): Missing checkin config file
+05-19 14:30:09.265 E/GCM     (  713): Missing checkin config file
+05-19 14:30:09.805 E/GCM     (  713): Missing checkin config file
+05-19 14:30:09.805 E/GCM     (  713): Missing checkin config file
+05-19 14:30:20.075 E/GCM     (  713): Missing checkin config file
+05-19 14:30:20.075 E/GCM     (  713): Missing checkin config file
+05-19 14:30:20.585 E/GCM     (  713): Missing checkin config file
+05-19 14:30:20.585 E/GCM     (  713): Missing checkin config file
+05-19 14:30:37.295 E/memtrack( 1967): Couldn't load memtrack module (No such file or directory)
+05-19 14:30:37.295 E/android.os.Debug( 1967): failed to load memtrack module: -2
+05-19 14:30:38.915 E/cutils-trace( 1967): Error opening trace file: No such file or directory (2)
+05-19 14:30:39.245 E/cutils-trace( 1984): Error opening trace file: No such file or directory (2)
+05-19 14:30:40.745 E/GCM     (  713): Missing checkin config file
+05-19 14:30:40.915 E/GCM     (  713): Missing checkin config file
+05-19 14:30:40.915 E/GCM     (  713): Missing checkin config file
+05-19 14:30:41.605 E/GCM     (  713): Missing checkin config file
+05-19 14:30:41.605 E/GCM     (  713): Missing checkin config file
+05-19 14:31:15.135 E/memtrack( 2092): Couldn't load memtrack module (No such file or directory)
+05-19 14:31:15.135 E/android.os.Debug( 2092): failed to load memtrack module: -2
+05-19 14:31:15.155 E/cutils-trace( 2092): Error opening trace file: No such file or directory (2)
+05-19 14:31:15.765 E/memtrack( 2104): Couldn't load memtrack module (No such file or directory)
+05-19 14:31:15.765 E/android.os.Debug( 2104): failed to load memtrack module: -2
+05-19 14:31:15.775 E/cutils-trace( 2104): Error opening trace file: No such file or directory (2)
+05-19 14:31:16.595 E/memtrack( 2116): Couldn't load memtrack module (No such file or directory)
+05-19 14:31:16.595 E/android.os.Debug( 2116): failed to load memtrack module: -2
+05-19 14:31:16.605 E/cutils-trace( 2116): Error opening trace file: No such file or directory (2)
+05-19 14:31:17.385 E/memtrack( 2131): Couldn't load memtrack module (No such file or directory)
+05-19 14:31:17.385 E/android.os.Debug( 2131): failed to load memtrack module: -2
+05-19 14:31:17.405 E/cutils-trace( 2131): Error opening trace file: No such file or directory (2)
+05-19 14:31:18.085 E/memtrack( 2155): Couldn't load memtrack module (No such file or directory)
+05-19 14:31:18.085 E/android.os.Debug( 2155): failed to load memtrack module: -2
+05-19 14:31:18.105 E/cutils-trace( 2155): Error opening trace file: No such file or directory (2)
+05-19 14:31:19.125 E/memtrack( 2171): Couldn't load memtrack module (No such file or directory)
+05-19 14:31:19.125 E/android.os.Debug( 2171): failed to load memtrack module: -2
+05-19 14:31:19.145 E/cutils-trace( 2171): Error opening trace file: No such file or directory (2)
+05-19 14:31:19.785 E/memtrack( 2183): Couldn't load memtrack module (No such file or directory)
+05-19 14:31:19.785 E/android.os.Debug( 2183): failed to load memtrack module: -2
+05-19 14:31:19.795 E/cutils-trace( 2183): Error opening trace file: No such file or directory (2)
+05-19 14:31:20.595 E/memtrack( 2197): Couldn't load memtrack module (No such file or directory)
+05-19 14:31:20.595 E/android.os.Debug( 2197): failed to load memtrack module: -2
+05-19 14:31:20.615 E/cutils-trace( 2197): Error opening trace file: No such file or directory (2)
+05-19 14:31:21.745 E/memtrack( 2235): Couldn't load memtrack module (No such file or directory)
+05-19 14:31:21.745 E/android.os.Debug( 2235): failed to load memtrack module: -2
+05-19 14:31:21.765 E/cutils-trace( 2235): Error opening trace file: No such file or directory (2)
+05-19 14:31:21.825 E/NetworkScheduler.ATC(  713): Provided calling package not found: com.google.android.apps.photos
+05-19 14:31:22.055 E/GCM     (  713): Missing checkin config file
+05-19 14:31:22.065 E/GCM     (  713): Missing checkin config file
+05-19 14:31:22.385 E/memtrack( 2266): Couldn't load memtrack module (No such file or directory)
+05-19 14:31:22.385 E/android.os.Debug( 2266): failed to load memtrack module: -2
+05-19 14:31:22.405 E/InputDispatcher(  423): channel '4a9252e0 com.boco.sc.mobileom/com.boco.sc.mobileom.worksheet.search.activity.Comm_WSDetail (server)' ~ Channel is unrecoverably broken and will be disposed!
+05-19 14:31:22.405 E/InputDispatcher(  423): channel '4a978390 com.boco.sc.mobileom/com.boco.sc.mobileom.worksheet.search.activity.Comm_WSListnotab (server)' ~ Channel is unrecoverably broken and will be disposed!
+05-19 14:31:22.405 E/InputDispatcher(  423): channel '4aa1d9c8 com.boco.sc.mobileom/com.boco.sc.mobileom.worksheet.fault.activity.FWSOction_relay (server)' ~ Channel is unrecoverably broken and will be disposed!
+05-19 14:31:22.415 E/cutils-trace( 2266): Error opening trace file: No such file or directory (2)
+05-19 14:31:22.435 E/VMSG    ( 2278): RegisterNatives OnUserCommand1
+05-19 14:31:22.665 E/GCM     (  713): Missing checkin config file
+05-19 14:31:22.675 E/GCM     (  713): Missing checkin config file
+05-19 14:31:22.795 E/baidumapsdk( 2278): Authentication Error errorcode: 230 uid: -1 appid -1 msg: APP Scode码校验失败
+05-19 14:31:23.105 E/memtrack( 2305): Couldn't load memtrack module (No such file or directory)
+05-19 14:31:23.105 E/android.os.Debug( 2305): failed to load memtrack module: -2
+05-19 14:31:23.155 E/cutils-trace( 2305): Error opening trace file: No such file or directory (2)
+05-19 14:31:26.385 E/PlayCommon(  804): [43] com.google.android.play.a.g.a(1054): Failed to connect to server: java.net.SocketTimeoutException: failed to connect to play.googleapis.com/172.217.24.10 (port 443) after 10000ms
+05-19 14:31:31.385 E/memtrack( 2373): Couldn't load memtrack module (No such file or directory)
+05-19 14:31:31.385 E/android.os.Debug( 2373): failed to load memtrack module: -2
+05-19 14:31:32.175 E/memtrack( 2390): Couldn't load memtrack module (No such file or directory)
+05-19 14:31:32.175 E/android.os.Debug( 2390): failed to load memtrack module: -2
+05-19 14:31:32.595 E/QueryController( 2373): Got null root node from accessibility - Retrying...
+05-19 14:31:32.715 E/VMSG    ( 2402): RegisterNatives OnUserCommand1
+05-19 14:31:32.855 E/QueryController( 2373): Got null root node from accessibility - Retrying...
+05-19 14:31:33.035 E/baidumapsdk( 2402): Authentication Error errorcode: 230 uid: -1 appid -1 msg: APP Scode码校验失败
+05-19 14:31:33.045 E/cutils-trace( 2390): Error opening trace file: No such file or directory (2)
+05-19 14:31:36.275 E/cutils-trace( 2373): Error opening trace file: No such file or directory (2)
+05-19 14:31:37.205 E/memtrack( 2430): Couldn't load memtrack module (No such file or directory)
+05-19 14:31:37.205 E/android.os.Debug( 2430): failed to load memtrack module: -2
+05-19 14:31:37.985 E/cutils-trace( 2430): Error opening trace file: No such file or directory (2)
+05-19 14:31:44.415 E/memtrack( 2521): Couldn't load memtrack module (No such file or directory)
+05-19 14:31:44.415 E/android.os.Debug( 2521): failed to load memtrack module: -2
+05-19 14:31:45.235 E/cutils-trace( 2521): Error opening trace file: No such file or directory (2)
+05-19 14:31:52.005 E/GCM     (  713): Missing checkin config file
