@@ -10,6 +10,7 @@ from page import BasePage
 import HTML_Result
 from test import test_support
 from moudles import ReSuit
+
 #testunit = unittest.TestSuite()
 testunit = ReSuit.Suit()
 
@@ -19,7 +20,7 @@ class ExcutionEngin(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.filePath = 'dataEngin\\testData.xls'
-
+        cls.name = nowFunc
     @classmethod
     def tearDownClass(cls):
         print 'End!'
@@ -61,7 +62,7 @@ class ExcutionEngin(unittest.TestCase):
                         try:
                             exeKeyword.appiumServer()
                             time.sleep(20)
-                            self.driver = exeKeyword.openApp(*desired_caps)
+                            self.driver = exeKeyword.openApp(self.toastYN,*desired_caps)
                         except Exception, e:
                             print 'str(e)', str(e)
                             if str(e) and 'Could not find a connected Android device' in str(e):
@@ -306,6 +307,7 @@ def generateTestCases(run,result='Yes',open='No'):
         if i[4] == 'Y':
             tarApp = i[5]   #app名
             toastYN = i[6]
+            global nowFunc
             nowFunc = i[0]  #用例编号
             table = login_page.getSheetData("dataEngin\\testData.xls", "case data")
             print TCid

@@ -15,6 +15,7 @@ from selenium.webdriver.support.ui import  WebDriverWait
 from selenium.webdriver.support import expected_conditions
 from threading import Thread
 
+
 class ActionKey(BasePage.AppAction):
     '''封装关键字方法'''
     def __init__(self,nowFunc):
@@ -23,7 +24,7 @@ class ActionKey(BasePage.AppAction):
     def openApp(self,toast,plN,plV,dN,app,aPa,aAc,udid,uKey=True,reKey=True):
         '''打开app'''
         self.driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub',
-                                       self.set_desCaps(toast,plN,plV,dN,app,aPa,aAc,udid,uKey,reKey))
+                                       self.set_desCaps(self.nowFunc,toast,plN,plV,dN,app,aPa,aAc,udid,uKey,reKey))
         self.driver.implicitly_wait(30)
 
     def login(self,username,password,userinput,pwdinput,submit):
@@ -67,22 +68,31 @@ class ActionKey(BasePage.AppAction):
                     end_y = int(y) + int(height)
                     self.tap(end_x / 2, end_y / 2)
                     break
-                except:
+                except Exception,e:
                     print u'元素第{}次点击失败！'.format(i)
             i += 1
             time.sleep(1)
         if i == 3:
-            self.savePngName(self.nowFunc,'元素点击失败','error')
+            self.savePngName('元素点击失败','error')
+            raise e
 
     #切换到webview
     def switch_web(self):
         '''切换到webview页面'''
-        self.switch_to_webview()
+        try:
+            self.switch_to_webview()
+        except Exception,e:
+            print u'webview页面切换失败{}'.format(str(e))
+            self.savePngName('页面切换失败')
 
     #切换到app
     def switch_app(self):
         '''切换到app页面'''
-        self.switch_to_app()
+        try:
+            self.switch_to_app()
+        except Exception,e:
+            print u'app页面切换失败{}'.format(str(e))
+            self.savePngName('app页面切换失败')
 
     #输入文字
     def input_text(self,loc,values):
@@ -90,7 +100,11 @@ class ActionKey(BasePage.AppAction):
         :param loc:元素定位方式
         :param values:输入的内容
         '''
-        self.send_key(loc,values)
+        try:
+            self.send_key(loc,values)
+        except Exception,e:
+            print u'输入异常{}'.format(str(e))
+            self.savePngName('输入异常')
 
 
     def mulClick(self,loc,indexs):
@@ -108,6 +122,7 @@ class ActionKey(BasePage.AppAction):
                     self.find_elements_i(int(index)-1,loc).click()
                 except Exception,e:
                     print u'多选失败：{}'.format(str(e))
+                    self.savePngName('元素多选失败','error')
 
     def Prints(self,loc):
         '''
@@ -123,8 +138,15 @@ class ActionKey(BasePage.AppAction):
         :param direction:滑动方向
         :param duration:持续时长
         '''
-        for i in range(n):
-            self.swipePage(direction,duration)
+        time.sleep(1)
+        try:
+            for i in range(n):
+                self.swipePage(direction,duration)
+        except Exception,e:
+            print u'页面滑动失败{}'.format(str(e))
+            self.savePngName('页面滑动失败','error')
+            raise e
+        time.sleep(.5)
 
     def swipe_element(self,direction,loc,n=1,duration=1000):
         '''滑动元素
@@ -133,10 +155,13 @@ class ActionKey(BasePage.AppAction):
         :param dyration:持续时长
         :param n:滑动次数
         '''
-        for i in range(n):
-            self.swipeElement(direction,loc,duration)
-
-
+        try:
+            for i in range(n):
+                self.swipeElement(direction,loc,duration)
+        except Exception,e:
+            print u'元素滑动失败:{}'.format(str(e))
+            self.savePngName('页面滑动失败', 'error')
+            raise e
     def element_click(self,loc):
         '''点击操作
         :param loc:元素定位方式
@@ -157,7 +182,7 @@ class ActionKey(BasePage.AppAction):
 
         if actual != text:
             #self.saveScreenShot('预期结果与实际结果不符')
-            self.savePngName(self.nowFunc,'预期结果与实际结果不符')
+            self.savePngName('预期结果与实际结果不符')
             print u'匹配不符！'
         else:
             print u'匹配成功！'
@@ -194,7 +219,11 @@ class ActionKey(BasePage.AppAction):
         :return: 无
         '''
         time.sleep(1)
-        self.tap(position,duration)
+        try:
+            self.tap(position,duration)
+        except Exception,e:
+            print u'屏幕点击失败{}'.format(str(e))
+            self.savePngName('屏幕点击失败')
 
     def drag_drop(self,loc1,loc2):
         '''
@@ -204,8 +233,12 @@ class ActionKey(BasePage.AppAction):
         :return: 无
         '''
         time.sleep(.5)
-        self.dragAndDrop(loc1,loc2)
-        time.sleep(.5)
+        try:
+            self.dragAndDrop(loc1,loc2)
+            time.sleep(.5)
+        except Exception,e:
+            print u'元素拖动失败{}'.format(str(e))
+            self.savePngName('元素拖拽失败')
 
     def pinch_zoom_page(self,how,n=1):
         '''
@@ -215,8 +248,12 @@ class ActionKey(BasePage.AppAction):
         :return: 无
         '''
         #self.saveScreenShot('页面%s_前'%how)
-        for i in range(n):
-            self.p_z_page(how)
+        try:
+            for i in range(n):
+                self.p_z_page(how)
+        except Exception,e:
+            print u'页面放大缩小失败{}'.format(str(e))
+            self.savePngName('页面放大缩小失败')
         #self.saveScreenShot('页面%s_后'%how)
 
     def pinch_zoom_ele(self,loc,how,n=1):
@@ -227,10 +264,13 @@ class ActionKey(BasePage.AppAction):
         :param n: 次数
         :return: 无
         '''
-        #self.saveScreenShot('%s元素%s_前'%(loc,how))
-        for i in range(n):
-            self.p_z_element(loc,how)
-        #self.saveScreenShot('%s元素%s_后' % (loc, how))
+        try:
+
+            for i in range(n):
+                self.p_z_element(loc,how)
+        except Exception,e:
+            print u'元素放大缩小失败{}'.format(str(e))
+            self.savePngName('元素放大缩小失败')
 
     def shake_window(self):
         '''摇晃手机'''
@@ -238,7 +278,7 @@ class ActionKey(BasePage.AppAction):
 
 
     def submit(self,loc):
-        self.saveScreenShot(self.nowFunc,'提交表单')
+        self.saveScreenShot('提交表单')
         self.click(loc)
 
     def set_net(self,connectType):
@@ -247,13 +287,20 @@ class ActionKey(BasePage.AppAction):
         :param connectType: 网络类型
         :return: 无
         '''
-        self.setNetWork(connectType)
+        try:
+            self.setNetWork(connectType)
+        except Exception,e:
+            print u'网络设置失败{}'.format(str(e))
+            self.savePngName('网络设置失败')
         #self.saveScreenShot('设置网络%s'%connectType)
 
     def toggle(self):
         '''定位'''
-        self.toggleLocation()
-        #self.saveScreenShot('定位系统打开')
+        try:
+            self.toggleLocation()
+        except Exception,e:
+            print u'GPS设置失败{}'.format(str(e))
+            self.savePngName('GPS设置失败')
 
 
     def save_img(self,name):
@@ -262,15 +309,26 @@ class ActionKey(BasePage.AppAction):
         :param name: 截图命名
         :return: 无
         '''
-        self.savePngName(self.nowFunc,name,'img')
+        try:
+            self.savePngName(name,'img')
+        except Exception,e:
+            print u'手动截图失败{}'.format(str(e))
 
     def install(self):
         '''安装app'''
-        self.install_app()
+        try:
+            self.install_app()
+        except Exception,e:
+            print u'安装失败{}'.format(str(e))
+            self.savePngName('安装失败')
 
     def uninstall(self):
         '''卸载app'''
-        self.uninstall_app()
+        try:
+            self.uninstall_app()
+        except Exception,e:
+            print u'卸载失败{}'.format(str(e))
+            self.savePngName('卸载失败')
 
 
     def close(self):
@@ -342,12 +400,12 @@ class ActionKey(BasePage.AppAction):
         x = po['x']
         y = po['y']
 
-        y_x = x + width/12    #169
-        m_x = x + width*3/12  #365
-        d_x = x + width*5/12  #518
-        H_x = x + width*7/12  #667
-        M_x = x + width*9/12  #819
-        S_x = x + width*11/12 #965
+        y_x = x + width*31/216   #169
+        m_x = x + width*123/360  #365
+        d_x = x + width*173/360  #518
+        H_x = x + width*223/360  #667
+        M_x = x + width*273/360  #819
+        S_x = x + width*323/360  #965
 
         start_y = y + height*13/50
         end_y = y + height/2

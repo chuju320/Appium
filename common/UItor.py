@@ -18,5 +18,3 @@ def confirm():
 
         if d(text=u'安装完成').exists and d(text=u'完成').exists:
             d(text=u'完成').click()
-
-confirm()

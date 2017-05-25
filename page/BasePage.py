@@ -11,22 +11,23 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 import xlrd.sheet
 import os.path
-from uiautomator import Device
 from configparser import ConfigParser
 
 PATH = lambda p: os.path.abspath(os.path.join(os.path.dirname(__file__), p))
 class AppAction(object):
     '''封装公共方法'''
     driver = None
+
     #重写元素定位方法
     def find_element(self,loc):
+
         try:
             WebDriverWait(self.driver,30,0.2).until(expected_conditions.presence_of_element_located(loc))
             return self.driver.find_element(*loc)
         except(NoSuchElementException,KeyError,ValueError,Exception),e:
             print u'BasePage页面查找元素失败:{}'.format(str(e))
             print u'页面未找到元素:%s，如果要获取toast，请开启Uiautomator2' %loc
-            raise e
+            raise str(e)
 
     def find_elements(self,loc):
         try:
@@ -42,23 +43,19 @@ class AppAction(object):
     #切换webview页面
     def switch_to_webview(self):
         contexts = self.driver.contexts
-        try:
-            for i in contexts:
-                if 'WEBVIEW' in i.upper():
-                    self.driver.switch_to.context(i)
-                else:
-                    print u'没有webview出现！'
-        except Exception,e:
-            print u'webvie页面切换失败！s'
-            raise e
+
+        for i in contexts:
+            if 'WEBVIEW' in i.upper():
+                self.driver.switch_to.context(i)
+            else:
+                print u'没有webview出现！'
+
 
     #切换回NATIVE_APP
     def switch_to_app(self):
-        try:
-            self.driver.switch_to.context('NATIVE_APP')
-        except Exception,e:
-            print u'切换NATIVE_APP失败！'
-            raise e
+
+        self.driver.switch_to.context('NATIVE_APP')
+
 
     #重写send_keys方法
     def send_key(self,loc,values):
@@ -90,23 +87,19 @@ class AppAction(object):
 
     #重写滑动页面方法,上下移动均为半个屏，左右移动80%
     def swipePage(self,direction,duration=500):
-        time.sleep(.5)
-        try:
-            width = self.getWindowsSize('width')
-            height = self.getWindowsSize('height')
-            if direction.upper() == 'UP':
-                self.driver.swipe(width/2,height*9/10,width/2,height*2/5,duration)
-            elif direction.upper() == 'DOWN':
-                self.driver.swipe(width/2,height*2/5,width/2,height*9/10,duration)
-            elif direction.upper() == 'LEFT':
-                self.driver.swipe(width*9/10,height/2,width/10,height/2,duration)
-            elif direction.upper() == 'RIGHT':
-                self.driver.swipe(width/10,height/2,width*9/10,height/2,duration)
-            else:
-                print u'滑动页面操作指令有误！'
-        except Exception,e:
-            print u'页面滑动失败！'
-            raise e
+        width = self.getWindowsSize('width')
+        height = self.getWindowsSize('height')
+        if direction.upper() == 'UP':
+            self.driver.swipe(width/2,height*9/10,width/2,height*2/5,duration)
+        elif direction.upper() == 'DOWN':
+            self.driver.swipe(width/2,height*2/5,width/2,height*9/10,duration)
+        elif direction.upper() == 'LEFT':
+            self.driver.swipe(width*9/10,height/2,width/10,height/2,duration)
+        elif direction.upper() == 'RIGHT':
+            self.driver.swipe(width/10,height/2,width*9/10,height/2,duration)
+        else:
+            print u'滑动页面操作指令有误！'
+
 
     #滑动元素
     def swipeElement(self,direction,loc,duration=500):
@@ -116,46 +109,43 @@ class AppAction(object):
         :return: 无
         '''
         time.sleep(.5)
-        try:
-            location,size= self.getElementSize(loc)
-            x = int(location.get('x'))
-            y = int(location.get('y'))
-            width = size.get('width')
-            height = size.get('height')
-            start_x = x + int(width)/10
-            start_y = y + int(height)/10
-            end_x = int(x) + int(width)*9/10
-            end_y = int(y) + int(height)*9/10
-            if direction.upper() == 'LEFT':
-                self.driver.swipe(end_x,y+height/2,start_x,y+height/2,duration)
-            elif direction.upper() == 'RIGHT':
-                self.driver.swipe(start_x,y+height/2,end_x,y+height/2,duration)
-            elif direction.upper() == 'UP':
-                self.driver.swipe(x+width/2,end_y,x+width/2,start_y,duration)
-            elif direction.upper() == 'DOWN':
-                self.driver.swipe(x+width/2,start_y,x+width/2,end_y,duration)
-            elif type(direction)==int or type(direction)==float or str(direction).isdigit():
-                direction = str(int(direction))
-                x1,x2,x3 = x+width/6,x+width/2,x+width*5/6
-                y1,y2,y3 = y+height/6,y+height/2,y+height*5/6
-                dict_x = {1:x1,2:x2,3:x3}
-                dict_y = {1:y1,2:y2,3:y3}
-                dict_po = {1:[x1,y1],2:[x2,y1],3:[x3,y1],4:[x1,y2],5:[x2,y2],6:[x3,y2],7:[x1,y3],
-                           8:[x2,y3],9:[x3,y3]}
-                str1 = 'TouchAction(self.driver).press(x={0},y={1}).wait(200)'.format(dict_po[int(direction[0])][0],dict_po[int(direction[0])][1])
-                num = 1
-                for i in direction[1:]:
-                    ns = int(direction[num-1])
-                    str1 += '.move_to(x={0},y={1}).wait(200)'.format(dict_po[int(i)][0]-dict_po[ns][0],dict_po[int(i)][1]-dict_po[ns][1])
-                    num += 1
-                str1 += '.release().perform()'
-                print str1
-                eval(str1)
-            else:
-                print u'元素滑动方向有误！'
-        except Exception,e:
-            print u'元素滑动失败:{}'.format(str(e))
-            raise e
+        location,size= self.getElementSize(loc)
+        x = int(location.get('x'))
+        y = int(location.get('y'))
+        width = size.get('width')
+        height = size.get('height')
+        start_x = x + int(width)/10
+        start_y = y + int(height)/10
+        end_x = int(x) + int(width)*9/10
+        end_y = int(y) + int(height)*9/10
+        if direction.upper() == 'LEFT':
+            self.driver.swipe(end_x,y+height/2,start_x,y+height/2,duration)
+        elif direction.upper() == 'RIGHT':
+            self.driver.swipe(start_x,y+height/2,end_x,y+height/2,duration)
+        elif direction.upper() == 'UP':
+            self.driver.swipe(x+width/2,end_y,x+width/2,start_y,duration)
+        elif direction.upper() == 'DOWN':
+            self.driver.swipe(x+width/2,start_y,x+width/2,end_y,duration)
+        elif type(direction)==int or type(direction)==float or str(direction).isdigit():
+            direction = str(int(direction))
+            x1,x2,x3 = x+width/6,x+width/2,x+width*5/6
+            y1,y2,y3 = y+height/6,y+height/2,y+height*5/6
+            dict_x = {1:x1,2:x2,3:x3}
+            dict_y = {1:y1,2:y2,3:y3}
+            dict_po = {1:[x1,y1],2:[x2,y1],3:[x3,y1],4:[x1,y2],5:[x2,y2],6:[x3,y2],7:[x1,y3],
+                       8:[x2,y3],9:[x3,y3]}
+            str1 = 'TouchAction(self.driver).press(x={0},y={1}).wait(200)'.format(dict_po[int(direction[0])][0],dict_po[int(direction[0])][1])
+            num = 1
+            for i in direction[1:]:
+                ns = int(direction[num-1])
+                str1 += '.move_to(x={0},y={1}).wait(200)'.format(dict_po[int(i)][0]-dict_po[ns][0],dict_po[int(i)][1]-dict_po[ns][1])
+                num += 1
+            str1 += '.release().perform()'
+            print str1
+            eval(str1)
+        else:
+            print u'元素滑动方向有误！'
+
 
     #重写点击方法
     def tap(self,positions,duration=250):
@@ -172,11 +162,8 @@ class AppAction(object):
                     list2.append(tuple(list1))
                     list1 = []
                     s = 0
-        try:
-            self.driver.tap(list2, duration)
-        except Exception,e:
-            print u'%s点击失败！'%positions
-            raise e
+        self.driver.tap(list2, duration)
+
 
 
     #元素拖动
@@ -188,11 +175,8 @@ class AppAction(object):
         '''
         start = self.find_element(loc1)
         end = self.find_element(loc2)
-        try:
-            self.driver.drag_and_drop(start,end)
-        except Exception,e:
-            print u'元素拖动失败！'
-            raise e
+        self.driver.drag_and_drop(start,end)
+
     #缩小放大页面
     def p_z_page(self,how):
         '''
@@ -206,17 +190,9 @@ class AppAction(object):
         x = width/2
         y = height/2
         if how.upper() == 'SMALLER':
-            try:
-                self.driver.pinch(x,y)
-            except Exception,e:
-                print u'页面缩小失败:{}'.format(str(e))
-                raise e
+            self.driver.pinch(x,y)
         elif how.upper() == 'LARGER':
-            try:
-                self.driver.zoom(x,y)
-            except Exception,e:
-                print u'页面放大失败:{}'.format(str(e))
-                raise e
+            self.driver.zoom(x,y)
         else:
             print u'页面大小操作指令有误！'
 
@@ -229,17 +205,9 @@ class AppAction(object):
         '''
         element = self.find_element(loc)
         if how.upper() == 'SMALLER':
-            try:
-                self.driver.pinch(element)
-            except Exception,e:
-                print u'元素缩小失败:{}'.format(str(e))
-                raise e
+            self.driver.pinch(element)
         elif how.upper() == 'LARGER':
-            try:
-                self.driver.zoom(element)
-            except Exception,e:
-                print u'元素放大失败:{}'.format(str(e))
-                raise e
+            self.driver.zoom(element)
         else:
             print u'元素大小操作指令有误！'
 
@@ -261,22 +229,17 @@ class AppAction(object):
             6 (All network on) | 1    | 1    | 0
         :return: 无
         '''
-        try:
-            self.driver.set_network_connection(connectType)
-            time.sleep(3)
-            type = self.driver.network_connection
-            assert int(type)==int(connectType)
-        except Exception,e:
-            print u'网络设置失败！'
-            raise e
+
+        self.driver.set_network_connection(connectType)
+        time.sleep(3)
+        type = self.driver.network_connection
+        assert int(type)==int(connectType)
+
 
     #定位系统
     def toggleLocation(self):
-        try:
-            self.driver.toggle_location_services()
-        except Exception,e:
-            print u'定位系统打开失败！'
-            raise e
+
+        self.driver.toggle_location_services()
 
     def setTable(self,filePath,sheetname):
         '''获取excel中的sheet:
@@ -327,7 +290,7 @@ class AppAction(object):
                 return [a,b]
 
     #生成截图名称
-    def savePngName(self,nowFunc,name,toe='normal'):
+    def savePngName(self,name,toe='normal'):
         '''
         :param nowFunc 当前运行的用例名
         :param name: 截图名称
@@ -339,7 +302,7 @@ class AppAction(object):
         #dirs1 = 'result\\' + day + '\\images' + '\\' + nowFunc
         #dirs2 = 'result\\' + day + '\\errorImages' + '\\' + nowFunc
         #dirs3 = 'result\\' + day + '\\shotImg' + '\\' + nowFunc
-        dirs1=dirs2=dirs3 = 'result\\' + day + '\\' + nowFunc
+        dirs1=dirs2=dirs3 = 'result\\' + day + '\\' + self.nowFunc
         timeNow = time.strftime('%Y-%m-%d_%H-%M-%S',time.localtime(time.time()))
         type = '.png'
 
@@ -347,40 +310,40 @@ class AppAction(object):
         if toe == 'normal':
             if os.path.exists(dirs1):
                 pngName = str(dirs1) + '\\' + timeNow + '_' + str(name).decode('utf-8') + type
-                self.saveScreenShot(nowFunc,name,pngName)
+                self.saveScreenShot(pngName)
             else:
                 print u'创建截图存储目录！'
                 os.makedirs(dirs1)
                 print u'创建目录成功！'
                 pngName = str(dirs1) + '\\' + timeNow + '_' + str(name).decode('utf-8') + type
-                self.saveScreenShot(nowFunc, name,pngName)
+                self.saveScreenShot(pngName)
         elif toe == 'error':
             if os.path.exists(dirs2):
                 pngName = str(dirs2) + '\\' + timeNow + '_' + str(name).decode('utf-8') + type
-                self.saveScreenShot_error(nowFunc,name,pngName)
+                self.saveScreenShot_error(pngName)
             else:
                 print u'创建异常截图存储目录！'
                 os.makedirs(dirs2)  #创建多级目录，如果最后一级目录已存在，抛异常。所有贵哦城目录均被创建，如果不存在
                 #os.mkdir(dirs2)  #创建单目录，如果路径为多层目录，只创建最后一级目录，如果最后一级以上的目录不存在则抛异常
                 print u'创建目录成功！'
                 pngName = str(dirs2) + '\\' + timeNow + '_' + str(name).decode('utf-8') + type
-                self.saveScreenShot_error(nowFunc, name,pngName)
+                self.saveScreenShot_error(pngName)
         elif toe == 'img':
             if os.path.exists(dirs3):
                 pngName = str(dirs3) + '\\' + timeNow + '_' + str(name).decode('utf-8') + type
-                self.saveScreenShot_img(nowFunc,name,pngName)
+                self.saveScreenShot_img(pngName)
             else:
                 print u'创建手动截图存储目录！'
                 os.makedirs(dirs3)
                 print u'创建目录成功！'
                 pngName = str(dirs3) + '\\' + timeNow + '_' + str(name).decode('utf-8') + type
-                self.saveScreenShot_img(nowFunc, name,pngName)
+                self.saveScreenShot_img(pngName)
         else:
             print u'截图存储命名有误！'
 
 
     #系统截图
-    def saveScreenShot(self,nowFunc,name,pngName):
+    def saveScreenShot(self,pngName):
         '''
         :param name: 截图名称
         :return: True or False
@@ -395,7 +358,7 @@ class AppAction(object):
 
 
     #对脚本运行错误进行截图
-    def saveScreenShot_error(self,nowFunc,name,pngName):
+    def saveScreenShot_error(self,pngName):
         '''
         :param name: 截图名称
         :return: True or False
@@ -411,9 +374,8 @@ class AppAction(object):
 
 
     # 手动截图
-    def saveScreenShot_img(self,nowFunc,name,pngName):
+    def saveScreenShot_img(self,pngName):
         '''
-        :param nowFunc 当前运行的用例名
         :param name: 截图名称
         :return: True or False
         '''
@@ -427,7 +389,7 @@ class AppAction(object):
 
 
     #配置desired_capabilities
-    def set_desCaps(self,toast,platformName,platformVersion,deviceName,app,appPackage,appActivity,udid,unicodeKeyboard=True,resetKeyboard=True):
+    def set_desCaps(self,nowFunc,toast,platformName,platformVersion,deviceName,app,appPackage,appActivity,udid,unicodeKeyboard=True,resetKeyboard=True):
         '''
         :param toast: 是否获取toast
         :param platformName: 要测试的手机系统
@@ -441,6 +403,7 @@ class AppAction(object):
         :param udid: 设备标识符
         :return: desired_caps
         '''
+        self.nowFunc = nowFunc
         desired_caps = {}
         desired_caps['platformName'] = platformName
         desired_caps['platformVersion'] = platformVersion
@@ -565,21 +528,3 @@ class AppAction(object):
         while i < n:
             self.driver.swipe(x1, y1, x2, y2,duration=200)
             i += 1
-
-    def protect(self,nub, device):
-        '''
-        模拟点击确定按钮，用于覆盖安装，未实现
-        :param nub: 
-        :param device: 
-        :return: 
-        '''
-        time.sleep(2)
-        for i in range(nub):
-            d = Device(device)
-            el1 = d(text="安装")
-            el2 = d(text="确定")
-            if el1.exists:
-                el1.click()
-            if el2.exists:
-                el2.click()
-            time.sleep(2)
