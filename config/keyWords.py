@@ -48,8 +48,12 @@ class ActionKey(BasePage.AppAction):
         :param loc: 元素定位方式
         :return: 无
         '''
-
-        time.sleep(1)
+        #print 'contexts_00:', self.driver.contexts
+        #print 'page_source_00:',self.driver.page_source
+        status_page = True
+        while status_page:
+            if (u'正在刷新..' or u'正在执行..' or u'正在加载..' or u'Loading..' or u'请稍等..' or u'请稍后..') not in self.driver.page_source:
+                status_page = False
         i = 1
         while i < 3:
             try:
@@ -138,7 +142,14 @@ class ActionKey(BasePage.AppAction):
         :param direction:滑动方向
         :param duration:持续时长
         '''
-        time.sleep(1)
+        #time.sleep(2)
+        #print 'contexts_01:',self.driver.contexts
+        #print 'page_source_01:', self.driver.page_source
+
+        status_page = True
+        while status_page:
+            if (u'正在刷新..' or u'正在执行..' or u'正在加载..' or u'Loading..' or u'请稍等..' or u'请稍后..') not in self.driver.page_source:
+                status_page = False
         try:
             for i in range(n):
                 self.swipePage(direction,duration)
@@ -176,10 +187,13 @@ class ActionKey(BasePage.AppAction):
         :param text: 预期值
         :return: True、False
         '''
-        actual = self.find_element(loc).text
-        print u'预期结果：%s'%text
-        print u'实际结果：%s'%actual
-
+        try:
+            actual = self.find_element(loc).text
+            print u'预期结果：%s'%text
+            print u'实际结果：%s'%actual
+        except Exception,e:
+            print u'验证查找元素失败{}'.format(str(e))
+            self.savePngName('验证查找元素失败')
         if actual != text:
             #self.saveScreenShot('预期结果与实际结果不符')
             self.savePngName('预期结果与实际结果不符')
