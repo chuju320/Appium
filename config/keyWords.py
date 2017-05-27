@@ -7,14 +7,13 @@ from appium import webdriver
 
 import connectsql
 from page import BasePage
-
 reload(sys)
 sys.setdefaultencoding('utf-8')
 import threading
 from selenium.webdriver.support.ui import  WebDriverWait
 from selenium.webdriver.support import expected_conditions
 from threading import Thread
-
+from selenium.webdriver.support.expected_conditions import NoSuchElementException
 
 class ActionKey(BasePage.AppAction):
     '''封装关键字方法'''
@@ -48,12 +47,14 @@ class ActionKey(BasePage.AppAction):
         :param loc: 元素定位方式
         :return: 无
         '''
+        time.sleep(1)
         #print 'contexts_00:', self.driver.contexts
         #print 'page_source_00:',self.driver.page_source
         status_page = True
         while status_page:
             if (u'正在刷新..' or u'正在执行..' or u'正在加载..' or u'Loading..' or u'请稍等..' or u'请稍后..') not in self.driver.page_source:
                 status_page = False
+                time.sleep(1)
         i = 1
         while i < 3:
             try:
@@ -75,7 +76,7 @@ class ActionKey(BasePage.AppAction):
                 except Exception,e:
                     print u'元素第{}次点击失败！'.format(i)
             i += 1
-            time.sleep(1)
+
         if i == 3:
             self.savePngName('元素点击失败','error')
             raise e
@@ -137,7 +138,7 @@ class ActionKey(BasePage.AppAction):
         text = self.find_element(loc).get_attribute('text')
         print u'获取元素{}的显示信息：{}'.format(loc,text)
 
-    def swipe_page(self,direction,n=1,duration=1000):
+    def swipe_page(self,direction,n=1,duration=500):
         '''滑动页面
         :param direction:滑动方向
         :param duration:持续时长
@@ -150,6 +151,8 @@ class ActionKey(BasePage.AppAction):
         while status_page:
             if (u'正在刷新..' or u'正在执行..' or u'正在加载..' or u'Loading..' or u'请稍等..' or u'请稍后..') not in self.driver.page_source:
                 status_page = False
+                time.sleep(2)
+
         try:
             for i in range(n):
                 self.swipePage(direction,duration)
@@ -159,7 +162,7 @@ class ActionKey(BasePage.AppAction):
             raise e
         time.sleep(.5)
 
-    def swipe_element(self,direction,loc,n=1,duration=1000):
+    def swipe_element(self,direction,loc,n=1,duration=500):
         '''滑动元素
         :param direction:滑动方向
         :param loc:元素定位方式
@@ -575,7 +578,7 @@ class ActionKey(BasePage.AppAction):
         回退操作
         :return: 无
         '''
-        time.sleep(.5)
+        time.sleep(1)
         self.driver.back()
 
     def Forward(self):
@@ -585,3 +588,45 @@ class ActionKey(BasePage.AppAction):
         '''
         time.sleep(.5)
         self.driver.forward()
+
+    def Swipe_for_Ele(self,loc,direction):
+        '''
+        滑动页面直到找到元素loc
+        :param locName: 元素名
+        :param direction: 滑动方向
+        :return: 元素
+        '''
+        num = 0
+        time.sleep(1)
+        try:
+            locName = loc[1].split('=')[1].strip(']').strip("'").strip('"')
+            while num < 5:
+                time.sleep(.5)
+                num += 1
+                source = self.driver.page_source
+                if u'{}'.format(locName) in source:
+                    ele = self.find_element(loc)
+                    ele.click()
+                    break
+                else:
+                    self.swipe_page(direction)
+            else:
+                raise NoSuchElementException
+        except:
+            n = 5
+            while n > 0:
+                n -= 1
+                try:
+                    ele = WebDriverWait(self.driver,3,0.2).until(expected_conditions.presence_of_element_located(loc))
+                except:
+                    self.swipe_page('down')
+                    continue
+                if ele:
+                    ele.click()
+                    break
+            else:
+                print u'滑动元素未找到！'
+                self.savePngName('滑动元素未找到')
+                raise NoSuchElementException
+
+

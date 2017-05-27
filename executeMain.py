@@ -78,7 +78,7 @@ class ExcutionEngin(unittest.TestCase):
                 elif i[3] == 'Click':
                     print i[2]
                     loc = exeKeyword.locate(i[4])
-                    print u'点击元素：{}'.format(loc)
+                    #print u'点击元素：{}'.format(loc)
                     exeKeyword.click(loc)
                     #time.sleep(1)
 
@@ -109,7 +109,7 @@ class ExcutionEngin(unittest.TestCase):
                     print i[2]
                     loc = base.locate(i[4])
                     actual = str(actual).split('.')[0].strip() if str(i[5]).endswith('.0') or str(i[5]).endswith('.00') else str(i[5]).strip()
-                    print u'预期查找元素：%s'% loc
+                    #print u'预期查找元素：%s'% loc
                     exeKeyword.assertData(loc,actual)
                 elif i[3] == 'Sleep':
                     print i[2]
@@ -141,7 +141,7 @@ class ExcutionEngin(unittest.TestCase):
                     n = i[6]   #滑动次数
                     if type(n) == int or type(n) == float or str(n).isdigit():
                         n = int(n)
-                        print u'页面执行操作：{}滑动{}次'.format(i[5],n)
+                        #print u'页面执行操作：{}滑动{}次'.format(i[5],n)
                         if type(duration)==int or type(duration)==float:
                             exeKeyword.swipe_page(direction,n,int(duration))
                         else:
@@ -158,7 +158,7 @@ class ExcutionEngin(unittest.TestCase):
                     n = i[6]
                     if type(n)==int or type(n)==float or str(n).isdigit():
                         n = int(n)
-                        print u'执行元素{0}操作：{1}'.format(loc,direction)
+                        #print u'执行元素{0}操作：{1}'.format(loc,direction)
                         if type(duration) and type(duration)==float or str(duration).isdigit():
                             exeKeyword.swipe_element(direction,loc,n,duration)
                         else:
@@ -169,7 +169,7 @@ class ExcutionEngin(unittest.TestCase):
                     print i[2]
                     position = i[5]
                     duration = i[6]
-                    print u'点击屏幕{}'.format(position)
+                    #print u'点击屏幕{}'.format(position)
                     if str(duration) and str(duration).isdigit():
                         exeKeyword.tap_act(position,duration)
                     else:
@@ -179,7 +179,7 @@ class ExcutionEngin(unittest.TestCase):
                     print i[2]
                     loc = exeKeyword.locate(i[4])
                     indexs = i[5]  # '[1,2,3,]'
-                    print u'点击元素{0}：位置{1}'.format(loc,indexs)
+                    #print u'点击元素{0}：位置{1}'.format(loc,indexs)
                     exeKeyword.mulClick(loc,indexs)
 
                 elif i[3] == 'Print':
@@ -191,7 +191,7 @@ class ExcutionEngin(unittest.TestCase):
                     print i[2]
                     loc1 = exeKeyword.locate(i[4])
                     loc2 = exeKeyword.locate(i[5])
-                    print u'拖动元素{}到{}'.format(loc1,loc2)
+                    #print u'拖动元素{}到{}'.format(loc1,loc2)
                     exeKeyword.drag_drop(loc1,loc2)
 
                 elif i[3] == 'Pinch_Zoom_Page':
@@ -209,7 +209,7 @@ class ExcutionEngin(unittest.TestCase):
                     loc = exeKeyword.locate(i[4])
                     how = i[5]
                     num = i[6]
-                    print u'{1}元素{0}'.format(loc,how)
+                    #print u'{1}元素{0}'.format(loc,how)
                     if type(num)==int or type(num)==float or str(num).isdigit():
                         num = int(num)
                         exeKeyword.pinch_zoom_ele(loc,how,num)
@@ -223,7 +223,7 @@ class ExcutionEngin(unittest.TestCase):
                 elif i[3] == 'setNet':
                     print i[2]
                     types = str(i[5]).split('.')[0]
-                    print u'设置网络为：{}'.format(types)
+                    #print u'设置网络为：{}'.format(types)
                     exeKeyword.set_net(int(types))
 
                 elif i[3] == 'GPS':
@@ -265,6 +265,14 @@ class ExcutionEngin(unittest.TestCase):
                 elif i[3] == 'Forward':
                     print i[2]
                     exeKeyword.Forward()
+
+                elif i[3] == 'Swipe_for_Click':
+                    print i[2]
+                    loc = exeKeyword.locate(i[4])
+                    if loc[0] == 'xpath':
+                        exeKeyword.Swipe_for_Ele(loc,'up')
+                    else:
+                        print u'此方法必须使用xpath定位！'
                 else:
                     print u'未知关键字{}'.format(i[3])
 

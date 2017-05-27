@@ -2,10 +2,11 @@
 import os
 import sys
 import time
-from appium.webdriver.common.touch_action import TouchAction
+
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.expected_conditions import NoSuchElementException
 from selenium.webdriver.support.ui import WebDriverWait
+from appium.webdriver.common.touch_action import TouchAction
 reload(sys)
 sys.setdefaultencoding('utf-8')
 import xlrd.sheet
